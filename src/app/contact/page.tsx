@@ -213,6 +213,7 @@ export default function ContactPage() {
   const [form, setForm] = useState({
     prenom: '', nom: '', email: '', telephone: '',
     website: '', budget: '', service: '', message: '',
+    rgpd: false,
   })
 
   useEffect(() => {
@@ -461,7 +462,7 @@ export default function ContactPage() {
                           ].map(({ name, label, type, placeholder }) => (
                             <div key={name} className="flex flex-col gap-2">
                               <label className="text-xs text-[#9999AA] uppercase tracking-wider">{label}</label>
-                              <input type={type} name={name} value={form[name as keyof typeof form]} onChange={handle}
+                              <input type={type} name={name} value={form[name as keyof typeof form] as string} onChange={handle}
                                 placeholder={placeholder}
                                 className="bg-white/3 border border-white/10 text-white text-sm px-4 py-3 rounded-sm outline-none focus:border-electric-blue transition-all placeholder:text-white/20 hover:border-white/20" />
                             </div>
@@ -523,22 +524,95 @@ export default function ContactPage() {
                     {step === 2 && (
                       <motion.div key="s2" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }}
                         transition={{ duration: 0.3 }} className="flex flex-col gap-6">
+
+                        {/* Recap service + budget */}
                         {(form.service || form.budget) && (
                           <div className="flex gap-2 flex-wrap">
-                            {form.service && <span className="text-xs px-3 py-1 rounded-full border border-electric-blue/30 text-electric-blue bg-electric-blue/10 font-display">{form.service}</span>}
-                            {form.budget && <span className="text-xs px-3 py-1 rounded-full border border-white/10 text-[#9999AA] font-display">{form.budget}</span>}
+                            {form.service && (
+                              <span className="text-xs px-3 py-1 rounded-full border border-electric-blue/30 text-electric-blue bg-electric-blue/10 font-display">
+                                {form.service}
+                              </span>
+                            )}
+                            {form.budget && (
+                              <span className="text-xs px-3 py-1 rounded-full border border-white/10 text-[#9999AA] font-display">
+                                {form.budget}
+                              </span>
+                            )}
                           </div>
                         )}
+
+                        {/* Textarea */}
                         <div className="flex flex-col gap-2">
                           <label className="text-xs text-[#9999AA] uppercase tracking-wider">Décrivez votre projet *</label>
-                          <textarea name="message" value={form.message} onChange={handle} rows={8}
+                          <textarea name="message" value={form.message} onChange={handle} rows={7}
                             placeholder="Parlez-nous de votre projet, vos objectifs, votre cible, vos contraintes…"
                             className="bg-white/3 border border-white/10 text-white text-sm px-4 py-3 rounded-sm outline-none focus:border-electric-blue transition-all resize-none placeholder:text-white/20 hover:border-white/20" />
                           <div className="flex justify-between">
                             <p className="text-xs text-[#9999AA]">Plus vous êtes précis, meilleur sera notre retour.</p>
-                            <span className="text-xs text-[#9999AA]">{form.message.length} car.</span>
+                            <span className={`text-xs transition-colors ${form.message.length > 20 ? 'text-electric-blue' : 'text-[#9999AA]'}`}>
+                              {form.message.length} car.
+                            </span>
                           </div>
                         </div>
+
+                        {/* RGPD */}
+                        <button
+                          type="button"
+                          onClick={() => setForm(f => ({ ...f, rgpd: !f.rgpd }))}
+                          className="flex items-start gap-3 text-left group p-4 border rounded-sm transition-all duration-200"
+                          style={{
+                            borderColor: form.rgpd ? 'rgba(0,102,255,0.4)' : 'rgba(255,255,255,0.08)',
+                            backgroundColor: form.rgpd ? 'rgba(0,102,255,0.06)' : 'transparent',
+                          }}
+                        >
+                          {/* Case à cocher custom */}
+                          <div
+                            className="w-5 h-5 rounded-sm border-2 flex items-center justify-center flex-shrink-0 mt-0.5 transition-all duration-200"
+                            style={{
+                              borderColor: form.rgpd ? '#0066FF' : 'rgba(255,255,255,0.25)',
+                              backgroundColor: form.rgpd ? '#0066FF' : 'transparent',
+                            }}
+                          >
+                            {form.rgpd && (
+                              <motion.div
+                                initial={{ scale: 0 }}
+                                animate={{ scale: 1 }}
+                                transition={{ type: 'spring', stiffness: 400, damping: 20 }}
+                              >
+                                <Check size={11} className="text-white" />
+                              </motion.div>
+                            )}
+                          </div>
+
+                          {/* Texte */}
+                          <div>
+                            <p className="text-sm text-white/80 group-hover:text-white transition-colors font-medium mb-1">
+                              Je confirme vouloir être recontacté
+                            </p>
+                            <p className="text-xs text-[#9999AA] leading-relaxed">
+                              En soumettant ce formulaire, j'accepte que Beew Agency traite mes données pour répondre à ma demande. Aucune donnée ne sera transmise à des tiers.{' '}
+                              <a
+                                href="/politique-confidentialite"
+                                className="text-electric-blue hover:underline"
+                                onClick={e => e.stopPropagation()}
+                              >
+                                Politique de confidentialité →
+                              </a>
+                            </p>
+                          </div>
+                        </button>
+
+                        {/* Indicateur si RGPD pas encore coché */}
+                        {!form.rgpd && form.message.length > 10 && (
+                          <motion.p
+                            initial={{ opacity: 0, y: -5 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            className="text-xs text-amber-400/80 flex items-center gap-2"
+                          >
+                            <span className="w-1 h-1 rounded-full bg-amber-400 flex-shrink-0" />
+                            Cochez la case ci-dessus pour envoyer votre message.
+                          </motion.p>
+                        )}
                       </motion.div>
                     )}
                   </AnimatePresence>
@@ -558,7 +632,7 @@ export default function ContactPage() {
                     </button>
                   ) : (
                     <button onClick={submit}
-                      disabled={!form.prenom || !form.email || !form.message || loading}
+                      disabled={!form.prenom || !form.email || !form.message || !form.rgpd || loading}
                       className="inline-flex items-center gap-3 bg-electric-blue text-white px-8 py-3.5 font-display font-bold text-xs uppercase tracking-widest rounded-sm hover:bg-blue-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
                       {loading ? 'Envoi…' : 'Envoyer le message'}
                       {!loading && <Send size={13} />}
