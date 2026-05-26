@@ -28,12 +28,12 @@ const stack = [
 ]
 
 const projectImages = [
-  '/projects/creaphike.png',
-  '/projects/faceanime.png',
-  '/projects/greenworkproject.png',
-  '/projects/happylink.png',
-  '/projects/moki.png',
-  '/projects/racoon.png',
+  '/projects/creaphike.webp',
+  '/projects/faceanime.webp',
+  '/projects/greenworkproject.webp',
+  '/projects/happylink.webp',
+  '/projects/moki.webp',
+  '/projects/racoon.webp',
 ]
 
 // 6 rangées avec hauteurs variables pour remplir toute la section

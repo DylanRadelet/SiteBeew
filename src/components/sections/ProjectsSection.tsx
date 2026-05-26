@@ -1,5 +1,7 @@
 // src/components/sections/ProjectsSection.tsx
 'use client'
+
+import Image from 'next/image'
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import Link from 'next/link'
@@ -13,16 +15,16 @@ const projects = [
         tag: 'Site vitrine',
         bg: '#0066FF',
         color: '#ffffff',
-        image: '/projects/creaphike.png',
+        image: '/projects/creaphike.webp',
     },
     {
         id: 2,
         client: 'FaceAnime',
-        title: 'RÉSEAU SOCIAL DÉDIÉ AUX PASSIONNÉS D\'ANIMÉS ET MANGAS',
+        title: "RÉSEAU SOCIAL DÉDIÉ AUX PASSIONNÉS D'ANIMÉS ET MANGAS",
         tag: 'App web & mobile',
         bg: '#F5F0E8',
         color: '#8E51FF',
-        image: '/projects/faceanime.png',
+        image: '/projects/faceanime.webp',
     },
     {
         id: 3,
@@ -31,7 +33,7 @@ const projects = [
         tag: 'Site vitrine',
         bg: '#fdfdfd',
         color: '#1F4E3D',
-        image: '/projects/greenworkproject.png',
+        image: '/projects/greenworkproject.webp',
     },
     {
         id: 4,
@@ -40,7 +42,7 @@ const projects = [
         tag: 'Application web',
         bg: '#0A2A0A',
         color: '#FFD60A',
-        image: '/projects/happylink.png',
+        image: '/projects/happylink.webp',
     },
     {
         id: 5,
@@ -49,7 +51,7 @@ const projects = [
         tag: 'Landing page',
         bg: '#2A1A0A',
         color: '#FF5C5C',
-        image: '/projects/moki.png',
+        image: '/projects/moki.webp',
     },
     {
         id: 6,
@@ -58,7 +60,7 @@ const projects = [
         tag: 'Site vitrine',
         bg: '#1A0A2A',
         color: '#B71239',
-        image: '/projects/racoon.png',
+        image: '/projects/racoon.webp',
     },
 ]
 
@@ -67,7 +69,11 @@ export default function ProjectsSection() {
     const inView = useInView(ref, { once: true, margin: '-10%' })
 
     return (
-        <section ref={ref} id="resultats" className="px-8 md:px-14 py-28 md:py-36 border-b border-white/5">
+        <section
+            ref={ref}
+            id="resultats"
+            className="px-8 md:px-14 py-28 md:py-36 border-b border-white/5"
+        >
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
                 <div>
                     <motion.p
@@ -77,6 +83,7 @@ export default function ProjectsSection() {
                     >
                         Nos résultats
                     </motion.p>
+
                     <motion.h2
                         initial={{ opacity: 0, y: 20 }}
                         animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -86,6 +93,7 @@ export default function ProjectsSection() {
                         Ce qu'on a construit.
                     </motion.h2>
                 </div>
+
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={inView ? { opacity: 1 } : {}}
@@ -96,7 +104,10 @@ export default function ProjectsSection() {
                         className="inline-flex items-center gap-2 text-sm text-[#9999AA] hover:text-white transition-colors group"
                     >
                         Démarrer votre projet
-                        <ArrowUpRight size={14} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                        <ArrowUpRight
+                            size={14}
+                            className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
+                        />
                     </Link>
                 </motion.div>
             </div>
@@ -108,23 +119,45 @@ export default function ProjectsSection() {
                     transition={{ delay: 0.1, duration: 0.7 }}
                     className="md:col-span-7"
                 >
-                    <ProjectCard project={projects[0]} tall />
+                    <ProjectCard project={projects[0]} tall priority />
                 </motion.div>
 
                 <div className="md:col-span-5 flex flex-col gap-3">
-                    <motion.div initial={{ opacity: 0, y: 30 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.18, duration: 0.7 }} className="flex-1">
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={inView ? { opacity: 1, y: 0 } : {}}
+                        transition={{ delay: 0.18, duration: 0.7 }}
+                        className="flex-1"
+                    >
                         <ProjectCard project={projects[1]} />
                     </motion.div>
-                    <motion.div initial={{ opacity: 0, y: 30 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.26, duration: 0.7 }} className="flex-1">
+
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={inView ? { opacity: 1, y: 0 } : {}}
+                        transition={{ delay: 0.26, duration: 0.7 }}
+                        className="flex-1"
+                    >
                         <ProjectCard project={projects[2]} />
                     </motion.div>
                 </div>
 
                 <div className="md:col-span-5 flex flex-col gap-3">
-                    <motion.div initial={{ opacity: 0, y: 30 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.34, duration: 0.7 }} className="flex-1">
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={inView ? { opacity: 1, y: 0 } : {}}
+                        transition={{ delay: 0.34, duration: 0.7 }}
+                        className="flex-1"
+                    >
                         <ProjectCard project={projects[4]} />
                     </motion.div>
-                    <motion.div initial={{ opacity: 0, y: 30 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.42, duration: 0.7 }} className="flex-1">
+
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={inView ? { opacity: 1, y: 0 } : {}}
+                        transition={{ delay: 0.42, duration: 0.7 }}
+                        className="flex-1"
+                    >
                         <ProjectCard project={projects[5]} />
                     </motion.div>
                 </div>
@@ -145,9 +178,11 @@ export default function ProjectsSection() {
 function ProjectCard({
     project,
     tall = false,
+    priority = false,
 }: {
-    project: typeof projects[0]
+    project: (typeof projects)[0]
     tall?: boolean
+    priority?: boolean
 }) {
     return (
         <Link
@@ -159,21 +194,24 @@ function ProjectCard({
                 height: '100%',
             }}
         >
-            {/* Image de fond — zoom au hover */}
-            {project.image && (
-                <div
-                    className="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105"
-                    style={{ backgroundImage: `url(${project.image})` }}
-                />
-            )}
+            <Image
+                src={project.image}
+                alt={project.client}
+                fill
+                priority={priority}
+                quality={65}
+                sizes={
+                    tall
+                        ? '(max-width: 768px) 100vw, 58vw'
+                        : '(max-width: 768px) 100vw, 42vw'
+                }
+                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
+            />
 
-            {/* Overlay dégradé permanent pour lisibilité du texte */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10" />
 
-            {/* Overlay hover supplémentaire */}
             <div className="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-500 bg-black" />
 
-            {/* Flèche hover */}
             <div
                 className="absolute top-5 right-5 w-9 h-9 rounded-full border flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-2 group-hover:translate-x-0 z-10"
                 style={{ borderColor: project.color, color: project.color }}
@@ -181,12 +219,13 @@ function ProjectCard({
                 <ArrowUpRight size={15} />
             </div>
 
-            {/* Contenu */}
             <div className="absolute inset-0 p-7 flex flex-col justify-between z-10">
-                {/* Badge client */}
                 <div
                     className="flex items-center gap-2 w-fit px-3 py-1.5 rounded-full"
-                    style={{ backgroundColor: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(8px)' }}
+                    style={{
+                        backgroundColor: 'rgba(0,0,0,0.5)',
+                        backdropFilter: 'blur(8px)',
+                    }}
                 >
                     <span
                         className="w-1.5 h-1.5 rounded-full flex-shrink-0"
@@ -200,7 +239,6 @@ function ProjectCard({
                     </span>
                 </div>
 
-                {/* Tag + titre */}
                 <div>
                     <span
                         className="inline-block text-xs font-display uppercase tracking-widest px-2 py-1 rounded-sm mb-3 border"
@@ -212,13 +250,13 @@ function ProjectCard({
                     >
                         {project.tag}
                     </span>
+
                     <h3 className="font-display font-bold text-lg md:text-xl tracking-tighter leading-tight text-white">
                         {project.title}
                     </h3>
                 </div>
             </div>
 
-            {/* Ligne couleur slide au hover */}
             <div
                 className="absolute bottom-0 left-0 h-[2px] w-0 group-hover:w-full transition-all duration-500 z-10"
                 style={{ backgroundColor: project.color }}

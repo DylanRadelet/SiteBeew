@@ -6,12 +6,12 @@ import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
 
 const images = [
-  '/projects/creaphike.png',
-  '/projects/faceanime.png',
-  '/projects/greenworkproject.png',
-  '/projects/happylink.png',
-  '/projects/moki.png',
-  '/projects/racoon.png',
+  '/projects/creaphike.webp',
+  '/projects/faceanime.webp',
+  '/projects/greenworkproject.webp',
+  '/projects/happylink.webp',
+  '/projects/moki.webp',
+  '/projects/racoon.webp',
 ]
 
 // 3 copies pour que le cut soit invisible
