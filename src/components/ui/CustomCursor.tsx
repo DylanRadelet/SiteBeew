@@ -1,60 +1,96 @@
 // src/components/ui/CustomCursor.tsx
 'use client'
+
 import { useEffect, useRef } from 'react'
 
 export default function CustomCursor() {
-  const dotRef  = useRef<HTMLDivElement>(null)
+  const dotRef = useRef<HTMLDivElement>(null)
   const ringRef = useRef<HTMLDivElement>(null)
+  const frameRef = useRef<number | null>(null)
 
   useEffect(() => {
-    const dot  = dotRef.current
+    const dot = dotRef.current
     const ring = ringRef.current
+
     if (!dot || !ring) return
 
-    let mouseX = 0, mouseY = 0
-    let ringX  = 0, ringY  = 0
+    let mouseX = window.innerWidth / 2
+    let mouseY = window.innerHeight / 2
+    let ringX = mouseX
+    let ringY = mouseY
 
-    const onMove = (e: MouseEvent) => {
-      mouseX = e.clientX
-      mouseY = e.clientY
-      dot.style.left = mouseX + 'px'
-      dot.style.top  = mouseY + 'px'
+    const onMove = (event: MouseEvent) => {
+      mouseX = event.clientX
+      mouseY = event.clientY
+
+      dot.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0) translate(-50%, -50%)`
+      dot.style.opacity = '1'
+      ring.style.opacity = '0.6'
+    }
+
+    const onMouseLeave = () => {
+      dot.style.opacity = '0'
+      ring.style.opacity = '0'
+    }
+
+    const onMouseEnter = () => {
+      dot.style.opacity = '1'
+      ring.style.opacity = '0.6'
     }
 
     const tick = () => {
       ringX += (mouseX - ringX) * 0.12
       ringY += (mouseY - ringY) * 0.12
-      ring.style.left = ringX + 'px'
-      ring.style.top  = ringY + 'px'
-      requestAnimationFrame(tick)
+
+      ring.style.transform = `translate3d(${ringX}px, ${ringY}px, 0) translate(-50%, -50%)`
+
+      frameRef.current = requestAnimationFrame(tick)
     }
 
-    window.addEventListener('mousemove', onMove)
-    tick()
-
-    // Scale on hover
-    const onEnter = () => {
-      ring.style.width  = '50px'
+    const onHoverEnter = () => {
+      ring.style.width = '50px'
       ring.style.height = '50px'
       ring.style.opacity = '1'
     }
-    const onLeave = () => {
-      ring.style.width  = '30px'
+
+    const onHoverLeave = () => {
+      ring.style.width = '30px'
       ring.style.height = '30px'
       ring.style.opacity = '0.6'
     }
 
-    document.querySelectorAll('a, button').forEach(el => {
-      el.addEventListener('mouseenter', onEnter)
-      el.addEventListener('mouseleave', onLeave)
+    const interactiveElements = document.querySelectorAll('a, button')
+
+    interactiveElements.forEach((element) => {
+      element.addEventListener('mouseenter', onHoverEnter)
+      element.addEventListener('mouseleave', onHoverLeave)
     })
 
-    return () => window.removeEventListener('mousemove', onMove)
+    window.addEventListener('mousemove', onMove)
+    document.addEventListener('mouseleave', onMouseLeave)
+    document.addEventListener('mouseenter', onMouseEnter)
+
+    frameRef.current = requestAnimationFrame(tick)
+
+    return () => {
+      window.removeEventListener('mousemove', onMove)
+      document.removeEventListener('mouseleave', onMouseLeave)
+      document.removeEventListener('mouseenter', onMouseEnter)
+
+      interactiveElements.forEach((element) => {
+        element.removeEventListener('mouseenter', onHoverEnter)
+        element.removeEventListener('mouseleave', onHoverLeave)
+      })
+
+      if (frameRef.current) {
+        cancelAnimationFrame(frameRef.current)
+      }
+    }
   }, [])
 
   return (
     <>
-      <div ref={dotRef}  className="cursor-dot"  />
+      <div ref={dotRef} className="cursor-dot" />
       <div ref={ringRef} className="cursor-ring" />
     </>
   )
