@@ -159,8 +159,8 @@ export default function Footer() {
       <div className="border-t border-white/5 px-8 md:px-14 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-xs text-[#333340]">© {year} Beew Agency. Tous droits réservés.</p>
         <div className="flex items-center gap-6">
-          <a href="/mentions-legales" className="text-xs text-[#333340] hover:text-white transition-colors">Mentions légales</a>
-          <a href="/politique-confidentialite" className="text-xs text-[#333340] hover:text-white transition-colors">Confidentialité</a>
+          <a href="/legal/cgv" className="text-xs text-[#333340] hover:text-white transition-colors">CGV</a>
+          {/* <a href="/politique-confidentialite" className="text-xs text-[#333340] hover:text-white transition-colors">Confidentialité</a> */}
           <div className="flex items-center gap-3">
             <a href="https://www.linkedin.com/company/beew-agency-be" target="_blank" rel="noopener noreferrer" className="text-[#333340] hover:text-electric-blue transition-colors">
               <FaLinkedinIn size={13} />
@@ -175,17 +175,7 @@ export default function Footer() {
       {/* Giant wordmark */}
       <div className="overflow-hidden px-4 relative">
         <p
-          className="font-display font-bold text-[18vw] leading-none tracking-tighter text-center select-none pb-4"
-          style={{
-            backgroundImage: 'url("/footer-bg.webp")',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            WebkitBackgroundClip: 'text',
-            backgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            color: 'transparent',
-            opacity: 0.99,
-          }}
+          className="font-display font-bold text-[18vw] text-[#333340] leading-none tracking-tighter text-center select-none pb-4"
         >
           BEEW
         </p>
