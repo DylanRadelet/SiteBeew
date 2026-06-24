@@ -71,10 +71,11 @@ export default function Navbar() {
     <>
       {/* ───────────────── TOP BAR ───────────────── */}
       <header
-        className={`fixed left-0 right-0 top-0 z-[100] w-full transition-all duration-300 ${scrolled ? 'border-b border-white/5 bg-black/90 backdrop-blur-md' : ''
-          }`}
+        className={`fixed left-0 right-0 top-0 z-[100] w-full overflow-x-hidden transition-all duration-300 ${
+          scrolled ? 'border-b border-white/5 bg-black/90 backdrop-blur-md' : ''
+        }`}
       >
-        <div className="relative mx-auto box-border flex w-full max-w-[100vw] items-center justify-between gap-3 px-4 py-4 md:max-w-full md:px-14">
+        <div className="relative box-border flex w-full items-center justify-between gap-3 px-4 py-4 md:px-14">
           {/* Logo */}
           <Link
             href="/"
@@ -124,7 +125,7 @@ export default function Navbar() {
             transition={{ duration: 0.25 }}
           >
             {/* Header du menu */}
-            <div className="sticky top-0 z-20 box-border flex w-full max-w-[100dvw] items-center justify-between gap-3 border-b border-black/10 bg-[rgba(250,250,248,0.98)] px-4 py-4 md:max-w-full md:px-14">
+            <div className="sticky top-0 z-20 box-border flex w-full items-center justify-between gap-3 border-b border-black/10 bg-[rgba(250,250,248,0.98)] px-4 py-4 md:px-14">
               <Link
                 href="/"
                 onClick={closeMenu}
@@ -157,10 +158,10 @@ export default function Navbar() {
             </div>
 
             {/* ───────────────── MOBILE ───────────────── */}
-            <div className="flex w-full max-w-[100dvw] flex-col gap-2 overflow-x-hidden px-4 py-8 md:hidden">
+            <div className="flex w-full flex-col gap-2 overflow-x-hidden px-4 py-8 md:hidden">
               {navLinks.map((link, index) =>
                 link.label === 'Services' ? (
-                  <div key={link.href} className="w-full max-w-full">
+                  <div key={link.href} className="w-full">
                     <button
                       type="button"
                       onClick={() => setServicesOpen((open) => !open)}
@@ -172,8 +173,9 @@ export default function Navbar() {
 
                       <ChevronDown
                         size={20}
-                        className={`shrink-0 text-black transition-transform duration-300 ${servicesOpen ? 'rotate-180' : ''
-                          }`}
+                        className={`shrink-0 text-black transition-transform duration-300 ${
+                          servicesOpen ? 'rotate-180' : ''
+                        }`}
                       />
                     </button>
 
@@ -265,7 +267,7 @@ export default function Navbar() {
             </div>
 
             {/* ───────────────── DESKTOP ───────────────── */}
-            <div className="hidden h-[calc(100vh-73px)] w-full max-w-full grid-cols-3 divide-x divide-black/10 overflow-hidden md:grid">
+            <div className="hidden h-[calc(100vh-73px)] w-full grid-cols-3 divide-x divide-black/10 overflow-hidden md:grid">
               {/* Colonne 1 */}
               <div className="flex min-w-0 flex-col justify-between p-14">
                 <nav className="flex min-w-0 flex-col gap-1">

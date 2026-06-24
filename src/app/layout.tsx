@@ -1,5 +1,5 @@
 // src/app/layout.tsx
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import "./globals.css";
 
 import Navbar from '@/components/layout/Navbar'
@@ -32,8 +32,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" className="scroll-smooth">
-      <body>
+    <html lang="fr" className="scroll-smooth overflow-x-hidden">
+      <body className="overflow-x-hidden">
         <CustomCursor />
         <Navbar />
         <main>{children}</main>
