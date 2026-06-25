@@ -182,10 +182,10 @@ export default function PaiementMensuelPage() {
                   <div>
                     <p className="text-xs uppercase tracking-widest text-[#9999AA] mb-2">{plan.label}</p>
                     <div className="flex items-baseline gap-1">
+                      <span className="text-sm text-[#9999AA]">setup à partir de</span>
                       <p className="font-display font-bold text-4xl tracking-tighter" style={{ color: plan.color }}>
                         {SETUP[plan.mois]}€
                       </p>
-                      <span className="text-sm text-[#9999AA]">setup</span>
                     </div>
                   </div>
 
@@ -322,7 +322,7 @@ export default function PaiementMensuelPage() {
               {/* Résultat */}
               <div className="border-t border-white/5 pt-5 flex flex-col gap-3">
                 <div className="flex justify-between text-sm">
-                  <span className="text-[#9999AA]">Setup (mois 1)</span>
+                  <span className="text-[#9999AA]">Setup à partir de (mois 1)</span>
                   <span className="text-white font-bold">{setup}€</span>
                 </div>
                 {remise > 0 && (
