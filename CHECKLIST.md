@@ -207,11 +207,23 @@ n'avait de carte Twitter, d'image de partage ni de directive `max-snippet`.
 
 ---
 
+## M. Mise en ligne et performance
+
+- [x] Site en production sur www.beew.agency, déploiement Vercel automatique
+- [x] Formulaire branché sur Resend — testé en production, e-mail reçu
+- [x] Les 32 champs légaux remplis · CGV réelles reprises (21 articles, 3 280 mots)
+- [x] Siège Bastogne : ancrage visible + adresse réelle dans le JSON-LD
+- [x] Favicons repris du logo de l'ancien site
+- [x] **Vidéo du hero : 50,4 Mo → 0,20 Mo** (WebM + MP4, le `.mov` n'était pas
+      lu par Chrome ni Firefox)
+- [x] **Effet de pixels : 8,1 ms → ~1 ms par image** — `fillRect` sur tampon lu
+      une fois par image vidéo, au lieu d'un `drawImage` par bloc
+- [x] Fluidité confirmée par le client
+
+---
+
 ## H. Reste à faire — hors mise en forme
 
-- [ ] Brancher l'envoi du formulaire (`/api/contact` à créer)
-- [ ] 32 informations légales à compléter (surlignées en orange dans les pages)
-- [ ] Numéro de téléphone de l'agence
 - [ ] Remplacer les preuves de démonstration : logos, avis, résultats chiffrés
 - [ ] Noms et rôles réels dans l'équipe de `/a-propos`
 - [x] Cartes de services liées à leur page pilier (`slug` obligatoire dans `ServiceSchema`)
@@ -219,7 +231,7 @@ n'avait de carte Twitter, d'image de partage ni de directive `max-snippet`.
 - [x] `/devis` n'était atteignable que depuis le menu — lien ajouté sur `/` et `/tarifs`
 - [x] Sitemap et canonical de la home déclaraient deux URL différentes
 - [ ] Réalisations : les 3 études de cas sont en `draft` et inventées, à remplacer
-- [ ] `npm run lint` n'existe pas et il n'y a aucune config ESLint dans le projet
+- [ ] Aucune config ESLint dans le projet (`npm run lint` n'existe pas)
 - [ ] Images de réalisations et d'articles en `alt=""` — correct pour du décoratif,
       mais un alt descriptif y apporterait de la recherche d'images
 
