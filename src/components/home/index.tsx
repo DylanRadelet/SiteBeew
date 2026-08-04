@@ -1,4 +1,5 @@
 import { Bouton, DEUX_COLONNES, EnTete, Fleche, Section, Surtitre } from "@/components/ui/section";
+import Image from "next/image";
 import Link from "next/link";
 import type { CaseStudy, FaqItem, Service, Testimonial } from "@/content/schema";
 
@@ -149,7 +150,11 @@ export function Faq({ faq }: { faq: FaqItem[] }) {
 }
 
 /** Maillage vers 2 à 6 villes voisines — jamais la liste complète. */
-export function NearbyCities({ cities }: { cities: { slug: string; city: string }[] }) {
+export function NearbyCities({
+  cities,
+}: {
+  cities: { slug: string; city: string; image?: { src: string; alt: string } }[];
+}) {
   if (!cities.length) return null;
   return (
     <Section className="!py-16">
@@ -159,8 +164,26 @@ export function NearbyCities({ cities }: { cities: { slug: string; city: string 
           <li key={c.slug}>
             <Link
               href={`/${c.slug}`}
-              className="group flex items-center justify-between gap-4 bg-beew-blanc p-6 transition-colors hover:bg-beew-noir hover:text-beew-creme"
+              className={`group relative isolate flex min-h-[6rem] items-center justify-between gap-4 overflow-hidden bg-beew-blanc p-6 transition-colors ${
+                c.image ? "hover:text-beew-creme" : "hover:bg-beew-noir hover:text-beew-creme"
+              }`}
             >
+              {c.image && (
+                <>
+                  <Image
+                    src={c.image.src}
+                    alt=""
+                    aria-hidden
+                    fill
+                    sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw"
+                    className="-z-10 object-cover opacity-0 transition-all duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
+                  />
+                  <span
+                    aria-hidden
+                    className="absolute inset-0 -z-10 bg-beew-noir/70 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
+                  />
+                </>
+              )}
               <span className="text-sm font-semibold">Création de site internet à {c.city}</span>
               <Fleche />
             </Link>

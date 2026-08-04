@@ -29,6 +29,7 @@ export function ProvinceView({ zone }: { zone: Zone }) {
     href: `/${c.slug}`,
     label: `Création de site internet à ${c.city}`,
     note: c.coverage.slice(0, 4).join(", "),
+    image: c.heroImage,
   }));
 
   return (

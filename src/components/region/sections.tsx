@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { DEUX_COLONNES, EnTete, Fleche, Section, Surtitre } from "@/components/ui/section";
 import Link from "next/link";
 import type { ZoneFact, ZoneSector } from "@/content/schemas/region";
@@ -129,6 +130,12 @@ export type LienZone = {
   href: string | null;
   label: string;
   note?: string;
+  /**
+   * Photo de la commune, révélée au survol. Les listes de villes étaient de
+   * simples listes de texte alors que chaque page ville a désormais sa photo :
+   * la reprendre ici donne à voir la destination avant le clic.
+   */
+  image?: { src: string; alt: string };
 };
 
 /**
@@ -186,12 +193,32 @@ export function ZoneEnfants({
               {item.href ? (
                 <Link
                   href={item.href}
-                  className={`group flex h-full flex-col gap-3 p-8 transition-colors duration-500 ${
-                    sombre
-                      ? "hover:bg-beew-blanc hover:text-beew-noir"
-                      : "hover:bg-beew-noir hover:text-beew-creme"
+                  className={`group relative isolate flex h-full flex-col gap-3 overflow-hidden p-8 transition-colors duration-500 ${
+                    item.image
+                      ? "hover:text-beew-creme"
+                      : sombre
+                        ? "hover:bg-beew-blanc hover:text-beew-noir"
+                        : "hover:bg-beew-noir hover:text-beew-creme"
                   }`}
                 >
+                  {item.image && (
+                    <>
+                      <Image
+                        src={item.image.src}
+                        alt=""
+                        aria-hidden
+                        fill
+                        sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw"
+                        className="-z-10 object-cover opacity-0 transition-all duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
+                      />
+                      {/* Voile : le libellé doit rester lisible sur n'importe
+                          quelle zone de la photo. */}
+                      <span
+                        aria-hidden
+                        className="absolute inset-0 -z-10 bg-beew-noir/70 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
+                      />
+                    </>
+                  )}
                   <span className="flex items-center justify-between gap-4 text-base font-semibold tracking-tight">
                     {item.label}
                     <Fleche />

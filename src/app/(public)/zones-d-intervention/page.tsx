@@ -89,6 +89,7 @@ export default function ZonesPage() {
       href: `/${c.slug}`,
       label: `Création de site internet à ${c.city}`,
       note: `Province de ${c.province}`,
+      image: c.heroImage,
     })),
   );
 

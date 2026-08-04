@@ -101,7 +101,9 @@ export default async function ZoneOuVillePage({ params }: { params: Promise<{ sl
       )}
       {city.testimonials.length > 0 && <Testimonials testimonials={city.testimonials} />}
       <Faq faq={city.faq} />
-      <NearbyCities cities={nearby.map((c) => ({ slug: c.slug, city: c.city }))} />
+      <NearbyCities
+        cities={nearby.map((c) => ({ slug: c.slug, city: c.city, image: c.heroImage }))}
+      />
       <Coverage city={city.city} communes={city.coverage} />
     </>
   );

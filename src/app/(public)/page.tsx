@@ -44,6 +44,7 @@ export default function HomePage() {
       href: `/${c.slug}`,
       label: c.city,
       note: `Province de ${c.province}`,
+      image: c.heroImage,
     })),
   ];
 
