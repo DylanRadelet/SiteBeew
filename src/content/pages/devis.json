@@ -1,0 +1,305 @@
+{
+  "slug": "devis",
+  "meta": {
+    "title": "Demander un devis pour votre site internet | BEEW",
+    "description": "Un devis fixe sous 48 h après un rendez-vous sans frais ni engagement. Décrivez votre projet en détail, nous chiffrons un périmètre précis, pas une fourchette."
+  },
+  "hero": {
+    "surtitre": "Devis",
+    "h1": "Demandez votre devis de site internet",
+    "intro": "Ce formulaire est plus long que celui du contact, volontairement. Chaque question sert à chiffrer votre projet au montant définitif plutôt qu'à vous renvoyer une fourchette large et confortable. Comptez cinq à sept minutes, et gardez vos chiffres de trafic sous la main si vous en avez."
+  },
+  "rappels": {
+    "surtitre": "Ce que vous obtenez",
+    "titre": "Un devis fixe, pas une estimation",
+    "intro": "Deux engagements tenus sur chaque demande, sans exception et sans contrepartie demandée.",
+    "items": [
+      {
+        "titre": "Devis fixe sous 48 h",
+        "description": "Après le rendez-vous de cadrage, vous recevez sous 48 heures un devis au montant définitif. Le périmètre, le planning de livraison et ce qui n'est pas compris y figurent noir sur blanc. Le prix ne bouge pas en cours de route : si le besoin évolue, cela fait l'objet d'un avenant que vous validez avant toute exécution."
+      },
+      {
+        "titre": "Rendez-vous sans frais ni engagement",
+        "description": "Le rendez-vous de cadrage n'est jamais facturé et ne vous engage à rien. Le devis qui en découle vous appartient : vous pouvez le comparer à d'autres offres, le mettre de côté ou l'abandonner. Nous ne relançons pas plus d'une fois."
+      },
+      {
+        "titre": "Le site vous appartient",
+        "description": "Code, contenus, nom de domaine et hébergement sont à votre nom dès le premier jour. Aucun abonnement obligatoire pour rester en ligne, aucune sous-traitance à l'étranger : vous pouvez repartir avec votre site quand vous le souhaitez."
+      }
+    ]
+  },
+  "formulaire": {
+    "surtitre": "Votre demande",
+    "titre": "Le brief de votre projet",
+    "intro": "Répondez au mieux de ce que vous savez aujourd'hui. Un champ laissé approximatif ne bloque rien : il deviendra un point à cadrer lors du rendez-vous.",
+    "champs": [
+      {
+        "name": "nom",
+        "label": "Nom et prénom",
+        "type": "text",
+        "requis": true,
+        "autoComplete": "name",
+        "demiLargeur": true,
+        "placeholder": "Camille Dupont",
+        "erreur": "Indiquez votre nom, pour que nous sachions à qui nous nous adressons."
+      },
+      {
+        "name": "fonction",
+        "label": "Votre fonction",
+        "type": "text",
+        "requis": false,
+        "autoComplete": "organization-title",
+        "demiLargeur": true,
+        "placeholder": "Gérant, responsable marketing…",
+        "erreur": "Ce champ ne peut pas contenir uniquement des espaces."
+      },
+      {
+        "name": "entreprise",
+        "label": "Entreprise ou organisation",
+        "type": "text",
+        "requis": true,
+        "autoComplete": "organization",
+        "demiLargeur": true,
+        "placeholder": "Nom de votre structure",
+        "erreur": "Indiquez le nom de votre entreprise : nous étudions votre marché avant le rendez-vous."
+      },
+      {
+        "name": "secteur",
+        "label": "Secteur d'activité",
+        "type": "text",
+        "requis": true,
+        "demiLargeur": true,
+        "placeholder": "Construction, horeca, services aux entreprises…",
+        "erreur": "Précisez votre secteur : la concurrence en ligne n'a rien à voir d'un métier à l'autre."
+      },
+      {
+        "name": "email",
+        "label": "Adresse e-mail",
+        "type": "email",
+        "requis": true,
+        "autoComplete": "email",
+        "demiLargeur": true,
+        "placeholder": "vous@votre-entreprise.be",
+        "erreur": "Vérifiez votre adresse e-mail : le devis est envoyé à cette adresse."
+      },
+      {
+        "name": "telephone",
+        "label": "Téléphone",
+        "type": "tel",
+        "requis": false,
+        "autoComplete": "tel",
+        "demiLargeur": true,
+        "placeholder": "+32 ...",
+        "aide": "Utile pour caler le rendez-vous plus vite qu'en enchaînant les e-mails.",
+        "erreur": "Ce numéro semble incomplet. Laissez le champ vide si vous préférez l'e-mail."
+      },
+      {
+        "name": "siteActuel",
+        "label": "Site actuel",
+        "type": "url",
+        "requis": false,
+        "autoComplete": "url",
+        "demiLargeur": true,
+        "placeholder": "https://…",
+        "aide": "Laissez vide si vous n'avez pas encore de site en ligne.",
+        "erreur": "Indiquez une adresse complète, en commençant par https://"
+      },
+      {
+        "name": "typeProjet",
+        "label": "Type de projet",
+        "type": "select",
+        "requis": true,
+        "demiLargeur": true,
+        "placeholder": "Choisissez la réponse la plus proche",
+        "options": [
+          "Création d'un site vitrine",
+          "Refonte d'un site existant",
+          "Site e-commerce",
+          "Référencement naturel (SEO)",
+          "Je ne sais pas encore"
+        ],
+        "erreur": "Choisissez le type de projet le plus proche du vôtre."
+      },
+      {
+        "name": "objectif",
+        "label": "Objectif principal",
+        "type": "select",
+        "requis": true,
+        "demiLargeur": true,
+        "placeholder": "Un seul objectif, le plus important",
+        "options": [
+          "Recevoir plus de demandes de devis",
+          "Être visible sur Google localement",
+          "Vendre en ligne",
+          "Rendre crédible une activité récente",
+          "Remplacer un site vieillissant"
+        ],
+        "aide": "Un seul objectif : c'est lui qui décide de la structure du site.",
+        "erreur": "Sélectionnez l'objectif qui compte le plus pour vous cette année."
+      },
+      {
+        "name": "budget",
+        "label": "Budget indicatif",
+        "type": "select",
+        "requis": true,
+        "demiLargeur": true,
+        "placeholder": "Une fourchette suffit",
+        "options": [
+          "Moins de 2 000 €",
+          "De 2 000 € à 5 000 €",
+          "De 5 000 € à 10 000 €",
+          "Plus de 10 000 €",
+          "À définir ensemble"
+        ],
+        "erreur": "Sélectionnez une fourchette, même approximative, ou « À définir ensemble »."
+      },
+      {
+        "name": "echeance",
+        "label": "Échéance souhaitée",
+        "type": "select",
+        "requis": true,
+        "demiLargeur": true,
+        "placeholder": "Quand le site doit-il être en ligne ?",
+        "options": [
+          "Dès que possible",
+          "Dans les trois mois",
+          "Dans les six mois",
+          "Date imposée (salon, ouverture, saison)",
+          "Pas de date arrêtée"
+        ],
+        "erreur": "Indiquez une échéance, même large : elle conditionne le planning."
+      },
+      {
+        "name": "contenus",
+        "label": "Textes et photos",
+        "type": "select",
+        "requis": true,
+        "demiLargeur": true,
+        "placeholder": "Où en êtes-vous des contenus ?",
+        "options": [
+          "Tout est prêt",
+          "Une partie existe, à reprendre",
+          "Rien n'existe, nous comptons sur vous",
+          "Je ne sais pas encore"
+        ],
+        "aide": "C'est le poste qui fait le plus varier un délai de livraison.",
+        "erreur": "Dites-nous où vous en êtes des textes et des photos."
+      },
+      {
+        "name": "fonctionnalites",
+        "label": "Fonctionnalités attendues",
+        "type": "textarea",
+        "requis": false,
+        "placeholder": "Prise de rendez-vous, paiement en ligne, espace client, multilingue…",
+        "aide": "Listez ce à quoi vous pensez, même sans être sûr que ce soit nécessaire.",
+        "erreur": "Ce champ doit contenir au moins vingt caractères, ou rester vide."
+      },
+      {
+        "name": "message",
+        "label": "Contexte et contraintes",
+        "type": "textarea",
+        "requis": true,
+        "placeholder": "Ce qui vous a décidé, ce qui bloque aujourd'hui, ce que font vos concurrents…",
+        "aide": "C'est la partie la plus utile du formulaire : elle oriente tout le cadrage.",
+        "erreur": "Décrivez le contexte en quelques lignes : c'est ce qui rend le devis précis."
+      }
+    ],
+    "consentement": {
+      "label": "J'accepte que BEEW conserve ces informations pour établir mon devis. Elles ne sont ni revendues, ni utilisées pour de la prospection.",
+      "erreur": "Cochez cette case pour que nous puissions établir votre devis."
+    },
+    "bouton": "Demander mon devis",
+    "etats": {
+      "envoi": "Envoi en cours",
+      "succesTitre": "Demande reçue",
+      "succes": "Votre demande est enregistrée. Nous vous proposons un créneau de rendez-vous sous 24 h ouvrées, puis votre devis fixe vous parvient dans les 48 h qui suivent l'échange.",
+      "erreur": "L'envoi a échoué. Réessayez dans un instant ou écrivez-nous directement à hello@beew.agency — nous traiterons votre demande de la même façon."
+    },
+    "note": "Aucun engagement à ce stade. Vos réponses servent uniquement à préparer le cadrage."
+  },
+  "etapes": {
+    "surtitre": "La suite",
+    "titre": "Du formulaire au devis signé",
+    "items": [
+      {
+        "titre": "Nous étudions votre demande",
+        "description": "Avant de vous répondre, nous regardons votre site actuel, votre visibilité sur Google et les trois concurrents qui vous précèdent. La proposition de rendez-vous part sous 24 h ouvrées."
+      },
+      {
+        "titre": "Rendez-vous de cadrage",
+        "description": "45 minutes sur place en province de Luxembourg ou en visioconférence. Nous arbitrons ensemble le périmètre : ce qui sert votre objectif reste, le reste est écarté ou reporté à plus tard."
+      },
+      {
+        "titre": "Devis fixe sous 48 h",
+        "description": "Vous recevez le devis détaillé, au montant définitif, avec le planning de livraison. Vous décidez ensuite, sans relance insistante de notre part et sans date limite artificielle."
+      }
+    ]
+  },
+  "coordonnees": {
+    "surtitre": "Coordonnées",
+    "titre": "Une question avant de remplir ?",
+    "items": [
+      {
+        "label": "E-mail",
+        "valeur": "hello@beew.agency",
+        "href": "mailto:hello@beew.agency"
+      },
+      {
+        "label": "Zone d'intervention",
+        "valeur": "Province de Luxembourg, Belgique"
+      },
+      {
+        "label": "Horaires",
+        "valeur": "Du lundi au vendredi, 9h — 18h"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Le devis est-il vraiment gratuit et sans engagement ?",
+      "answer": "Oui, entièrement. Nous établissons le chiffrage après un premier échange qui sert à comprendre votre activité, votre clientèle et ce qui existe déjà. Ce rendez-vous n'est facturé dans aucun cas, et vous n'êtes engagé à rien tant que vous n'avez pas signé. Il nous arrive de conclure qu'un projet ne se justifie pas et de vous le dire : c'est aussi à cela que sert cette étape."
+    },
+    {
+      "question": "Sous quel délai recevrai-je ma proposition chiffrée ?",
+      "answer": "Sous 48 heures ouvrées après le rendez-vous. Le chiffrage est un forfait, pas une fourchette : le montant annoncé est celui que vous paierez, et il n'évolue pas en cours de route sauf si vous demandez vous-même une fonctionnalité supplémentaire, auquel cas elle est chiffrée séparément avant d'être engagée."
+    },
+    {
+      "question": "Que dois-je préparer avant de remplir ce formulaire ?",
+      "answer": "Rien d'obligatoire. Si vous les avez sous la main, l'adresse de votre site actuel, une idée du budget que vous pouvez y consacrer et deux ou trois sites concurrents que vous trouvez réussis nous font gagner du temps. Si vous n'avez rien de tout cela, décrivez simplement votre activité et ce que vous attendez du site : nous poserons les questions manquantes lors de l'échange."
+    },
+    {
+      "question": "Le paiement peut-il être échelonné ?",
+      "answer": "Oui, en trois fois sans frais sur les projets vitrines : un tiers à la commande, un tiers à la validation des maquettes, le solde à la mise en ligne. Pour les projets plus lourds, l'échéancier suit les jalons du planning et il est écrit dans le devis. Nous n'appliquons ni pénalité ni frais de dossier sur cet étalement."
+    },
+    {
+      "question": "Que se passe-t-il si je refuse le devis ?",
+      "answer": "Rien, et cela arrive régulièrement sans que ce soit un problème. Le temps passé sur le rendez-vous et le chiffrage est à notre charge. Vous conservez les éléments d'analyse que nous vous avons transmis, et vous pouvez revenir vers nous plus tard : un devis refusé ne ferme aucune porte et ne modifie pas nos conditions."
+    }
+  ],
+  "liens": {
+    "surtitre": "Pour situer",
+    "titre": "À lire avant de vous lancer",
+    "items": [
+      {
+        "href": "/tarifs",
+        "label": "Nos tarifs",
+        "description": "Les trois formules et leur prix de départ, pour situer votre projet avant le rendez-vous."
+      },
+      {
+        "href": "/methode",
+        "label": "Notre méthode",
+        "description": "Le déroulé complet d'un projet, étape par étape, avec les délais que nous annonçons."
+      },
+      {
+        "href": "/realisations",
+        "label": "Nos réalisations",
+        "description": "Ce que donnent nos projets une fois livrés, avec le résultat mesuré à l'arrivée."
+      },
+      {
+        "href": "/contact",
+        "label": "Poser une question",
+        "description": "Un formulaire plus court, si vous voulez seulement échanger avant de demander un devis."
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "creation-site-internet-liege",
+  "status": "published",
+  "city": "Liège",
+  "aliases": [
+    "Liege"
+  ],
+  "province": "Liège",
+  "region": "Wallonie",
+  "postalCodes": [
+    "4000",
+    "4020",
+    "4030",
+    "4031"
+  ],
+  "geo": {
+    "lat": 50.6326,
+    "lng": 5.5797
+  },
+  "intent": {
+    "service": "creation-site-web",
+    "primaryKeyword": "création site internet Liège",
+    "secondaryKeywords": [
+      "agence web Liège",
+      "création site web Liège",
+      "agence digitale Liège",
+      "refonte site internet Liège",
+      "site e-commerce Liège"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet à Liège | Agence BEEW",
+    "description": "Agence web à Liège : sites vitrines, e-commerce et refontes pour PME, commerces et indépendants liégeois. Devis fixe sous 48 h."
+  },
+  "hero": {
+    "h1": "Création de site internet à Liège",
+    "subtitle": "Le plus grand marché de Wallonie, et le plus disputé. Nous y travaillons par quartier et par spécialité plutôt que sur les requêtes que tout le monde vise.",
+    "badges": [
+      "Devis fixe sous 48 h",
+      "Stratégie par quartier",
+      "Agence indépendante"
+    ]
+  },
+  "localContext": {
+    "heading": "Liège : viser un quartier ou une spécialité, jamais la ville entière",
+    "body": "Avec près de deux cent mille habitants dans la commune et plus de six cent mille dans son agglomération, Liège représente le premier marché de Wallonie. Cette taille change entièrement la logique du référencement local. Une requête comme agence web Liège concentre une concurrence considérable, avec des acteurs installés depuis quinze ans, des budgets publicitaires importants et des profils de liens que l'on ne rattrape pas en quelques mois. Prétendre l'attaquer frontalement avec un site neuf relève de l'illusion. En revanche, l'agglomération liégeoise est un ensemble de sous-marchés très distincts, et c'est là que se trouvent les positions réellement atteignables. Le Carré et le centre commerçant, le quartier Guillemins profondément transformé par la gare et les bureaux qui l'entourent, Sainte-Marguerite ou Saint-Léonard avec leur tissu de commerces de proximité, Angleur et le Sart-Tilman avec l'université et les spin-offs technologiques, Herstal et son héritage industriel, sans parler des communes périphériques comme Ans, Seraing ou Chaudfontaine qui fonctionnent comme des marchés à part entière. Une entreprise liégeoise a beaucoup plus à gagner à dominer les recherches de son quartier et de sa spécialité qu'à figurer en quinzième position sur une requête générique. Le second levier propre à Liège est la spécialisation sectorielle : logistique autour de l'aéroport de Bierset, spin-offs et biotech au Sart-Tilman, horeca dense dans le centre. Se positionner sur un secteur précis vaut mieux que se disperser sur un territoire trop large. Enfin, un point que peu d'agences abordent franchement avec leurs clients liégeois : sur un marché de cette densité, le référencement seul ne suffit jamais. Les signaux de notoriété réelle, avis clients réguliers, mentions dans la presse locale, partenariats avec des acteurs identifiés, pèsent au moins autant que l'optimisation technique du site. Nous intégrons donc ce volet dans la réflexion dès le départ plutôt que de le traiter comme une option ajoutée après la mise en ligne.",
+    "highlights": [
+      "Premier marché de Wallonie, mais requêtes génériques hors d'atteinte à court terme",
+      "Agglomération composée de sous-marchés très distincts par quartier",
+      "Positions réellement atteignables : quartier et spécialité sectorielle",
+      "Pôles marqués : Bierset pour la logistique, Sart-Tilman pour la tech",
+      "Communes périphériques à traiter comme des marchés autonomes"
+    ]
+  },
+  "cases": [],
+  "testimonials": [],
+  "pricing": {
+    "from": 3200,
+    "currency": "EUR",
+    "note": "Projet liégeois type : stratégie de positionnement par quartier ou spécialité, puis conception. Le budget dépend de l'ampleur du contenu."
+  },
+  "faq": [
+    {
+      "question": "Puis-je espérer être premier sur agence web Liège ?",
+      "answer": "Pas dans un horizon raisonnable, et nous préférons vous le dire d'emblée. Cette requête est tenue par des acteurs installés de longue date, avec des profils de liens qui demandent des années à constituer. En revanche, être premier sur votre quartier ou sur votre spécialité est parfaitement réaliste, et ces recherches convertissent souvent mieux parce que l'intention y est plus précise."
+    },
+    {
+      "question": "Que signifie travailler par quartier à Liège ?",
+      "answer": "Cela consiste à cibler les recherches réellement formulées par vos clients potentiels : un restaurant du Carré, un dentiste aux Guillemins, un garage à Herstal. Nous construisons le contenu, la fiche Google Business Profile et le maillage autour de ce périmètre précis plutôt que sur la ville entière. Les volumes sont plus faibles, mais la concurrence est franchissable et la clientèle est la bonne."
+    },
+    {
+      "question": "Travaillez-vous avec les spin-offs du Sart-Tilman ?",
+      "answer": "Oui, et ces projets ont leur logique propre. Une spin-off ne cherche pas de clientèle de proximité mais de la crédibilité auprès d'investisseurs, de partenaires industriels et de talents à recruter, souvent à l'échelle internationale. Le site est alors un outil de validation scientifique et commerciale, généralement bilingue, où le référencement local n'a presque aucun rôle."
+    },
+    {
+      "question": "Combien de temps avant de voir des résultats à Liège ?",
+      "answer": "Comptez trois à six mois pour des positions sur des requêtes de quartier ou de spécialité, contre six à douze mois sur des requêtes plus larges, et à condition de soutenir l'effort par des signaux locaux réels. Toute agence qui vous promet la première place en quelques semaines sur un marché de cette taille vous vend quelque chose qu'elle ne peut pas livrer."
+    }
+  ],
+  "nearby": [
+    "creation-site-internet-namur",
+    "creation-site-internet-marche-en-famenne"
+  ],
+  "coverage": [
+    "Liège",
+    "Herstal",
+    "Seraing",
+    "Ans",
+    "Chaudfontaine",
+    "Angleur",
+    "Grâce-Hollogne",
+    "Beyne-Heusay"
+  ],
+  "updatedAt": "2026-08-02"
+}

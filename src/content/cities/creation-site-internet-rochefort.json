@@ -1,0 +1,72 @@
+{
+  "slug": "creation-site-internet-rochefort",
+  "status": "published",
+  "city": "Rochefort",
+  "province": "Namur",
+  "region": "Wallonie",
+  "postalCodes": ["5580"],
+  "geo": { "lat": 50.1631, "lng": 5.2214 },
+  "intent": {
+    "service": "creation-site-web",
+    "primaryKeyword": "création site internet Rochefort",
+    "secondaryKeywords": [
+      "agence web Rochefort",
+      "site internet producteur local Famenne",
+      "site web terroir Ardenne",
+      "vente en ligne produits du terroir",
+      "webdesign Rochefort"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet à Rochefort | Agence BEEW",
+    "description": "Agence web à Rochefort et Han-sur-Lesse : sites pour producteurs, artisans du terroir et acteurs touristiques. Vente en ligne et devis fixe sous 48 h."
+  },
+  "hero": {
+    "h1": "Création de site internet à Rochefort",
+    "subtitle": "Ici, la notoriété du territoire dépasse celle de ses entreprises. Le premier travail consiste à exister dans une recherche que trois grands noms saturent déjà.",
+    "badges": ["Devis fixe sous 48 h", "Vente en ligne du terroir", "Rendez-vous sur place"]
+  },
+  "localContext": {
+    "heading": "Quand le nom de la commune est plus connu que les entreprises qui l'habitent",
+    "body": "Rochefort présente une situation que nous ne rencontrons nulle part ailleurs dans nos zones : le nom de la commune est mondialement identifié, mais il l'est à travers deux ou trois entités qui ne représentent qu'une fraction de son économie. Les grottes de Han et le domaine animalier attirent une fréquentation considérable, et la bière trappiste brassée à l'abbaye Notre-Dame de Saint-Remy porte le nom de la ville sur tous les continents. Pour un commerçant, un producteur ou un artisan installé ici, cela crée un problème très concret et rarement formulé : toute recherche contenant le mot Rochefort est saturée par ces grands noms, par les pages qui en parlent et par les agrégateurs touristiques qui les revendent. Se rendre visible ne consiste donc pas à répéter le nom de la commune, mais à se positionner sur ce que l'on fait précisément et sur les communes environnantes que personne ne dispute. C'est le premier arbitrage que nous posons avec un client rochefortois, et il détermine toute la structure du site. Le second trait du territoire est un tourisme d'excursion plutôt que de séjour. Une grande partie des visiteurs vient à la journée, depuis Bruxelles, la Flandre ou le nord de la France, décide sur place et repart le soir. Le comportement d'achat qui en découle est court et impulsif : on cherche où déjeuner à midi, quoi rapporter en fin d'après-midi, quelle activité caler entre deux visites. Une boutique fermée le lundi, un horaire introuvable ou une page lente font perdre cette clientèle sans jamais qu'on le sache. Le troisième pilier est agroalimentaire et artisanal. La Famenne et le Condroz environnants concentrent une densité remarquable de producteurs fermiers, fromagers, brasseurs, maraîchers et transformateurs qui vendent en circuit court. Pour eux, la boutique en ligne avec expédition ou retrait à la ferme reste un levier largement inexploité, alors que la clientèle de passage est précisément celle qui recommande volontiers à distance une fois rentrée chez elle. C'est souvent le projet le plus rentable que nous puissions leur proposer.",
+    "highlights": [
+      "Notoriété du territoire captée par deux ou trois grands noms",
+      "Se positionner sur son métier et les communes voisines, pas sur la commune",
+      "Tourisme d'excursion : décision courte, prise sur place et à la journée",
+      "Densité de producteurs fermiers et d'artisans en circuit court",
+      "Vente en ligne avec expédition ou retrait : levier peu exploité localement"
+    ]
+  },
+  "cases": [],
+  "testimonials": [],
+  "pricing": {
+    "from": 2400,
+    "currency": "EUR",
+    "note": "Site vitrine complet pour commerce, producteur ou artisan. Boutique en ligne avec expédition ou retrait chiffrée séparément."
+  },
+  "faq": [
+    {
+      "question": "Comment être visible à Rochefort alors que les grottes et la trappiste saturent les recherches ?",
+      "answer": "En cessant de viser le nom de la commune seul, qui est une bataille perdue d'avance, et en visant ce que vous faites : votre métier associé à votre spécialité, et les communes environnantes que personne ne travaille. Un fromager sera bien plus rapidement premier sur son produit et sur Han-sur-Lesse, Jemelle ou Ave-et-Auffe que sur une requête générique où il affronte des sites installés depuis vingt ans et des agrégateurs touristiques nationaux."
+    },
+    {
+      "question": "Mes clients viennent à la journée : à quoi sert un site pour eux ?",
+      "answer": "À être trouvé dans les vingt minutes qui précèdent leur décision, et à ne pas les perdre sur un détail. Le visiteur d'un jour cherche sur son téléphone où manger, quoi rapporter et à quelle heure vous fermez. Un horaire clair, une adresse cliquable, un aperçu de vos produits et un temps de chargement court valent bien plus qu'une longue présentation de votre histoire, qu'il ne lira pas."
+    },
+    {
+      "question": "Je suis producteur en Famenne : vendre en ligne, est-ce réaliste ?",
+      "answer": "C'est souvent le projet le plus rentable de la région, et le plus sous-exploité. Votre clientèle de passage est exactement celle qui voudrait recommander une fois rentrée chez elle, à Bruxelles ou en Flandre, et qui n'a aujourd'hui aucun moyen de le faire. Une boutique dimensionnée pour quelques dizaines de références, avec expédition ou retrait sur place, se met en place pour un budget bien inférieur à ce que la plupart imaginent."
+    },
+    {
+      "question": "Vous déplacez-vous à Rochefort et dans les environs ?",
+      "answer": "Oui, sans frais ni engagement, à Rochefort comme à Han-sur-Lesse, Jemelle, Ave-et-Auffe, Wellin ou Beauraing. Nous sommes basés en province de Luxembourg, à une trentaine de minutes. Pour un producteur ou un artisan, ce déplacement est décisif : les photos réelles de votre atelier et de vos produits font davantage pour votre site que tout ce que nous pourrions en écrire."
+    }
+  ],
+  "nearby": [
+    "creation-site-internet-marche-en-famenne",
+    "creation-site-internet-dinant",
+    "creation-site-internet-durbuy"
+  ],
+  "coverage": ["Rochefort", "Han-sur-Lesse", "Jemelle", "Ave-et-Auffe", "Wellin", "Nassogne", "Beauraing", "Tellin"],
+  "updatedAt": "2026-08-04"
+}

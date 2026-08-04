@@ -1,0 +1,94 @@
+{
+  "slug": "creation-site-internet-marche-en-famenne",
+  "status": "published",
+  "city": "Marche-en-Famenne",
+  "aliases": [
+    "Marche"
+  ],
+  "province": "Luxembourg",
+  "region": "Wallonie",
+  "postalCodes": [
+    "6900"
+  ],
+  "geo": {
+    "lat": 50.2276,
+    "lng": 5.3441
+  },
+  "intent": {
+    "service": "creation-site-web",
+    "primaryKeyword": "création site internet Marche-en-Famenne",
+    "secondaryKeywords": [
+      "agence web Marche-en-Famenne",
+      "site internet Marche",
+      "création site web Famenne",
+      "agence digitale Ardenne",
+      "refonte site internet Marche-en-Famenne"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet à Marche-en-Famenne | BEEW",
+    "description": "Agence web à Marche-en-Famenne : sites vitrines et e-commerce pour les commerces, PME et prestataires de la Famenne. Devis fixe sous 48 h."
+  },
+  "hero": {
+    "h1": "Création de site internet à Marche-en-Famenne",
+    "subtitle": "Un site pensé pour une clientèle qui vient de toute la Famenne et de la Haute-Ardenne, pas seulement du centre-ville. Conception, rédaction et référencement local inclus.",
+    "badges": [
+      "Devis fixe sous 48 h",
+      "Livraison en 4 semaines",
+      "Référencement local inclus"
+    ]
+  },
+  "localContext": {
+    "heading": "Marche-en-Famenne, le pôle qui capte une clientèle bien plus large que sa population",
+    "body": "Marche-en-Famenne compte environ dix-sept mille habitants, mais son bassin de chalandise réel en représente plusieurs fois plus. La ville joue un rôle de centre commercial et administratif pour toute la Famenne et une bonne partie de la Haute-Ardenne : on vient y faire ses achats, consulter un spécialiste, régler une démarche depuis Hotton, Rochefort, Durbuy ou Nassogne. Cette configuration a une conséquence directe sur la manière de concevoir un site : viser uniquement les recherches contenant le nom de la ville revient à ignorer la majorité de la clientèle potentielle, qui cherche d'abord un service, pas une commune. Nous construisons donc les sites de nos clients marchois autour d'un maillage géographique élargi, avec des pages ou des sections dédiées aux localités du bassin, et une fiche Google Business Profile paramétrée sur une zone d'intervention large plutôt que sur le seul code postal. Le tissu économique local combine plusieurs profils très différents. Le zoning de Aye concentre de la logistique, de la distribution et de l'industrie légère, avec des besoins B2B classiques : présentation de capacités, recrutement, contact structuré. Le centre-ville, lui, vit du commerce de détail, de l'horeca et des professions de santé, pour qui la visibilité mobile immédiate et les avis en ligne pèsent bien plus lourd qu'un site élaboré. Enfin, la proximité de Durbuy et de la vallée de l'Ourthe amène une composante touristique saisonnière que certains commerces sous-exploitent faute de contenu adapté aux visiteurs de passage. Nous adaptons le dispositif à ces trois réalités plutôt que d'appliquer une recette unique.",
+    "highlights": [
+      "Bassin de chalandise plusieurs fois supérieur à la population communale",
+      "Trois profils distincts : zoning de Aye, commerce de centre-ville, tourisme",
+      "Le référencement doit viser la Famenne entière, pas la seule commune",
+      "Les avis en ligne pèsent lourd pour le commerce et la santé",
+      "Clientèle de passage venue de Durbuy et de la vallée de l'Ourthe"
+    ]
+  },
+  "cases": [],
+  "testimonials": [],
+  "pricing": {
+    "from": 2400,
+    "currency": "EUR",
+    "note": "Site vitrine complet, design sur mesure, rédaction SEO et mise en ligne incluses. Paiement en trois fois sans frais."
+  },
+  "faq": [
+    {
+      "question": "Mon site doit-il viser Marche-en-Famenne ou toute la Famenne ?",
+      "answer": "Toute la Famenne, dans la quasi-totalité des cas. Votre clientèle vient de Hotton, Rochefort, Nassogne ou Durbuy et cherche un service avant de chercher une commune. Nous structurons le site pour capter ces recherches élargies et nous paramétrons votre fiche Google Business Profile sur une zone d'intervention cohérente avec votre activité réelle."
+    },
+    {
+      "question": "Je suis dans le zoning de Aye, mes besoins sont-ils différents ?",
+      "answer": "Oui, assez nettement. Une entreprise du zoning vend principalement à d'autres entreprises : ce qui compte est la présentation claire de vos capacités, de vos certifications et de vos délais, ainsi qu'un formulaire de contact qui qualifie la demande. Le référencement local y joue un rôle plus faible que la crédibilité technique du site et sa capacité à soutenir le recrutement."
+    },
+    {
+      "question": "Combien coûte un site internet à Marche-en-Famenne ?",
+      "answer": "Un site vitrine professionnel démarre à 2 400 € HTVA, rédaction et référencement local compris. Un projet e-commerce ou avec catalogue démarre à 4 000 € HTVA. Nous travaillons exclusivement au forfait : le devis est fixe et établi après un premier rendez-vous sur place, sans frais ni engagement."
+    },
+    {
+      "question": "Quel délai avant la mise en ligne ?",
+      "answer": "Quatre semaines en moyenne pour un site vitrine, à compter de la validation du devis et de la réception de vos contenus. Six à dix semaines pour une boutique en ligne. Nous avançons par jalons validés ensemble, ce qui vous permet de voir le site se construire plutôt que d'en découvrir le résultat à la fin."
+    }
+  ],
+  "nearby": [
+    "creation-site-internet-libramont-chevigny",
+    "creation-site-internet-bastogne",
+    "creation-site-internet-durbuy",
+    "creation-site-internet-rochefort"
+  ],
+  "coverage": [
+    "Marche-en-Famenne",
+    "Hotton",
+    "Durbuy",
+    "Rochefort",
+    "Nassogne",
+    "Somme-Leuze",
+    "Aye",
+    "Waha"
+  ],
+  "updatedAt": "2026-08-02"
+}

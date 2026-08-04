@@ -1,0 +1,92 @@
+{
+  "slug": "creation-site-internet-dinant",
+  "status": "published",
+  "city": "Dinant",
+  "province": "Namur",
+  "region": "Wallonie",
+  "postalCodes": [
+    "5500",
+    "5501",
+    "5502"
+  ],
+  "geo": {
+    "lat": 50.2604,
+    "lng": 4.9122
+  },
+  "intent": {
+    "service": "creation-site-web",
+    "primaryKeyword": "création site internet Dinant",
+    "secondaryKeywords": [
+      "agence web Dinant",
+      "site internet horeca Dinant",
+      "création site web Haute-Meuse",
+      "site touristique vallée de la Meuse",
+      "réservation en ligne Dinant"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet à Dinant | Agence BEEW",
+    "description": "Agence web à Dinant : sites multilingues, réservation en ligne et visibilité mobile pour l'horeca, les hébergements et les activités de la Haute-Meuse."
+  },
+  "hero": {
+    "h1": "Création de site internet à Dinant",
+    "subtitle": "Votre visiteur décide sur son téléphone, à quinze minutes de chez vous, en néerlandais ou en anglais. Nous construisons le site qui gagne cette décision-là.",
+    "badges": [
+      "Sites multilingues",
+      "Réservation intégrée",
+      "Optimisé mobile"
+    ]
+  },
+  "localContext": {
+    "heading": "Dinant : tout se joue sur mobile, en quelques minutes, souvent dans une autre langue",
+    "body": "Dinant vit du tourisme dans des proportions que peu de villes wallonnes connaissent. La citadelle, la collégiale, la Meuse, le kayak sur la Lesse, la maison de Sax et les circuits de la Haute-Meuse attirent une fréquentation massive et très internationale, avec une présence néerlandophone et française particulièrement forte. Cette économie a une caractéristique décisive pour un site web : la décision d'achat se prend sur place et dans l'instant. Le visiteur est déjà dans la vallée, il cherche sur son téléphone où déjeuner, quelle activité réserver pour l'après-midi, où dormir ce soir. Il consultera trois sites en quatre minutes et choisira celui qui charge le plus vite et qui répond le plus clairement. Un site lent, mal lisible sur mobile ou qui ne donne pas immédiatement les horaires, les prix et le moyen de réserver perd cette clientèle sans jamais savoir qu'elle est passée. Nous concevons donc les sites dinantais avec une hiérarchie inversée par rapport à un site d'entreprise classique : l'information transactionnelle vient en premier, la présentation ensuite. La dimension multilingue est le second pilier. Une part très importante de la fréquentation est néerlandophone, avec un flux anglophone et allemand notable en haute saison. Un site uniquement francophone se prive mécaniquement d'une fraction majeure de sa clientèle potentielle. Enfin, la saisonnalité est extrême : quelques mois concentrent l'essentiel du chiffre d'affaires. Le site doit donc travailler toute l'année à préparer la saison suivante, par la collecte d'adresses et la mise en avant d'offres hors saison plutôt que par la seule vitrine.",
+    "highlights": [
+      "Décision d'achat prise sur mobile, sur place, en quelques minutes",
+      "Fréquentation fortement néerlandophone : le multilingue est structurant",
+      "Saisonnalité extrême concentrée sur quelques mois",
+      "L'information transactionnelle doit primer sur la présentation",
+      "Réservation directe pour réduire la dépendance aux plateformes"
+    ]
+  },
+  "cases": [],
+  "testimonials": [],
+  "pricing": {
+    "from": 2400,
+    "currency": "EUR",
+    "note": "Site vitrine orienté mobile. Version multilingue et module de réservation chiffrés séparément selon vos besoins."
+  },
+  "faq": [
+    {
+      "question": "Pourquoi la vitesse mobile est-elle si critique à Dinant ?",
+      "answer": "Parce que votre visiteur est déjà dans la vallée, sur son téléphone, souvent avec une connexion moyenne, et qu'il consultera trois sites en quelques minutes avant de choisir. Chaque seconde de chargement supplémentaire fait perdre une part mesurable de ces visiteurs. C'est le facteur qui a le plus d'impact direct sur le chiffre d'affaires pour un établissement dinantais."
+    },
+    {
+      "question": "Faut-il une version néerlandaise de mon site à Dinant ?",
+      "answer": "Pour toute activité touristique, oui sans hésitation. La fréquentation néerlandophone de la Haute-Meuse est considérable et une part de ces visiteurs quitte un site qu'ils ne comprennent pas immédiatement. Nous recommandons généralement français, néerlandais et anglais, avec des contenus réellement traduits plutôt qu'une traduction automatique qui nuit à la crédibilité."
+    },
+    {
+      "question": "Comment réduire ma dépendance aux plateformes de réservation ?",
+      "answer": "En intégrant un moteur de réservation qui vous appartient et en donnant au visiteur une raison concrète de réserver en direct : meilleur tarif, souplesse, petit avantage. Les commissions des plateformes représentent souvent, sur une saison, l'équivalent de plusieurs fois le coût du site. Nous mettons ce calcul noir sur blanc avant de vous proposer quoi que ce soit."
+    },
+    {
+      "question": "Mon activité ne tourne que quatre mois par an, est-ce rentable ?",
+      "answer": "Oui, si le site est conçu pour cette réalité. Pendant la saison, il capte et convertit. Hors saison, il collecte des adresses, met en avant des offres et prépare l'année suivante. Un site pensé uniquement comme une vitrine dort neuf mois sur douze, ce qui explique la déception fréquente des exploitants saisonniers vis-à-vis de leur site précédent."
+    }
+  ],
+  "nearby": [
+    "creation-site-internet-namur",
+    "creation-site-internet-marche-en-famenne",
+    "creation-site-internet-rochefort"
+  ],
+  "coverage": [
+    "Dinant",
+    "Anseremme",
+    "Yvoir",
+    "Hastière",
+    "Onhaye",
+    "Houyet",
+    "Ciney",
+    "Beauraing"
+  ],
+  "updatedAt": "2026-08-02"
+}

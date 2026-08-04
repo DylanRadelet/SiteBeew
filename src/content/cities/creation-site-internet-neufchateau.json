@@ -1,0 +1,73 @@
+{
+  "slug": "creation-site-internet-neufchateau",
+  "status": "published",
+  "city": "Neufchâteau",
+  "aliases": ["Neufchateau"],
+  "province": "Luxembourg",
+  "region": "Wallonie",
+  "postalCodes": ["6840"],
+  "geo": { "lat": 49.8397, "lng": 5.4353 },
+  "intent": {
+    "service": "creation-site-web",
+    "primaryKeyword": "création site internet Neufchâteau",
+    "secondaryKeywords": [
+      "agence web Neufchâteau",
+      "site internet avocat Neufchâteau",
+      "site web profession libérale Ardenne",
+      "webdesign Neufchâteau",
+      "site internet Centre-Ardenne"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet à Neufchâteau | BEEW",
+    "description": "Agence web à Neufchâteau : sites pour avocats, notaires, comptables et indépendants du Centre-Ardenne. Communication conforme à la déontologie."
+  },
+  "hero": {
+    "h1": "Création de site internet à Neufchâteau",
+    "subtitle": "Chef-lieu judiciaire, professions libérales, frontaliers et tourisme vert : quatre clientèles qui attendent d'un site des choses très différentes.",
+    "badges": ["Devis fixe sous 48 h", "Respect des règles déontologiques", "Rendez-vous sur place"]
+  },
+  "localContext": {
+    "heading": "Le chef-lieu judiciaire du Centre-Ardenne, et ce que cela change pour un site",
+    "body": "Neufchâteau est le chef-lieu de son arrondissement et abrite les institutions judiciaires qui vont avec. Cette fonction administrative a fait naître autour d'elle un tissu professionnel dense et très particulier pour une commune de moins de huit mille habitants : cabinets d'avocats, études notariales, huissiers, experts judiciaires, fiduciaires, bureaux comptables, conseils en gestion. Ce profil de clientèle impose des règles de communication que la plupart des agences ignorent, et qui ne sont pas négociables. Plusieurs de ces professions sont encadrées par une déontologie qui limite ce qui peut être écrit : interdiction de la publicité comparative, de la sollicitation personnalisée, des promesses de résultat, obligation de mentions précises sur les honoraires et l'assurance professionnelle. Un site qui ignore ces contraintes n'expose pas seulement son propriétaire à un rappel à l'ordre de son instance, il détruit aussi la crédibilité qu'il était censé bâtir. Nous travaillons donc ces projets à partir du cadre applicable à la profession concernée, en installant l'autorité par la pédagogie et la clarté plutôt que par l'argument commercial. La commune vit aussi d'autre chose. Sa position sur l'axe autoroutier qui descend vers le Grand-Duché en fait un lieu de résidence pour de nombreux frontaliers, avec le pouvoir d'achat et les services associés — construction, rénovation, aménagement, santé, bien-être. Le lac de Neufchâteau, la forêt d'Anlier et les circuits du Centre-Ardenne alimentent enfin un tourisme vert plus discret que celui de la Haute-Meuse, fondé sur la nature et la randonnée, avec des gîtes et des tables qui vivent d'une clientèle de séjour fidèle. Une dernière donnée compte pour arbitrer un budget : la concurrence en ligne y est faible et les recherches sont peu volumineuses mais très qualifiées. On ne cherche pas un notaire par curiosité. Chaque visiteur qui arrive sur une de ces pages a un dossier en tête, et le taux de transformation d'un site bien conçu y est sans commune mesure avec celui d'un site commercial classique.",
+    "highlights": [
+      "Chef-lieu judiciaire : forte densité de professions libérales réglementées",
+      "Déontologie contraignante sur ce qu'un site peut écrire",
+      "Résidence de frontaliers : services, construction et rénovation",
+      "Tourisme vert de séjour autour du lac et de la forêt d'Anlier",
+      "Peu de recherches, mais des visiteurs qui ont déjà un dossier en tête"
+    ]
+  },
+  "cases": [],
+  "testimonials": [],
+  "pricing": {
+    "from": 2400,
+    "currency": "EUR",
+    "note": "Site vitrine pour profession libérale ou indépendant, rédaction et vérification des mentions obligatoires comprises. Paiement en trois fois sans frais."
+  },
+  "faq": [
+    {
+      "question": "Ma profession est réglementée : puis-je vraiment avoir un site à Neufchâteau ?",
+      "answer": "Oui, et la plupart des ordres et instances l'encouragent aujourd'hui. Ce qui reste encadré, c'est la manière : pas de publicité comparative, pas de promesse de résultat, pas de sollicitation personnalisée, et des mentions obligatoires sur les honoraires et l'assurance selon la profession. Nous partons du cadre applicable au vôtre avant d'écrire la première ligne, et nous vous soumettons les textes pour validation avant toute mise en ligne."
+    },
+    {
+      "question": "Un notaire ou un avocat a-t-il besoin de référencement local ?",
+      "answer": "Beaucoup moins qu'un commerce, et c'est une économie réelle. Vos clients arrivent par recommandation, par une désignation ou parce qu'ils vous connaissent déjà de nom. Le site sert alors à confirmer un choix presque fait : il doit rassurer, expliquer votre domaine et rendre la prise de contact simple. Le budget est donc mieux investi dans la clarté des contenus que dans une bataille de mots-clés."
+    },
+    {
+      "question": "Je travaille au Grand-Duché et je réside dans la région : est-ce un marché pour moi ?",
+      "answer": "C'est même un segment très porteur autour de Neufchâteau. Les frontaliers disposent d'un pouvoir d'achat supérieur à la moyenne locale et cherchent des prestataires disponibles en dehors des heures de bureau, souvent le samedi. Un site qui affiche clairement des créneaux compatibles avec leurs horaires et qui permet de prendre rendez-vous en ligne capte une clientèle que vos concurrents ratent faute d'y avoir pensé."
+    },
+    {
+      "question": "Vous déplacez-vous en Centre-Ardenne pour un premier rendez-vous ?",
+      "answer": "Oui, sans frais et sans engagement, à Neufchâteau comme à Léglise, Bertrix, Libramont ou Bastogne. Ce premier échange sert à comprendre votre activité, vos obligations professionnelles et la manière dont vos clients vous trouvent réellement aujourd'hui. Nous ne chiffrons rien avant d'avoir ces trois réponses."
+    }
+  ],
+  "nearby": [
+    "creation-site-internet-libramont-chevigny",
+    "creation-site-internet-bertrix",
+    "creation-site-internet-arlon"
+  ],
+  "coverage": ["Neufchâteau", "Léglise", "Longlier", "Assenois", "Tintigny", "Habay", "Vaux-sur-Sûre"],
+  "updatedAt": "2026-08-04"
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "mentions-legales",
+  "surtitre": "Informations légales",
+  "h1": "Mentions légales",
+  "meta": {
+    "title": "Mentions légales — BEEW Agency",
+    "description": "Identification de l'éditeur du site, coordonnées, hébergeur, propriété intellectuelle et limitations de responsabilité applicables au site de l'agence BEEW."
+  },
+  "updatedAt": "2026-08-02",
+  "intro": "Ces mentions légales précisent l'identité de l'éditeur de ce site, celle de son hébergeur, ainsi que les règles applicables à son contenu. Elles répondent aux obligations d'information des livres III et XII du Code de droit économique belge.",
+  "sections": [
+    {
+      "id": "editeur",
+      "titre": "Éditeur du site",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Le présent site est édité par l'entreprise identifiée ci-dessous, qui en assure la publication et l'exploitation."
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "items": [
+            "Dénomination sociale : [À COMPLÉTER : dénomination sociale exacte telle qu'inscrite à la BCE]",
+            "Forme juridique : [À COMPLÉTER : forme juridique — SRL, SCOMM, entreprise personne physique…]",
+            "Siège social : [À COMPLÉTER : adresse complète du siège social, code postal et commune]",
+            "Numéro d'entreprise (BCE) : [À COMPLÉTER : numéro BCE au format 0XXX.XXX.XXX]",
+            "Numéro de TVA intracommunautaire : [À COMPLÉTER : numéro de TVA, format BE 0XXX.XXX.XXX]",
+            "Adresse électronique : hello@beew.agency",
+            "Téléphone : [À COMPLÉTER : numéro de téléphone de contact]",
+            "Représentant légal / directeur de la publication : [À COMPLÉTER : nom et prénom du gérant ou administrateur]",
+            "Registre des personnes morales (RPM) compétent : [À COMPLÉTER : tribunal de l'entreprise compétent]"
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L'activité exercée n'est pas soumise à un régime d'autorisation préalable ni à un ordre professionnel. Si cette situation venait à changer, l'autorité de tutelle et les règles professionnelles applicables seraient mentionnées ici."
+        }
+      ]
+    },
+    {
+      "id": "hebergeur",
+      "titre": "Hébergeur",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Le site est hébergé par le prestataire suivant, qui assure le stockage et la mise à disposition des fichiers nécessaires à son affichage."
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "items": [
+            "Dénomination de l'hébergeur : [À COMPLÉTER : nom de la société d'hébergement]",
+            "Adresse : [À COMPLÉTER : adresse postale complète de l'hébergeur]",
+            "Contact : [À COMPLÉTER : site web ou adresse de contact de l'hébergeur]",
+            "Localisation des serveurs : [À COMPLÉTER : pays ou région d'hébergement des données]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "propriete-intellectuelle",
+      "titre": "Propriété intellectuelle",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "L'ensemble des éléments composant ce site — structure, textes, éléments graphiques, mise en page, code source, logotypes et marques — est protégé par le livre XI du Code de droit économique relatif à la propriété intellectuelle. Sauf mention contraire, ces éléments sont la propriété de l'éditeur ou font l'objet d'une licence d'utilisation à son bénéfice."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Toute reproduction, représentation, adaptation ou exploitation, totale ou partielle, par quelque procédé que ce soit et sur quelque support que ce soit, est interdite sans autorisation écrite préalable. La citation courte accompagnée d'un lien vers la page d'origine et de la mention de la source reste évidemment libre."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les photographies d'illustration proviennent de banques d'images libres de droit ou de reportages réalisés pour le compte de l'éditeur. Les noms et logos de tiers éventuellement affichés restent la propriété de leurs titulaires respectifs et ne sont utilisés qu'à titre de référence."
+        }
+      ]
+    },
+    {
+      "id": "responsabilite",
+      "titre": "Responsabilité",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "L'éditeur apporte le plus grand soin à l'exactitude des informations publiées et les met à jour régulièrement. Il ne peut toutefois garantir qu'elles soient à tout moment complètes, exactes et actualisées. Les informations générales publiées sur ce site ne constituent ni un conseil personnalisé ni une offre contractuelle."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L'éditeur met en œuvre les moyens raisonnables pour assurer la disponibilité du site, sans obligation de résultat. L'accès peut être suspendu pour maintenance, mise à jour ou en cas de force majeure. Sa responsabilité ne peut être engagée pour les dommages indirects résultant de l'utilisation ou de l'impossibilité d'utiliser le site."
+        },
+        {
+          "type": "titre",
+          "niveau": 3,
+          "texte": "Liens vers des sites tiers",
+          "id": "liens-tiers"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ce site peut contenir des liens vers des sites édités par des tiers. Ces liens sont proposés à titre d'information ; l'éditeur n'exerce aucun contrôle sur leur contenu et décline toute responsabilité à leur égard. La création d'un lien vers ce site est libre, à condition qu'elle n'induise pas en erreur sur l'origine du contenu."
+        }
+      ]
+    },
+    {
+      "id": "donnees-et-cookies",
+      "titre": "Données personnelles et cookies",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Le traitement des données personnelles collectées via ce site, les finalités poursuivies, les durées de conservation et les droits dont vous disposez sont décrits en détail dans une page distincte."
+        },
+        {
+          "type": "encadre",
+          "titre": "Politique de confidentialité",
+          "texte": "Vous y trouverez l'identité du responsable du traitement, la liste des données collectées, les bases légales invoquées et la marche à suivre pour exercer vos droits ou introduire une réclamation.",
+          "lien": { "href": "/politique-de-confidentialite", "label": "Lire la politique de confidentialité" }
+        }
+      ]
+    },
+    {
+      "id": "droit-applicable",
+      "titre": "Droit applicable et juridictions compétentes",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "L'utilisation de ce site est soumise au droit belge. En cas de litige et à défaut de résolution amiable, les cours et tribunaux de l'arrondissement judiciaire du siège de l'éditeur sont seuls compétents, sans préjudice des règles impératives protégeant le consommateur."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Toute question relative à ces mentions légales peut être adressée par courrier électronique à hello@beew.agency ou par courrier postal à l'adresse du siège social indiquée ci-dessus."
+        }
+      ]
+    }
+  ]
+}

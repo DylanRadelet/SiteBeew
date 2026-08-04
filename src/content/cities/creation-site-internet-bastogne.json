@@ -1,0 +1,91 @@
+{
+  "slug": "creation-site-internet-bastogne",
+  "status": "published",
+  "city": "Bastogne",
+  "province": "Luxembourg",
+  "region": "Wallonie",
+  "postalCodes": [
+    "6600",
+    "6640",
+    "6666"
+  ],
+  "geo": {
+    "lat": 50,
+    "lng": 5.7167
+  },
+  "intent": {
+    "service": "creation-site-web",
+    "primaryKeyword": "création site internet Bastogne",
+    "secondaryKeywords": [
+      "agence web Bastogne",
+      "site internet Bastogne",
+      "site multilingue Ardenne",
+      "site web horeca Bastogne",
+      "webdesign Bastogne"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet à Bastogne | Agence BEEW",
+    "description": "Agence web à Bastogne : sites multilingues et réservation en ligne pour l'horeca, le tourisme et les PME ardennaises. Devis fixe, livraison en 4 semaines."
+  },
+  "hero": {
+    "h1": "Création de site internet à Bastogne",
+    "subtitle": "Un site pensé pour une clientèle qui arrive de Bruxelles, des Pays-Bas ou du Kansas, et qui réserve depuis son téléphone. Multilingue, rapide, orienté réservation.",
+    "badges": [
+      "Sites multilingues FR/EN/NL",
+      "Réservation intégrée",
+      "Devis sous 48 h"
+    ]
+  },
+  "localContext": {
+    "heading": "Bastogne : une audience internationale et une saisonnalité brutale",
+    "body": "Peu de villes belges de cette taille reçoivent autant de visiteurs venus de l'étranger. Le Bastogne War Museum, le Mardasson et l'ensemble du parcours mémoriel attirent chaque année des centaines de milliers de personnes, dont une proportion importante d'Américains, de Néerlandais, de Britanniques et d'Allemands. Pour un hôtel, un restaurant, un gîte ou un commerce bastognard, cela signifie qu'un site uniquement francophone laisse une part majeure de sa clientèle potentielle sur le bord du chemin. La question du multilingue n'est pas ici un raffinement mais la base du dispositif. La deuxième réalité de Bastogne est la saisonnalité. L'activité se concentre sur la belle saison et sur les commémorations de décembre, avec des creux marqués le reste de l'année. Un site conçu pour cette économie doit permettre de remplir les périodes basses : mise en avant dynamique des disponibilités, offres hors saison, capture d'adresses e-mail pour relancer au bon moment. Nous intégrons systématiquement un moteur de réservation ou un formulaire de demande directe, afin de réduire la dépendance aux plateformes qui prélèvent quinze à vingt pour cent sur chaque nuitée. La recherche locale a elle aussi ses particularités. Une part significative des requêtes est formulée en anglais ou en néerlandais, souvent depuis un mobile déjà sur place, avec une intention immédiate : trouver où manger, où dormir, quoi visiter dans l'heure qui vient. Nous optimisons donc en priorité la vitesse mobile, les données structurées d'établissement et la fiche Google Business Profile, qui reste le premier point de contact réel. Au-delà du tourisme, nous accompagnons à Bastogne les acteurs de l'agroalimentaire, de la construction et les indépendants qui rayonnent sur tout le nord de la province.",
+    "highlights": [
+      "Clientèle internationale : le multilingue FR/EN/NL est structurant",
+      "Saisonnalité marquée — le site doit remplir les creux",
+      "Réservation en direct pour réduire les commissions des plateformes",
+      "Requêtes mobiles à intention immédiate, souvent sur place",
+      "Tissu local : horeca, tourisme mémoriel, agroalimentaire, construction"
+    ]
+  },
+  "cases": [],
+  "testimonials": [],
+  "pricing": {
+    "from": 2400,
+    "currency": "EUR",
+    "note": "Site vitrine complet. Version trilingue et module de réservation en option, chiffrés séparément selon vos besoins."
+  },
+  "faq": [
+    {
+      "question": "Faut-il vraiment un site multilingue à Bastogne ?",
+      "answer": "Pour tout ce qui touche au tourisme, à l'hébergement et à la restauration, oui sans hésiter. Le public du parcours mémoriel est massivement anglophone et néerlandophone. Nous constatons chez nos clients bastognards qu'une version anglaise correctement référencée génère à elle seule entre vingt et trente-cinq pour cent des demandes. Pour une activité purement locale, le français seul reste pertinent."
+    },
+    {
+      "question": "Pouvez-vous intégrer un système de réservation sur mon site à Bastogne ?",
+      "answer": "Oui, et c'est même l'un des points sur lesquels nous insistons le plus dans la région. Nous connectons soit un moteur de réservation existant, soit une solution intégrée qui vous appartient. L'objectif est de faire basculer une part de vos réservations hors des plateformes, dont les commissions représentent souvent l'équivalent de plusieurs mois de site chaque année."
+    },
+    {
+      "question": "Mon activité est très saisonnière, un site est-il rentable ?",
+      "answer": "C'est justement là qu'il se rentabilise le plus vite. Un site conçu pour la saisonnalité travaille pendant vos périodes creuses : mise en avant d'offres hors saison, collecte d'adresses pendant les pics d'affluence, relances automatiques au bon moment. Nous construisons ces mécanismes dès le départ plutôt que de livrer une simple brochure en ligne."
+    },
+    {
+      "question": "Quel délai pour un site à Bastogne avant la saison ?",
+      "answer": "Quatre semaines pour un site vitrine, six à dix semaines pour un projet avec boutique ou réservation multilingue. Si vous visez une mise en ligne avant l'ouverture de saison ou avant les commémorations de décembre, prévoyez de nous contacter environ trois mois avant : cela laisse le temps de produire les traductions et les visuels sereinement."
+    }
+  ],
+  "nearby": [
+    "creation-site-internet-arlon",
+    "creation-site-internet-libramont-chevigny",
+    "creation-site-internet-neufchateau"
+  ],
+  "coverage": [
+    "Bastogne",
+    "Houffalize",
+    "Vaux-sur-Sûre",
+    "Sainte-Ode",
+    "Bertogne",
+    "Fauvillers",
+    "Martelange"
+  ],
+  "updatedAt": "2026-08-02"
+}

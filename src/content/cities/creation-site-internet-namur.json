@@ -1,0 +1,93 @@
+{
+  "slug": "creation-site-internet-namur",
+  "status": "published",
+  "city": "Namur",
+  "province": "Namur",
+  "region": "Wallonie",
+  "postalCodes": [
+    "5000",
+    "5001",
+    "5100",
+    "5020"
+  ],
+  "geo": {
+    "lat": 50.4674,
+    "lng": 4.8718
+  },
+  "intent": {
+    "service": "creation-site-web",
+    "primaryKeyword": "création site internet Namur",
+    "secondaryKeywords": [
+      "agence web Namur",
+      "création site web Namur",
+      "agence digitale Namur",
+      "refonte site internet Namur",
+      "site vitrine Namur"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet à Namur | Agence BEEW",
+    "description": "Agence web à Namur : sites vitrines, e-commerce et refontes pour PME, professions libérales et acteurs institutionnels. Devis fixe sous 48 h."
+  },
+  "hero": {
+    "h1": "Création de site internet à Namur",
+    "subtitle": "Capitale wallonne, marché mature, concurrence dense : à Namur, un site générique ne suffit plus. Nous travaillons le positionnement avant la maquette.",
+    "badges": [
+      "Devis fixe sous 48 h",
+      "100/100 PageSpeed",
+      "Agence indépendante"
+    ]
+  },
+  "localContext": {
+    "heading": "Namur : le marché web le plus mature de Wallonie, et le plus exigeant",
+    "body": "Namur cumule trois fonctions qui en font un cas à part. Capitale politique de la Wallonie, elle concentre l'administration régionale, les cabinets ministériels et un écosystème de fédérations, d'associations et de bureaux d'études qui gravitent autour. Ville universitaire, elle abrite une population étudiante importante et un tissu de jeunes entreprises de services. Pôle commercial enfin, avec un centre-ville dense et des zones périphériques très fréquentées. Pour une agence web, cela signifie une clientèle potentielle nombreuse mais aussi nettement plus avertie qu'ailleurs en Wallonie : beaucoup d'entreprises namuroises en sont à leur deuxième ou troisième site, elles ont déjà travaillé avec des prestataires et savent poser des questions précises sur la propriété du code, la maintenance ou le suivi analytique. La conséquence pratique est que la concurrence sur les recherches locales est la plus dense de la région, avec une dizaine d'agences installées qui se disputent les mêmes requêtes depuis des années. Se positionner ici demande une stratégie différente de celle qui fonctionne en province de Luxembourg : le contenu doit être plus spécialisé, la preuve plus solide, et le référencement soutenu par des signaux de notoriété réels plutôt que par la seule optimisation technique. Nous abordons donc les projets namurois par le positionnement avant la maquette, en identifiant l'angle sur lequel une entreprise peut légitimement être la première plutôt qu'en visant frontalement les requêtes les plus disputées. C'est plus lent au démarrage, et beaucoup plus solide dans la durée. Un dernier élément propre à Namur mérite d'être signalé : la proximité immédiate de l'administration régionale et des cabinets crée un marché de marchés publics et de commandes institutionnelles qui obéit à des règles entièrement différentes. Cahiers des charges formalisés, critères d'accessibilité obligatoires, procédures de validation longues et exigences de conformité documentaire. Une entreprise namuroise qui travaille avec ces acteurs a besoin d'un site qui parle leur langage, avec des références vérifiables et une transparence complète sur les méthodes employées.",
+    "highlights": [
+      "Triple pôle : administration régionale, université, commerce",
+      "Clientèle avertie, souvent à son deuxième ou troisième site",
+      "La concurrence sur les requêtes locales est la plus dense de Wallonie",
+      "Écosystème dense de fédérations, ASBL et bureaux d'études",
+      "Stratégie de niche plutôt qu'attaque frontale des requêtes génériques"
+    ]
+  },
+  "cases": [],
+  "testimonials": [],
+  "pricing": {
+    "from": 3200,
+    "currency": "EUR",
+    "note": "Projet namurois type : positionnement, design sur mesure et rédaction spécialisée. Le budget dépend du niveau de différenciation visé."
+  },
+  "faq": [
+    {
+      "question": "Pourquoi la concurrence web est-elle si forte à Namur ?",
+      "answer": "Parce que la ville concentre un volume d'entreprises important et qu'une dizaine d'agences y sont installées de longue date. Les requêtes génériques comme agence web Namur sont travaillées depuis des années par des acteurs bien référencés. C'est pourquoi nous privilégions pour nos clients namurois un positionnement de niche, sur lequel il est réaliste d'atteindre la première place, plutôt qu'une bataille frontale."
+    },
+    {
+      "question": "J'ai déjà eu deux sites qui n'ont rien donné, en quoi serez-vous différents ?",
+      "answer": "C'est une situation fréquente à Namur, où beaucoup d'entreprises en sont à leur troisième prestataire. Dans la majorité des cas, l'échec ne vient pas du design mais de l'absence de positionnement : le site dit la même chose que dix concurrents. Nous commençons donc par identifier ce qui vous rend réellement distinct, et nous ne dessinons rien avant que cette réponse soit claire."
+    },
+    {
+      "question": "Travaillez-vous avec des ASBL et des fédérations namuroises ?",
+      "answer": "Oui, c'est une part significative du tissu local. Ces structures ont des besoins particuliers : gouvernance à plusieurs voix, contenus institutionnels volumineux, obligations d'accessibilité et budgets encadrés. Nous adaptons le processus de validation en conséquence, avec des jalons clairs pour éviter les allers-retours interminables entre parties prenantes."
+    },
+    {
+      "question": "Le site m'appartient-il vraiment ?",
+      "answer": "Entièrement : code, contenus, nom de domaine et hébergement sont à votre nom, sans dépendance à notre agence. C'est une question que les entreprises namuroises posent presque systématiquement, souvent après une mauvaise expérience. Vous pouvez confier la maintenance à qui vous voulez, y compris à un autre prestataire, sans rien avoir à renégocier."
+    }
+  ],
+  "nearby": [
+    "creation-site-internet-dinant",
+    "creation-site-internet-wavre",
+    "creation-site-internet-rochefort"
+  ],
+  "coverage": [
+    "Namur",
+    "Jambes",
+    "Wépion",
+    "Gembloux",
+    "Andenne",
+    "Floreffe",
+    "Profondeville",
+    "Fosses-la-Ville"
+  ],
+  "updatedAt": "2026-08-02"
+}

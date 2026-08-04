@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "À propos — agence web en province de Luxembourg",
+    "description": "BEEW est une agence web indépendante installée en province de Luxembourg. Nos convictions, notre façon de travailler et notre zone d'intervention."
+  },
+  "hero": {
+    "h1": "Une agence web indépendante, ancrée en province de Luxembourg",
+    "intro": "BEEW conçoit des sites internet pour des indépendants, des PME et des commerces de Wallonie. Pas de sous-traitance, pas de gabarit revendu dix fois, pas de devis qui gonfle en cours de route : un interlocuteur unique, un prix arrêté à l'avance et un site qui vous appartient à la fin.",
+    "badges": [
+      "Agence indépendante",
+      "Province de Luxembourg",
+      "Aucune sous-traitance",
+      "Devis fixe"
+    ]
+  },
+  "histoire": {
+    "surtitre": "L'agence",
+    "titre": "Pourquoi BEEW travaille autrement",
+    "intro": "Une agence n'est pas jugée sur son portfolio mais sur ce qu'elle fait vivre à ses clients entre la signature et la mise en ligne. C'est de ce constat que vient notre façon de travailler.",
+    "paragraphes": [
+      "La plupart des entreprises que nous rencontrons ont déjà eu un site. Souvent deux. Et le récit se ressemble d'une fois à l'autre : un devis approximatif, des semaines sans nouvelles, une facture finale plus élevée que prévu, puis un site que l'on n'ose plus modifier soi-même parce que personne n'en a jamais remis les accès. Le problème n'est presque jamais technique. Il est contractuel, méthodologique et humain.",
+      "BEEW est née de cette observation, et non d'une envie de faire de beaux écrans. Un site internet professionnel est un outil commercial : il doit être trouvé par les bonnes personnes, charger vite sur un téléphone en zone rurale, expliquer clairement ce que vous vendez et donner envie de vous appeler. Tout le reste — les animations, les effets, les tendances graphiques — n'a de valeur que si ces quatre points sont déjà tenus.",
+      "Nous sommes installés en province de Luxembourg, dans un bassin économique que nous connaissons de l'intérieur. Un commerce arlonais qui vit du pouvoir d'achat frontalier n'a pas les mêmes enjeux qu'un hôtelier de Bastogne dont la saison se joue sur un tourisme international, ni qu'un artisan du plateau ardennais dont la clientèle se recrute dans un rayon de vingt kilomètres. Cette connaissance du terrain n'est pas un argument marketing : elle change concrètement les mots-clés visés, la langue du site et la structure des pages.",
+      "Nous restons volontairement une structure indépendante et de petite taille. C'est un choix, pas une étape transitoire. Il nous permet de ne rien sous-traiter, de tenir des délais courts et surtout de garantir que la personne venue au premier rendez-vous est celle qui construit le site et celle que vous rappelez six mois plus tard. Ce que nous perdons en volume, vous le gagnez en continuité.",
+      "Enfin, nous refusons deux pratiques répandues dans le métier : la facturation à l'heure, qui fait porter au client le risque d'une mauvaise estimation, et la dépendance technique, qui consiste à garder les accès pour verrouiller la maintenance. Chez nous le prix est fixe et le site vous appartient entièrement. Si vous décidez un jour de confier la suite à quelqu'un d'autre, tout est là, prêt à être transmis."
+    ],
+    "image": {
+      "src": "/images/misc/atelier.jpg",
+      "alt": "Poste de travail dans l'atelier de l'agence BEEW"
+    }
+  },
+  "convictions": {
+    "surtitre": "Convictions",
+    "titre": "Six principes qui ne se négocient pas",
+    "intro": "Ces principes sont écrits noir sur blanc dans nos devis. Ils sont la raison pour laquelle nos projets se passent sans mauvaise surprise.",
+    "points": [
+      {
+        "titre": "Un prix arrêté avant de commencer",
+        "texte": "Le devis est forfaitaire et détaillé poste par poste. Aucune facturation à l'heure, aucune rallonge en cours de route. Si nous avons sous-estimé une tâche, c'est notre problème, pas le vôtre."
+      },
+      {
+        "titre": "Le site vous appartient, entièrement",
+        "texte": "Code, contenus, nom de domaine, hébergement et comptes analytiques sont créés à votre nom. Vous pouvez confier la maintenance à n'importe qui, sans rien renégocier ni redemander."
+      },
+      {
+        "titre": "Rien n'est sous-traité",
+        "texte": "Stratégie, design, développement et rédaction sont réalisés en interne. C'est ce qui nous permet de tenir quatre semaines de délai et de répondre nous-mêmes quand vous appelez."
+      },
+      {
+        "titre": "La vitesse avant la décoration",
+        "texte": "Un site lent perd une grande part de ses visiteurs avant même d'avoir affiché son premier titre, et Google le mesure aussi bien que vos clients le ressentent. Nous partons de là."
+      },
+      {
+        "titre": "Le référencement local dès la conception",
+        "texte": "Structure des pages, contenus et fiche Google Business Profile sont pensés ensemble, au moment du cadrage. Ajouter le référencement après coup coûte plus cher et rend moins."
+      },
+      {
+        "titre": "Un interlocuteur, du début à la fin",
+        "texte": "Pas de chef de projet intermédiaire ni de relais entre commercial et technique. Vous parlez toujours à la même personne, celle qui connaît votre dossier par cœur."
+      }
+    ]
+  },
+  "equipe": {
+    "surtitre": "L'équipe",
+    "titre": "Qui travaille réellement sur votre projet",
+    "intro": "Une petite structure, des rôles clairs. Vous savez à tout moment qui fait quoi et à qui vous adresser.",
+    "note": "Les prénoms, photos et parcours de l'équipe seront publiés sur cette page. Nous préférons une page incomplète à une page qui invente des personnes.",
+    "image": {
+      "src": "/images/misc/equipe.jpg",
+      "alt": "Séance de travail de l'équipe BEEW"
+    },
+    "roles": [
+      {
+        "role": "Cadrage et stratégie",
+        "texte": "Mène le premier rendez-vous, analyse votre marché et votre concurrence locale, définit le positionnement et les mots-clés visés, puis rédige le devis fixe."
+      },
+      {
+        "role": "Design et interface",
+        "texte": "Conçoit la maquette sur mesure, l'arborescence et les parcours de conversion. Aucun gabarit acheté : chaque projet part d'une page blanche et de votre identité."
+      },
+      {
+        "role": "Développement et performance",
+        "texte": "Intègre, optimise le temps de chargement, met en place l'hébergement, la sécurité et les sauvegardes, puis vous transmet l'intégralité des accès à la livraison."
+      },
+      {
+        "role": "Rédaction et référencement",
+        "texte": "Écrit les textes du site à partir de votre discours commercial réel, structure les balises et met en place la fiche Google Business Profile ainsi que le suivi des positions."
+      }
+    ]
+  },
+  "chiffres": {
+    "surtitre": "Nos engagements",
+    "titre": "Quatre chiffres que nous tenons",
+    "intro": "Ce ne sont pas des résultats commerciaux mais des engagements de service : ce que vous êtes en droit d'attendre de nous sur chaque projet.",
+    "items": [
+      {
+        "valeur": "4 semaines",
+        "label": "Délai moyen de mise en ligne"
+      },
+      {
+        "valeur": "100/100",
+        "label": "Score PageSpeed sur nos livraisons"
+      },
+      {
+        "valeur": "48 h",
+        "label": "Pour recevoir un devis fixe"
+      },
+      {
+        "valeur": "0",
+        "label": "Sous-traitance : tout est fait en interne"
+      }
+    ]
+  },
+  "zone": {
+    "surtitre": "Zone d'intervention",
+    "titre": "Où nous nous déplaçons",
+    "paragraphes": [
+      "Nous couvrons l'ensemble de la province de Luxembourg et, plus largement, la Wallonie. Le premier rendez-vous se fait chez vous, sur place, sans frais ni engagement : voir le lieu, les produits, l'atelier ou la salle d'attente dit souvent plus long qu'une heure d'entretien téléphonique.",
+      "Le projet se pilote ensuite à distance, avec un point d'avancement hebdomadaire et un environnement de test privé où vous suivez la construction du site page après page. Nous nous redéplaçons pour la formation à la prise en main, au moment de la mise en ligne."
+    ],
+    "communes": [
+      "Arlon",
+      "Bastogne",
+      "Libramont-Chevigny",
+      "Marche-en-Famenne",
+      "Neufchâteau",
+      "Virton",
+      "Saint-Hubert",
+      "Bouillon",
+      "Durbuy",
+      "Vielsalm"
+    ],
+    "lien": {
+      "href": "/zones-d-intervention",
+      "label": "Toutes nos zones d'intervention"
+    }
+  },
+  "faqEntete": {
+    "surtitre": "Questions fréquentes",
+    "titre": "Ce qu'on nous demande avant de travailler ensemble"
+  },
+  "faq": [
+    {
+      "question": "Êtes-vous une agence ou un indépendant ?",
+      "reponse": "Une structure volontairement petite, et nous préférons l'annoncer franchement plutôt que de laisser croire à une équipe de vingt personnes. Concrètement, vous parlez à la personne qui construit votre site, du premier rendez-vous à la mise en ligne, sans chef de projet intermédiaire qui transmet les messages. C'est plus rapide et moins cher, et c'est aussi la raison pour laquelle nous refusons certains projets : nous ne prenons que ce que nous pouvons livrer correctement dans les délais annoncés."
+    },
+    {
+      "question": "Pourquoi être installés en province de Luxembourg plutôt qu'à Bruxelles ?",
+      "reponse": "Parce que nos clients y sont, et parce que la structure de coûts n'a rien à voir. Une agence du centre de Bruxelles supporte des charges qui se répercutent mécaniquement sur ses tarifs, sans que le site livré soit meilleur pour autant. Travailler depuis l'Ardenne nous permet de proposer des budgets sensiblement plus mesurés à qualité d'exécution égale, tout en connaissant réellement le tissu économique wallon, ce qui change beaucoup de choses quand il faut écrire les textes d'un site."
+    },
+    {
+      "question": "Travaillez-vous uniquement en Wallonie ?",
+      "reponse": "C'est notre zone principale et celle que nous connaissons le mieux, mais rien n'empêche un projet ailleurs en Belgique ou au Grand-Duché. La différence tient au premier rendez-vous : nous nous déplaçons sans frais dans un rayon raisonnable, et nous passons en visioconférence au-delà. Le reste du projet se pilote exactement de la même façon, avec les mêmes jalons et le même environnement de test accessible en permanence."
+    },
+    {
+      "question": "À qui appartient le site une fois livré ?",
+      "reponse": "À vous, entièrement et sans réserve : le code, les contenus, le nom de domaine et l'hébergement sont à votre nom dès le départ. Vous pouvez confier la maintenance à un autre prestataire, reprendre la main vous-même ou déménager le site sans rien avoir à nous demander ni à renégocier. Nous considérons qu'un client qui reste doit rester parce qu'il le veut, pas parce qu'il est techniquement prisonnier de son prestataire."
+    },
+    {
+      "question": "Que se passe-t-il si le projet dérape ou si nous ne sommes pas d'accord ?",
+      "reponse": "Le devis est fixe et arrêté avant de commencer, ce qui supprime déjà la source de conflit la plus courante. Le projet avance ensuite par jalons validés : vous voyez l'architecture avant les maquettes, les maquettes avant le développement, et le site complet avant la mise en ligne. Si un désaccord apparaît, il apparaît au jalon concerné et se règle à ce moment-là, pas trois semaines plus tard quand tout a été construit par-dessus."
+    },
+    {
+      "question": "Pourquoi n'affichez-vous pas encore de réalisations ni d'avis clients ?",
+      "reponse": "Parce que nous refusons d'en inventer, et c'est un choix assumé plutôt qu'un oubli. La plupart des sites d'agence affichent des logos, des témoignages et des résultats chiffrés dont personne ne peut vérifier l'origine ; c'est une pratique commerciale déloyale au sens du droit belge, indépendamment de ce qu'en pense un moteur de recherche. Nos réalisations seront publiées ici au fur et à mesure, avec l'accord écrit des clients concernés et des chiffres vérifiables."
+    }
+  ],
+  "maillage": {
+    "surtitre": "Aller plus loin",
+    "titre": "La suite du site",
+    "intro": "Nos prestations, notre façon de travailler et nos prix, en détail.",
+    "liens": [
+      {
+        "href": "/creation-site-internet",
+        "label": "Création de site internet",
+        "texte": "Le site vitrine qui vous rend visible et qui convainc."
+      },
+      {
+        "href": "/refonte-site-internet",
+        "label": "Refonte de site internet",
+        "texte": "Repartir d'un site existant sans perdre votre référencement."
+      },
+      {
+        "href": "/referencement-seo",
+        "label": "Référencement naturel",
+        "texte": "Être trouvé sur les recherches qui déclenchent un appel."
+      },
+      {
+        "href": "/site-e-commerce",
+        "label": "Site e-commerce",
+        "texte": "Vendre en direct sans dépendre des places de marché."
+      },
+      {
+        "href": "/methode",
+        "label": "Notre méthode",
+        "texte": "Les quatre étapes d'un projet, délais compris."
+      },
+      {
+        "href": "/tarifs",
+        "label": "Nos tarifs",
+        "texte": "Les trois formules et ce qu'elles contiennent."
+      },
+      {
+        "href": "/realisations",
+        "label": "Nos réalisations",
+        "texte": "Ce que nous avons livré, avec les résultats obtenus."
+      },
+      {
+        "href": "/zones-d-intervention",
+        "label": "Zones d'intervention",
+        "texte": "Notre approche, commune par commune."
+      }
+    ]
+  },
+  "cta": {
+    "surtitre": "Parlons-en",
+    "titre": "Rencontrons-nous avant de parler budget",
+    "texte": "Premier rendez-vous sur place, sans frais ni engagement. Vous repartez avec un devis fixe sous 48 h, que vous nous confiiez le projet ou non.",
+    "bouton": {
+      "href": "/contact",
+      "label": "Réserver un appel"
+    }
+  }
+}

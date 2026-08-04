@@ -1,0 +1,205 @@
+{
+  "slug": "referencement-seo",
+  "intent": {
+    "primaryKeyword": "référencement naturel",
+    "secondaryKeywords": [
+      "agence SEO",
+      "référencement local",
+      "être visible sur Google",
+      "audit SEO",
+      "fiche Google Business Profile",
+      "positionnement mots-clés"
+    ]
+  },
+  "meta": {
+    "title": "Référencement naturel : agence SEO en Wallonie",
+    "description": "Agence SEO en province de Luxembourg : référencement naturel et local, audit chiffré, contenus et suivi mensuel. Aucune promesse de position, des chiffres."
+  },
+  "hero": {
+    "h1": "Référencement naturel : sortir sur les bonnes requêtes",
+    "subtitle": "Être premier sur le nom de son entreprise ne sert à rien : ceux qui le tapent vous connaissent déjà. Ce qui change le chiffre d'affaires, c'est d'apparaître quand un inconnu cherche votre métier près de chez lui. Nous travaillons ces requêtes-là, avec un tableau de bord que vous relisez chaque mois.",
+    "badges": [
+      "Audit chiffré avant tout engagement",
+      "Aucun engagement de durée",
+      "Rapport mensuel lisible"
+    ]
+  },
+  "problem": {
+    "heading": "Beaucoup d'entreprises paient pour du SEO sans jamais voir de chiffre",
+    "body": "Le référencement est le terrain où circulent le plus de promesses invérifiables. « Première page garantie », « 300 mots-clés optimisés », « soumission à 500 annuaires » : ces formules décrivent des actions, pas des résultats. Aucune agence ne contrôle l'algorithme de Google, et toute garantie de position est soit une méconnaissance du sujet, soit un argument de vente malhonnête. Nous ne promettons pas de rang. Nous nous engageons sur un plan de travail, un calendrier et des chiffres publiés chaque mois.\n\nLe deuxième piège est celui du volume. Se positionner sur une requête très large attire du trafic qui ne deviendra jamais client : quelqu'un qui cherche une définition ou un tutoriel n'a pas l'intention d'acheter. Pour une entreprise wallonne, dix visiteurs qui cherchent un artisan dans leur commune valent mieux que mille lecteurs venus de l'autre bout de la francophonie. Le choix des requêtes compte davantage que le nombre de pages produites.\n\nLe troisième problème est structurel. Un site dont les pages n'ont pas de sujet identifiable, dont les titres se ressemblent tous, dont les contenus se cannibalisent entre eux, ne peut pas être bien classé quel que soit l'effort investi ensuite. Il faut d'abord que chaque page réponde à une question précise, que le maillage interne indique clairement laquelle compte le plus, et que la fiche Google Business Profile corresponde à la réalité de votre implantation.",
+    "pains": [
+      {
+        "title": "Des rapports illisibles qui ne prouvent rien",
+        "description": "Des tableaux de cent lignes, des courbes de « visibilité » calculées par l'outil du prestataire, aucune mention du nombre de demandes reçues. Un rapport utile tient en une page et répond à une seule question : combien de contacts le site a-t-il générés ce mois-ci."
+      },
+      {
+        "title": "Du trafic qui n'achète jamais",
+        "description": "Se positionner sur des requêtes informatives gonfle les statistiques sans rien changer au carnet de commandes. Un visiteur qui cherche à faire lui-même ce que vous vendez ne deviendra pas client, quel que soit le nombre d'articles publiés pour l'attirer."
+      },
+      {
+        "title": "Une visibilité locale laissée de côté",
+        "description": "Beaucoup d'entreprises négligent leur fiche d'établissement, les avis et la cohérence de leurs coordonnées entre annuaires. Ce sont pourtant ces signaux qui décident de l'apparition dans le bloc de résultats cartographiques, souvent devant les liens classiques."
+      },
+      {
+        "title": "Un site que les moteurs comprennent mal",
+        "description": "Pages sans titre distinct, contenus qui se font concurrence entre eux, liens internes absents, temps de chargement élevé : tant que ces fondations ne sont pas saines, ajouter des textes revient à remplir un seau percé."
+      }
+    ]
+  },
+  "included": {
+    "heading": "Ce que couvre notre accompagnement",
+    "intro": "Un accompagnement en référencement se découpe en quatre chantiers, menés dans cet ordre parce que chacun conditionne l'efficacité du suivant.",
+    "items": [
+      {
+        "title": "Audit technique et sémantique",
+        "description": "Nous relevons ce qui empêche vos pages d'être correctement lues et classées : vitesse, structure des titres, pages en double, liens internes manquants, contenus qui se cannibalisent. Chaque point est chiffré en effort et en gain attendu."
+      },
+      {
+        "title": "Choix des requêtes",
+        "description": "Nous construisons la liste des recherches qui correspondent à une intention d'achat dans votre zone, avec leur volume et la difficulté réelle de s'y positionner. Nous écartons volontairement celles qui n'amèneraient que des curieux."
+      },
+      {
+        "title": "Optimisation des pages existantes",
+        "description": "Titres, sous-titres, textes, images et données structurées sont retravaillés page par page. Cette étape produit presque toujours les premiers effets, car elle exploite l'antériorité que vos pages possèdent déjà auprès des moteurs."
+      },
+      {
+        "title": "Visibilité locale",
+        "description": "Fiche d'établissement complétée et animée, cohérence des coordonnées entre les annuaires qui comptent en Belgique, collecte d'avis authentiques et pages dédiées aux communes que vous desservez réellement."
+      },
+      {
+        "title": "Production de contenus",
+        "description": "Nous rédigeons les pages qui manquent, une par intention de recherche, avec un angle utile plutôt qu'un texte écrit pour l'algorithme. Vous relisez et validez chaque publication avant qu'elle parte en ligne."
+      },
+      {
+        "title": "Mesure et rapport mensuel",
+        "description": "Positions suivies sur les requêtes retenues, visites depuis les moteurs, et surtout nombre de formulaires et d'appels générés. Le rapport tient sur une page et se lit en cinq minutes, sans jargon."
+      }
+    ]
+  },
+  "method": {
+    "heading": "Un plan de travail, pas une promesse de classement",
+    "intro": "Le référencement produit ses effets par paliers, entre trois et neuf mois selon la concurrence. Voici comment nous rendons cette progression visible plutôt que d'attendre le résultat en silence.",
+    "steps": [
+      {
+        "title": "Audit et état des lieux",
+        "duration": "1 à 2 semaines",
+        "description": "Nous mesurons votre situation de départ : positions actuelles, pages qui apportent déjà des visites, erreurs techniques, état de la fiche d'établissement et présence des concurrents directs sur les requêtes visées. Ce document est votre point zéro."
+      },
+      {
+        "title": "Plan de travail chiffré",
+        "duration": "sous 1 semaine",
+        "description": "Nous listons les actions par ordre de rapport entre effort et gain attendu, avec un calendrier trimestriel. Vous voyez ce qui sera fait, quand, et à quel moment il devient raisonnable d'espérer un mouvement sur telle requête."
+      },
+      {
+        "title": "Exécution par vagues",
+        "duration": "cycles mensuels",
+        "description": "Chaque mois traite un lot défini : corrections techniques, puis optimisation des pages existantes, puis création des pages manquantes. Vous validez les contenus avant publication et savez toujours sur quoi nous travaillons."
+      },
+      {
+        "title": "Mesure et réorientation",
+        "duration": "tous les mois",
+        "description": "Nous comparons les chiffres au point zéro, gardons ce qui fonctionne et abandonnons ce qui ne produit rien. Si une requête s'avère hors de portée, nous le disons et redirigeons l'effort plutôt que de le poursuivre par principe."
+      }
+    ]
+  },
+  "proof": {
+    "heading": "Des progressions vérifiables, pas des captures de classement",
+    "intro": "Une capture d'écran de position ne prouve rien : elle dépend du lieu, de l'appareil et de l'historique de recherche. Nous ne publierons ici que des évolutions confirmées par les données de nos clients.",
+    "cases": []
+  },
+  "pricing": {
+    "heading": "Ce que coûte le travail de référencement",
+    "label": "Référencement local, compris dans nos sites",
+    "from": 2400,
+    "currency": "EUR",
+    "pitch": "Le référencement local n'est pas une option chez nous : il est compris dans le forfait de création, qui démarre à 2 400 € hors TVA. Sur un site que nous n'avons pas construit, l'accompagnement se chiffre après l'audit.",
+    "includes": [
+      "Structure des pages et balises pensées pour les moteurs",
+      "Fiche Google Business Profile créée et paramétrée",
+      "Données structurées et plan de site déclarés",
+      "Suivi d'audience et mesure des demandes de contact",
+      "Une page par commune réellement desservie"
+    ],
+    "note": "Prix hors TVA. Pour un site existant, nous commençons toujours par un audit facturé séparément, dont le montant est déduit si vous poursuivez avec nous. L'accompagnement mensuel se chiffre ensuite selon le volume de travail retenu, sans engagement de durée : vous l'arrêtez quand vous le décidez. Nous ne vendons aucune garantie de position, parce qu'aucune agence n'est en mesure de la tenir."
+  },
+  "faq": [
+    {
+      "question": "En combien de temps le référencement naturel donne-t-il des résultats ?",
+      "answer": "Les premiers mouvements apparaissent généralement entre le troisième et le sixième mois, et se stabilisent vers le neuvième. L'optimisation de pages déjà indexées agit plus vite que la création de nouvelles pages, qui doivent d'abord être découvertes puis évaluées. Un secteur peu concurrentiel dans une commune rurale bouge plus rapidement qu'une requête disputée à l'échelle nationale. Quiconque annonce un résultat en quatre semaines vend autre chose que du référencement naturel."
+    },
+    {
+      "question": "Pouvez-vous garantir la première place sur Google ?",
+      "answer": "Non, et personne ne le peut honnêtement. Le classement dépend d'un algorithme privé, remanié plusieurs fois par an, et de concurrents qui travaillent eux aussi. Une agence qui garantit une position vous facture soit une requête sans concurrence que personne ne tape, soit une promesse qu'elle sait intenable. Nous nous engageons sur un plan de travail, un calendrier et la publication mensuelle des chiffres réels, ce qui est vérifiable."
+    },
+    {
+      "question": "Quelle différence entre référencement naturel et publicité payante ?",
+      "answer": "La publicité achète une visibilité immédiate qui disparaît le jour où le budget s'arrête. Le référencement naturel construit une position qui reste, mais demande plusieurs mois avant de produire ses effets. Les deux se complètent : la publicité couvre le démarrage et les périodes creuses, le référencement prend le relais et fait baisser le coût d'acquisition dans la durée. Nous ne gérons pas de campagnes publicitaires, mais nous vous disons quand elles ont du sens."
+    },
+    {
+      "question": "Faut-il un blog pour être bien référencé ?",
+      "answer": "Pas nécessairement. Un blog n'a d'intérêt que si vos clients cherchent réellement des informations avant d'acheter, et si vous pouvez tenir un rythme de publication. Pour un artisan ou un commerce local, des pages de service bien construites et une fiche d'établissement soignée produisent davantage qu'une série d'articles publiés puis abandonnés au bout de trois mois. Nous préférons cinq pages solides à trente billets sans lecteur."
+    },
+    {
+      "question": "Comment fonctionne le référencement local en province de Luxembourg ?",
+      "answer": "Il repose sur trois signaux : la proximité géographique entre l'internaute et votre établissement, la cohérence de vos coordonnées partout où elles apparaissent, et les avis reçus. À cela s'ajoutent des pages dédiées aux communes que vous desservez vraiment, écrites avec un contenu propre à chacune. Dupliquer une même page en remplaçant simplement le nom de la ville est contre-productif : les moteurs identifient ce procédé et le sanctionnent."
+    },
+    {
+      "question": "Puis-je arrêter l'accompagnement quand je veux ?",
+      "answer": "Oui. Nous ne pratiquons pas l'engagement de douze ou vingt-quatre mois. Le travail réalisé reste acquis : les optimisations, les contenus et la fiche d'établissement sont sur votre site et sur vos comptes, pas sur une plateforme qui vous serait retirée. Nous conseillons toutefois de tenir au moins six mois avant de juger, parce qu'un arrêt au troisième mois intervient précisément quand les effets commencent à se voir."
+    }
+  ],
+  "cta": {
+    "title": "Commencez par savoir où vous en êtes réellement",
+    "subtitle": "Nous mesurons vos positions actuelles, celles de vos concurrents directs et ce qui vous en sépare. Vous saurez si le jeu en vaut la chandelle avant d'engager le moindre euro de travail."
+  },
+  "links": {
+    "heading": "Les chantiers qui se combinent avec le SEO",
+    "intro": "Le référencement s'appuie sur un site sain. Selon l'état du vôtre, l'un de ces trois chantiers passe logiquement avant ou avec lui.",
+    "services": [
+      {
+        "href": "/creation-site-internet",
+        "label": "Création de site internet",
+        "description": "Vous n'avez pas encore de site ou celui-ci ne peut pas être optimisé : la visibilité se construit alors dès la conception."
+      },
+      {
+        "href": "/refonte-site-internet",
+        "label": "Refonte de site internet",
+        "description": "Le socle technique bloque toute progression : mieux vaut reconstruire proprement que d'optimiser un site qui ne peut plus suivre."
+      },
+      {
+        "href": "/site-e-commerce",
+        "label": "Site e-commerce",
+        "description": "Vendre en ligne implique un travail de référencement particulier sur les fiches produits, les catégories et les filtres."
+      },
+      {
+        "href": "/application-web",
+        "label": "Application web",
+        "description": "Structurer tout un processus métier dans un outil accessible par navigateur."
+      },
+      {
+        "href": "/outils-internes",
+        "label": "Outils internes",
+        "description": "Supprimer une tâche répétitive précise, sans toucher au reste de votre organisation."
+      }
+    ],
+    "pages": [
+      {
+        "href": "/tarifs",
+        "label": "Nos tarifs"
+      },
+      {
+        "href": "/realisations",
+        "label": "Nos réalisations"
+      },
+      {
+        "href": "/zones-d-intervention",
+        "label": "Nos zones d'intervention"
+      },
+      {
+        "href": "/contact",
+        "label": "Nous contacter"
+      }
+    ]
+  },
+  "updatedAt": "2026-08-02"
+}

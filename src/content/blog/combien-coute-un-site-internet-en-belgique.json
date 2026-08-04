@@ -1,0 +1,142 @@
+{
+  "slug": "combien-coute-un-site-internet-en-belgique",
+  "theme": "budget-et-projet",
+  "meta": {
+    "title": "Combien coûte un site internet en Belgique en 2026",
+    "description": "Fourchettes de prix réelles pour un site vitrine, une boutique en ligne ou un projet sur mesure en Belgique, et les postes que les devis oublient trop souvent."
+  },
+  "title": "Combien coûte un site internet en Belgique en 2026 ?",
+  "excerpt": "Entre le forfait à 500 € et le devis à 25 000 €, l'écart n'est pas du hasard : il vient de ce que chacun met derrière le mot « site ». Voici comment lire un budget web belge sans se faire surprendre.",
+  "publishedAt": "2026-03-11",
+  "updatedAt": "2026-08-02",
+  "image": "/images/blog/prix-site-internet-belgique.jpg",
+  "imageCredit": "Photographie d'illustration libre de droit",
+  "author": "L'équipe BEEW",
+  "body": [
+    {
+      "type": "paragraphe",
+      "texte": "C'est la première question posée en rendez-vous, et presque jamais celle à laquelle on peut répondre en une phrase. Un site internet n'est pas un produit standardisé : c'est un assemblage de décisions — combien de pages, qui écrit les textes, qui prend les photos, faut-il vendre en ligne, faut-il se connecter à un logiciel de gestion. Chacune de ces décisions déplace le budget de plusieurs centaines d'euros. Cet article détaille ce que recouvrent réellement les fourchettes que vous verrez circuler, pour que vous puissiez comparer deux devis belges sans comparer des choses différentes."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Ce que vous payez réellement",
+      "id": "ce-que-vous-payez"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Sur un projet de site vitrine, la part de développement pur représente rarement la moitié de la facture. Le reste se répartit entre le cadrage, le design, la rédaction, l'intégration des contenus, les tests et la mise en ligne. C'est contre-intuitif quand on achète pour la première fois : on croit payer du code, on paie surtout du temps de réflexion et de mise en forme. Un site dont les textes sont fournis par le client, structurés et relus, coûte mécaniquement moins cher qu'un site où l'agence doit tout écrire à partir d'un entretien d'une heure."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Le deuxième facteur, c'est le sur-mesure. Installer un thème WordPress acheté 60 € et y verser vos contenus est une opération de quelques jours. Dessiner une interface qui ne ressemble à aucune autre, la rendre lisible sur un écran de 360 pixels de large comme sur un 27 pouces, puis la faire tenir à 100/100 sur PageSpeed, c'est un autre métier et un autre budget. Aucune des deux approches n'est illégitime — mais présenter la première au prix de la seconde, si."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Les fourchettes observées sur le marché belge",
+      "id": "fourchettes-de-prix"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Les montants qui suivent sont ceux que nous croisons en province de Luxembourg et en Wallonie, dans les devis que nos prospects nous montrent et dans nos propres projets. Ce sont des ordres de grandeur constatés, hors TVA, et non une étude de marché : traitez-les comme un repère de négociation, pas comme une référence officielle."
+    },
+    {
+      "type": "titre",
+      "niveau": 3,
+      "texte": "Le site vitrine : 2 000 à 6 000 €",
+      "id": "prix-site-vitrine"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Cinq à dix pages, un design propre, un formulaire de contact, une fiche Google Business Profile correctement remplie et un référencement local de base. En dessous de 1 500 €, il faut regarder de très près ce qui est réellement livré : le plus souvent, un gabarit peu modifié, des textes génériques et aucune optimisation. Au-delà de 6 000 €, on quitte le site vitrine pour un projet éditorial ou multilingue. Chez BEEW, cette catégorie démarre à 2 400 € et inclut la rédaction des contenus, précisément parce que c'est le poste qui fait dérailler les plannings quand il est laissé au client."
+    },
+    {
+      "type": "titre",
+      "niveau": 3,
+      "texte": "La boutique en ligne : 4 000 à 15 000 €",
+      "id": "prix-e-commerce"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Le prix dépend beaucoup moins du nombre de produits que de la complexité des règles : déclinaisons, tarifs par quantité, TVA intracommunautaire, zones de livraison, retrait en magasin, connexion à une caisse ou à un logiciel de stock. Un catalogue de 40 références sans variante coûte moins cher qu'un catalogue de 10 références avec tailles, coloris et remises par palier. Ajoutez la rédaction des fiches produits, qui est le vrai chantier d'un e-commerce et que beaucoup de devis laissent silencieusement à votre charge."
+    },
+    {
+      "type": "titre",
+      "niveau": 3,
+      "texte": "Le projet sur mesure : à partir de 7 000 €",
+      "id": "prix-sur-mesure"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Espace client, configurateur, catalogue technique B2B, synchronisation avec un ERP. Ici, le chiffrage sérieux passe par une analyse fonctionnelle préalable, facturée ou non, qui liste les cas d'usage un par un. Un devis global sur ce type de projet, sans analyse, est un pari : soit l'agence a prévu large et vous payez son incertitude, soit elle a prévu court et l'avenant arrivera à mi-parcours."
+    },
+    {
+      "type": "encadre",
+      "titre": "Vous hésitez entre vitrine et sur-mesure ?",
+      "texte": "Notre page dédiée détaille ce qui est inclus dans une création de site internet, poste par poste, ainsi que le délai réel de chaque étape. C'est le meilleur point de départ pour cadrer votre budget avant même de nous parler.",
+      "lien": { "href": "/creation-site-internet", "label": "Voir l'offre création de site" }
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Les coûts que les devis oublient",
+      "id": "couts-oublies"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Un devis peut être sincère et incomplet. Les postes suivants existent dans tous les projets ; s'ils n'apparaissent nulle part, ils seront facturés plus tard ou simplement absents du résultat."
+    },
+    {
+      "type": "liste",
+      "ordonnee": false,
+      "items": [
+        "Le nom de domaine et l'hébergement, entre quelques dizaines et quelques centaines d'euros par an selon le type de site et le niveau de sauvegarde.",
+        "La maintenance : mises à jour du CMS et des extensions, correctifs de sécurité, surveillance. Un site laissé sans mise à jour pendant deux ans devient une porte ouverte.",
+        "Les contenus : photographies professionnelles, textes, traductions. Un reportage photo d'une demi-journée coûte souvent plus cher qu'une page supplémentaire.",
+        "Les licences tierces : extension de réservation, connecteur de paiement, module de facturation, souvent facturés à l'année.",
+        "La formation et l'autonomie. Si personne chez vous ne sait modifier une page, chaque virgule repassera par l'agence, à son tarif horaire."
+      ]
+    },
+    {
+      "type": "citation",
+      "texte": "Un site moins cher à l'achat qu'on ne peut pas mettre à jour soi-même coûte plus cher la deuxième année.",
+      "auteur": "Observation d'agence, BEEW"
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Comparer deux devis sans se tromper",
+      "id": "comparer-deux-devis"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Quand deux propositions affichent un écart du simple au triple, l'explication est presque toujours dans le périmètre, rarement dans la marge. Cinq questions suffisent à ramener les deux documents sur le même plan."
+    },
+    {
+      "type": "liste",
+      "ordonnee": true,
+      "items": [
+        "Qui écrit les textes, et combien de pages sont comprises dans le forfait ? C'est la première source d'écart entre deux devis.",
+        "Le design est-il dessiné pour vous ou s'agit-il d'un thème du commerce ? Demandez à voir trois réalisations récentes de l'agence et comparez-les entre elles.",
+        "Le prix est-il ferme ou indicatif ? Un devis fixe engage l'agence sur son estimation ; un tarif journalier vous fait porter le risque de dérapage.",
+        "À qui appartiennent le code, le domaine et les comptes à la fin ? Vous devez pouvoir partir avec l'ensemble, sans négociation.",
+        "Que se passe-t-il après la mise en ligne : combien de temps de support, à quel prix, avec quel délai d'intervention ?"
+      ]
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Un dernier repère, souvent plus parlant que le prix lui-même : demandez sur quels critères l'agence considérera le projet comme réussi. Si la réponse tient uniquement au respect du planning et au rendu graphique, personne ne s'est engagé sur le seul chiffre qui vous intéresse — le nombre de demandes que le site vous apportera. Un site à 3 000 € qui génère deux devis par mois est un investissement ; un site à 900 € que personne ne trouve est une dépense."
+    },
+    {
+      "type": "encadre",
+      "titre": "Un chiffre pour votre projet, pas une fourchette",
+      "texte": "Le premier rendez-vous se fait sur place, sans frais ni engagement. Vous repartez avec un périmètre écrit et un devis fixe sous 48 heures, que vous nous confiiez le projet ou non.",
+      "lien": { "href": "/contact", "label": "Réserver un premier rendez-vous" }
+    }
+  ],
+  "conclusion": {
+    "titre": "Ce qu'il faut retenir",
+    "texte": "Le prix d'un site internet en Belgique n'a de sens qu'associé à un périmètre écrit. Comptez 2 000 à 6 000 € pour une vitrine sérieuse, 4 000 à 15 000 € pour vendre en ligne, davantage dès qu'un logiciel métier entre dans l'équation. Ajoutez systématiquement l'hébergement, la maintenance et les contenus, qui n'apparaissent jamais dans le chiffre mis en avant. Et retenez le critère le plus simple : entre deux devis, choisissez celui dont vous comprenez chaque ligne."
+  }
+}

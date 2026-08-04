@@ -1,0 +1,213 @@
+{
+  "slug": "application-web",
+  "intent": {
+    "primaryKeyword": "création application web",
+    "secondaryKeywords": [
+      "développement application web sur mesure",
+      "application métier en ligne",
+      "portail client sécurisé",
+      "espace client sur mesure",
+      "développeur application web Belgique"
+    ]
+  },
+
+  "meta": {
+    "title": "Création d'application web sur mesure | BEEW",
+    "description": "Développement d'applications web métier : portails clients, espaces sécurisés, outils de gestion accessibles depuis un navigateur. Devis fixe, code livré."
+  },
+
+  "hero": {
+    "h1": "Création d'application web sur mesure",
+    "subtitle": "Quand un site vitrine ne suffit plus et qu'un logiciel du commerce ne colle pas à votre façon de travailler, il reste une troisième voie : une application accessible depuis n'importe quel navigateur, construite autour de vos processus réels.",
+    "badges": ["Cahier des charges inclus", "Code livré", "Hébergement européen"]
+  },
+
+  "problem": {
+    "heading": "Le tableur partagé a atteint ses limites, le logiciel du marché ne vous va pas",
+    "body": "La plupart des entreprises que nous rencontrons ne cherchent pas une application par goût de la technologie. Elles y arrivent parce qu'un tableur partagé est devenu le système nerveux de l'entreprise et que plus personne n'ose y toucher. Les formules se cassent, deux personnes écrasent leurs modifications, une version circule par e-mail pendant qu'une autre vit sur le serveur, et il devient impossible de savoir laquelle fait foi. Le jour où un client demande où en est son dossier, il faut ouvrir trois fichiers pour répondre.\n\nL'alternative évidente serait un logiciel du commerce. Le problème est qu'il impose sa logique. Vos étapes de production ne s'appellent pas comme les siennes, votre façon de facturer ne rentre pas dans ses cases, et vous finissez par payer un abonnement mensuel pour utiliser dix pour cent des fonctionnalités tout en contournant le reste avec des champs libres et des conventions internes que personne ne documente. Au bout de deux ans, le contournement est devenu le processus.\n\nUne application web sur mesure répond à un cas précis : quand votre façon de travailler est un avantage concurrentiel et non un défaut à corriger. Elle n'a de sens que si le gain est mesurable — du temps administratif récupéré, des erreurs de saisie supprimées, une information accessible en une recherche au lieu d'un appel téléphonique. Si ce gain n'existe pas, nous vous le disons avant de chiffrer quoi que ce soit, parce qu'un développement sur mesure mal justifié coûte plus cher qu'il ne rapporte.",
+    "pains": [
+      {
+        "title": "Personne ne sait quelle version fait foi",
+        "description": "Le fichier circule par e-mail, chacun travaille sur sa copie, et il faut une réunion pour reconstituer l'état réel du dossier."
+      },
+      {
+        "title": "L'information est vivante mais illisible",
+        "description": "Les données existent, dispersées entre plusieurs outils, sans qu'aucun ne donne la vue d'ensemble dont vous avez besoin pour décider."
+      },
+      {
+        "title": "Le logiciel du marché impose sa logique",
+        "description": "Vous payez chaque mois pour un outil que vous contournez avec des champs libres et des conventions internes non documentées."
+      },
+      {
+        "title": "Le temps administratif grignote la marge",
+        "description": "Ressaisir la même information à trois endroits différents représente chaque semaine des heures entières que personne ne facture jamais à un client, et qui n'apparaissent dans aucun tableau de bord."
+      },
+      {
+        "title": "Vos clients appellent pour savoir où ça en est",
+        "description": "Chaque appel de suivi mobilise quelqu'un chez vous pendant plusieurs minutes, alors qu'un espace en ligne accessible au client répondrait à la question sans aucune intervention de votre part."
+      }
+    ]
+  },
+
+  "included": {
+    "heading": "Ce que comprend le développement de votre application",
+    "intro": "Une application n'est pas une addition de fonctionnalités. Ce que nous livrons est un outil qui tourne, que vos équipes savent utiliser, et dont vous détenez le code source.",
+    "items": [
+      {
+        "title": "Analyse fonctionnelle préalable",
+        "description": "Nous cartographions votre processus réel avant d'écrire une ligne de code, avec les personnes qui l'exécutent au quotidien plutôt qu'avec l'organigramme."
+      },
+      {
+        "title": "Interface pensée pour un usage quotidien",
+        "description": "Un outil utilisé huit heures par jour ne se conçoit pas comme un site : les raccourcis, la densité d'information et la vitesse de saisie priment sur l'effet visuel."
+      },
+      {
+        "title": "Comptes, rôles et permissions",
+        "description": "Chaque profil ne voit que ce qui le concerne, avec un journal des actions qui permet de retracer qui a modifié quoi et quand."
+      },
+      {
+        "title": "Connexion à vos outils existants",
+        "description": "Facturation, comptabilité, messagerie ou logiciel métier : l'application s'y branche quand une interface le permet, plutôt que de créer un îlot de plus."
+      },
+      {
+        "title": "Hébergement européen et sauvegardes",
+        "description": "Vos données restent hébergées en Europe, avec des sauvegardes automatiques quotidiennes et une procédure de restauration que nous testons réellement plutôt que de la documenter sans jamais l'éprouver."
+      },
+      {
+        "title": "Formation et prise en main",
+        "description": "Nous formons vos équipes sur leurs propres dossiers plutôt que sur des données de démonstration, et nous restons joignables les premières semaines."
+      },
+      {
+        "title": "Code source et documentation",
+        "description": "Le dépôt vous appartient, commenté et documenté, pour qu'un autre prestataire puisse reprendre le travail sans vous tenir en otage."
+      }
+    ]
+  },
+
+  "method": {
+    "heading": "Comment se déroule un projet d'application",
+    "intro": "Un développement sur mesure échoue rarement sur la technique. Il échoue quand le besoin a été mal compris au départ, ou quand le client découvre le résultat trop tard pour le corriger.",
+    "steps": [
+      {
+        "title": "Atelier de cadrage",
+        "duration": "une demi-journée",
+        "description": "Nous observons votre processus en conditions réelles et nous listons ce qui doit exister dès la première version, ce qui peut attendre, et ce qui ne servira jamais."
+      },
+      {
+        "title": "Maquettes cliquables",
+        "duration": "1 à 2 semaines",
+        "description": "Vous manipulez l'interface dans votre navigateur avant même qu'elle soit développée. Corriger un écran à ce stade coûte une heure de travail, alors que le corriger après le développement en coûte vingt."
+      },
+      {
+        "title": "Développement par lots",
+        "duration": "6 à 12 semaines",
+        "description": "Nous livrons des blocs fonctionnels toutes les deux semaines sur un environnement de test, pour que vous voyiez l'outil grandir au lieu de le découvrir à la fin."
+      },
+      {
+        "title": "Reprise des données et bascule",
+        "duration": "1 à 2 semaines",
+        "description": "Nous migrons vos données existantes depuis vos fichiers actuels, faisons tourner l'ancien et le nouveau système en parallèle le temps que vous jugez nécessaire, puis nous basculons seulement quand vous êtes prêt."
+      },
+      {
+        "title": "Accompagnement post-lancement",
+        "duration": "en continu",
+        "description": "Les premières semaines révèlent toujours des ajustements d'usage. Nous les traitons au fil de l'eau plutôt que de les repousser à une hypothétique version deux."
+      }
+    ]
+  },
+
+  "proof": {
+    "heading": "Des outils en production, pas des démonstrations",
+    "intro": "Nous publierons ici les applications que nous avons livrées, avec le gain mesuré par le client lui-même. Tant que ces chiffres ne sont pas vérifiés et validés par lui, cette section reste vide.",
+    "cases": []
+  },
+
+  "pricing": {
+    "heading": "Ce que coûte une application web sur mesure",
+    "label": "Projet sur mesure",
+    "from": 7000,
+    "currency": "EUR",
+    "pitch": "Le prix dépend du nombre d'écrans, des rôles à gérer et des systèmes à connecter. Nous chiffrons après l'atelier de cadrage, jamais avant : un devis donné au téléphone serait une invention.",
+    "includes": [
+      "Atelier de cadrage et analyse fonctionnelle",
+      "Maquettes cliquables validées avant développement",
+      "Développement, tests et environnement de recette",
+      "Reprise des données existantes",
+      "Formation des équipes sur vos dossiers réels",
+      "Code source, documentation et accès d'administration"
+    ],
+    "note": "Prix hors TVA, au forfait. Le devis est établi après l'atelier de cadrage et n'évolue plus ensuite. L'hébergement et la maintenance font l'objet d'un contrat séparé, résiliable, dont le montant dépend de la charge réelle."
+  },
+
+  "faq": [
+    {
+      "question": "Quelle différence entre une application web et un site internet ?",
+      "answer": "Un site présente votre activité à des visiteurs qui ne vous connaissent pas encore. Une application web sert à faire un travail : gérer des dossiers, suivre une production, échanger avec des clients identifiés. Le premier se juge sur sa capacité à convaincre, la seconde sur le temps qu'elle fait gagner. Les deux se consultent dans un navigateur, mais tout le reste diffère — la conception, le développement, le budget et la manière de mesurer le résultat."
+    },
+    {
+      "question": "Faut-il vraiment développer sur mesure plutôt qu'acheter un logiciel ?",
+      "answer": "Dans la majorité des cas, non, et nous le disons. Si un logiciel existant couvre votre besoin à quatre-vingts pour cent, l'abonnement reste plus rentable qu'un développement. La création d'application web devient pertinente quand votre façon de travailler constitue un avantage face à vos concurrents, quand aucun outil du marché ne s'y plie, ou quand les contournements que vous avez mis en place coûtent déjà plus cher chaque année que le développement lui-même."
+    },
+    {
+      "question": "Combien de temps prend la création d'une application web ?",
+      "answer": "Comptez huit à seize semaines entre l'atelier de cadrage et la mise en production pour une première version utilisable. Ce délai dépend surtout de votre disponibilité pour valider les maquettes et tester les livraisons intermédiaires : c'est le facteur qui allonge le plus les projets, bien avant la complexité technique. Nous découpons en lots de deux semaines pour que l'avancement reste visible du début à la fin."
+    },
+    {
+      "question": "Que se passe-t-il si je veux changer de prestataire ensuite ?",
+      "answer": "Vous partez avec tout. Le code source est dans un dépôt à votre nom, documenté et commenté, l'hébergement est à votre nom, et la base de données vous appartient. Nous rédigeons une note de reprise qui explique l'architecture à un développeur qui découvrirait le projet. C'est une position inconfortable commercialement, et c'est précisément pour cela que nous la tenons : un client qui reste parce qu'il est prisonnier n'est pas un client satisfait."
+    },
+    {
+      "question": "Mes données seront-elles hébergées en Europe ?",
+      "answer": "Oui, systématiquement, sauf demande contraire explicite de votre part. L'hébergement se fait chez un fournisseur européen, avec des sauvegardes chiffrées et une procédure de restauration que nous testons réellement plutôt que de simplement la documenter. Si votre activité traite des données sensibles, nous en tenons compte dès l'analyse fonctionnelle et non au moment de la mise en ligne."
+    },
+    {
+      "question": "Peut-on démarrer petit et enrichir ensuite ?",
+      "answer": "C'est même la seule approche que nous recommandons. Une première version limitée à ce qui fait mal aujourd'hui se livre plus vite, coûte moins cher et se corrige à moindres frais. Les fonctionnalités qui paraissaient indispensables au démarrage se révèlent souvent inutiles une fois l'outil en usage, et d'autres apparaissent que personne n'avait anticipées. Construire tout d'un bloc revient à parier sur des besoins que vous ne connaissez pas encore."
+    }
+  ],
+
+  "cta": {
+    "title": "Décrivez-nous votre processus, on vous dira s'il faut développer",
+    "subtitle": "Premier rendez-vous sur place, sans frais ni engagement. Si un logiciel existant fait l'affaire, nous vous le dirons plutôt que de vous vendre un développement."
+  },
+
+  "links": {
+    "heading": "Les autres façons de travailler avec nous",
+    "intro": "Une application web se combine souvent avec un site public ou un outil interne. Voici les autres prestations que nous assurons, et les pages qui répondent aux questions les plus fréquentes.",
+    "services": [
+      {
+        "href": "/creation-site-internet",
+        "label": "Création de site internet",
+        "description": "Le site public qui présente votre activité et génère les demandes de contact."
+      },
+      {
+        "href": "/refonte-site-internet",
+        "label": "Refonte de site",
+        "description": "Reprendre un site existant sans perdre le référencement déjà acquis."
+      },
+      {
+        "href": "/referencement-seo",
+        "label": "Référencement naturel",
+        "description": "Être trouvé sur les recherches qui amènent des clients dans votre zone."
+      },
+      {
+        "href": "/site-e-commerce",
+        "label": "Site e-commerce",
+        "description": "Vendre en ligne en direct, sans dépendre des commissions des places de marché."
+      },
+      {
+        "href": "/outils-internes",
+        "label": "Outils internes",
+        "description": "Automatiser une tâche répétitive sans reconstruire tout votre système."
+      }
+    ],
+    "pages": [
+      { "href": "/tarifs", "label": "Tous nos tarifs" },
+      { "href": "/methode", "label": "Notre méthode en détail" },
+      { "href": "/realisations", "label": "Nos réalisations" },
+      { "href": "/contact", "label": "Nous contacter" }
+    ]
+  },
+
+  "updatedAt": "2026-08-02"
+}

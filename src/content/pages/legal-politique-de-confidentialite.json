@@ -1,0 +1,238 @@
+{
+  "slug": "politique-de-confidentialite",
+  "surtitre": "Vos données",
+  "h1": "Politique de confidentialité",
+  "meta": {
+    "title": "Politique de confidentialité — BEEW Agency",
+    "description": "Quelles données nous collectons, pourquoi, combien de temps nous les conservons, qui y accède et comment exercer vos droits au titre du RGPD chez BEEW."
+  },
+  "updatedAt": "2026-08-02",
+  "intro": "Cette politique explique quelles données personnelles sont collectées via ce site, pour quelles finalités, sur quelle base légale, combien de temps elles sont conservées et quels droits vous pouvez exercer. Elle est établie conformément au Règlement (UE) 2016/679 (RGPD) et à la loi belge du 30 juillet 2018 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel.",
+  "sections": [
+    {
+      "id": "responsable-du-traitement",
+      "titre": "Responsable du traitement",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Le responsable du traitement est l'entreprise qui détermine les finalités et les moyens des traitements décrits ci-dessous."
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "items": [
+            "Responsable du traitement : [À COMPLÉTER : dénomination sociale exacte du responsable du traitement]",
+            "Siège social : [À COMPLÉTER : adresse complète du siège social]",
+            "Numéro d'entreprise (BCE) : [À COMPLÉTER : numéro BCE]",
+            "Contact pour toute question relative aux données : hello@beew.agency",
+            "Délégué à la protection des données (DPO) : [À COMPLÉTER : nom et contact du DPO, ou mention « non désigné » si l'entreprise n'y est pas tenue]"
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La désignation d'un délégué à la protection des données n'est pas obligatoire pour toutes les entreprises. Lorsqu'aucun DPO n'est désigné, les demandes sont traitées directement par le responsable du traitement à l'adresse indiquée ci-dessus."
+        }
+      ]
+    },
+    {
+      "id": "donnees-collectees",
+      "titre": "Données collectées",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Nous ne collectons que les données nécessaires aux finalités décrites plus bas. Aucune donnée sensible au sens de l'article 9 du RGPD n'est demandée, et aucun profilage automatisé produisant des effets juridiques n'est réalisé."
+        },
+        {
+          "type": "titre",
+          "niveau": 3,
+          "texte": "Données que vous nous transmettez",
+          "id": "donnees-transmises"
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "items": [
+            "Identité et coordonnées saisies dans un formulaire : nom, adresse électronique, numéro de téléphone, nom de l'entreprise.",
+            "Contenu de votre message et informations relatives à votre projet que vous choisissez de nous communiquer.",
+            "Échanges ultérieurs par courrier électronique ou par téléphone dans le cadre du suivi de votre demande."
+          ]
+        },
+        {
+          "type": "titre",
+          "niveau": 3,
+          "texte": "Données collectées automatiquement",
+          "id": "donnees-automatiques"
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "items": [
+            "Données techniques de connexion enregistrées par l'hébergeur : adresse IP, date et heure de la requête, page demandée, type de navigateur.",
+            "Préférence d'affichage stockée localement dans votre navigateur : le cookie « beew_city » retient la dernière zone géographique consultée afin de vous proposer un raccourci vers celle-ci.",
+            "Statistiques de fréquentation, si un outil de mesure d'audience est activé : [À COMPLÉTER : nom de l'outil de mesure d'audience utilisé, ou mention « aucun outil de mesure d'audience n'est utilisé »]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finalites-et-bases-legales",
+      "titre": "Finalités et bases légales",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Chaque traitement poursuit une finalité déterminée et repose sur une base légale précise au sens de l'article 6 du RGPD."
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "items": [
+            "Répondre à une demande de contact ou de devis : exécution de mesures précontractuelles prises à votre demande (art. 6.1.b).",
+            "Exécuter et suivre une mission qui nous est confiée : exécution du contrat (art. 6.1.b).",
+            "Assurer la sécurité, la disponibilité et la maintenance du site : intérêt légitime à protéger notre infrastructure (art. 6.1.f).",
+            "Conserver les pièces comptables et les factures : respect d'une obligation légale (art. 6.1.c).",
+            "Mesurer l'audience du site au moyen de cookies non strictement nécessaires : votre consentement préalable (art. 6.1.a), révocable à tout moment."
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Vos données ne sont ni vendues, ni louées, ni échangées. Elles ne servent pas à de la prospection commerciale non sollicitée : aucune adresse recueillie via un formulaire n'est ajoutée à une liste de diffusion sans démarche explicite de votre part."
+        }
+      ]
+    },
+    {
+      "id": "duree-de-conservation",
+      "titre": "Durée de conservation",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Les données sont conservées le temps strictement nécessaire à la finalité poursuivie, puis supprimées ou archivées lorsque la loi l'impose."
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "items": [
+            "Demande de contact restée sans suite : [À COMPLÉTER : durée retenue, usuellement 12 à 24 mois] à compter du dernier échange.",
+            "Dossier client : pendant toute la durée de la relation contractuelle, puis pendant la durée de prescription applicable.",
+            "Pièces comptables et factures : dix ans, conformément à la législation comptable et fiscale belge.",
+            "Journaux techniques du serveur : [À COMPLÉTER : durée de conservation appliquée par l'hébergeur].",
+            "Cookies : durée précisée dans la section consacrée aux cookies, et au maximum treize mois pour les cookies de mesure d'audience."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "destinataires",
+      "titre": "Destinataires et sous-traitants",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "L'accès à vos données est limité aux personnes qui en ont besoin pour traiter votre demande. Certains prestataires techniques agissent comme sous-traitants au sens de l'article 28 du RGPD et sont liés par un contrat encadrant leurs obligations."
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "items": [
+            "Hébergeur du site et de la messagerie : [À COMPLÉTER : nom du ou des hébergeurs et prestataires de messagerie]",
+            "Outil de mesure d'audience, le cas échéant : [À COMPLÉTER : nom de l'outil et pays d'établissement]",
+            "Prestataire comptable et administrations, dans le cadre des obligations légales de l'entreprise."
+          ]
+        },
+        {
+          "type": "titre",
+          "niveau": 3,
+          "texte": "Transferts hors de l'Union européenne",
+          "id": "transferts-hors-ue"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Nous privilégions des prestataires établis dans l'Espace économique européen. Lorsqu'un transfert hors EEE est inévitable, il est encadré par une décision d'adéquation de la Commission européenne ou par les clauses contractuelles types. Situation actuelle : [À COMPLÉTER : liste des transferts hors EEE et garanties appliquées, ou mention « aucun transfert hors EEE »]."
+        }
+      ]
+    },
+    {
+      "id": "securite",
+      "titre": "Sécurité",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Les échanges avec ce site sont chiffrés par TLS. L'accès aux boîtes de réception et aux outils de gestion est protégé par des mots de passe distincts et par une authentification à deux facteurs lorsque le service le permet. Les sauvegardes sont réalisées à intervalles réguliers par l'hébergeur."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Aucune mesure ne peut garantir une sécurité absolue. En cas de violation de données susceptible d'engendrer un risque élevé pour vos droits et libertés, vous en seriez informé dans les conditions prévues à l'article 34 du RGPD, et l'Autorité de protection des données serait notifiée dans les 72 heures."
+        }
+      ]
+    },
+    {
+      "id": "vos-droits",
+      "titre": "Vos droits",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Le RGPD vous reconnaît une série de droits que vous pouvez exercer gratuitement, à tout moment, par simple demande à hello@beew.agency."
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "items": [
+            "Droit d'accès : obtenir la confirmation que vos données sont traitées et en recevoir une copie.",
+            "Droit de rectification : faire corriger une donnée inexacte ou compléter une donnée incomplète.",
+            "Droit à l'effacement : demander la suppression de vos données lorsque leur conservation n'est plus justifiée.",
+            "Droit à la limitation : demander le gel d'un traitement pendant la vérification d'une contestation.",
+            "Droit d'opposition : vous opposer à un traitement fondé sur notre intérêt légitime, pour des raisons tenant à votre situation particulière.",
+            "Droit à la portabilité : recevoir dans un format structuré les données que vous nous avez fournies.",
+            "Droit de retirer votre consentement à tout moment, sans que cela remette en cause la licéité du traitement effectué auparavant."
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Nous répondons dans un délai d'un mois à compter de la réception de la demande, prolongeable de deux mois en cas de demande complexe. Une preuve d'identité peut être demandée en cas de doute raisonnable sur l'identité du demandeur, et uniquement dans ce cas."
+        },
+        {
+          "type": "encadre",
+          "titre": "Introduire une réclamation",
+          "texte": "Si la réponse apportée ne vous satisfait pas, vous pouvez saisir l'Autorité de protection des données, rue de la Presse 35, 1000 Bruxelles (contact@apd-gba.be). Vous pouvez également introduire un recours devant les juridictions compétentes."
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "titre": "Cookies",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Un cookie est un petit fichier déposé sur votre appareil lors de la consultation d'un site. Conformément au livre XII du Code de droit économique et aux recommandations de l'Autorité de protection des données, seuls les cookies strictement nécessaires au fonctionnement du site peuvent être déposés sans votre consentement préalable."
+        },
+        {
+          "type": "titre",
+          "niveau": 3,
+          "texte": "Cookies utilisés sur ce site",
+          "id": "liste-des-cookies"
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "items": [
+            "beew_city — cookie fonctionnel, conservé douze mois, qui retient la dernière zone géographique consultée pour vous proposer un raccourci vers celle-ci. Il ne permet pas de vous identifier et n'est partagé avec personne.",
+            "Cookies de mesure d'audience : [À COMPLÉTER : liste des cookies analytiques, leur émetteur et leur durée de vie, ou mention « aucun cookie de mesure d'audience n'est déposé »]",
+            "Cookies publicitaires : aucun cookie publicitaire ni traceur de réseau social n'est déposé sur ce site."
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Vous pouvez à tout moment supprimer les cookies déjà déposés et paramétrer votre navigateur pour refuser les suivants. Le refus des cookies fonctionnels n'empêche pas la consultation du site : seule la mémorisation de vos préférences d'affichage est perdue."
+        }
+      ]
+    },
+    {
+      "id": "modifications",
+      "titre": "Modification de la présente politique",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette politique peut être adaptée pour tenir compte d'évolutions légales, techniques ou organisationnelles. La date de dernière mise à jour figure en tête de page. En cas de modification substantielle affectant vos droits, l'information vous sera fournie par un moyen approprié avant son entrée en vigueur."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "slug": "outils-internes",
+  "intent": {
+    "primaryKeyword": "outil interne sur mesure",
+    "secondaryKeywords": [
+      "automatisation tâches répétitives entreprise",
+      "tableau de bord interne",
+      "digitalisation processus PME",
+      "intranet sur mesure",
+      "petit logiciel métier Belgique"
+    ]
+  },
+
+  "meta": {
+    "title": "Outil interne sur mesure pour votre équipe | BEEW",
+    "description": "Automatisation, tableaux de bord et petits outils métier pour supprimer les tâches répétitives de vos équipes. Périmètre court, résultat mesurable, code livré."
+  },
+
+  "hero": {
+    "h1": "Outil interne sur mesure pour vos équipes",
+    "subtitle": "Toutes les entreprises ont une tâche que quelqu'un fait à la main chaque semaine parce que personne n'a eu le temps de l'automatiser. Un outil interne bien ciblé la supprime en quelques semaines, sans toucher au reste de votre organisation.",
+    "badges": ["Périmètre court", "Gain chiffré d'avance", "Code livré"]
+  },
+
+  "problem": {
+    "heading": "Ce que vous faites à la main coûte plus cher que vous ne le pensez",
+    "body": "Il y a dans chaque entreprise une opération que tout le monde subit sans jamais la remettre en cause. Recopier des commandes reçues par e-mail dans un tableur. Assembler chaque mois un rapport à partir de quatre exports différents. Renvoyer manuellement une confirmation qui pourrait partir toute seule. Vérifier une liste ligne par ligne parce qu'aucun contrôle automatique n'existe. Prise isolément, chacune de ces tâches ne pèse que quelques minutes. Multipliées par la fréquence et par le nombre de personnes concernées, elles finissent par représenter l'équivalent d'un mi-temps.\n\nCe coût reste invisible parce qu'il n'apparaît sur aucune facture. Il se cache dans des heures qui ne sont facturées à personne, dans des erreurs de recopie rattrapées en urgence, et dans le fait que la personne qui connaît la manipulation devient irremplaçable — jusqu'au jour où elle est absente. Le vrai risque n'est pas la lenteur, il est la dépendance à une routine que personne n'a écrite nulle part.\n\nUn outil interne se distingue d'un projet informatique classique par son périmètre. Il ne remplace pas votre organisation, il retire une friction précise. Il se conçoit en jours plutôt qu'en mois, se juge sur un chiffre simple — le temps récupéré chaque semaine — et doit être rentabilisé en moins d'un an, sinon il ne vaut pas la peine d'être construit. Nous refusons les projets pour lesquels ce calcul ne tient pas, parce qu'un outil que personne n'utilise coûte deux fois : le développement, puis le retour à la méthode précédente.",
+    "pains": [
+      {
+        "title": "Une manipulation hebdomadaire que personne ne remet en cause",
+        "description": "Elle prend vingt minutes, se répète cinquante-deux fois par an, et personne n'a jamais fait le calcul de ce qu'elle représente réellement."
+      },
+      {
+        "title": "Le savoir-faire tient dans une seule tête",
+        "description": "Une personne connaît la manipulation exacte et l'ordre des étapes. Son absence bloque une partie de l'activité, sans solution de repli."
+      },
+      {
+        "title": "Les erreurs de recopie se paient en aval",
+        "description": "Un chiffre mal reporté ne se voit pas tout de suite : il ressort à la facturation ou chez le client, quand la correction coûte le plus cher."
+      },
+      {
+        "title": "Les chiffres arrivent trop tard pour décider",
+        "description": "Le rapport mensuel demande une journée de préparation et parvient à la direction alors que la période concernée est déjà terminée."
+      },
+      {
+        "title": "Les outils du marché sont surdimensionnés",
+        "description": "Pour supprimer une friction précise, on vous propose une plateforme complète, un abonnement par utilisateur et trois mois de déploiement."
+      }
+    ]
+  },
+
+  "included": {
+    "heading": "Ce que comprend la création de votre outil",
+    "intro": "Un outil interne n'a d'intérêt que s'il est adopté. Nous livrons donc autant l'accompagnement au changement que le développement lui-même.",
+    "items": [
+      {
+        "title": "Chiffrage du gain avant de commencer",
+        "description": "Nous estimons ensemble le temps réellement consommé aujourd'hui et ce qui restera après. Si le calcul ne justifie pas le développement, nous ne le faisons pas."
+      },
+      {
+        "title": "Périmètre volontairement restreint",
+        "description": "Une friction à la fois. Un outil qui prétend tout résoudre met six mois à sortir et ne supprime finalement rien de concret."
+      },
+      {
+        "title": "Automatisation des tâches répétitives",
+        "description": "Import de fichiers, envois programmés, contrôles de cohérence et calculs récurrents s'exécutent seuls, à heure fixe ou au fil de l'eau, sans qu'aucune intervention humaine ne soit nécessaire."
+      },
+      {
+        "title": "Tableau de bord lisible par tous",
+        "description": "Les indicateurs qui comptent vraiment pour votre activité, à jour en permanence, consultables sans avoir à demander un export à quelqu'un."
+      },
+      {
+        "title": "Accès depuis le navigateur, sans installation",
+        "description": "Rien à installer sur les postes ni à mettre à jour poste par poste : un lien, un compte, et l'outil fonctionne y compris à distance."
+      },
+      {
+        "title": "Reprise de vos fichiers actuels",
+        "description": "Nous importons les tableurs et historiques existants pour que l'outil démarre avec vos données réelles et non avec une base vide."
+      },
+      {
+        "title": "Documentation écrite pour vos équipes",
+        "description": "Une procédure rédigée dans votre vocabulaire et non dans le nôtre, pour que la connaissance de l'outil cesse de reposer sur une seule personne et survive à son absence."
+      }
+    ]
+  },
+
+  "method": {
+    "heading": "Comment se construit un outil interne",
+    "intro": "Le principe est de sortir vite quelque chose d'utilisable, puis d'ajuster avec ceux qui s'en servent. Un outil parfait livré dans six mois vaut moins qu'un outil imparfait livré dans trois semaines.",
+    "steps": [
+      {
+        "title": "Observation sur le terrain",
+        "duration": "2 à 3 heures",
+        "description": "Nous regardons la tâche être exécutée réellement, par la personne qui la fait. Ce qu'on nous décrit en réunion diffère toujours de ce qui se passe à l'écran."
+      },
+      {
+        "title": "Calcul du gain et cadrage",
+        "duration": "sous 48 h",
+        "description": "Nous chiffrons ensemble le temps réellement récupéré chaque semaine, le coût du développement et le délai de rentabilité qui en découle. Vous décidez sur des nombres plutôt que sur une intuition."
+      },
+      {
+        "title": "Première version utilisable",
+        "duration": "2 à 4 semaines",
+        "description": "Nous livrons un outil qui traite le cas principal de bout en bout. Vos équipes s'en servent immédiatement sur des dossiers réels, pas sur des exemples."
+      },
+      {
+        "title": "Ajustements d'usage",
+        "duration": "2 semaines",
+        "description": "L'usage réel fait toujours apparaître des détails qu'aucun cahier des charges n'aurait pu anticiper. Nous les corrigeons pendant que l'outil est encore malléable, et non six mois après sa mise en service."
+      }
+    ]
+  },
+
+  "proof": {
+    "heading": "Le gain, mesuré chez le client",
+    "intro": "Un outil interne se juge sur un seul chiffre : le temps récupéré chaque semaine. Nous publierons ici ceux que nos clients ont constatés eux-mêmes, une fois ces mesures vérifiées avec eux.",
+    "cases": []
+  },
+
+  "pricing": {
+    "heading": "Ce que coûte un outil interne",
+    "label": "Outil ciblé",
+    "from": 3200,
+    "currency": "EUR",
+    "pitch": "Le budget dépend du nombre d'étapes à automatiser et des systèmes à interroger. Un outil qui supprime deux heures hebdomadaires se rembourse généralement en moins d'un an.",
+    "includes": [
+      "Observation de la tâche en conditions réelles",
+      "Chiffrage du gain et du délai de rentabilité",
+      "Développement et mise en service",
+      "Import de vos fichiers et historiques existants",
+      "Documentation rédigée pour vos équipes",
+      "Code source et accès d'administration"
+    ],
+    "note": "Prix hors TVA, au forfait, établi après l'observation sur le terrain. Si l'analyse montre qu'un outil existant fait déjà le travail, nous vous l'indiquons et la démarche s'arrête là, sans frais."
+  },
+
+  "faq": [
+    {
+      "question": "À partir de quand un outil interne sur mesure devient-il rentable ?",
+      "answer": "La règle que nous appliquons est simple : le développement doit être remboursé en moins d'un an par le temps qu'il libère. Concrètement, une tâche qui mobilise deux heures par semaine représente une centaine d'heures sur l'année, ce qui justifie généralement un outil ciblé. En dessous d'une heure hebdomadaire, le calcul ne tient plus et nous vous conseillons d'attendre ou de traiter le problème autrement."
+    },
+    {
+      "question": "Quelle différence avec une application web complète ?",
+      "answer": "Le périmètre, et donc le budget et le délai. Un outil interne retire une friction précise et se livre en quelques semaines. Une application web structure tout un processus, avec plusieurs rôles et plusieurs écrans, sur plusieurs mois. Beaucoup de nos clients commencent par un outil ciblé, mesurent le gain, puis élargissent seulement si le besoin le justifie — c'est plus prudent que de tout construire d'un bloc."
+    },
+    {
+      "question": "Et si mes équipes ne s'en servent pas ?",
+      "answer": "C'est le principal risque, bien avant la technique, et c'est pourquoi nous commençons par observer la tâche avec la personne qui l'exécute plutôt qu'avec sa hiérarchie. Un outil conçu depuis un bureau se heurte toujours à un détail du terrain que personne n'avait mentionné. Nous livrons ensuite une première version rapidement et nous l'ajustons pendant deux semaines d'usage réel, quand les corrections coûtent encore peu."
+    },
+    {
+      "question": "Peut-on connecter l'outil à notre logiciel de comptabilité ?",
+      "answer": "Quand ce logiciel expose une interface de programmation, oui, et c'est souvent là que se trouve le gain le plus important. Quand il n'en expose pas, nous passons par des imports et exports de fichiers automatisés : moins élégant, mais tout aussi efficace pour supprimer une ressaisie. Nous vérifions ce point pendant le cadrage, avant de chiffrer, pour éviter les mauvaises surprises."
+    },
+    {
+      "question": "Que devient l'outil si nous cessons de travailler ensemble ?",
+      "answer": "Il continue de fonctionner et il vous appartient. Le code est dans un dépôt à votre nom, l'hébergement est à votre nom, et la documentation permet à un autre développeur de reprendre la main. Nous n'utilisons pas de plateforme propriétaire qui rendrait l'outil inutilisable sans nous, précisément parce que ce type de dépendance est ce que nos clients viennent souvent corriger."
+    },
+    {
+      "question": "Faut-il former toute l'équipe ?",
+      "answer": "Rarement. Un outil interne bien conçu s'utilise sans formation par ceux qui connaissent déjà la tâche : il reprend leur vocabulaire et leur ordre d'exécution. Nous rédigeons malgré tout une procédure écrite, moins pour former que pour sortir la connaissance de la tête d'une seule personne. C'est la partie que les entreprises négligent le plus souvent, et celle qui coûte le plus cher le jour d'un départ."
+    }
+  ],
+
+  "cta": {
+    "title": "Quelle tâche vous fait perdre le plus de temps ?",
+    "subtitle": "Décrivez-la-nous et nous chiffrons ensemble ce qu'elle coûte réellement. Si un outil ne se rembourse pas en moins d'un an, nous vous le dirons franchement."
+  },
+
+  "links": {
+    "heading": "Les autres façons de travailler avec nous",
+    "intro": "Un outil interne s'accompagne souvent d'un site public ou d'une application plus large. Voici nos autres prestations et les pages qui répondent aux questions courantes.",
+    "services": [
+      {
+        "href": "/creation-site-internet",
+        "label": "Création de site internet",
+        "description": "Le site public qui présente votre activité et génère des demandes de contact."
+      },
+      {
+        "href": "/refonte-site-internet",
+        "label": "Refonte de site",
+        "description": "Moderniser un site vieillissant sans sacrifier le référencement acquis."
+      },
+      {
+        "href": "/referencement-seo",
+        "label": "Référencement naturel",
+        "description": "Apparaître sur les recherches qui amènent réellement des clients."
+      },
+      {
+        "href": "/site-e-commerce",
+        "label": "Site e-commerce",
+        "description": "Vendre en direct et réduire la part prélevée par les places de marché."
+      },
+      {
+        "href": "/application-web",
+        "label": "Application web",
+        "description": "Structurer tout un processus métier, avec des rôles et des espaces dédiés."
+      }
+    ],
+    "pages": [
+      { "href": "/tarifs", "label": "Tous nos tarifs" },
+      { "href": "/methode", "label": "Notre méthode en détail" },
+      { "href": "/realisations", "label": "Nos réalisations" },
+      { "href": "/contact", "label": "Nous contacter" }
+    ]
+  },
+
+  "updatedAt": "2026-08-02"
+}

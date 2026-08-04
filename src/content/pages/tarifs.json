@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "title": "Tarifs — site internet à partir de 2 400 € HTVA",
+    "description": "Site vitrine dès 2 400 € HTVA, boutique en ligne dès 4 000 €, projet sur mesure dès 7 000 €. Forfait, devis fixe et paiement en trois fois sans frais."
+  },
+  "note": "Prix hors TVA, en forfait. Le devis définitif est établi après le premier rendez-vous et n'évolue plus ensuite. Paiement en trois fois sans frais.",
+  "hero": {
+    "h1": "Ce que ça coûte, dit avant que vous le demandiez",
+    "intro": "Trois formules, trois prix de départ, un devis fixe établi après le premier rendez-vous. Nous travaillons exclusivement au forfait : aucune facturation à l'heure, aucun dépassement en cours de projet. Paiement en trois fois sans frais.",
+    "badges": ["Forfait", "Devis fixe", "Paiement en 3 fois", "Prix HTVA"]
+  },
+  "principe": {
+    "surtitre": "Le principe",
+    "titre": "Pourquoi nos prix sont écrits sur le site",
+    "paragraphes": [
+      "Peu d'agences affichent leurs tarifs. L'argument avancé est toujours le même : chaque projet est différent. C'est vrai, et c'est précisément pour cela qu'un prix de départ est utile. Il ne remplace pas un devis, mais il vous évite trois rendez-vous pour découvrir qu'on n'était pas dans le même ordre de grandeur.",
+      "Les montants ci-dessous sont des points de départ réels, hors TVA, correspondant à un projet complet et non à une version amputée destinée à faire baisser l'affichage. Un site vitrine à 2 400 € comprend le design sur mesure, la rédaction des textes, le référencement local et la formation : ce sont des postes que beaucoup facturent en supplément.",
+      "Le devis définitif est établi après le premier rendez-vous, une fois le périmètre connu. À partir de là, le prix est fixe. S'il s'avère que nous avons sous-estimé une tâche, c'est notre problème, pas le vôtre. Le seul cas d'avenant est une demande nouvelle de votre part, chiffrée et validée par écrit avant d'être réalisée.",
+      "Enfin, le paiement s'échelonne en trois fois sans frais : un tiers à la commande, un tiers à la validation de la maquette, un tiers à la mise en ligne. Aucun intérêt, aucun organisme de crédit, aucune condition cachée. Pour une jeune structure, cet étalement change souvent la faisabilité d'un projet plus que la remise que nous pourrions consentir sur le montant total."
+    ]
+  },
+  "formules": {
+    "surtitre": "Formules",
+    "titre": "Trois points de départ selon votre projet",
+    "intro": "Chaque formule est un forfait complet. Le prix indiqué correspond à un projet réellement livrable, pas à une base à laquelle il faudrait ajouter l'essentiel.",
+    "items": [
+      {
+        "nom": "Site vitrine",
+        "from": 2400,
+        "devise": "EUR",
+        "pour": "Indépendants, commerces, professions libérales, artisans.",
+        "pitch": "Pour être trouvé sur les recherches locales et convaincre les visiteurs de vous appeler.",
+        "inclus": [
+          "Design sur mesure, jamais de gabarit",
+          "Cinq à dix pages, structure pensée pour la conversion",
+          "Rédaction des contenus incluse",
+          "Référencement local et fiche Google Business Profile",
+          "Version mobile et optimisation du temps de chargement",
+          "Formulaire de contact et suivi des demandes",
+          "Formation à la prise en main, enregistrée",
+          "Mise en ligne en 4 semaines"
+        ],
+        "delai": "4 semaines",
+        "highlight": true
+      },
+      {
+        "nom": "Boutique en ligne",
+        "from": 4000,
+        "devise": "EUR",
+        "pour": "Commerces et producteurs qui veulent vendre en direct.",
+        "pitch": "Pour vendre sans dépendre des places de marché et de leurs commissions.",
+        "inclus": [
+          "Tout ce que contient la formule vitrine",
+          "Catalogue produits, variantes et gestion des stocks",
+          "Paiement sécurisé et calcul des frais d'expédition",
+          "Tunnel d'achat optimisé pour la conversion",
+          "Gestion des commandes et courriels automatiques",
+          "Suivi analytique du chiffre d'affaires",
+          "Formation à la gestion du catalogue"
+        ],
+        "delai": "6 à 10 semaines",
+        "highlight": false
+      },
+      {
+        "nom": "Projet sur mesure",
+        "from": 7000,
+        "devise": "EUR",
+        "pour": "PME, industriels, structures avec un logiciel métier.",
+        "pitch": "Pour un catalogue technique B2B, un espace client ou une intégration à votre système existant.",
+        "inclus": [
+          "Analyse fonctionnelle préalable, livrée par écrit",
+          "Connexion à votre ERP, CRM ou logiciel métier",
+          "Espaces protégés, comptes et rôles utilisateurs",
+          "Développement de fonctionnalités spécifiques",
+          "Environnement de test et recette structurée",
+          "Accompagnement au déploiement et à la reprise de données"
+        ],
+        "delai": "à partir de 8 semaines",
+        "highlight": false
+      }
+    ]
+  },
+  "perimetre": {
+    "surtitre": "Périmètre",
+    "titre": "Ce qui est compris, et ce qui ne l'est pas",
+    "intro": "La deuxième colonne est celle que les devis passent généralement sous silence. Nous préférons l'écrire : une prestation non incluse annoncée à l'avance ne surprend personne.",
+    "inclus": {
+      "titre": "Compris dans le prix",
+      "items": [
+        "Le rendez-vous de cadrage sur place et le devis, même sans suite",
+        "Le design sur mesure et deux séries de retours sur la maquette",
+        "La rédaction des textes du site à partir de votre discours",
+        "Le référencement local et la fiche Google Business Profile",
+        "L'optimisation des performances et de la version mobile",
+        "La configuration du nom de domaine et du certificat de sécurité",
+        "La mise en ligne, les redirections et l'envoi du plan de site",
+        "La transmission de tous les accès, à votre nom",
+        "La formation à la prise en main, enregistrée",
+        "Un mois de corrections après la mise en ligne"
+      ]
+    },
+    "exclus": {
+      "titre": "Non compris, et pourquoi",
+      "items": [
+        "L'hébergement et le nom de domaine annuels : ils sont souscrits à votre nom, chez le prestataire de votre choix, pour que vous en restiez propriétaire",
+        "Les photographies professionnelles et les vidéos : nous pouvons organiser la séance, elle est alors chiffrée à part",
+        "L'achat de polices ou d'illustrations sous licence payante, si vous en souhaitez de spécifiques",
+        "La traduction du site : elle est réalisée par un traducteur humain et facturée au volume réel",
+        "La publicité en ligne et les budgets Google Ads, qui sont payés directement par vous à la régie",
+        "La rédaction d'articles de blog après la livraison, proposée à la pièce ou en abonnement",
+        "Les évolutions fonctionnelles demandées après la mise en ligne, chiffrées au cas par cas",
+        "La reprise de données massive depuis un ancien système, évaluée après audit"
+      ]
+    }
+  },
+  "options": {
+    "surtitre": "Options",
+    "titre": "Ce que l'on peut ajouter",
+    "intro": "Chaque option est chiffrée dans le devis initial, avant le démarrage. Aucune n'apparaît en cours de projet ni sur une facture de fin.",
+    "items": [
+      {
+        "nom": "Accompagnement mensuel",
+        "texte": "Mises à jour techniques, sauvegardes, sécurité, suivi des positions et petites évolutions de contenu. Sans engagement de durée : vous l'arrêtez quand vous voulez, le site continue de fonctionner."
+      },
+      {
+        "nom": "Site multilingue",
+        "texte": "Version néerlandaise, anglaise ou allemande, avec le balisage technique qui permet à Google de servir la bonne langue au bon visiteur. Indispensable en zone frontalière et pour l'accueil touristique."
+      },
+      {
+        "nom": "Rédaction éditoriale",
+        "texte": "Articles de fond pensés pour la longue traîne, publiés à un rythme régulier. C'est ce qui fait progresser un site sur des recherches que la page d'accueil ne peut pas viser."
+      },
+      {
+        "nom": "Séance photo",
+        "texte": "Photographies de votre lieu, de votre équipe et de vos produits. Rien ne dessert plus un site local que des images de banque d'images qui pourraient être celles de n'importe qui."
+      },
+      {
+        "nom": "Réservation ou prise de rendez-vous",
+        "texte": "Agenda en ligne, créneaux, rappels automatiques et synchronisation avec votre calendrier. Utile dès que le téléphone devient le goulot d'étranglement de votre activité."
+      },
+      {
+        "nom": "Campagnes Google Ads",
+        "texte": "Création et pilotage des campagnes de recherche locale, avec un suivi séparé du budget publicitaire, que vous réglez directement à la régie. Aucun pourcentage caché sur vos dépenses."
+      }
+    ]
+  },
+  "faqEntete": {
+    "surtitre": "Questions de budget",
+    "titre": "Les objections que l'on nous oppose le plus souvent"
+  },
+  "faq": [
+    {
+      "question": "Pourquoi un prix fixe plutôt qu'un tarif horaire ?",
+      "reponse": "Parce qu'un tarif horaire fait porter au client le risque d'une mauvaise estimation, et qu'il rend impossible toute comparaison sérieuse entre deux propositions. Avec un forfait, vous savez ce que vous payez avant de commencer, et nous avons intérêt à travailler efficacement. Si une tâche prend deux fois plus de temps que prévu, cela ne change rien pour vous."
+    },
+    {
+      "question": "Que couvre exactement le prix de départ de 2 400 € ?",
+      "reponse": "Un site vitrine complet de cinq à dix pages : design sur mesure, rédaction des textes, référencement local, fiche Google Business Profile, version mobile, optimisation des performances, formulaire de contact, mise en ligne et formation à la prise en main. Ce n'est pas une base à compléter, mais un site réellement livrable et prêt à recevoir des visiteurs."
+    },
+    {
+      "question": "Y a-t-il des frais récurrents après la mise en ligne ?",
+      "reponse": "Seulement l'hébergement et le nom de domaine, souscrits à votre nom et payés directement au prestataire : comptez un ordre de grandeur modeste, comparable à un abonnement téléphonique mensuel. L'accompagnement mensuel est optionnel et sans engagement. Aucun abonnement obligatoire n'est nécessaire pour que le site reste en ligne."
+    },
+    {
+      "question": "Comment se déroule le paiement ?",
+      "reponse": "En trois fois sans frais : un tiers à la commande, un tiers à la validation de la maquette, un tiers à la mise en ligne. Aucun intérêt et aucun organisme de crédit n'intervient. Pour les projets sur mesure, l'échéancier suit les jalons fonctionnels et est détaillé dans le devis."
+    },
+    {
+      "question": "Que se passe-t-il si le projet change en cours de route ?",
+      "reponse": "Le périmètre décrit au devis reste au prix convenu. Si vous demandez une fonctionnalité nouvelle qui n'y figurait pas, elle fait l'objet d'un avenant chiffré et validé par écrit avant d'être réalisée. Vous êtes toujours libre de la reporter à plus tard : rien n'est engagé sans votre accord explicite."
+    },
+    {
+      "question": "Pourquoi certains proposent un site à quelques centaines d'euros ?",
+      "reponse": "Parce qu'il s'agit presque toujours d'un gabarit dupliqué, sans rédaction, sans référencement local et sans transmission des accès. Le prix d'affichage est bas mais le site reste invisible dans les résultats de recherche, et sa modification dépend du prestataire. Le coût réel apparaît deux ans plus tard, au moment de tout refaire."
+    },
+    {
+      "question": "Le devis est-il payant si je ne donne pas suite ?",
+      "reponse": "Non. Le rendez-vous de cadrage et le devis sont sans frais et sans engagement, y compris l'analyse de votre concurrence locale et la note de positionnement qui l'accompagne. Ce document vous appartient : vous pouvez le comparer, le faire relire ou le mettre en concurrence, sans aucune contrepartie."
+    }
+  ],
+  "maillage": {
+    "surtitre": "Aller plus loin",
+    "titre": "Situer votre projet",
+    "intro": "Le détail de chaque prestation, et la façon dont nous la menons.",
+    "liens": [
+      { "href": "/creation-site-internet", "label": "Création de site internet", "texte": "Ce que contient un site vitrine à partir de 2 400 € HTVA." },
+      { "href": "/refonte-site-internet", "label": "Refonte de site internet", "texte": "Le budget d'une refonte dépend surtout de l'existant." },
+      { "href": "/referencement-seo", "label": "Référencement naturel", "texte": "Inclus dès la conception, jamais vendu comme un supplément." },
+      { "href": "/site-e-commerce", "label": "Site e-commerce", "texte": "Ce qui explique l'écart de prix avec un site vitrine." },
+      { "href": "/methode", "label": "Notre méthode", "texte": "Comment le devis fixe est établi, et à quel moment." },
+      { "href": "/realisations", "label": "Nos réalisations", "texte": "Des projets livrés, avec leur résultat mesuré." },
+      { "href": "/a-propos", "label": "À propos de BEEW", "texte": "L'agence, ses convictions et ses engagements." },
+      { "href": "/zones-d-intervention", "label": "Zones d'intervention", "texte": "Le déplacement de cadrage est compris, partout." }
+    ]
+  },
+  "cta": {
+    "surtitre": "Parlons-en",
+    "titre": "Un devis fixe sous 48 h, sans engagement",
+    "texte": "Une heure sur place pour comprendre votre projet, puis un chiffrage détaillé poste par poste. Le document vous appartient, que vous nous confiiez le projet ou non.",
+    "bouton": { "href": "/contact", "label": "Réserver un appel" }
+  }
+}

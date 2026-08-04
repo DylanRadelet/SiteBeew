@@ -1,0 +1,205 @@
+{
+  "slug": "creation-site-internet",
+  "intent": {
+    "primaryKeyword": "création site internet",
+    "secondaryKeywords": [
+      "créer un site internet professionnel",
+      "agence web Belgique",
+      "site vitrine sur mesure",
+      "prix création site internet",
+      "site internet pour PME"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet | Agence web indépendante",
+    "description": "Création de site internet sur mesure pour indépendants et PME en province de Luxembourg. Devis fixe, mise en ligne en 4 semaines, dès 2 400 € HTVA."
+  },
+  "hero": {
+    "h1": "Création de site internet pour indépendants et PME",
+    "subtitle": "Nous concevons des sites vitrines qui répondent aux questions que vos clients se posent avant de vous appeler. Design dessiné pour votre activité, textes rédigés par nous, référencement local intégré dès la première maquette. Le prix est arrêté avant de commencer et le site vous appartient entièrement.",
+    "badges": [
+      "Dès 2 400 € HTVA",
+      "Mise en ligne en 4 semaines",
+      "Devis fixe sous 48 h"
+    ]
+  },
+  "problem": {
+    "heading": "Un site que personne ne trouve coûte plus cher qu'un site bien fait",
+    "body": "La plupart des entreprises que nous rencontrons possèdent déjà un site. Le problème est ailleurs. Il a été monté il y a sept ou huit ans sur un gabarit acheté quelques dizaines d'euros, il met plusieurs secondes à s'afficher sur un téléphone en 4G, il ne dit nulle part ce que vous faites précisément ni pour quel type de client, et plus personne dans l'entreprise ne sait comment y modifier une ligne. Il ne se positionne sur aucune requête, il ne déclenche aucun appel, et il finit par n'être qu'une ligne de dépense d'hébergement que l'on renouvelle sans oser la regarder.\n\nUn site vitrine n'est pas une plaquette commerciale transposée à l'écran. C'est le seul vendeur qui travaille la nuit, le dimanche et pendant vos congés. Pour tenir ce rôle, il doit s'afficher en moins de deux secondes sur une connexion mobile ordinaire, apparaître quand quelqu'un cherche votre métier dans votre région, faire comprendre en dix secondes à qui il s'adresse, puis transformer cette attention en un appel, un formulaire rempli ou une visite chez vous.\n\nTrois défauts reviennent presque systématiquement. Des textes écrits pour flatter l'entreprise plutôt que pour répondre aux interrogations concrètes de l'acheteur. Une architecture technique dans laquelle un moteur de recherche ne parvient pas à identifier le sujet de chaque page. Et l'absence totale de mesure : sans suivi, impossible de savoir quelle page amène des contacts et laquelle n'est lue par personne.",
+    "pains": [
+      {
+        "title": "Introuvable sur les recherches locales",
+        "description": "Vos concurrents sortent en premier sur les requêtes de votre métier dans votre commune, alors que vous travaillez mieux qu'eux. Sans structure de pages ni fiche Google Business Profile tenue à jour, le moteur n'a aucune raison de vous préférer."
+      },
+      {
+        "title": "Des visiteurs qui repartent en trois secondes",
+        "description": "Un chargement lent, un menu illisible sur mobile ou un texte qui commence par l'histoire de la société font fuir l'internaute avant le premier contact. Le trafic existe pourtant : il ne se transforme simplement jamais en demande."
+      },
+      {
+        "title": "Un contenu qui parle de vous, jamais de vos clients",
+        "description": "Les pages énumèrent des compétences au lieu de traiter les questions réelles : combien ça coûte, en combien de temps, pour quel type de projet, que se passe-t-il en cas de problème. Ces questions sont exactement celles tapées dans Google."
+      },
+      {
+        "title": "Aucun chiffre, donc aucune décision possible",
+        "description": "Sans mesure d'audience ni suivi des formulaires, vous ne savez pas d'où viennent vos demandes ni quelle page les provoque. Toute décision d'investissement se prend alors à l'intuition, ce qui revient à payer sans savoir pour quoi."
+      }
+    ]
+  },
+  "included": {
+    "heading": "Ce que comprend la création de votre site",
+    "intro": "Un forfait unique, sans option cachée ni supplément découvert en cours de route. Voici précisément ce que vous recevez pour le prix annoncé au devis.",
+    "items": [
+      {
+        "title": "Un design dessiné pour vous",
+        "description": "Aucun thème acheté ni gabarit recyclé d'un autre client. Les maquettes partent de votre activité, de vos photos et du vocabulaire de votre secteur. Vous validez les écrans principaux avant qu'une seule ligne de code soit écrite."
+      },
+      {
+        "title": "La rédaction des textes",
+        "description": "Nous écrivons l'ensemble des pages à partir de l'entretien de cadrage, puis vous les corrigez. Vous n'avez pas à fournir des contenus le soir après votre journée de travail, ce qui est la première cause de projet qui s'enlise."
+      },
+      {
+        "title": "Une base technique rapide",
+        "description": "Pages générées à l'avance et servies en statique, images redimensionnées et compressées automatiquement, aucun script publicitaire parasite. L'objectif est un affichage sous deux secondes sur un téléphone en réseau mobile ordinaire."
+      },
+      {
+        "title": "Le référencement local intégré",
+        "description": "Titres, balises, données structurées, plan du site et fiche Google Business Profile sont traités pendant la construction, pas ajoutés après coup. Chaque page vise une intention de recherche précise plutôt que d'être un fourre-tout."
+      },
+      {
+        "title": "Des formulaires qui qualifient",
+        "description": "Le formulaire de contact pose les deux ou trois questions qui vous permettent de trier un vrai projet d'une demande de curiosité, avant même de décrocher le téléphone. Chaque envoi est enregistré et mesuré."
+      },
+      {
+        "title": "La remise complète des accès",
+        "description": "Nom de domaine, hébergement, code source, statistiques et boîtes mail sont ouverts à votre nom et vous sont remis à la livraison, accompagnés d'une session de prise en main filmée pour modifier vos textes seul."
+      }
+    ]
+  },
+  "method": {
+    "heading": "De la première rencontre à la mise en ligne",
+    "intro": "Quatre étapes, un délai annoncé pour chacune, et une validation de votre part avant de passer à la suivante. Vous voyez le site se construire au lieu de le découvrir à la fin.",
+    "steps": [
+      {
+        "title": "Rendez-vous de cadrage",
+        "duration": "1 h, chez vous",
+        "description": "Nous venons comprendre votre activité, la clientèle que vous voulez attirer et les concurrents qui sortent devant vous aujourd'hui. Nous repartons avec vos photos, vos documents et la liste des questions que vos clients posent le plus souvent au téléphone."
+      },
+      {
+        "title": "Devis fixe et arborescence",
+        "duration": "sous 48 h",
+        "description": "Vous recevez un forfait détaillé poste par poste, l'arborescence des pages et les requêtes visées par chacune. Ce document sert de contrat : le montant ne bouge plus, et le périmètre non plus sans votre accord écrit."
+      },
+      {
+        "title": "Maquettes, rédaction et développement",
+        "duration": "3 à 4 semaines",
+        "description": "Vous validez d'abord deux ou trois écrans clés, puis les textes page par page, puis le site complet sur une adresse de test privée. Un point d'avancement hebdomadaire vous dit ce qui est fait, ce qui reste et ce qu'on attend de vous."
+      },
+      {
+        "title": "Mise en ligne et prise en main",
+        "duration": "1 journée, puis suivi",
+        "description": "Nous publions le site, déclarons les pages aux moteurs, branchons la mesure d'audience et vous formons à modifier vos contenus. Un mois plus tard, nous revenons vers vous avec les premiers chiffres réels de fréquentation."
+      }
+    ]
+  },
+  "proof": {
+    "heading": "Des sites livrés, pas des maquettes de concours",
+    "intro": "Nous ne publions ici que des projets réels, avec l'accord du client et un résultat qu'il peut confirmer lui-même. Retrouvez l'ensemble de nos réalisations sur la page dédiée.",
+    "cases": []
+  },
+  "pricing": {
+    "heading": "Combien coûte la création d'un site internet",
+    "label": "Site vitrine",
+    "from": 2400,
+    "currency": "EUR",
+    "pitch": "Le tarif de départ correspond à un site vitrine complet pour un indépendant ou un commerce : une dizaine de pages, la rédaction, le référencement local et la formation comprises.",
+    "includes": [
+      "Design sur mesure, jamais de gabarit acheté",
+      "Rédaction de l'ensemble des pages incluse",
+      "Référencement local et fiche Google Business Profile",
+      "Mesure d'audience et suivi des formulaires",
+      "Formation à la prise en main, en visioconférence ou sur place",
+      "Nom de domaine, hébergement et code à votre nom"
+    ],
+    "note": "Prix hors TVA, au forfait. Le montant définitif est arrêté après le rendez-vous de cadrage et n'évolue plus ensuite, sauf demande d'ajout de votre part. Paiement en trois fois sans frais. Un site multilingue ou un catalogue produit relèvent d'un autre budget, détaillé sur la page tarifs."
+  },
+  "faq": [
+    {
+      "question": "Quel est le prix d'une création de site internet en Belgique ?",
+      "answer": "Chez nous, un site vitrine professionnel démarre à 2 400 € hors TVA, rédaction et référencement local compris. Le budget dépend surtout du nombre de pages, du besoin de traduction et de la présence ou non d'un catalogue. Nous travaillons uniquement au forfait : le devis est établi après un rendez-vous gratuit et ne bouge plus. Vous ne recevrez jamais de facture horaire imprévue en fin de projet."
+    },
+    {
+      "question": "Combien de temps prend la création d'un site internet ?",
+      "answer": "Comptez quatre semaines entre la validation du devis et la mise en ligne d'un site vitrine, à condition que vous soyez disponible pour valider les jalons. Le facteur qui rallonge le plus souvent un projet n'est pas le développement mais l'attente de contenus. C'est précisément pour cela que nous rédigeons les textes nous-mêmes et que nous venons chercher vos photos lors du rendez-vous de cadrage."
+    },
+    {
+      "question": "Est-ce que je pourrai modifier mon site moi-même ensuite ?",
+      "answer": "Oui. Vous disposez d'une interface d'administration pour changer vos textes, vos photos, vos horaires et publier des actualités. La formation de prise en main est comprise dans le forfait et enregistrée, ce qui vous permet de la revoir ou de la transmettre à un collaborateur. Pour les modifications de structure, nous restons joignables sans obligation de contrat de maintenance."
+    },
+    {
+      "question": "À qui appartiennent le site et le nom de domaine après livraison ?",
+      "answer": "À vous, sans aucune ambiguïté. Le nom de domaine est déposé à votre nom ou à celui de votre société, l'hébergement est ouvert sur votre compte, et le code source vous est remis. Vous pouvez confier la suite à une autre agence du jour au lendemain sans rien renégocier avec nous. C'est un point sur lequel beaucoup de prestataires restent volontairement flous."
+    },
+    {
+      "question": "Faut-il un site internet quand on travaille surtout par bouche-à-oreille ?",
+      "answer": "Le bouche-à-oreille ne disparaît pas, il se déplace. Quand quelqu'un vous recommande, la personne tape votre nom dans Google avant de vous appeler. Ce qu'elle trouve à ce moment-là décide de la suite : un site clair confirme la recommandation, une page fantôme ou un profil Facebook abandonné la fragilise. Un site vitrine sert autant à convertir une recommandation qu'à capter des inconnus."
+    },
+    {
+      "question": "Travaillez-vous en dehors de la province de Luxembourg ?",
+      "answer": "Oui. Nous sommes installés en province de Luxembourg et le premier rendez-vous se fait sur place, sans frais ni engagement, dans toute la Wallonie. Au-delà, le cadrage se tient en visioconférence et le reste du projet se pilote à distance, avec les mêmes points hebdomadaires. Notre connaissance des bassins économiques wallons reste toutefois notre valeur ajoutée la plus concrète."
+    }
+  ],
+  "cta": {
+    "title": "Parlons de votre projet avant de parler de budget",
+    "subtitle": "Le premier rendez-vous se tient chez vous, dure environ une heure et ne coûte rien. Vous repartez avec un devis fixe sous 48 h, que vous nous confiiez le projet ou non."
+  },
+  "links": {
+    "heading": "Les autres façons de travailler avec nous",
+    "intro": "Si votre besoin ne correspond pas exactement à la création d'un site vitrine, ces trois pages détaillent nos autres prestations et la manière dont elles se combinent.",
+    "services": [
+      {
+        "href": "/refonte-site-internet",
+        "label": "Refonte de site internet",
+        "description": "Vous avez déjà un site mais il ne tient plus la route : voici comment le reprendre sans perdre le référencement acquis."
+      },
+      {
+        "href": "/referencement-seo",
+        "label": "Référencement naturel",
+        "description": "Un site existe déjà et fonctionne, mais il ne reçoit pas assez de visites qualifiées depuis les moteurs de recherche."
+      },
+      {
+        "href": "/site-e-commerce",
+        "label": "Site e-commerce",
+        "description": "Vous voulez vendre directement en ligne, gérer vos stocks et vos expéditions sans passer par une place de marché."
+      },
+      {
+        "href": "/application-web",
+        "label": "Application web",
+        "description": "Structurer tout un processus métier dans un outil accessible par navigateur."
+      },
+      {
+        "href": "/outils-internes",
+        "label": "Outils internes",
+        "description": "Supprimer une tâche répétitive précise, sans toucher au reste de votre organisation."
+      }
+    ],
+    "pages": [
+      {
+        "href": "/tarifs",
+        "label": "Nos tarifs"
+      },
+      {
+        "href": "/realisations",
+        "label": "Nos réalisations"
+      },
+      {
+        "href": "/methode",
+        "label": "Notre méthode"
+      },
+      {
+        "href": "/contact",
+        "label": "Nous contacter"
+      }
+    ]
+  },
+  "updatedAt": "2026-08-02"
+}

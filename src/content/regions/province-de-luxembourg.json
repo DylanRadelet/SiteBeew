@@ -1,0 +1,86 @@
+{
+  "slug": "province-de-luxembourg",
+  "level": "province",
+  "name": "Province de Luxembourg",
+  "shortName": "Luxembourg belge",
+  "aliases": ["province du Luxembourg", "Luxembourg (province)"],
+  "parent": { "slug": "wallonie", "name": "Wallonie" },
+  "cityProvince": "Luxembourg",
+
+  "meta": {
+    "title": "Création de site internet en province de Luxembourg",
+    "description": "Agence web en province de Luxembourg : sites pensés pour le travail frontalier, la filière bois, l'agroalimentaire et le tourisme ardennais. Devis en 48 h."
+  },
+
+  "hero": {
+    "h1": "Création de site internet en province de Luxembourg",
+    "subtitle": "La province la plus vaste et la moins peuplée du pays, avec une zone de chalandise qui se compte en dizaines de kilomètres et une frontière qui change tout.",
+    "badges": ["Ancrage local", "Sites multilingues", "Devis fixe sous 48 h"]
+  },
+
+  "economy": {
+    "heading": "Le territoire le plus étendu du pays, et le plus dépendant de sa frontière",
+    "body": "La province de Luxembourg est la plus vaste des dix provinces belges et, de loin, la moins densément peuplée. Ce seul fait commande tout le reste : ici, une zone de chalandise ne se mesure pas en quartiers mais en dizaines de kilomètres, et une entreprise de Neufchâteau se bat pour la même clientèle qu'une entreprise de Bertrix. Quarante-quatre communes, cinq arrondissements — Arlon, Bastogne, Marche-en-Famenne, Neufchâteau et Virton — et un chef-lieu, Arlon, posé à quelques kilomètres de la frontière du Grand-Duché. La dispersion de l'habitat a une conséquence directe sur la manière de travailler la visibilité : le référencement de proximité au sens strict, celui qui se joue sur quelques rues, n'a pas de sens sur ce territoire. Ce qui compte, c'est de couvrir un chapelet de communes et de villages, et d'être trouvé par des gens qui acceptent de faire trente minutes de route pour un bon prestataire.\n\nLe second déterminant, c'est le Grand-Duché. Des dizaines de milliers d'habitants de la province franchissent la frontière chaque jour pour travailler à Luxembourg-Ville et dans le sud du pays voisin. Cela crée une économie à deux vitesses. Au sud, autour d'Arlon, d'Aubange, de Messancy et d'Athus, les revenus des ménages et les prix de l'immobilier sont tirés vers le haut, les employeurs locaux peinent à recruter face aux salaires luxembourgeois, et les clients comparent spontanément ce qu'on leur propose à ce qui se fait de l'autre côté de la frontière. Un site bâclé ne passe pas ce test-là. Plus au nord, l'effet frontalier s'atténue et laisse la place à des filières très concrètes.\n\nLa forêt d'Ardenne alimente une chaîne du bois complète, de l'exploitation forestière aux scieries et à la seconde transformation. L'agriculture et l'élevage restent structurants : Libramont, nœud ferroviaire sur la ligne Bruxelles–Luxembourg, accueille chaque été la plus grande foire agricole du pays. Marche-en-Famenne concentre les parcs d'activités du nord de la province. Transinne héberge un pôle dédié aux applications spatiales, autour de l'Euro Space Center. Et le tourisme irrigue l'ensemble : la mémoire de la bataille des Ardennes à Bastogne, la vallée de la Semois et Bouillon, Orval, Durbuy et La Roche-en-Ardenne pour les séjours courts, la Gaume et son microclimat tout au sud. Ces clients-là ont des besoins que les autres n'ont pas : réservation en ligne, saisonnalité très marquée, et surtout des contenus en néerlandais, en anglais et souvent en allemand, parce que leur clientèle vient de Flandre, des Pays-Bas et de Rhénanie.\n\nEnfin, le développement économique du territoire est largement porté par son intercommunale, IDELUX, qui gère l'essentiel des parcs d'activités. C'est un repère utile pour nous : une entreprise qui s'implante dans un zoning de la province arrive souvent sans aucune présence en ligne, avec un besoin immédiat et un calendrier court. C'est exactement le type de projet que nous traitons le plus souvent ici, aux côtés des indépendants du bâtiment, des professions de santé et des hébergeurs touristiques.",
+    "highlights": [
+      "Zone de chalandise étendue : on cible des communes, pas des quartiers",
+      "Travail frontalier vers le Grand-Duché : exigence et pouvoir d'achat au sud",
+      "Filière bois et agroalimentaire au cœur de l'économie locale",
+      "Tourisme ardennais : réservation en ligne et contenus multilingues",
+      "Parcs d'activités gérés par l'intercommunale IDELUX",
+      "Recrutement difficile : le site sert aussi de marque employeur"
+    ]
+  },
+
+  "facts": [
+    { "label": "Superficie", "value": "La plus vaste des dix provinces belges" },
+    { "label": "Densité de population", "value": "La plus faible du pays" },
+    { "label": "Chef-lieu", "value": "Arlon" },
+    { "label": "Communes", "value": "44, réparties en 5 arrondissements" },
+    { "label": "Frontières", "value": "Grand-Duché de Luxembourg à l'est, France au sud" },
+    { "label": "Région", "value": "Wallonie" }
+  ],
+
+  "sectors": [
+    {
+      "name": "Services aux frontaliers",
+      "description": "Fiduciaires, courtiers, agences immobilières, professions de santé : une clientèle qui travaille au Grand-Duché, consulte tôt le matin ou tard le soir depuis son téléphone, et attend une prise de rendez-vous en ligne plutôt qu'un formulaire."
+    },
+    {
+      "name": "Bois, construction et artisanat",
+      "description": "De l'exploitation forestière aux charpentiers et aux entreprises générales, un secteur où le site sert autant à montrer des chantiers terminés qu'à recruter des ouvriers qualifiés que le Grand-Duché aspire en permanence."
+    },
+    {
+      "name": "Agriculture et agroalimentaire",
+      "description": "Élevage, circuits courts, transformation à la ferme : des producteurs qui vendent désormais en direct et pour qui la boutique en ligne, même modeste, change la structure des revenus sur une saison complète."
+    },
+    {
+      "name": "Tourisme et hébergement en Ardenne",
+      "description": "Gîtes, campings, restaurants et sites de visite dont l'activité se joue sur quelques mois. Ils ont besoin d'un moteur de réservation fiable, de photos qui tiennent la comparaison et de versions néerlandaise et anglaise."
+    },
+    {
+      "name": "Commerce et horeca de centre-ville",
+      "description": "Confrontés à l'évasion commerciale vers le Grand-Duché et vers les grands pôles voisins, ces commerçants jouent leur survie sur la visibilité locale immédiate et sur une fiche Google tenue à jour toute l'année."
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "Vous déplacez-vous partout en province de Luxembourg ?",
+      "answer": "Oui. C'est notre territoire de base et les distances y font partie du métier : nous nous rendons sur place pour le premier rendez-vous, d'Arlon à Marche-en-Famenne comme de Bouillon à Bastogne. Ce rendez-vous est sans frais ni engagement et sert à cadrer vos objectifs avant toute proposition chiffrée."
+    },
+    {
+      "question": "Faut-il un site multilingue quand on travaille en province de Luxembourg ?",
+      "answer": "Cela dépend de votre clientèle, pas d'un principe. Un hébergement touristique ardennais a presque toujours intérêt à proposer le néerlandais et l'anglais, parfois l'allemand. Un artisan qui travaille dans un rayon de trente kilomètres n'en a aucun besoin. Nous tranchons cette question au premier rendez-vous, chiffres de fréquentation à l'appui."
+    },
+    {
+      "question": "Comment se référencer quand les clients sont dispersés sur des dizaines de communes ?",
+      "answer": "En construisant une couverture explicite plutôt qu'en visant une seule ville. Concrètement : une page principale solide, des contenus qui nomment les communes réellement servies, une fiche Google Business Profile paramétrée sur la bonne zone de déplacement, et des pages locales dédiées là où le volume de recherche le justifie vraiment."
+    },
+    {
+      "question": "Vos clients de la province visent-ils aussi le marché luxembourgeois ?",
+      "answer": "Une partie d'entre eux, surtout au sud de la province. Nous structurons alors le site pour couvrir les deux zones : contenus adaptés aux deux publics, mentions légales conformes de chaque côté de la frontière, et référencement travaillé aussi bien sur les recherches belges que sur celles émises depuis le Grand-Duché."
+    }
+  ],
+
+  "updatedAt": "2026-08-02"
+}

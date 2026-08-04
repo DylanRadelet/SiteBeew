@@ -1,0 +1,93 @@
+{
+  "slug": "creation-site-internet-libramont-chevigny",
+  "status": "published",
+  "city": "Libramont-Chevigny",
+  "aliases": [
+    "Libramont"
+  ],
+  "province": "Luxembourg",
+  "region": "Wallonie",
+  "postalCodes": [
+    "6800"
+  ],
+  "geo": {
+    "lat": 49.9214,
+    "lng": 5.3789
+  },
+  "intent": {
+    "service": "creation-site-web",
+    "primaryKeyword": "création site internet Libramont",
+    "secondaryKeywords": [
+      "agence web Libramont",
+      "site internet Libramont-Chevigny",
+      "site web entreprise Ardenne",
+      "site catalogue B2B Luxembourg belge",
+      "webdesign Libramont"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet à Libramont | Agence BEEW",
+    "description": "Agence web à Libramont-Chevigny : sites B2B, catalogues techniques et outils de devis pour les PME agricoles, forestières et industrielles de l'Ardenne."
+  },
+  "hero": {
+    "h1": "Création de site internet à Libramont-Chevigny",
+    "subtitle": "Des sites conçus pour vendre à des professionnels exigeants : catalogues techniques, demandes de devis structurées et présentation claire d'un savoir-faire industriel.",
+    "badges": [
+      "Spécialistes B2B",
+      "Catalogues techniques",
+      "Devis sous 48 h"
+    ]
+  },
+  "localContext": {
+    "heading": "Libramont, capitale économique du plateau ardennais",
+    "body": "Libramont-Chevigny ne ressemble à aucune autre commune de la province. Sa position de nœud ferroviaire et autoroutier en a fait le point de convergence économique de tout le plateau, et la Foire de Libramont, premier salon agricole et forestier d'Europe en plein air, y concentre chaque été une audience professionnelle qui vient de toute la Belgique, de France et d'Allemagne. Cette identité façonne les besoins numériques des entreprises locales : ici, la cible n'est presque jamais le grand public, mais un acheteur professionnel qui compare des spécifications, des délais et des capacités de production. Un site vitrine généraliste ne suffit pas à ce public. Ce qu'attend un exploitant agricole, un entrepreneur forestier ou un responsable achats industriel, c'est un catalogue lisible avec des fiches techniques téléchargeables, des références de chantiers ou de machines, et un formulaire de demande de devis qui pose les bonnes questions dès le premier contact. Nous construisons ces sites autour du parcours réel de l'acheteur B2B, pas autour d'un carrousel d'images. Les zonings de Recogne et des environs concentrent par ailleurs des PME de mécanique, de transformation du bois et de construction dont les cycles de vente sont longs : le site doit alimenter la relation dans la durée, pas seulement générer un clic. La saisonnalité existe aussi, mais elle est commerciale plutôt que touristique. Le pic de la Foire, fin juillet, structure l'année entière : nous préparons avec nos clients libramontois les pages d'atterrissage, les catalogues et les dispositifs de collecte de contacts qui transforment trois jours de salon en pipeline exploitable sur douze mois.",
+    "highlights": [
+      "Économie B2B : agriculture, forêt, bois, mécanique, construction",
+      "Nœud logistique et ferroviaire du plateau ardennais",
+      "La Foire de Libramont structure le calendrier commercial",
+      "Cycles de vente longs : le site doit nourrir la relation",
+      "Besoin de catalogues et fiches techniques, pas de vitrines décoratives"
+    ]
+  },
+  "cases": [],
+  "testimonials": [],
+  "pricing": {
+    "from": 3200,
+    "currency": "EUR",
+    "note": "Site B2B avec catalogue structuré et formulaire de devis qualifié. Intégration à votre ERP ou CRM chiffrée séparément."
+  },
+  "faq": [
+    {
+      "question": "Vous occupez-vous des sites B2B pour les entreprises de Libramont ?",
+      "answer": "C'est notre spécialité sur cette zone. La quasi-totalité de nos clients libramontois vendent à des professionnels : machinisme, transformation du bois, construction, services agricoles. Nous concevons le site autour du parcours d'un acheteur professionnel, avec catalogue filtrable, documentation technique accessible et formulaire de devis qui qualifie la demande avant même qu'un commercial ne décroche."
+    },
+    {
+      "question": "Peut-on préparer une page dédiée à la Foire de Libramont ?",
+      "answer": "Oui, et nous le recommandons vivement à tous nos clients exposants. Nous mettons en place une page d'atterrissage réutilisable d'une édition à l'autre, avec les nouveautés présentées sur le stand, un système de prise de rendez-vous en amont et un dispositif de collecte de contacts pendant les trois jours. C'est ce qui transforme le salon en pipeline commercial plutôt qu'en simple opération d'image."
+    },
+    {
+      "question": "Mon site doit-il se connecter à mon logiciel de gestion ?",
+      "answer": "Dans beaucoup de cas, oui. Synchroniser un catalogue ou un stock à la main devient vite ingérable au-delà de quelques dizaines de références. Nous connectons le site à votre ERP ou à votre logiciel métier quand une interface le permet, ou nous mettons en place un import automatisé de fichiers. Cette intégration se chiffre séparément après analyse de votre système existant."
+    },
+    {
+      "question": "Intervenez-vous ailleurs que dans la commune de Libramont-Chevigny ?",
+      "answer": "Oui, nous couvrons tout le plateau ardennais depuis notre base en province de Luxembourg : Neufchâteau, Saint-Hubert, Bertrix, Vaux-sur-Sûre et les communes environnantes. Le premier rendez-vous se fait sur place, sans frais ni engagement, et la suite du projet se pilote à distance avec des points d'avancement réguliers."
+    }
+  ],
+  "nearby": [
+    "creation-site-internet-bastogne",
+    "creation-site-internet-arlon",
+    "creation-site-internet-bertrix",
+    "creation-site-internet-neufchateau"
+  ],
+  "coverage": [
+    "Libramont-Chevigny",
+    "Neufchâteau",
+    "Saint-Hubert",
+    "Bertrix",
+    "Sainte-Ode",
+    "Léglise",
+    "Recogne"
+  ],
+  "updatedAt": "2026-08-02"
+}

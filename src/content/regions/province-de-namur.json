@@ -1,0 +1,89 @@
+{
+  "slug": "province-de-namur",
+  "level": "province",
+  "name": "Province de Namur",
+  "shortName": "Namur",
+  "aliases": ["Namurois"],
+  "parent": { "slug": "wallonie", "name": "Wallonie" },
+
+  "meta": {
+    "title": "Création de site internet en province de Namur | BEEW",
+    "description": "Agence web en province de Namur : sites pour PME, professions libérales, ASBL et acteurs touristiques, de la capitale wallonne à la Haute-Meuse et à la Famenne."
+  },
+
+  "hero": {
+    "h1": "Création de site internet en province de Namur",
+    "subtitle": "Un chef-lieu institutionnel, une vallée mosane vivant du tourisme et un sud rural très étendu : trois clientèles qui ne se cherchent ni avec les mêmes mots, ni dans le même rayon.",
+    "badges": ["Chef-lieu régional", "Devis fixe sous 48 h", "Rendez-vous sur place"]
+  },
+
+  "economy": {
+    "heading": "Une province coupée en trois par la Meuse, l'administration et la campagne",
+    "body": "Namur porte une casquette que ne porte aucune autre province wallonne : elle héberge le Gouvernement et le Parlement de la Région, ainsi que l'essentiel de l'administration régionale. Cela produit un bassin d'emploi tertiaire et public dense, et surtout un écosystème périphérique que l'on sous-estime souvent — fédérations professionnelles, unions sectorielles, ASBL subventionnées, bureaux d'études, cabinets de consultance en marchés publics, organismes d'intérêt public. Ces structures forment une clientèle numérique très particulière. Elles ne cherchent pas à vendre : elles doivent informer, justifier, publier des rapports, respecter des obligations d'accessibilité renforcées et faire valider chaque page par plusieurs interlocuteurs. Un site conçu pour un commerçant ne fonctionne jamais dans ce contexte. Nous y travaillons d'abord sur la gouvernance éditoriale et sur l'autonomie de mise à jour, avant même de parler d'esthétique.\n\nÀ quelques kilomètres de là, la Haute-Meuse fonctionne selon une économie complètement opposée. De Profondeville à Hastière en passant par Dinant, Yvoir et Anhée, le tourisme fluvial, le patrimoine, le kayak sur la Lesse, les hébergements et l'horeca concentrent l'essentiel du chiffre d'affaires sur cinq à six mois. La clientèle y est massivement néerlandophone, avec un flux français et anglais notable. Le comportement d'achat est celui d'un visiteur déjà présent sur le territoire, téléphone en main, qui compare trois établissements en quatre minutes. Cela impose une hiérarchie de l'information inversée par rapport à un site d'entreprise classique : horaires, tarifs, réservation et localisation avant toute présentation. Une version néerlandaise n'est pas un supplément de confort, c'est une condition d'accès à une part majeure du marché.\n\nLe reste de la province — l'Entre-Sambre-et-Meuse autour de Philippeville et Couvin, la Famenne autour de Ciney et Rochefort, le Condroz namurois — relève d'une troisième réalité. Territoire étendu, faiblement peuplé, structuré par l'agriculture, l'agroalimentaire de transformation, la construction et l'artisanat. La concurrence en ligne y est très faible et les positions se prennent vite, mais les volumes de recherche sont modestes : la rentabilité d'un site s'y juge sur quelques dizaines de contacts qualifiés par an, pas sur un trafic. Gembloux fait figure d'exception avec sa faculté agronomique et l'écosystème agro-bio qui l'entoure. Andenne et Sambreville, elles, prolongent le sillon industriel et regardent davantage vers Liège et Charleroi que vers le chef-lieu. Une stratégie unique pour l'ensemble de la province serait donc une erreur de méthode : nous descendons systématiquement à l'échelle de la commune et du secteur. Un dernier point mérite d'être signalé, parce qu'il surprend souvent nos interlocuteurs : la province est traversée par des flux de main-d'œuvre et de clientèle qui ne suivent pas les frontières administratives. Beaucoup d'habitants du nord travaillent à Bruxelles, ceux de l'est regardent vers Liège, ceux du sud vers l'Ardenne. La zone de chalandise réelle d'une entreprise ne correspond donc presque jamais à son arrondissement, et c'est elle, pas la carte administrative, qui doit dicter le périmètre du référencement.",
+    "highlights": [
+      "Siège des institutions wallonnes : ASBL, fédérations et bureaux d'études nombreux",
+      "Haute-Meuse touristique : décision mobile, saisonnière et souvent néerlandophone",
+      "Sud rural très étendu, concurrence en ligne faible mais volumes modestes",
+      "Gembloux et son écosystème agronomique et agro-bio",
+      "Trois économies distinctes qui excluent toute stratégie provinciale unique"
+    ]
+  },
+
+  "facts": [
+    { "label": "Chef-lieu", "value": "Namur, siège du Gouvernement et du Parlement wallons" },
+    { "label": "Arrondissements", "value": "3 — Namur, Dinant, Philippeville" },
+    { "label": "Communes", "value": "38" },
+    { "label": "Axe touristique majeur", "value": "La vallée de la Meuse, de Profondeville à Hastière" },
+    { "label": "Pôle universitaire", "value": "UNamur et la faculté agronomique de Gembloux" }
+  ],
+
+  "sectors": [
+    {
+      "name": "ASBL, fédérations et secteur institutionnel",
+      "description": "Structures subventionnées et organisations professionnelles gravitant autour de l'administration régionale, avec des contenus volumineux, des obligations d'accessibilité et une validation à plusieurs voix qui allonge chaque décision."
+    },
+    {
+      "name": "Tourisme fluvial et hébergement",
+      "description": "Gîtes, campings, hôtels et prestataires d'activités de la vallée mosane, dont le site doit convertir un visiteur déjà sur place, sur mobile, souvent en néerlandais, et réduire la dépendance aux plateformes de réservation."
+    },
+    {
+      "name": "Horeca et commerce de centre-ville",
+      "description": "Restaurants, brasseries et boutiques du piétonnier namurois et des centres de Dinant ou Ciney, pour qui la fiche Google Business Profile pèse souvent plus lourd que le site lui-même dans l'acquisition réelle."
+    },
+    {
+      "name": "Agriculture, agroalimentaire et circuits courts",
+      "description": "Producteurs, transformateurs et distributeurs du Condroz, de la Famenne et de l'Entre-Sambre-et-Meuse, chez qui la vente directe en ligne et le retrait à la ferme restent des leviers largement inexploités."
+    },
+    {
+      "name": "Construction, artisanat et services techniques",
+      "description": "Entreprises de rénovation, installateurs et corps de métier couvrant un rayon de trente à quarante kilomètres, dont l'enjeu est la preuve visuelle du travail réalisé bien plus que le volume de trafic."
+    }
+  ],
+
+  "cityProvince": "Namur",
+
+  "faq": [
+    {
+      "question": "Faut-il un site en néerlandais pour une activité touristique en province de Namur ?",
+      "answer": "Pour tout ce qui touche à l'hébergement, à la restauration et aux activités de la vallée mosane, oui. La fréquentation néerlandophone y est considérable et une partie de ces visiteurs quitte un site qu'ils ne comprennent pas dans les premières secondes. Nous recommandons une vraie structure multilingue, avec des URL distinctes, plutôt qu'une traduction automatique qui abîme la crédibilité."
+    },
+    {
+      "question": "La concurrence web est-elle forte à Namur même ?",
+      "answer": "C'est la plus dense de Wallonie sur les requêtes génériques, avec une dizaine d'agences installées de longue date. Nous ne conseillons donc jamais à un nouveau site de les attaquer frontalement. La stratégie qui fonctionne consiste à viser un quartier, un secteur d'activité précis ou une spécialité sur laquelle il est réaliste d'occuper la première place en quelques mois."
+    },
+    {
+      "question": "Travaillez-vous avec les ASBL et les fédérations namuroises ?",
+      "answer": "Régulièrement, et ces projets ont leurs contraintes propres : contenus institutionnels volumineux, obligations d'accessibilité, budgets encadrés et gouvernance partagée entre plusieurs administrateurs. Nous adaptons le processus avec des jalons formalisés et une gestion de contenu autonome, pour éviter les allers-retours interminables entre parties prenantes et les frais de maintenance récurrents."
+    },
+    {
+      "question": "Mon entreprise est en zone rurale, dans l'Entre-Sambre-et-Meuse : un site est-il rentable ?",
+      "answer": "Oui, à condition de calibrer l'objectif. Les volumes de recherche y sont faibles mais la concurrence en ligne l'est encore plus, ce qui rend les premières positions accessibles rapidement. Le retour se mesure alors en dizaines de contacts qualifiés par an, ce qui suffit largement à rentabiliser un site vitrine pour un artisan ou un producteur."
+    },
+    {
+      "question": "Vous déplacez-vous en province de Namur pour un premier rendez-vous ?",
+      "answer": "Oui, sans frais ni engagement, que ce soit dans le Namurois, en Haute-Meuse, en Famenne ou dans l'Entre-Sambre-et-Meuse. Ce premier échange sert à comprendre votre activité, votre clientèle réelle et vos concurrents directs. Nous ne chiffrons rien avant d'avoir vu ce qui existe déjà et ce que vos concurrents font correctement."
+    }
+  ],
+
+  "updatedAt": "2026-08-04"
+}

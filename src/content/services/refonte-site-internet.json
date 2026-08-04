@@ -1,0 +1,201 @@
+{
+  "slug": "refonte-site-internet",
+  "intent": {
+    "primaryKeyword": "refonte de site internet",
+    "secondaryKeywords": [
+      "refaire son site internet",
+      "moderniser un site web",
+      "migration de site sans perte de référencement",
+      "refonte site vitrine PME",
+      "redirections 301 refonte"
+    ]
+  },
+  "meta": {
+    "title": "Refonte de site internet sans perdre son référencement",
+    "description": "Refonte de site internet pour PME wallonnes : design et socle technique repris, positions acquises préservées par un plan de redirections. Dès 2 900 € HTVA."
+  },
+  "hero": {
+    "h1": "Refonte de site internet, positions acquises conservées",
+    "subtitle": "Refaire un site est le moment où l'on perd le plus facilement ce qu'on a mis des années à construire. Une adresse qui change sans redirection, un texte raccourci parce qu'il paraissait long, une page supprimée parce que personne ne savait qu'elle recevait des visites : trois gestes anodins qui suffisent à effacer un référencement. Nous refondons en partant de ce que votre site actuel réussit déjà.",
+    "badges": [
+      "Dès 2 900 € HTVA",
+      "Plan de redirections 301 systématique",
+      "Positions suivies après mise en ligne"
+    ]
+  },
+  "problem": {
+    "heading": "Une refonte ratée coûte plus cher que l'ancien site qu'elle remplace",
+    "body": "La demande arrive presque toujours dans les mêmes termes : le site fait vieux, il n'est pas pratique sur téléphone, plus personne ne sait le modifier. Ces motifs sont légitimes, mais ils décrivent des symptômes. Le vrai risque d'une refonte n'est pas esthétique, il est comptable. Un site vieillissant, même laid, a généralement accumulé quelque chose de précieux : des adresses connues de Google, des pages positionnées sur des recherches précises, des liens reçus depuis d'autres sites, un historique. Cet actif est invisible sur la maquette, ce qui explique qu'on l'écrase si souvent sans s'en rendre compte. Nous voyons régulièrement des entreprises perdre une part importante de leur trafic naturel après une refonte pourtant livrée dans les règles de l'art graphique, simplement parce que personne n'a inventorié l'existant avant de le remplacer. La chute n'apparaît pas immédiatement : elle se manifeste six à dix semaines plus tard, quand le téléphone sonne moins, et il devient alors difficile de relier la cause à l'effet. Notre approche inverse l'ordre des opérations. Avant de dessiner quoi que ce soit, nous relevons ce que le site actuel produit réellement : quelles pages reçoivent des visites, sur quelles requêtes, quelles adresses reçoivent des liens externes, quels contenus amènent des demandes. Ce relevé devient le cahier des charges de la refonte. Ce qui fonctionne est conservé et amélioré ; ce qui ne sert à rien disparaît, mais en connaissance de cause et jamais par accident.",
+    "pains": [
+      {
+        "title": "Les adresses changent sans que personne ne l'ait prévu",
+        "description": "Un nouveau système de gestion réécrit les adresses à sa façon. Chaque ancienne adresse devient une page introuvable, et le référencement qu'elle portait disparaît avec elle faute de redirection déclarée."
+      },
+      {
+        "title": "Le contenu est raccourci parce qu'il paraissait trop long",
+        "description": "Les textes des anciennes pages sont souvent ce qui les faisait ressortir dans les recherches. Les résumer pour aérer la maquette revient à supprimer précisément ce qui attirait les visiteurs sur le site."
+      },
+      {
+        "title": "Personne ne sait quelles pages recevaient des visites",
+        "description": "Sans mesure préalable, l'arbitrage se fait à l'intuition. Des pages secondaires en apparence concentrent parfois l'essentiel des demandes entrantes, et personne ne s'en aperçoit avant de les avoir supprimées."
+      },
+      {
+        "title": "Le site est plus beau mais plus lent qu'avant",
+        "description": "Vidéos de fond, animations, polices multiples : une refonte alourdit facilement les temps de chargement. Sur une connexion mobile moyenne, chaque seconde supplémentaire fait partir une part mesurable des visiteurs."
+      },
+      {
+        "title": "La mise en ligne se fait un vendredi soir, sans filet",
+        "description": "Basculer sans période de recouvrement, sans environnement de test validé et sans possibilité de revenir en arrière transforme le moindre incident en urgence de week-end, avec une vitrine hors service."
+      }
+    ]
+  },
+  "included": {
+    "heading": "Ce que comprend une refonte chez nous",
+    "intro": "La partie visible est le nouveau site. La partie qui protège votre activité est l'inventaire de l'ancien et le plan de bascule, et c'est elle qui prend le plus de temps.",
+    "items": [
+      {
+        "title": "Inventaire complet du site actuel",
+        "description": "Relevé de toutes les adresses existantes, de leur trafic, de leurs positions et des liens externes reçus. Ce document sert de référence pendant tout le projet et vous reste acquis à la fin, quoi qu'il arrive ensuite."
+      },
+      {
+        "title": "Plan de redirections adresse par adresse",
+        "description": "Chaque ancienne adresse est associée à sa remplaçante par une redirection permanente. Les pages sans équivalent sont traitées une à une plutôt que renvoyées en bloc vers l'accueil, ce que Google interprète mal."
+      },
+      {
+        "title": "Reprise et réécriture des contenus",
+        "description": "Les textes qui fonctionnent sont conservés et enrichis, pas résumés. Les pages manquantes repérées pendant l'inventaire sont écrites. Rien n'est supprimé sans une raison explicite et validée avec vous."
+      },
+      {
+        "title": "Nouveau design dessiné pour votre activité",
+        "description": "Maquettes sur mesure, sans thème acheté ni gabarit recyclé, pensées d'abord pour l'écran de téléphone puisque c'est là que la majorité de vos visiteurs vous découvriront."
+      },
+      {
+        "title": "Socle technique reconstruit",
+        "description": "Chargement rapide, structure de titres cohérente, données structurées, plan de site et images compressées. Ce sont les fondations que l'ancien site n'avait généralement pas et qui plafonnaient sa progression."
+      },
+      {
+        "title": "Bascule accompagnée et réversible",
+        "description": "Mise en ligne à une heure creuse, avec l'ancien site conservé intact pendant trente jours. Si un problème sérieux apparaît, le retour en arrière prend quelques minutes et non plusieurs jours."
+      },
+      {
+        "title": "Surveillance des positions pendant trois mois",
+        "description": "Les redirections, les erreurs d'exploration et l'évolution des positions sont contrôlées chaque semaine après la bascule. C'est la période où un oubli se rattrape encore sans dommage durable."
+      }
+    ]
+  },
+  "method": {
+    "heading": "Comment se déroule une refonte",
+    "intro": "Quatre étapes, dont la première décide de tout le reste. Vous savez à chaque instant ce qui est en cours et ce qui a déjà été validé.",
+    "steps": [
+      {
+        "title": "Audit de l'existant",
+        "duration": "1 semaine",
+        "description": "Nous relevons les adresses, le trafic, les positions et les liens entrants du site actuel, et nous identifions ce qui doit absolument survivre à la refonte. Vous recevez ce document avant toute proposition de maquette, et il fixe le périmètre du projet."
+      },
+      {
+        "title": "Architecture et maquettes",
+        "duration": "2 semaines",
+        "description": "Nous établissons la nouvelle arborescence à partir de l'inventaire, puis nous dessinons les pages types sur écran de téléphone d'abord. Chaque page de l'ancien site reçoit à ce stade une destination, y compris celles qui vont disparaître."
+      },
+      {
+        "title": "Développement et reprise du contenu",
+        "duration": "2 à 3 semaines",
+        "description": "Le site est construit et les contenus repris, complétés ou réécrits selon ce que l'audit a montré. Vous suivez l'avancement sur une adresse de test privée, accessible en permanence et commentable page par page."
+      },
+      {
+        "title": "Bascule et surveillance",
+        "duration": "Le jour J, puis 3 mois",
+        "description": "Redirections activées, plan de site soumis, exploration vérifiée. Nous contrôlons ensuite chaque semaine les erreurs et les positions pendant un trimestre, et nous corrigeons ce qui doit l'être sans supplément."
+      }
+    ]
+  },
+  "proof": {
+    "heading": "Des refontes que nous pouvons documenter",
+    "intro": "Nous préférons une page vide à une preuve inventée. Les refontes menées seront publiées ici une fois l'accord du client obtenu et les chiffres vérifiés.",
+    "cases": []
+  },
+  "pricing": {
+    "heading": "Combien coûte une refonte de site internet",
+    "label": "Refonte de site internet",
+    "from": 2900,
+    "currency": "EUR",
+    "pitch": "Le tarif de départ correspond à la refonte complète d'un site vitrine d'une dizaine de pages, audit de l'existant, plan de redirections et surveillance des positions compris.",
+    "includes": [
+      "Audit complet du site actuel, document remis",
+      "Plan de redirections permanentes adresse par adresse",
+      "Design sur mesure, pensé d'abord pour le téléphone",
+      "Reprise, enrichissement et réécriture des contenus",
+      "Bascule réversible, ancien site conservé trente jours",
+      "Surveillance des positions pendant trois mois"
+    ],
+    "note": "Prix hors TVA, au forfait. Le budget dépend surtout du volume de pages existantes à inventorier et à rediriger : un site de trois cents pages demande un travail de cartographie sans rapport avec celui d'un site de dix pages. Nous chiffrons après avoir vu l'existant, jamais avant."
+  },
+  "faq": [
+    {
+      "question": "Vais-je perdre mon référencement pendant la refonte de mon site internet ?",
+      "answer": "Pas si les redirections sont établies page par page avant la bascule. Une baisse légère et temporaire pendant deux à quatre semaines est normale, le temps que Google réexplore les nouvelles adresses. Une chute durable, en revanche, signale toujours un oubli technique : adresses non redirigées, contenu amputé ou blocage d'exploration. C'est exactement ce que la surveillance des trois premiers mois sert à rattraper."
+    },
+    {
+      "question": "Combien de temps prend une refonte de site internet ?",
+      "answer": "Comptez cinq à six semaines pour un site vitrine d'une dizaine de pages, à partir du moment où l'audit est validé. Les projets plus volumineux dépendent moins du développement que de la reprise des contenus : c'est presque toujours l'étape qui allonge le calendrier, parce qu'elle demande des arbitrages de votre côté sur ce qui doit être conservé, corrigé ou abandonné."
+    },
+    {
+      "question": "Faut-il refaire le site ou seulement le moderniser ?",
+      "answer": "La question mérite d'être posée avant de dépenser quoi que ce soit, et nous la posons systématiquement. Si le socle technique tient, qu'il reste maintenable et que les contenus sont bons, une reprise du design et une remise à niveau technique coûtent nettement moins cher qu'une reconstruction. L'audit tranche cette question en une semaine, et il arrive qu'il conclue qu'une reconstruction complète ne se justifie pas."
+    },
+    {
+      "question": "Puis-je garder mon nom de domaine et mes adresses e-mail ?",
+      "answer": "Oui, et c'est même vivement recommandé. Le nom de domaine porte l'essentiel de l'ancienneté et de la réputation accumulées : en changer sans nécessité absolue revient à repartir de zéro. Les boîtes e-mail continuent de fonctionner pendant toute l'opération, la bascule ne touchant que l'hébergement des pages. Vous restez propriétaire du domaine à votre nom, comme auparavant."
+    },
+    {
+      "question": "Que deviennent les pages que nous décidons de supprimer ?",
+      "answer": "Chacune est traitée individuellement. Si une page équivalente existe dans le nouveau site, elle reçoit une redirection permanente vers celle-ci. S'il n'y a pas d'équivalent réel, nous préférons une page d'erreur soignée qui propose des alternatives plutôt qu'une redirection forcée vers l'accueil : Google considère ces renvois abusifs comme des erreurs déguisées et finit par les traiter comme telles."
+    },
+    {
+      "question": "Pourrai-je modifier le site moi-même après l'opération ?",
+      "answer": "Oui. C'est même l'un des motifs les plus fréquents que nous entendons : plus personne dans l'entreprise ne sait ou n'ose toucher à l'ancien site. Nous livrons une interface de gestion sur laquelle votre équipe est formée, avec une documentation écrite. Vous pouvez modifier les textes, les images et les pages sans nous solliciter, et sans risquer de casser la mise en page."
+    }
+  ],
+  "cta": {
+    "title": "Faites auditer votre site actuel avant de décider quoi que ce soit",
+    "subtitle": "Nous regardons ce que votre site produit réellement aujourd'hui et nous vous disons franchement s'il faut le reconstruire, le remettre à niveau ou n'y toucher qu'à la marge."
+  },
+  "links": {
+    "heading": "Les autres réponses possibles à votre situation",
+    "intro": "Reconstruire n'est pas toujours la bonne décision. Selon ce que l'audit révèle, un autre chantier peut produire davantage pour un budget inférieur.",
+    "services": [
+      {
+        "href": "/creation-site-internet",
+        "label": "Création de site internet",
+        "description": "Si le site actuel n'a ni trafic ni historique à préserver, repartir d'une page blanche coûte souvent moins cher qu'une reprise."
+      },
+      {
+        "href": "/referencement-seo",
+        "label": "Référencement SEO",
+        "description": "Si le socle technique est sain, le problème n'est pas le site mais sa visibilité : le budget est alors mieux investi dans le contenu."
+      },
+      {
+        "href": "/site-e-commerce",
+        "label": "Site e-commerce",
+        "description": "Reprendre une boutique impose une contrainte supplémentaire : préserver les fiches produits déjà positionnées, une par une."
+      },
+      {
+        "href": "/application-web",
+        "label": "Application web",
+        "description": "Si votre site doit surtout faire gagner du temps en interne, c'est un outil métier qu'il vous faut, pas une nouvelle vitrine."
+      },
+      {
+        "href": "/outils-internes",
+        "label": "Outils internes",
+        "description": "La lourdeur ressentie vient parfois de la gestion quotidienne du site plus que du site lui-même : l'automatiser change la donne."
+      }
+    ],
+    "pages": [
+      { "href": "/tarifs", "label": "Nos tarifs" },
+      { "href": "/realisations", "label": "Nos réalisations" },
+      { "href": "/methode", "label": "Notre méthode" },
+      { "href": "/contact", "label": "Nous contacter" }
+    ]
+  },
+  "updatedAt": "2026-08-04"
+}

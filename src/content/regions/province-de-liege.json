@@ -1,0 +1,89 @@
+{
+  "slug": "province-de-liege",
+  "level": "province",
+  "name": "Province de Liège",
+  "shortName": "Liège",
+  "aliases": ["Liege"],
+  "parent": { "slug": "wallonie", "name": "Wallonie" },
+
+  "meta": {
+    "title": "Création de site internet en province de Liège | BEEW",
+    "description": "Agence web en province de Liège : sites pour PME, commerces, spin-offs et tourisme, de l'agglomération liégeoise aux cantons de l'Est. Devis fixe sous 48 h."
+  },
+
+  "hero": {
+    "h1": "Création de site internet en province de Liège",
+    "subtitle": "Une agglomération dense où les requêtes génériques sont hors d'atteinte, et un arrière-pays où les premières places se prennent encore en quelques mois. Deux méthodes, jamais une seule.",
+    "badges": ["Stratégie par quartier", "Projets multilingues", "Devis fixe sous 48 h"]
+  },
+
+  "economy": {
+    "heading": "Une métropole saturée, un arrière-pays largement ouvert",
+    "body": "La province de Liège s'organise autour d'une agglomération qui pèse plus de six cent mille habitants et d'un arrière-pays qui n'a presque rien à voir avec elle. Cette dualité commande toute la stratégie de visibilité. Dans l'agglomération, les requêtes commerciales génériques sont tenues depuis dix ou quinze ans par des acteurs bien installés, avec des profils de liens qu'un site neuf ne rattrape pas en une année. Prétendre les attaquer de front revient à vendre une illusion. En revanche, l'agglomération se décompose en sous-marchés parfaitement distincts : le Carré et le centre commerçant, le quartier des Guillemins transformé par la gare et les bureaux, Sainte-Marguerite et Saint-Léonard avec leur tissu de commerces populaires, Angleur et le Sart-Tilman où l'université irrigue un réseau dense de spin-offs, Herstal et son héritage mécanique, sans compter Seraing, Ans ou Chaudfontaine qui fonctionnent comme des marchés autonomes. Une entreprise liégeoise gagne beaucoup plus à dominer son quartier et sa spécialité qu'à figurer en quinzième position sur une requête large.\n\nLa province tire aussi une part importante de son activité de deux infrastructures lourdes. Le port intérieur, l'un des plus importants d'Europe, et l'aéroport de Bierset spécialisé dans le fret ont structuré autour d'eux une filière logistique, un secteur de la maintenance et une sous-traitance technique qui vendent à des acheteurs professionnels, souvent à l'international, et dont les sites servent autant à recruter qu'à prospecter. La vallée mosane conserve par ailleurs un tissu industriel et métallurgique en recomposition, tandis que le pôle universitaire et hospitalier alimente un flux constant de jeunes entreprises en sciences du vivant et en ingénierie.\n\nAu-delà de Verviers commence une autre province. Le Pays de Herve et son agriculture fromagère, les Hautes Fagnes, Spa, Malmedy et Stavelot vivent d'un tourisme de nature et d'événements dont la clientèle vient largement de Flandre, des Pays-Bas et d'Allemagne. Plus à l'est encore, les neuf communes de la Communauté germanophone, autour d'Eupen et de Saint-Vith, constituent un marché à part entière où l'allemand est la langue de travail et où très peu d'agences wallonnes se positionnent sérieusement. C'est probablement l'angle mort le plus net de la région : une entreprise qui publie un site réellement germanophone, et non une traduction approximative, y prend des positions que personne ne lui dispute. Nous traitons donc systématiquement l'est de la province comme un projet multilingue à part entière, pas comme une option ajoutée en fin de chantier. Entre les deux extrémités, la Hesbaye et le bassin hutois forment une bande intermédiaire souvent oubliée. Huy, Waremme et leurs communes vivent d'agriculture, de petites industries et de services, avec une population qui travaille fréquemment ailleurs. La concurrence en ligne y est modérée et les positions se prennent en quelques mois, à condition d'accepter que les volumes de recherche restent limités et que le retour se mesure en contacts qualifiés plutôt qu'en trafic.",
+    "highlights": [
+      "Agglomération saturée : viser un quartier ou une spécialité, jamais la ville entière",
+      "Port intérieur et aéroport de fret : logistique, maintenance et sous-traitance",
+      "Université et hôpitaux : spin-offs en sciences du vivant et en ingénierie",
+      "Tourisme de nature et d'événements à Spa, Malmedy et dans les Fagnes",
+      "Communauté germanophone : un marché sérieux que presque personne ne travaille"
+    ]
+  },
+
+  "facts": [
+    { "label": "Chef-lieu", "value": "Liège" },
+    { "label": "Arrondissements", "value": "4 — Liège, Huy, Verviers, Waremme" },
+    { "label": "Communes", "value": "84, dont 9 germanophones" },
+    { "label": "Langues officielles", "value": "Français, et allemand dans la Communauté germanophone" },
+    { "label": "Infrastructures majeures", "value": "Port autonome de Liège et aéroport de fret de Bierset" }
+  ],
+
+  "sectors": [
+    {
+      "name": "Logistique, fret et maintenance industrielle",
+      "description": "Filière portée par le port intérieur et l'aéroport de Bierset, avec des entreprises qui vendent à des donneurs d'ordre internationaux et dont le site doit exister en plusieurs langues pour être pris au sérieux."
+    },
+    {
+      "name": "Spin-offs, ingénierie et sciences du vivant",
+      "description": "Jeunes sociétés issues de l'université et du réseau hospitalier, dont le site sert à convaincre des investisseurs, des partenaires industriels et des candidats plutôt qu'à capter une clientèle de proximité."
+    },
+    {
+      "name": "Commerce urbain, horeca et services de quartier",
+      "description": "Le tissu le plus dense de la province, où la stratégie gagnante consiste à occuper les recherches formulées à l'échelle du quartier plutôt qu'à disputer des requêtes couvrant toute l'agglomération."
+    },
+    {
+      "name": "Tourisme de nature et d'événements",
+      "description": "Hébergements, thermes, circuits et organisateurs de Spa, Malmedy, Stavelot et des Hautes Fagnes, dont la clientèle flamande, néerlandaise et allemande impose un site multilingue et une réservation directe efficace."
+    },
+    {
+      "name": "Agriculture et agroalimentaire du Pays de Herve",
+      "description": "Producteurs fermiers, fromageries, cidreries et transformateurs vendant en circuit court, pour qui la boutique en ligne avec retrait sur place représente un levier encore très peu exploité localement."
+    }
+  ],
+
+  "cityProvince": "Liège",
+
+  "faq": [
+    {
+      "question": "Puis-je espérer une première place sur une requête générique à Liège ?",
+      "answer": "Pas dans un délai raisonnable, et nous préférons le dire avant de signer. Ces requêtes sont tenues par des sites anciens dont le profil de liens demande des années à égaler. En revanche, être premier sur votre quartier ou votre spécialité est parfaitement réaliste, et ces recherches convertissent souvent mieux parce que l'intention y est plus précise."
+    },
+    {
+      "question": "Travaillez-vous en allemand pour les communes de l'est de la province de Liège ?",
+      "answer": "Oui, et nous considérons que c'est l'un des angles morts les plus intéressants de la région. Autour d'Eupen et de Saint-Vith, l'allemand est la langue de travail et la concurrence en ligne y est presque inexistante. Nous construisons alors une structure multilingue avec des URL distinctes et des textes réellement rédigés, jamais traduits automatiquement."
+    },
+    {
+      "question": "Que signifie concrètement travailler par quartier ?",
+      "answer": "Cela consiste à cibler les recherches réellement formulées par vos clients : un restaurant du Carré, un dentiste aux Guillemins, un garage à Herstal. Nous construisons le contenu, la fiche Google Business Profile et le maillage interne autour de ce périmètre précis. Les volumes sont plus faibles, mais la concurrence est franchissable et les contacts sont qualifiés."
+    },
+    {
+      "question": "Combien de temps avant d'obtenir des résultats sur ce marché ?",
+      "answer": "Comptez trois à six mois pour des positions de quartier ou de spécialité, six à douze mois pour des requêtes plus larges, et à condition de soutenir l'effort par des signaux locaux réels comme des avis clients réguliers. Toute promesse de première place en quelques semaines sur un marché de cette densité est intenable."
+    },
+    {
+      "question": "Vous déplacez-vous jusqu'à Verviers, Spa ou dans les Fagnes ?",
+      "answer": "Oui, sans frais ni engagement pour le premier rendez-vous, y compris dans les cantons de l'Est. La distance ne change rien à la suite du projet : jalons validés ensemble, maquettes commentées à distance et environnement de test accessible en permanence. C'est le mode de travail que nous appliquons dans toute la Wallonie."
+    }
+  ],
+
+  "updatedAt": "2026-08-04"
+}

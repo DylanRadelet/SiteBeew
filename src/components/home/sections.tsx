@@ -1,0 +1,578 @@
+import { Bouton, EnTete, Fleche, GUTTER, Section, Surtitre } from "@/components/ui/section";
+import Image from "next/image";
+import Link from "next/link";
+import { MethodList } from "@/components/home/MethodList";
+import type { CaseStudy, Home, Testimonial } from "@/content/schema";
+
+/**
+ * Sections de la home, dans l'ordre défini par PAGES.md §2.
+ *
+ * L'ordre vient de l'analyse de cinq agences qui convertissent : la preuve
+ * précède toujours la proposition. Ne pas réordonner sans relire PAGES.md.
+ *
+ * Le rythme visuel alterne clair et sombre pour découper la page :
+ * confiance · chiffres · réalisations (clair) → services (sombre) →
+ * méthode · convictions (clair) → témoignages (sombre) →
+ * tarifs · questions (clair) → conclusion (sombre).
+ */
+
+/* -------------------------------------------------------------------------- */
+/*  2. Bandeau de confiance — défilement continu des logos                    */
+/* -------------------------------------------------------------------------- */
+
+export function TrustBar({ trust }: { trust: Home["trust"] }) {
+  return (
+    <Section className="!pt-20 !pb-16 sm:!pt-28 sm:!pb-20" anime={false}>
+      <EnTete
+        surtitre="Références"
+        titre={trust.label}
+        droite={
+          trust.rating ? (
+            <p className="text-sm text-beew-noir/60">
+              <strong className="font-semibold text-beew-noir">
+                {trust.rating.value.toFixed(1)}/5
+              </strong>{" "}
+              sur {trust.rating.count} avis {trust.rating.source}
+            </p>
+          ) : undefined
+        }
+      />
+
+      {/*
+        Le nom du client en toutes lettres plutôt qu'un logo : nous n'avons pas
+        les logos de ces clients, et un logo fabriqué serait une fausse
+        référence. Le nom et le projet livré sont vérifiables, donc opposables.
+        La grille en `gap-px` sur fond sombre dessine des filets d'un pixel :
+        un seul trait partagé au lieu de bordures qui se doublent.
+      */}
+      <ul className="mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-2xl bg-beew-noir/12 sm:grid-cols-2 lg:grid-cols-3">
+        {trust.logos.map((l, i) => (
+          <li
+            key={l.name}
+            data-reveal
+            data-reveal-delay={i * 60}
+            className="group flex min-h-[8.5rem] flex-col justify-center gap-2 bg-beew-blanc p-8 transition-colors duration-500 hover:bg-beew-noir hover:text-beew-creme"
+          >
+            {l.file ? (
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img
+                src={l.file}
+                alt={l.name}
+                loading="lazy"
+                className="h-7 w-auto max-w-full text-beew-noir/40 transition-all duration-500 group-hover:scale-105 group-hover:text-beew-creme"
+              />
+            ) : (
+              <span className="text-[clamp(1.15rem,1.8vw,1.5rem)] leading-tight font-semibold tracking-tight transition-transform duration-500 group-hover:translate-x-1">
+                {l.name}
+              </span>
+            )}
+            {l.projet && (
+              <span className="text-[11px] leading-relaxed tracking-[0.08em] text-beew-noir/45 uppercase transition-colors duration-500 group-hover:text-beew-creme/60">
+                {l.projet}
+              </span>
+            )}
+          </li>
+        ))}
+      </ul>
+    </Section>
+  );
+}
+
+/* -------------------------------------------------------------------------- */
+/*  4. Réalisations — AVANT les services. Point non négociable.               */
+/* -------------------------------------------------------------------------- */
+
+export function CasesFeatured({ cases }: { cases: CaseStudy[] }) {
+  const [premier, ...autres] = cases;
+
+  return (
+    <Section>
+      <div data-reveal>
+        <EnTete
+          surtitre="Réalisations"
+          titre="Des résultats mesurés, pas des captures d'écran"
+          lien={{ href: "/realisations", label: "Tout voir" }}
+        />
+      </div>
+
+      {/* Grille asymétrique : la première réalisation occupe deux fois la place.
+          Un damier régulier de trois cartes égales n'accroche pas le regard. */}
+      <div className="mt-16 grid gap-x-8 gap-y-14 lg:grid-cols-3">
+        {premier && <CarteCas cas={premier} large />}
+        <div className="flex flex-col gap-14">
+          {autres.map((c, i) => (
+            <CarteCas key={c.client} cas={c} retard={(i + 1) * 110} />
+          ))}
+        </div>
+      </div>
+    </Section>
+  );
+}
+
+function CarteCas({
+  cas,
+  large = false,
+  retard = 0,
+}: {
+  cas: CaseStudy;
+  large?: boolean;
+  retard?: number;
+}) {
+  return (
+    <article
+      data-reveal
+      data-reveal-delay={retard}
+      className={`group ${large ? "lg:col-span-2" : ""}`}
+    >
+      {cas.image && (
+        <div
+          className={`relative overflow-hidden rounded-2xl bg-beew-noir/5 ${
+            large ? "aspect-[16/10]" : "aspect-[16/11]"
+          }`}
+        >
+          <Image
+            src={cas.image}
+            alt=""
+            fill
+            sizes={large ? "(min-width:1024px) 66vw, 100vw" : "(min-width:1024px) 33vw, 100vw"}
+            className="object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.04]"
+          />
+        </div>
+      )}
+
+      <div className={large ? "mt-8 grid gap-6 sm:grid-cols-[1.2fr_1fr]" : "mt-6"}>
+        <div>
+          <p className="text-[10px] tracking-[0.25em] text-beew-noir/40 uppercase">
+            {cas.city} · {cas.sector}
+          </p>
+          <h3
+            className={`mt-3 font-semibold tracking-tight ${
+              large ? "text-[clamp(1.4rem,2.4vw,2rem)]" : "text-xl"
+            }`}
+          >
+            {cas.client}
+          </h3>
+          <p className="mt-4 max-w-prose text-sm leading-relaxed text-beew-noir/60">{cas.summary}</p>
+        </div>
+
+        {/* Le résultat chiffré est ce qui vend : il est détaché et accentué. */}
+        <p
+          className={`border-l-2 border-beew-orange pl-5 text-sm leading-relaxed font-semibold ${
+            large ? "sm:self-center" : "mt-5"
+          }`}
+        >
+          {cas.result}
+        </p>
+      </div>
+    </article>
+  );
+}
+
+/* -------------------------------------------------------------------------- */
+/*  5. Services — bloc sombre, grille en bento                                */
+/* -------------------------------------------------------------------------- */
+
+/**
+ * LE bloc services — un seul pour la home ET pour les pages villes.
+ *
+ * Chaque carte est un lien entier vers sa page pilier : c'est le maillage
+ * home/villes → services, et le seul endroit du site où ces six pages sont
+ * atteignables depuis le corps d'une page plutôt que depuis le menu.
+ */
+export function ServicesBento({ services }: { services: Home["services"] }) {
+  return (
+    <Section ton="sombre">
+      <div data-reveal>
+        <EnTete
+          ton="sombre"
+          surtitre="Services"
+          titre={`${MOTS[services.length] ?? services.length} façons de vous rendre visible`}
+        />
+      </div>
+
+      <div className="mt-16 grid gap-px overflow-hidden rounded-2xl bg-beew-creme/15 sm:grid-cols-2">
+        {services.map((s, i) => (
+          <article key={s.slug} data-reveal data-reveal-delay={i * 80}>
+            <Link
+              href={`/${s.slug}`}
+              className="group relative flex h-full flex-col bg-beew-noir p-8 transition-colors duration-500 hover:bg-beew-blanc hover:text-beew-noir sm:p-12"
+            >
+              <span className="text-[11px] tracking-[0.25em] text-beew-vert">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <h3 className="mt-8 text-[clamp(1.3rem,2.2vw,1.9rem)] font-semibold tracking-tight transition-transform duration-500 group-hover:translate-x-1">
+                {s.title}
+              </h3>
+              <p className="mt-4 max-w-md text-sm leading-relaxed opacity-60">{s.description}</p>
+              {/* `mt-auto` : la flèche est calée en bas quelle que soit la
+                  longueur de la description, sinon les six cartes se décalent. */}
+              <span className="mt-10 inline-flex items-center gap-2 pt-2 text-[11px] tracking-[0.2em] uppercase opacity-70 mt-auto">
+                En savoir plus
+                <Fleche />
+              </span>
+            </Link>
+          </article>
+        ))}
+      </div>
+    </Section>
+  );
+}
+
+/** Le titre annonce un nombre : il doit suivre le contenu, pas être écrit en dur. */
+const MOTS: Record<number, string> = { 3: "Trois", 4: "Quatre", 5: "Cinq", 6: "Six", 7: "Sept" };
+
+/* -------------------------------------------------------------------------- */
+/*  6. Méthode                                                                */
+/* -------------------------------------------------------------------------- */
+
+export function Method({ method }: { method: Home["method"] }) {
+  return (
+    <Section>
+      <div data-reveal>
+        <div data-reveal>
+          <EnTete surtitre="Méthode" titre={method.heading} intro={method.intro} />
+        </div>
+      </div>
+      <MethodList steps={method.steps} />
+    </Section>
+  );
+}
+
+/* -------------------------------------------------------------------------- */
+/*  7. Convictions — différenciation et renversement du risque                */
+/* -------------------------------------------------------------------------- */
+
+export function WhyUs({ why }: { why: Home["why"] }) {
+  return (
+    <Section>
+      <div data-reveal>
+        <EnTete surtitre="Pourquoi BEEW" titre={why.heading} />
+      </div>
+
+      <div className="mt-16 grid gap-x-12 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+        {why.points.map((p, i) => (
+          <div
+            key={p.title}
+            data-reveal
+            data-reveal-delay={i * 70}
+            className="border-t-2 border-beew-orange pt-6"
+          >
+            <h3 className="text-lg font-semibold tracking-tight">{p.title}</h3>
+            <p className="mt-3 text-sm leading-relaxed text-beew-noir/60">{p.description}</p>
+          </div>
+        ))}
+      </div>
+    </Section>
+  );
+}
+
+/* -------------------------------------------------------------------------- */
+/*  8. Témoignages — bloc sombre, citations en grand                          */
+/* -------------------------------------------------------------------------- */
+
+export function TestimonialsDark({ testimonials }: { testimonials: Testimonial[] }) {
+  return (
+    <Section ton="sombre">
+      <div data-reveal>
+        <EnTete ton="sombre" surtitre="Témoignages" titre="Ce qu'en disent nos clients" />
+      </div>
+
+      <div className="mt-16 grid gap-x-12 gap-y-14 lg:grid-cols-2">
+        {testimonials.map((t, i) => (
+          <figure
+            key={`${t.company}-${t.author}`}
+            data-reveal
+            data-reveal-delay={i * 90}
+            className="border-t border-beew-creme/20 pt-8"
+          >
+            <blockquote className="text-[clamp(1.15rem,2.1vw,1.6rem)] leading-snug font-medium tracking-tight">
+              « {t.quote} »
+            </blockquote>
+            <figcaption className="mt-8 flex flex-wrap items-baseline gap-x-3 text-sm">
+              <span className="font-semibold">{t.author}</span>
+              <span className="text-beew-creme/50">
+                {t.role}, {t.company} — {t.city}
+              </span>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </Section>
+  );
+}
+
+/* -------------------------------------------------------------------------- */
+/* 10. Tarifs                                                                 */
+/* -------------------------------------------------------------------------- */
+
+export function Pricing({ pricing }: { pricing: Home["pricing"] }) {
+  return (
+    <Section>
+      <div data-reveal>
+        <EnTete surtitre="Tarifs" titre={pricing.heading} />
+      </div>
+
+      <div className="mt-16 grid gap-6 lg:grid-cols-3">
+        {pricing.tiers.map((t, i) => (
+          <article
+            key={t.name}
+            data-reveal
+            data-reveal-delay={i * 90}
+            className={`flex flex-col rounded-2xl p-8 sm:p-10 ${
+              t.highlight ? "bg-beew-noir text-beew-creme" : "border border-beew-noir/15"
+            }`}
+          >
+            <h3 className="text-[11px] tracking-[0.25em] uppercase opacity-60">{t.name}</h3>
+            <p className="mt-6 text-[clamp(2.25rem,3.6vw,3rem)] leading-none font-semibold tracking-tight">
+              <span className="align-super text-xs font-normal opacity-50">dès </span>
+              {t.from.toLocaleString("fr-BE")} €
+            </p>
+            <p className="mt-6 text-sm leading-relaxed opacity-65">{t.pitch}</p>
+
+            <ul className="mt-8 space-y-3 text-sm">
+              {t.includes.map((i) => (
+                <li key={i} className="flex gap-3">
+                  <span aria-hidden className="mt-2.5 h-px w-3.5 shrink-0 bg-beew-orange" />
+                  <span className="opacity-80">{i}</span>
+                </li>
+              ))}
+            </ul>
+
+            <div className="mt-10 pt-2">
+              <Bouton href="/contact" ton={t.highlight ? "sombre" : "clair"}>
+                Réserver un appel
+              </Bouton>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <p className="mt-10 max-w-2xl text-xs leading-relaxed text-beew-noir/45">
+        {pricing.note}{" "}
+        {/* `/devis` n'était atteignable que depuis le menu : une page de
+            conversion sans lien dans le corps du site ne reçoit ni visiteurs,
+            ni autorité interne. */}
+        <Link href="/devis" className="text-beew-noir underline underline-offset-4">
+          Obtenir un devis chiffré
+        </Link>
+        .
+      </p>
+    </Section>
+  );
+}
+
+/* -------------------------------------------------------------------------- */
+/* 13. Conclusion + signature géante                                          */
+/* -------------------------------------------------------------------------- */
+
+export function FinalCta() {
+  return (
+    <section className={`bg-beew-noir pt-24 text-beew-creme sm:pt-32 lg:pt-40 ${GUTTER}`}>
+      <div className="mx-auto max-w-4xl text-center">
+        <Surtitre ton="sombre">Parlons-en</Surtitre>
+        <h2 className="mt-8 text-[clamp(2rem,5.4vw,4.5rem)] leading-[0.95] font-semibold tracking-tight uppercase">
+          Votre projet mérite mieux qu&apos;un devis à l&apos;aveugle
+        </h2>
+        <p className="mx-auto mt-8 max-w-xl text-base leading-relaxed text-beew-creme/60">
+          Premier rendez-vous sur place, sans frais ni engagement. Vous repartez avec un devis fixe
+          sous 48 h, que vous nous confiiez le projet ou non.
+        </p>
+        <div className="mt-12">
+          <Bouton href="/contact" ton="sombre" taille="grand">
+            Réserver un appel
+          </Bouton>
+        </div>
+      </div>
+
+      {/*
+        Signature géante, rognée par le bas : la marque sert de socle à la page.
+        `overflow-hidden` sur le conteneur : à cette taille, le moindre
+        dépassement créerait une barre de défilement horizontale.
+      */}
+      <div className="mt-24 overflow-hidden">
+        <p
+          aria-hidden
+          className="-mb-[0.18em] w-full text-center text-[10.5vw] leading-[0.78] font-bold tracking-tighter whitespace-nowrap text-beew-creme/10 select-none"
+        >
+          BEEW AGENCY
+        </p>
+      </div>
+    </section>
+  );
+}
+
+/* -------------------------------------------------------------------------- */
+/*  Pied de page                                                              */
+/* -------------------------------------------------------------------------- */
+
+/**
+ * Conclusion compacte des pages internes.
+ *
+ * Même promesse que `FinalCta` mais sans la signature géante : celle-ci est
+ * réservée à la home, sinon elle perd sa valeur de signature.
+ */
+export function ConclusionCompacte() {
+  return (
+    <div className="flex flex-1 flex-col items-center justify-center py-16 text-center">
+      <Surtitre ton="sombre">Parlons-en</Surtitre>
+      <h2 className="mt-6 max-w-3xl text-[clamp(1.75rem,4vw,3.25rem)] leading-[0.98] font-semibold tracking-tight uppercase">
+        Un devis fixe sous 48 h, sans engagement
+      </h2>
+      <p className="mt-6 max-w-xl text-sm leading-relaxed text-beew-creme/60">
+        Une heure sur place pour comprendre votre projet, puis un chiffrage détaillé poste par
+        poste. Le document vous appartient, que vous nous confiiez le projet ou non.
+      </p>
+      <div className="mt-10">
+        <Bouton href="/contact" ton="sombre" taille="grand">
+          Réserver un appel
+        </Bouton>
+      </div>
+    </div>
+  );
+}
+
+export function Footer({ provinces }: FooterProps) {
+  return (
+    <footer className={`bg-beew-noir pb-12 text-beew-creme ${GUTTER}`}>
+      <FooterColonnes provinces={provinces} />
+    </footer>
+  );
+}
+
+/**
+ * Le pied de page ne porte que les étages structurels de la pyramide locale.
+ * Les communes sont distribuées par les pages provinces, le menu et le hub —
+ * les répéter ici n'ajoutait aucun signal et allongeait la colonne pour rien.
+ */
+export type FooterProps = {
+  provinces: { slug: string; name: string }[];
+};
+
+/**
+ * Colonnes du pied de page, partagées par les deux variantes.
+ *
+ * Extraites pour qu'il n'existe QUE deux pieds de page sur le site : celui de
+ * la home, avec la signature géante, et celui des pages internes, calé sur la
+ * hauteur de l'écran. Toute troisième variante serait une régression.
+ */
+export function FooterColonnes({ provinces }: FooterProps) {
+  const colonnes = [
+    {
+      titre: "Services",
+      liens: [
+        { href: "/creation-site-internet", label: "Création de site internet" },
+        { href: "/refonte-site-internet", label: "Refonte de site" },
+        { href: "/referencement-seo", label: "Référencement SEO" },
+        { href: "/site-e-commerce", label: "Site e-commerce" },
+        { href: "/application-web", label: "Application web" },
+        { href: "/outils-internes", label: "Outils internes" },
+      ],
+    },
+    {
+      titre: "Agence",
+      liens: [
+        { href: "/realisations", label: "Réalisations" },
+        { href: "/methode", label: "Notre méthode" },
+        { href: "/tarifs", label: "Tarifs" },
+        { href: "/a-propos", label: "À propos" },
+      ],
+    },
+  ];
+
+  return (
+    <>
+      <div className="grid gap-12 border-t border-beew-creme/15 pt-12 sm:grid-cols-2 lg:grid-cols-4">
+        {colonnes.map((c) => (
+          <div key={c.titre}>
+            <p className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">{c.titre}</p>
+            <ul className="mt-5 space-y-2.5 text-sm">
+              {c.liens.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href} className="text-beew-creme/70 transition-colors hover:text-beew-creme">
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+
+        <div>
+          <p className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">
+            Zones d&apos;intervention
+          </p>
+          {/* La pyramide, pas une liste de villes : le pied de page porte les
+              étages structurels (région, provinces) et laisse aux provinces le
+              soin de distribuer vers leurs communes. Les villes restent
+              accessibles depuis le menu et le hub. */}
+          <ul className="mt-5 space-y-2.5 text-sm">
+            <li>
+              <Link href="/wallonie" className="text-beew-creme/70 transition-colors hover:text-beew-creme">
+                Wallonie
+              </Link>
+            </li>
+            {provinces.map((p) => (
+              <li key={p.slug} className="pl-3">
+                <Link href={`/${p.slug}`} className="text-beew-creme/60 transition-colors hover:text-beew-creme">
+                  {p.name}
+                </Link>
+              </li>
+            ))}
+            <li>
+              <Link href="/zones-d-intervention" className="group inline-flex items-center gap-2 text-beew-creme">
+                Toutes nos zones
+                <Fleche />
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">Contact</p>
+          <ul className="mt-5 space-y-2.5 text-sm text-beew-creme/70">
+            <li>
+              <a href="mailto:hello@beew.agency" className="transition-colors hover:text-beew-creme">
+                hello@beew.agency
+              </a>
+            </li>
+            <li>Province de Luxembourg, Belgique</li>
+            <li>Du lundi au vendredi, 9h — 18h</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="mt-14 flex flex-col gap-4 border-t border-beew-creme/15 pt-8 text-[11px] text-beew-creme/40 sm:flex-row sm:items-center sm:justify-between">
+        <p>© {new Date().getFullYear()} BEEW — Agence web indépendante</p>
+        <ul className="flex flex-wrap gap-x-6 gap-y-2">
+          <li>
+            <Link href="/mentions-legales" className="hover:text-beew-creme">
+              Mentions légales
+            </Link>
+          </li>
+          <li>
+            <Link href="/politique-de-confidentialite" className="hover:text-beew-creme">
+              Confidentialité
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </>
+  );
+}
+
+/**
+ * Pied de page des pages internes.
+ *
+ * Contrainte demandée : l'ensemble occupe EXACTEMENT la hauteur de l'écran, pas
+ * plus. `min-h-svh` + colonne flex : la conclusion prend l'espace disponible au
+ * centre, les colonnes se calent en bas. Sur mobile le contenu peut dépasser un
+ * écran — c'est voulu, sinon le texte deviendrait illisible.
+ */
+export function PiedDePageInterne({ provinces }: FooterProps) {
+  return (
+    <footer className={`flex min-h-svh flex-col bg-beew-noir pb-12 text-beew-creme ${GUTTER}`}>
+      <ConclusionCompacte />
+      <FooterColonnes provinces={provinces} />
+    </footer>
+  );
+}

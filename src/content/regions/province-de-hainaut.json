@@ -1,0 +1,89 @@
+{
+  "slug": "province-de-hainaut",
+  "level": "province",
+  "name": "Province de Hainaut",
+  "shortName": "Hainaut",
+  "aliases": ["Hainaut occidental"],
+  "parent": { "slug": "wallonie", "name": "Wallonie" },
+
+  "meta": {
+    "title": "Création de site internet en Hainaut | Agence BEEW",
+    "description": "Agence web en province de Hainaut : sites pour PME, commerces et sous-traitants industriels de Charleroi, Mons, La Louvière, Tournai et du Borinage."
+  },
+
+  "hero": {
+    "h1": "Création de site internet en province de Hainaut",
+    "subtitle": "La province la plus peuplée de Wallonie, et la plus fragmentée : cinq bassins distincts qui ne partagent ni le même passé industriel, ni la même clientèle, ni les mêmes concurrents.",
+    "badges": ["Cinq bassins couverts", "Devis fixe sous 48 h", "Agence indépendante"]
+  },
+
+  "economy": {
+    "heading": "Cinq bassins qui fonctionnent comme cinq marchés séparés",
+    "body": "Le Hainaut compte plus d'habitants que n'importe quelle autre province wallonne, mais cette masse est trompeuse pour qui veut y être visible. Le territoire ne possède pas de centre unique : il s'organise en bassins qui se tournent le dos, chacun avec son chef-lieu, ses habitudes et sa concurrence propre. Charleroi et sa couronne forment le premier ensemble, le plus peuplé de Wallonie, façonné par la sidérurgie et le charbonnage puis reconverti autour de l'aéroport de Gosselies, de l'aéronautique, du biotech de l'Aéropole et d'un secteur des services en pleine réorganisation. La demande y est volumineuse, la concurrence en ligne réelle, et les entreprises y raisonnent en coût par contact plus qu'en image de marque.\n\nLe deuxième ensemble, autour de Mons, doit sa physionomie à un mélange rare : un centre historique classé et fortement touristique, un pôle numérique installé en périphérie avec ses centres de données et son écosystème de start-ups adossé à l'université, et une présence militaire internationale qui a créé une communauté anglophone stable. Le niveau d'exigence des interlocuteurs montois sur la performance, l'accessibilité et le traitement des données arrive nettement plus tôt dans la conversation que dans le reste de la province. Le Borinage voisin — Quaregnon, Frameries, Saint-Ghislain, Colfontaine — reste un territoire de commerces de proximité et de petites entreprises de services où le référencement local classique produit encore des résultats rapides.\n\nLa Louvière et le Centre constituent un troisième bassin, marqué par la reconversion industrielle, la logistique liée au canal et au réseau autoroutier, et une sous-traitance technique qui vend à des acheteurs professionnels. Ces entreprises n'ont pas besoin d'un site qui raconte une histoire mais d'un site qui documente : fiches techniques, certifications, capacités de production, références vérifiables. Tournai et le Hainaut occidental composent le quatrième, tourné vers Lille et la métropole française bien plus que vers Bruxelles ; la clientèle transfrontalière y est une réalité quotidienne et la concurrence inclut des prestataires du Nord de la France. Mouscron et Comines, enfin, vivent contre la frontière linguistique et la frontière française à la fois, avec un tissu textile reconverti et une part importante d'entreprises bilingues.\n\nLa conséquence pratique est constante : viser le Hainaut dans son ensemble ne fonctionne pas. Une entreprise de Tournai n'est presque jamais en concurrence avec une entreprise de Charleroi, et les deux ont tout intérêt à concentrer leur effort sur leur bassin et leur spécialité. Nous construisons donc les projets hennuyers autour d'un périmètre géographique assumé et volontairement resserré.",
+    "highlights": [
+      "Province la plus peuplée, mais sans centre unique : cinq bassins autonomes",
+      "Charleroi : volume de demande élevé, arbitrage au coût par contact",
+      "Mons : pôle numérique, communauté internationale, exigences plus hautes",
+      "Le Centre et La Louvière : sous-traitance technique et logistique",
+      "Hainaut occidental tourné vers Lille et la clientèle transfrontalière"
+    ]
+  },
+
+  "facts": [
+    { "label": "Chef-lieu", "value": "Mons" },
+    { "label": "Arrondissements", "value": "7 — Ath, Charleroi, Mons, Mouscron, Soignies, Thuin, Tournai" },
+    { "label": "Communes", "value": "69" },
+    { "label": "Ville la plus peuplée", "value": "Charleroi, première commune de Wallonie" },
+    { "label": "Infrastructure majeure", "value": "Aéroport de Charleroi Bruxelles-Sud, à Gosselies" }
+  ],
+
+  "sectors": [
+    {
+      "name": "Sous-traitance industrielle et technique",
+      "description": "Ateliers, mécanique, métallurgie et fournisseurs de rang deux hérités des bassins sidérurgiques, dont les acheteurs sont des professionnels attendant des fiches précises et de la documentation téléchargeable plutôt qu'un discours de marque."
+    },
+    {
+      "name": "Logistique, transport et aéroportuaire",
+      "description": "Activités structurées par l'aéroport de Gosselies, les canaux et le réseau autoroutier vers Lille et Bruxelles, avec des sites souvent bilingues qui servent autant au recrutement qu'à la prospection commerciale."
+    },
+    {
+      "name": "Santé, aide à la personne et professions libérales",
+      "description": "Un secteur très dense dans les zones urbaines de Charleroi, Mons et La Louvière, où la prise de rendez-vous en ligne et la clarté des informations pratiques comptent davantage que le design du site."
+    },
+    {
+      "name": "Commerce de proximité et horeca",
+      "description": "Les centres commerçants du Borinage, du Centre et de la couronne carolorégienne, où une fiche Google Business Profile tenue à jour produit souvent plus de contacts que le site lui-même la première année."
+    },
+    {
+      "name": "Numérique, biotech et start-ups",
+      "description": "L'écosystème de l'Aéropole à Gosselies et du pôle technologique montois, avec des besoins tournés vers la crédibilité auprès d'investisseurs et de partenaires, le recrutement et une communication fréquemment anglophone."
+    }
+  ],
+
+  "cityProvince": "Hainaut",
+
+  "faq": [
+    {
+      "question": "Pourquoi ne pas viser tout le Hainaut avec une seule stratégie ?",
+      "answer": "Parce que la province ne fonctionne pas comme un marché unique. Une entreprise de Tournai et une entreprise de Charleroi ne se disputent presque jamais les mêmes clients ni les mêmes requêtes. Concentrer l'effort sur un bassin précis et une spécialité donne des positions atteignables en quelques mois, là où une approche provinciale se dilue sans résultat."
+    },
+    {
+      "question": "La concurrence en ligne est-elle plus forte à Charleroi ou à Mons ?",
+      "answer": "À Charleroi, nettement. Le volume d'entreprises et l'ancienneté des sites en place y rendent les requêtes génériques difficiles. Mons reste plus accessible en référencement, mais le niveau d'exigence des clients y est plus élevé, notamment sur la performance et l'accessibilité. Ce sont deux difficultés différentes, pas une facilité contre une difficulté."
+    },
+    {
+      "question": "Une version anglaise ou néerlandaise se justifie-t-elle en province de Hainaut ?",
+      "answer": "Cela dépend du bassin. À Mons, la communauté internationale liée aux installations militaires et au pôle technologique rend une version anglaise réellement rentable. À Mouscron et Comines, la proximité de la frontière linguistique et de la France justifie souvent un traitement bilingue. Ailleurs, le français seul suffit dans la grande majorité des cas."
+    },
+    {
+      "question": "Vendez-vous aussi aux entreprises industrielles et à leurs sous-traitants ?",
+      "answer": "Oui, et ces sites obéissent à une logique particulière. L'acheteur est un professionnel qui cherche des capacités, des certifications, des tolérances et des références vérifiables, pas une accroche marketing. Nous construisons ces projets autour de la documentation technique et de la facilité à demander un devis chiffré, souvent avec une version anglaise pour l'export."
+    },
+    {
+      "question": "Êtes-vous basés en Hainaut ?",
+      "answer": "Non, notre agence est installée en province de Luxembourg et nous intervenons dans toute la province de Hainaut. Le premier rendez-vous se fait sur place, sans frais ni engagement, puis le projet se pilote à distance avec des points d'avancement réguliers et un environnement de test que vous pouvez consulter à tout moment."
+    }
+  ],
+
+  "updatedAt": "2026-08-04"
+}

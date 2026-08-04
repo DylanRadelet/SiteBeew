@@ -1,0 +1,211 @@
+{
+  "slug": "conditions-generales",
+  "surtitre": "Cadre contractuel",
+  "h1": "Conditions générales",
+  "meta": {
+    "title": "Conditions générales — BEEW Agency",
+    "description": "Devis, commande, prix et paiement, délais, obligations réciproques, propriété des livrables et droit applicable aux prestations de l'agence BEEW."
+  },
+  "updatedAt": "2026-08-02",
+  "intro": "Les présentes conditions générales régissent les prestations de conception, de développement, de référencement et de maintenance de sites internet fournies par l'agence. Elles s'appliquent à toute commande, sauf dérogation écrite figurant dans le devis ou dans un contrat particulier signé entre les parties.",
+  "sections": [
+    {
+      "id": "objet",
+      "titre": "Objet et champ d'application",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Les présentes conditions s'appliquent aux prestations réalisées par [À COMPLÉTER : dénomination sociale du prestataire], ci-après « le prestataire », au bénéfice de toute personne physique ou morale qui lui confie une mission, ci-après « le client »."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L'acceptation d'un devis emporte adhésion sans réserve aux présentes conditions. Elles prévalent sur les conditions d'achat du client, sauf acceptation écrite et expresse du prestataire. Le fait de ne pas se prévaloir d'une clause à un moment donné ne vaut pas renonciation à s'en prévaloir ultérieurement."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si une clause devait être déclarée nulle ou inapplicable, les autres clauses resteraient pleinement en vigueur et la clause concernée serait remplacée par une disposition d'effet économique équivalent."
+        }
+      ]
+    },
+    {
+      "id": "devis-et-commande",
+      "titre": "Devis et formation du contrat",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Chaque mission fait l'objet d'un devis écrit détaillant le périmètre, les livrables, le calendrier prévisionnel et le prix. Le devis est valable [À COMPLÉTER : durée de validité du devis, par exemple 30 jours] à compter de son émission."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le contrat est formé à la date de réception par le prestataire du devis daté, signé et accompagné, le cas échéant, de l'acompte prévu. Toute demande sortant du périmètre décrit fait l'objet d'un avenant chiffré avant exécution : aucune prestation supplémentaire n'est facturée sans accord écrit préalable du client."
+        },
+        {
+          "type": "encadre",
+          "titre": "Client consommateur : droit de rétractation",
+          "texte": "Lorsque le contrat est conclu à distance ou hors établissement avec un consommateur au sens du livre VI du Code de droit économique, celui-ci dispose d'un délai de quatorze jours pour se rétracter sans motif. Si l'exécution débute à sa demande expresse avant l'expiration de ce délai, le consommateur reste redevable des prestations déjà effectuées. Ce droit ne s'applique pas aux clients professionnels."
+        }
+      ]
+    },
+    {
+      "id": "prix-et-paiement",
+      "titre": "Prix, facturation et paiement",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Les prix sont exprimés en euros et hors TVA, sauf mention contraire. Le prix indiqué au devis est ferme pour le périmètre décrit : il n'évolue pas en cours de mission, sauf modification du périmètre formalisée par un avenant."
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "items": [
+            "Acompte à la commande : [À COMPLÉTER : pourcentage d'acompte demandé] du montant total.",
+            "Solde : facturé à la mise en ligne ou à la livraison des éléments finaux.",
+            "Délai de paiement : [À COMPLÉTER : délai de paiement des factures, par exemple 30 jours de date à date].",
+            "Prestations récurrentes (hébergement, maintenance, accompagnement) : facturées d'avance selon la périodicité convenue au devis.",
+            "Frais tiers avancés pour le compte du client (nom de domaine, licences, banque d'images) : refacturés à l'euro près, sur justificatif."
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En cas de retard de paiement, un intérêt de retard et une indemnité forfaitaire de recouvrement sont dus de plein droit après mise en demeure : [À COMPLÉTER : taux d'intérêt de retard et montant de l'indemnité forfaitaire]. Entre entreprises, ces montants sont encadrés par la loi du 2 août 2002 concernant la lutte contre le retard de paiement dans les transactions commerciales. À l'égard d'un consommateur, les conditions et plafonds du livre XIX du Code de droit économique s'appliquent, en ce compris le rappel gratuit préalable."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En cas de défaut de paiement persistant après mise en demeure, le prestataire peut suspendre les prestations en cours, y compris l'hébergement et la maintenance, après en avoir informé le client par écrit et lui avoir laissé un délai raisonnable pour régulariser."
+        }
+      ]
+    },
+    {
+      "id": "delais-et-obligations-du-client",
+      "titre": "Délais et obligations réciproques",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Les délais annoncés sont donnés en jours ouvrables et courent à compter de la réception de l'ensemble des éléments nécessaires au démarrage. Ils sont indicatifs et de bonne foi ; ils sont suspendus de plein droit pendant les périodes d'attente de validation ou de contenus du client."
+        },
+        {
+          "type": "titre",
+          "niveau": 3,
+          "texte": "Ce que le client s'engage à fournir",
+          "id": "obligations-du-client"
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "items": [
+            "Les contenus dont il conserve la charge (textes, images, logotypes, documents) dans un format exploitable et dans les délais convenus.",
+            "Les accès techniques nécessaires : nom de domaine, hébergement existant, comptes analytiques et outils tiers.",
+            "Un interlocuteur unique disposant du pouvoir de valider les étapes du projet.",
+            "Ses retours et validations dans le délai indiqué au planning ; passé [À COMPLÉTER : délai au-delà duquel une validation est réputée acquise], l'étape est réputée validée afin de ne pas bloquer la suite du projet."
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le client garantit détenir les droits sur les éléments qu'il transmet et garantit le prestataire contre toute réclamation d'un tiers à ce sujet. Le prestataire attire son attention sur l'usage d'images ou de textes dont l'origine n'est pas établie."
+        },
+        {
+          "type": "titre",
+          "niveau": 3,
+          "texte": "Recette et mise en ligne",
+          "id": "recette"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le client dispose d'un délai de [À COMPLÉTER : durée de la période de recette, par exemple 10 jours ouvrables] à compter de la mise à disposition pour signaler par écrit les non-conformités au périmètre convenu. Passé ce délai, ou en cas d'exploitation commerciale du livrable, la réception est réputée acquise. Les corrections d'anomalies signalées pendant la recette sont prises en charge sans supplément ; les demandes d'évolution donnent lieu à un avenant."
+        }
+      ]
+    },
+    {
+      "id": "propriete-des-livrables",
+      "titre": "Propriété des livrables et droits d'usage",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Les droits patrimoniaux sur les éléments spécifiquement créés pour le client — maquettes, chartes, développements sur mesure, contenus rédigés — lui sont cédés pour la durée légale de protection et pour le monde entier, à compter du paiement intégral du prix. Avant complet paiement, le prestataire conserve la propriété des livrables et l'usage du site n'est que provisoire."
+        },
+        {
+          "type": "liste",
+          "ordonnee": false,
+          "items": [
+            "Les composants tiers (systèmes de gestion de contenu, bibliothèques, extensions, polices, images sous licence) restent régis par leurs licences propres, dont le client est informé.",
+            "Les savoir-faire, méthodes, outils internes et briques réutilisables du prestataire restent sa propriété ; le client bénéficie d'un droit d'usage non exclusif pour l'exploitation du livrable.",
+            "Le nom de domaine et les comptes d'hébergement sont enregistrés au nom du client, qui en reste titulaire et peut les récupérer à tout moment.",
+            "Le droit moral de l'auteur est incessible : le prestataire peut mentionner sa qualité de concepteur de manière discrète en pied de page, sauf demande contraire du client."
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Sauf opposition écrite du client, le prestataire peut citer la mission et présenter des visuels du travail réalisé dans ses références commerciales, sans divulguer d'information confidentielle."
+        }
+      ]
+    },
+    {
+      "id": "responsabilite",
+      "titre": "Responsabilité, garanties et résiliation",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Le prestataire est tenu à une obligation de moyens. Il ne garantit aucun classement dans les moteurs de recherche, aucun volume de trafic et aucun résultat commercial : ces éléments dépendent d'algorithmes et de facteurs de marché sur lesquels il n'a pas de contrôle. Toute promesse contraire serait, à ses yeux, une pratique trompeuse."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Sauf faute lourde, dol ou dommage corporel, la responsabilité du prestataire est limitée au montant hors TVA effectivement facturé pour la prestation en cause. Les dommages indirects, notamment la perte de chiffre d'affaires, de données ou de clientèle, ne donnent pas lieu à indemnisation. Cette limitation ne s'applique pas dans la mesure où la loi l'interdit, en particulier à l'égard d'un consommateur."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La responsabilité du prestataire ne peut être engagée en cas de force majeure, d'indisponibilité d'un service tiers, d'intervention d'un tiers sur le site après livraison, ou d'absence de maintenance lorsque celle-ci n'a pas été confiée au prestataire. Assurance responsabilité civile professionnelle : [À COMPLÉTER : nom de l'assureur et numéro de police, ou mention correspondante]."
+        },
+        {
+          "type": "titre",
+          "niveau": 3,
+          "texte": "Résiliation",
+          "id": "resiliation"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Chaque partie peut résilier le contrat en cas de manquement grave de l'autre, non réparé dans les quinze jours suivant une mise en demeure écrite. En cas de résiliation par le client en cours de mission, les prestations réalisées et les frais engagés restent dus. Les prestations récurrentes peuvent être résiliées par écrit moyennant un préavis de [À COMPLÉTER : durée du préavis pour les prestations récurrentes]."
+        },
+        {
+          "type": "titre",
+          "niveau": 3,
+          "texte": "Confidentialité et données personnelles",
+          "id": "confidentialite"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Chaque partie s'engage à garder confidentielle toute information non publique reçue de l'autre. Lorsque le prestataire traite des données personnelles pour le compte du client, il agit en qualité de sous-traitant au sens de l'article 28 du RGPD et un accord de sous-traitance est conclu à cet effet."
+        },
+        {
+          "type": "encadre",
+          "titre": "Traitement de vos propres données",
+          "texte": "Les données que vous nous communiquez lors d'une demande de devis sont traitées dans les conditions décrites par notre politique de confidentialité.",
+          "lien": { "href": "/politique-de-confidentialite", "label": "Lire la politique de confidentialité" }
+        }
+      ]
+    },
+    {
+      "id": "droit-applicable",
+      "titre": "Réclamations, droit applicable et juridictions",
+      "blocs": [
+        {
+          "type": "paragraphe",
+          "texte": "Toute réclamation doit être adressée par écrit à hello@beew.agency dans un délai raisonnable après la survenance du fait qui la motive. Les parties s'engagent à rechercher une solution amiable avant toute procédure."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Un client consommateur peut s'adresser au Service de médiation pour le consommateur (boulevard du Roi Albert II 8, 1000 Bruxelles) ou utiliser les plateformes de règlement extrajudiciaire des litiges mises à disposition par les autorités compétentes."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les présentes conditions sont soumises au droit belge. À défaut de résolution amiable, les cours et tribunaux de l'arrondissement judiciaire du siège du prestataire sont compétents, sans préjudice des règles impératives de compétence protégeant le consommateur, qui peut toujours saisir le juge de son domicile."
+        },
+        {
+          "type": "encadre",
+          "titre": "Version applicable",
+          "texte": "La version des conditions générales applicable à une mission est celle en vigueur à la date d'acceptation du devis. La date de dernière mise à jour figure en tête de cette page ; les versions antérieures peuvent être obtenues sur simple demande.",
+          "lien": { "href": "/mentions-legales", "label": "Voir les mentions légales" }
+        }
+      ]
+    }
+  ]
+}

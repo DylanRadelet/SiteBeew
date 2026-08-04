@@ -1,0 +1,72 @@
+{
+  "slug": "creation-site-internet-durbuy",
+  "status": "published",
+  "city": "Durbuy",
+  "province": "Luxembourg",
+  "region": "Wallonie",
+  "postalCodes": ["6940"],
+  "geo": { "lat": 50.3531, "lng": 5.4564 },
+  "intent": {
+    "service": "creation-site-web",
+    "primaryKeyword": "création site internet Durbuy",
+    "secondaryKeywords": [
+      "agence web Durbuy",
+      "site internet hôtel Durbuy",
+      "site web gîte Ardenne",
+      "réservation directe hébergement Durbuy",
+      "site multilingue néerlandais Ardenne"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet à Durbuy | Agence BEEW",
+    "description": "Agence web à Durbuy : sites multilingues et réservation directe pour hôtels, gîtes et restaurants. Moins de commissions, plus de réservations en direct."
+  },
+  "hero": {
+    "h1": "Création de site internet à Durbuy",
+    "subtitle": "Une densité d'hébergements exceptionnelle, une clientèle majoritairement néerlandophone, et des commissions de plateformes qui dépassent souvent le coût annuel d'un site.",
+    "badges": ["Réservation directe", "Sites multilingues NL et EN", "Devis fixe sous 48 h"]
+  },
+  "localContext": {
+    "heading": "Le vrai adversaire d'un établissement de Durbuy n'est pas son voisin, c'est sa commission",
+    "body": "Durbuy concentre, sur un territoire communal pourtant très étendu, une densité d'hébergements et de tables sans équivalent en Ardenne. Hôtels de charme, maisons d'hôtes, gîtes de groupe, campings, restaurants gastronomiques et parcs d'activités de plein air se partagent une notoriété bâtie sur l'image du vieux bourg et amplifiée depuis vingt ans par le développement des loisirs sportifs. Cette réussite a produit un effet secondaire que peu d'exploitants énoncent clairement : la concurrence entre établissements y est frontale, et elle se joue presque entièrement sur des plateformes de réservation qui prélèvent entre quinze et vingt-cinq pour cent de chaque nuitée. Sur une saison, ces commissions représentent couramment plusieurs fois le coût d'un site. Le calcul est donc simple à poser, et c'est le premier que nous faisons avec un client durbuysien : chaque réservation reprise en direct est une marge récupérée intégralement. Un site ne remplacera jamais les plateformes, qui restent d'excellents apporteurs de visibilité, mais il doit être capable de convertir le visiteur qui, après vous avoir découvert sur l'une d'elles, tape votre nom pour vérifier. C'est à ce moment précis que tout se joue, et c'est aussi le moment où la plupart des établissements perdent la réservation, faute de moteur de réservation propre ou d'une raison concrète de réserver en direct. La composition de la clientèle est le second facteur structurant. La fréquentation est massivement néerlandophone, avec un flux flamand et néerlandais qui domine largement en dehors des congés scolaires francophones, complété par des visiteurs français et allemands. Un site uniquement en français se coupe mécaniquement de la moitié de son marché potentiel. Le néerlandais n'est pas un confort ici, c'est une condition d'existence commerciale. Enfin, l'image compte plus qu'ailleurs. Un séjour à Durbuy s'achète sur une émotion et sur des photographies, souvent comparées côte à côte entre trois établissements. Des visuels professionnels bien intégrés, chargés rapidement sur un téléphone, pèsent davantage dans la décision que n'importe quel argumentaire écrit.",
+    "highlights": [
+      "Densité d'hébergements et de tables sans équivalent en Ardenne",
+      "Commissions de plateformes : souvent plusieurs fois le coût d'un site par saison",
+      "Clientèle majoritairement néerlandophone : le NL conditionne le marché",
+      "Le moment décisif : le visiteur qui tape votre nom après vous avoir vu ailleurs",
+      "La photographie pèse plus que le texte dans la décision de séjour"
+    ]
+  },
+  "cases": [],
+  "testimonials": [],
+  "pricing": {
+    "from": 2800,
+    "currency": "EUR",
+    "note": "Site vitrine orienté réservation. Moteur de réservation et versions néerlandaise et anglaise chiffrés séparément selon vos besoins."
+  },
+  "faq": [
+    {
+      "question": "Un site peut-il vraiment me faire gagner sur les commissions à Durbuy ?",
+      "answer": "Oui, à condition de ne pas espérer remplacer les plateformes mais de récupérer ce qui peut l'être. Une part importante des voyageurs vous découvre sur une plateforme puis tape votre nom pour vérifier votre site avant de réserver : c'est là que la réservation se gagne ou se perd. Avec un moteur de réservation propre et un avantage direct clairement affiché, meilleur tarif ou souplesse d'annulation, une partie mesurable de ces visiteurs bascule en direct."
+    },
+    {
+      "question": "Faut-il vraiment une version néerlandaise pour un hébergement à Durbuy ?",
+      "answer": "Sans hésitation. La fréquentation flamande et néerlandaise domine une grande partie de l'année, et beaucoup de ces voyageurs quittent un site qu'ils ne comprennent pas dans les premières secondes. Nous recommandons une structure multilingue réelle, avec des adresses distinctes par langue et des textes rédigés plutôt que traduits automatiquement : une traduction approximative fait plus de mal qu'une absence de traduction."
+    },
+    {
+      "question": "Mes photos actuelles suffisent-elles ?",
+      "answer": "C'est le point sur lequel nous sommes le plus francs, parce qu'il pèse énormément dans cette région : un séjour se choisit sur des images comparées côte à côte. Si vos photos datent, sont sombres ou prises au téléphone, elles vous coûtent des réservations tous les jours. Nous travaillons avec des photographes de la région et nous préférons décaler une mise en ligne de deux semaines plutôt que publier un beau site rempli de visuels médiocres."
+    },
+    {
+      "question": "Mon activité est très saisonnière : le site travaille-t-il le reste de l'année ?",
+      "answer": "Seulement s'il est conçu pour. Pendant la saison, il convertit. Hors saison, il doit collecter des adresses, mettre en avant des offres de basse saison et préparer l'année suivante. Un site pensé uniquement comme une vitrine dort neuf mois sur douze, ce qui explique la déception de beaucoup d'exploitants vis-à-vis de leur site précédent."
+    }
+  ],
+  "nearby": [
+    "creation-site-internet-marche-en-famenne",
+    "creation-site-internet-rochefort",
+    "creation-site-internet-bastogne"
+  ],
+  "coverage": ["Durbuy", "Barvaux-sur-Ourthe", "Bomal", "Hotton", "Erezée", "Manhay", "Somme-Leuze"],
+  "updatedAt": "2026-08-04"
+}

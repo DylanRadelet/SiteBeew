@@ -1,0 +1,92 @@
+{
+  "slug": "creation-site-internet-charleroi",
+  "status": "published",
+  "city": "Charleroi",
+  "province": "Hainaut",
+  "region": "Wallonie",
+  "postalCodes": [
+    "6000",
+    "6001",
+    "6010",
+    "6030"
+  ],
+  "geo": {
+    "lat": 50.4108,
+    "lng": 4.4446
+  },
+  "intent": {
+    "service": "creation-site-web",
+    "primaryKeyword": "création site internet Charleroi",
+    "secondaryKeywords": [
+      "agence web Charleroi",
+      "création site web Charleroi",
+      "site internet PME Hainaut",
+      "refonte site internet Charleroi",
+      "agence digitale Charleroi"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet à Charleroi | Agence BEEW",
+    "description": "Agence web à Charleroi : sites vitrines, e-commerce et refontes pour PME, artisans et commerces carolos. Devis fixe sous 48 h, sans engagement."
+  },
+  "hero": {
+    "h1": "Création de site internet à Charleroi",
+    "subtitle": "Un marché où le rapport qualité-prix est scruté de près et où la confiance se gagne par des preuves. Devis fixe, site qui vous appartient, résultats mesurés.",
+    "badges": [
+      "Devis fixe sous 48 h",
+      "Site 100 % à vous",
+      "Résultats mesurés"
+    ]
+  },
+  "localContext": {
+    "heading": "Charleroi : un marché exigeant sur le rapport qualité-prix et sur la preuve",
+    "body": "Charleroi est la plus grande commune de Wallonie en population et l'une des plus contrastées économiquement. La reconversion post-industrielle y a laissé un tissu très hétérogène : des PME manufacturières et de sous-traitance héritées de l'industrie lourde, un secteur aéroportuaire et logistique en forte croissance autour de Gosselies, un pôle biotech et aéronautique implanté sur les anciens terrains industriels, et par ailleurs une densité importante de très petites entreprises, d'artisans et de commerces indépendants. Cette diversité s'accompagne d'une réalité que toute agence honnête doit reconnaître : la sensibilité au prix y est plus marquée qu'en Brabant wallon ou à Namur, et la méfiance envers les prestataires est réelle, nourrie par des expériences passées décevantes avec des sites facturés cher et jamais suivis. Cela ne veut pas dire que le marché carolo cherche le moins cher. Il cherche du concret : un devis fixe sans mauvaise surprise, un site dont il est réellement propriétaire, et des résultats qu'il peut vérifier lui-même. Nous adaptons notre approche en conséquence, avec un chiffrage forfaitaire détaillé poste par poste, un accès direct aux statistiques et un point de suivi qui compare les demandes reçues avant et après. Le second point d'attention est la géographie de l'entité communale, qui regroupe une quinzaine d'anciennes communes fonctionnant encore largement comme des marchés distincts. Un commerce de Marcinelle, de Gilly ou de Jumet ne vise pas la même clientèle que le centre-ville, et le référencement local doit refléter cette réalité plutôt que de traiter Charleroi comme un bloc unique.",
+    "highlights": [
+      "Tissu contrasté : sous-traitance industrielle, logistique, biotech, TPE",
+      "Pôle aéroportuaire et logistique en croissance autour de Gosselies",
+      "Sensibilité au prix marquée, et exigence forte de preuves concrètes",
+      "Méfiance héritée d'expériences décevantes avec d'anciens prestataires",
+      "Quinze anciennes communes qui restent des marchés distincts"
+    ]
+  },
+  "cases": [],
+  "testimonials": [],
+  "pricing": {
+    "from": 2400,
+    "currency": "EUR",
+    "note": "Devis forfaitaire détaillé poste par poste. Le site, son code et son hébergement vous appartiennent intégralement."
+  },
+  "faq": [
+    {
+      "question": "Comment être sûr de ne pas revivre une mauvaise expérience ?",
+      "answer": "Trois garanties concrètes plutôt que des promesses. Le devis est fixe et détaillé poste par poste, donc aucun dépassement n'est possible. Le site, son code, son domaine et son hébergement sont à votre nom, vous pouvez en confier la suite à qui vous voulez. Et vous avez un accès direct aux statistiques pour vérifier vous-même les résultats sans dépendre de nos rapports."
+    },
+    {
+      "question": "Faut-il cibler Charleroi ou mon ancienne commune ?",
+      "answer": "Le plus souvent votre commune, surtout pour un commerce ou un service de proximité. Marcinelle, Gilly, Jumet, Montignies ou Gosselies fonctionnent encore comme des marchés distincts, avec leur propre clientèle d'habitude. Cibler Charleroi dans son ensemble vous met en concurrence avec beaucoup plus d'acteurs pour une clientèle qui, dans les faits, ne se déplacera pas jusqu'à vous."
+    },
+    {
+      "question": "Travaillez-vous avec les entreprises de la zone de Gosselies ?",
+      "answer": "Oui. Le pôle logistique, aéroportuaire et biotech de Gosselies regroupe des profils très différents du commerce local : ventes B2B, cycles longs, enjeux de recrutement importants. Le site y sert à présenter des capacités et à attirer des candidats plus qu'à générer des demandes entrantes. Nous construisons ces projets autour de la crédibilité technique et de la marque employeur."
+    },
+    {
+      "question": "Combien coûte un site internet à Charleroi ?",
+      "answer": "Un site vitrine professionnel démarre à 2 400 € HTVA, rédaction et référencement local compris, avec un devis forfaitaire détaillé avant tout engagement. Un projet e-commerce démarre à 4 000 € HTVA. Nous proposons un paiement en trois fois sans frais, et le premier rendez-vous sur place est gratuit et sans engagement."
+    }
+  ],
+  "nearby": [
+    "creation-site-internet-mons",
+    "creation-site-internet-namur"
+  ],
+  "coverage": [
+    "Charleroi",
+    "Gosselies",
+    "Marcinelle",
+    "Gilly",
+    "Jumet",
+    "Montignies-sur-Sambre",
+    "Châtelet",
+    "Fleurus"
+  ],
+  "updatedAt": "2026-08-02"
+}

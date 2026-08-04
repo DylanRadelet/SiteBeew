@@ -1,0 +1,72 @@
+{
+  "slug": "creation-site-internet-bertrix",
+  "status": "published",
+  "city": "Bertrix",
+  "province": "Luxembourg",
+  "region": "Wallonie",
+  "postalCodes": ["6880"],
+  "geo": { "lat": 49.8536, "lng": 5.2564 },
+  "intent": {
+    "service": "creation-site-web",
+    "primaryKeyword": "création site internet Bertrix",
+    "secondaryKeywords": [
+      "agence web Bertrix",
+      "site internet entreprise Bertrix",
+      "site web zoning Bertrix",
+      "webdesign Bertrix",
+      "site internet transport Ardenne"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet à Bertrix | Agence BEEW",
+    "description": "Agence web à Bertrix : sites pour les entreprises du parc d'activités, le transport, la construction et la filière bois. Devis fixe sous 48 h."
+  },
+  "hero": {
+    "h1": "Création de site internet à Bertrix",
+    "subtitle": "Ici, un site ne sert presque jamais à vendre au grand public : il sert à convaincre un donneur d'ordre et à recruter. Nous le construisons pour ces deux usages-là.",
+    "badges": ["Devis fixe sous 48 h", "Sites B2B et recrutement", "Rendez-vous sur place"]
+  },
+  "localContext": {
+    "heading": "Une commune industrielle où le site parle à des acheteurs, pas à des passants",
+    "body": "Bertrix a une physionomie économique inhabituelle pour une commune de sa taille en Ardenne. La ville a vécu pendant plus d'un siècle de l'extraction et de la taille de l'ardoise, activité qui a laissé un savoir-faire technique et une culture d'entreprise encore lisibles aujourd'hui. Cet héritage s'est reconverti en un parc d'activités qui compte parmi les plus étendus du sud de la province, avec des entreprises de mécanique, de métallurgie légère, de construction, de transport routier et de transformation du bois. S'y ajoutent un aérodrome, une gare sur la dorsale ferroviaire vers Bruxelles et Luxembourg, et une position sur l'axe qui relie Libramont à la Semois. La conséquence pour un site internet est directe et change tout à la conception : la clientèle de la plupart des entreprises bertrigeoises n'est pas locale et n'est pas composée de particuliers. Ce sont des bureaux d'études, des maîtres d'ouvrage, des industriels et des centrales d'achat, parfois situés à des centaines de kilomètres, qui vérifient un fournisseur avant de le consulter. Ils cherchent des capacités de production chiffrées, des certifications, des références vérifiables, des délais et une manière simple de demander un prix. Un site conçu comme une vitrine séduisante mais muette sur ces points ne produit rien. Le second usage pèse presque aussi lourd, et il est systématiquement sous-estimé : le recrutement. Les entreprises du zoning peinent à attirer des soudeurs, des chauffeurs, des techniciens et des conducteurs de travaux, en concurrence directe avec les salaires pratiqués au Grand-Duché, à trois quarts d'heure de route. Une page carrières honnête, montrant les équipes, les machines et les conditions réelles, coûte infiniment moins cher qu'une agence d'intérim et travaille en continu. Dernier point favorable : la concurrence en ligne locale est presque inexistante. Beaucoup d'entreprises du parc n'ont pas de site du tout, ou un site qui n'a pas bougé depuis dix ans. Les positions se prennent vite.",
+    "highlights": [
+      "Parc d'activités parmi les plus étendus du sud de la province",
+      "Héritage ardoisier reconverti en métallurgie, construction et bois",
+      "Clientèle B2B non locale : le site sert à faire vérifier, pas à séduire",
+      "Recrutement en concurrence directe avec les salaires luxembourgeois",
+      "Très peu d'entreprises locales ont un site à jour : positions rapides"
+    ]
+  },
+  "cases": [],
+  "testimonials": [],
+  "pricing": {
+    "from": 2400,
+    "currency": "EUR",
+    "note": "Site vitrine B2B avec fiches de capacités, documentation téléchargeable et page carrières. Paiement en trois fois sans frais."
+  },
+  "faq": [
+    {
+      "question": "Mes clients sont des entreprises, pas des particuliers : un site sert-il vraiment à Bertrix ?",
+      "answer": "Davantage encore, mais pas pour la même raison. Un acheteur professionnel ne vous découvre presque jamais par une recherche : il vous consulte après une recommandation, un salon ou un appel d'offres, et il vérifie votre site avant de vous répondre. Ce qu'il y cherche est très précis — capacités, certifications, références, délais. Un site qui répond à ces quatre points transforme une consultation en devis ; un site qui parle de passion et de savoir-faire sans un chiffre ne convainc personne."
+    },
+    {
+      "question": "Un site peut-il vraiment m'aider à recruter dans le zoning de Bertrix ?",
+      "answer": "C'est l'usage le plus rentable que nous observons dans les communes industrielles de la province. Face aux salaires du Grand-Duché, vous ne gagnez pas sur la fiche de paie : vous gagnez sur le trajet, l'ambiance, la stabilité et le type de travail. Encore faut-il le montrer. Une page carrières avec de vraies photos d'atelier, les équipes et des conditions décrites franchement travaille toute l'année, pour une fraction du coût d'une agence d'intérim."
+    },
+    {
+      "question": "Faut-il une version anglaise ou néerlandaise ?",
+      "answer": "Cela dépend de vos donneurs d'ordre. Pour une entreprise qui livre en Flandre, aux Pays-Bas ou en Allemagne, une version anglaise est souvent le minimum crédible, et le néerlandais se justifie dès qu'une part significative du chiffre vient du nord du pays. Pour une activité strictement wallonne et luxembourgeoise, le français seul suffit et le budget est mieux investi ailleurs, dans la documentation technique par exemple."
+    },
+    {
+      "question": "Vous déplacez-vous jusqu'au parc d'activités ?",
+      "answer": "Oui, sans frais ni engagement, et nous préférons ce format. Voir l'atelier, les machines et les produits change complètement la qualité du site que nous pouvons écrire ensuite : les photos réelles valent mieux que n'importe quelle banque d'images, et les détails techniques qui font la différence pour un acheteur ne se transmettent pas par téléphone."
+    }
+  ],
+  "nearby": [
+    "creation-site-internet-libramont-chevigny",
+    "creation-site-internet-neufchateau",
+    "creation-site-internet-virton"
+  ],
+  "coverage": ["Bertrix", "Herbeumont", "Bouillon", "Paliseul", "Auby-sur-Semois", "Jehonville", "Orgeo"],
+  "updatedAt": "2026-08-04"
+}

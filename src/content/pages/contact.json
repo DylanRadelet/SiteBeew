@@ -1,0 +1,185 @@
+{
+  "slug": "contact",
+  "meta": {
+    "title": "Contact — agence web en province de Luxembourg | BEEW",
+    "description": "Parlez-nous de votre projet de site internet. Réponse sous 24 h ouvrées, rendez-vous sans engagement et devis fixe sous 48 h. BEEW, agence web indépendante."
+  },
+  "hero": {
+    "surtitre": "Contact",
+    "h1": "Parlons de votre projet de site internet",
+    "intro": "Décrivez votre situation en quelques lignes : ce que vous vendez, ce qui coince aujourd'hui et ce que vous attendez d'un site. Plus votre message est concret, plus notre première réponse le sera. Nous répondons à toutes les demandes, y compris celles qui ne débouchent pas sur un projet."
+  },
+  "formulaire": {
+    "surtitre": "Votre demande",
+    "titre": "Sept questions, trois minutes",
+    "intro": "Ces informations nous permettent de préparer le premier échange au lieu de le passer à collecter des données. Vous n'êtes engagé à rien en remplissant ce formulaire.",
+    "champs": [
+      {
+        "name": "nom",
+        "label": "Nom et prénom",
+        "type": "text",
+        "requis": true,
+        "autoComplete": "name",
+        "demiLargeur": true,
+        "placeholder": "Camille Dupont",
+        "erreur": "Indiquez votre nom, pour que nous sachions à qui nous nous adressons."
+      },
+      {
+        "name": "entreprise",
+        "label": "Entreprise ou organisation",
+        "type": "text",
+        "requis": true,
+        "autoComplete": "organization",
+        "demiLargeur": true,
+        "placeholder": "Nom de votre structure",
+        "erreur": "Indiquez le nom de votre entreprise : nous regardons votre présence en ligne avant de vous répondre."
+      },
+      {
+        "name": "email",
+        "label": "Adresse e-mail",
+        "type": "email",
+        "requis": true,
+        "autoComplete": "email",
+        "demiLargeur": true,
+        "placeholder": "vous@votre-entreprise.be",
+        "erreur": "Vérifiez votre adresse e-mail : c'est par là que passe notre réponse."
+      },
+      {
+        "name": "telephone",
+        "label": "Téléphone",
+        "type": "tel",
+        "requis": false,
+        "autoComplete": "tel",
+        "demiLargeur": true,
+        "placeholder": "+32 ...",
+        "erreur": "Ce numéro semble incomplet. Laissez le champ vide si vous préférez l'e-mail."
+      },
+      {
+        "name": "typeProjet",
+        "label": "Type de projet",
+        "type": "select",
+        "requis": true,
+        "demiLargeur": true,
+        "placeholder": "Choisissez la réponse la plus proche",
+        "options": [
+          "Création d'un site vitrine",
+          "Refonte d'un site existant",
+          "Site e-commerce",
+          "Référencement naturel (SEO)",
+          "Je ne sais pas encore"
+        ],
+        "erreur": "Choisissez le type de projet le plus proche du vôtre."
+      },
+      {
+        "name": "budget",
+        "label": "Budget indicatif",
+        "type": "select",
+        "requis": true,
+        "demiLargeur": true,
+        "placeholder": "Une fourchette suffit",
+        "options": [
+          "Moins de 2 000 €",
+          "De 2 000 € à 5 000 €",
+          "De 5 000 € à 10 000 €",
+          "Plus de 10 000 €",
+          "À définir ensemble"
+        ],
+        "erreur": "Sélectionnez une fourchette, même approximative, ou « À définir ensemble »."
+      },
+      {
+        "name": "message",
+        "label": "Votre projet",
+        "type": "textarea",
+        "requis": true,
+        "placeholder": "Votre activité, ce qui ne fonctionne pas aujourd'hui, votre échéance…",
+        "aide": "Vingt caractères minimum. Les échéances et contraintes connues nous sont très utiles.",
+        "erreur": "Décrivez votre projet en quelques lignes : sans contexte, notre réponse serait générique."
+      }
+    ],
+    "consentement": {
+      "label": "J'accepte que BEEW conserve ces informations pour traiter ma demande. Elles ne sont ni revendues, ni utilisées pour de la prospection.",
+      "erreur": "Cochez cette case pour que nous puissions traiter votre demande."
+    },
+    "bouton": "Envoyer ma demande",
+    "etats": {
+      "envoi": "Envoi en cours",
+      "succesTitre": "Message reçu",
+      "succes": "Votre message est parti. Nous revenons vers vous sous 24 h ouvrées avec une première lecture de votre projet et une proposition de rendez-vous.",
+      "erreur": "L'envoi a échoué. Réessayez dans un instant ou écrivez-nous directement à hello@beew.agency — nous traiterons votre demande de la même façon."
+    },
+    "note": "Réponse sous 24 h ouvrées. Aucune inscription à une liste de diffusion."
+  },
+  "etapes": {
+    "surtitre": "La suite",
+    "titre": "Ce qui se passe ensuite",
+    "intro": "Trois étapes, sans zone d'ombre. Vous savez à chaque instant ce qui vous attend et ce que cela vous engage — c'est-à-dire rien, jusqu'à la signature du devis.",
+    "items": [
+      {
+        "titre": "Sous 24 h ouvrées — une vraie réponse",
+        "description": "Nous lisons votre message, regardons votre site actuel et votre visibilité sur Google, puis nous vous répondons par écrit. Si votre besoin ne relève pas de notre métier, nous vous le disons franchement."
+      },
+      {
+        "titre": "Un rendez-vous de 45 minutes, sans frais",
+        "description": "Sur place en province de Luxembourg, ou en visioconférence si vous préférez. On y parle de vos objectifs commerciaux, de vos concurrents et de ce qui est réellement nécessaire — pas d'un catalogue d'options."
+      },
+      {
+        "titre": "Un devis fixe sous 48 h",
+        "description": "Après le rendez-vous, vous recevez un devis chiffré au montant définitif, détaillant le périmètre, le planning et ce qui n'est pas inclus. Il est à vous, que vous nous confiiez le projet ou non."
+      }
+    ]
+  },
+  "coordonnees": {
+    "surtitre": "Coordonnées",
+    "titre": "Nous joindre directement",
+    "items": [
+      {
+        "label": "E-mail",
+        "valeur": "hello@beew.agency",
+        "href": "mailto:hello@beew.agency"
+      },
+      {
+        "label": "Zone d'intervention",
+        "valeur": "Province de Luxembourg, Belgique"
+      },
+      {
+        "label": "Horaires",
+        "valeur": "Du lundi au vendredi, 9h — 18h"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Sous quel délai obtenez-vous une réponse ?",
+      "answer": "Nous répondons à toute demande sous 24 heures ouvrées, du lundi au vendredi. Une demande envoyée le vendredi soir reçoit donc une réponse le lundi. Cette réponse est écrite par la personne qui suivrait votre projet, jamais automatisée."
+    },
+    {
+      "question": "Le premier rendez-vous est-il vraiment gratuit ?",
+      "answer": "Oui, et sans contrepartie. Le premier rendez-vous et le devis qui en découle ne vous sont jamais facturés, même si vous décidez de travailler avec une autre agence. Le devis reste votre document : vous pouvez le comparer librement à d'autres offres."
+    },
+    {
+      "question": "Que se passe-t-il si mon projet n'est pas encore défini ?",
+      "answer": "C'est le cas le plus fréquent et ce n'est pas un problème. Le rendez-vous sert précisément à cadrer le besoin : périmètre, priorités, budget réaliste. Vous repartez avec une définition claire du projet, y compris si la conclusion est qu'il faut attendre."
+    }
+  ],
+  "liens": {
+    "surtitre": "Avant d'écrire",
+    "titre": "De quoi préparer votre demande",
+    "items": [
+      {
+        "href": "/tarifs",
+        "label": "Nos tarifs",
+        "description": "Les trois formules, le prix de départ de chacune et ce qui est inclus ou exclu."
+      },
+      {
+        "href": "/methode",
+        "label": "Notre méthode",
+        "description": "Les quatre étapes d'un projet, les délais annoncés et ce que nous attendons de vous."
+      },
+      {
+        "href": "/realisations",
+        "label": "Nos réalisations",
+        "description": "Des projets livrés, avec le contexte de départ et le résultat mesuré à l'arrivée."
+      }
+    ]
+  }
+}

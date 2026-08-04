@@ -1,0 +1,125 @@
+{
+  "slug": "wallonie",
+  "level": "region",
+  "name": "Wallonie",
+  "shortName": "Wallonie",
+  "aliases": [
+    "Région wallonne"
+  ],
+  "parent": null,
+  "meta": {
+    "title": "Création de site internet en Wallonie | BEEW",
+    "description": "Agence web pour les PME wallonnes : création de site internet dans les cinq provinces de Wallonie, du Brabant wallon à l'Ardenne. Devis fixe sous 48 h."
+  },
+  "hero": {
+    "h1": "Création de site internet en Wallonie",
+    "subtitle": "Cinq provinces, cinq économies qui n'ont presque rien en commun. Nous travaillons la visibilité là où la décision se prend vraiment : au niveau de la province, puis de la commune.",
+    "badges": [
+      "Cinq provinces couvertes",
+      "Devis fixe sous 48 h",
+      "Agence indépendante"
+    ]
+  },
+  "economy": {
+    "heading": "Ce que veut dire « vendre en Wallonie » quand on regarde de près",
+    "body": "La Wallonie n'est pas un marché homogène, et c'est la première chose à comprendre avant d'y investir un euro en visibilité. La région compte cinq provinces — Hainaut, Liège, Luxembourg, Namur et Brabant wallon — dont les profils économiques n'ont presque rien en commun. Namur accueille le siège du Gouvernement et du Parlement wallons : l'emploi y est administratif, tertiaire, largement public, et la demande numérique vient autant d'associations, de fédérations et de professions libérales que d'entreprises classiques. Le Brabant wallon est à l'opposé le territoire le plus dense économiquement de la région, tiré par la proximité immédiate de Bruxelles, par l'axe Wavre–Louvain-la-Neuve–Nivelles et par un pôle biopharmaceutique de dimension internationale ; les entreprises y comparent leurs prestataires à ceux de la capitale, et le niveau d'exigence sur le design comme sur la performance technique y est nettement plus haut qu'ailleurs.\n\nLe Hainaut, province la plus peuplée, poursuit la reconversion de ses bassins sidérurgiques et charbonniers. Charleroi, La Louvière, Mons et Tournai concentrent une économie de PME de services, de logistique et de sous-traitance industrielle, avec un aéroport low cost qui a redessiné toute la zone de Gosselies. Liège combine un port intérieur parmi les plus importants d'Europe, un aéroport tourné vers le fret, une université qui irrigue un tissu dense de spin-offs, et une vallée mosane encore industrielle. La province de Luxembourg, enfin, est la plus vaste et la moins peuplée du pays : elle vit à l'heure du Grand-Duché voisin.\n\nCe que ces cinq territoires partagent, en revanche, structure notre façon de travailler. D'abord une économie de très petites entreprises : la Wallonie est une terre de TPE et de PME familiales, où la décision d'investir dans un site se prend souvent seul, sur fonds propres, et où le budget doit se justifier par du chiffre d'affaires et non par une intention de marque. Ensuite un rapport particulier à la proximité : sur la plupart des requêtes commerciales, le résultat qui gagne n'est pas le plus gros site, c'est celui qui prouve qu'il est du coin — fiche Google Business Profile tenue à jour, adresse réelle, contenus qui nomment les communes servies. Enfin un cadre régional propre : les dispositifs wallons d'aide aux entreprises, dont les chèques-entreprises, financent une partie des démarches de transformation numérique, et les pôles de compétitivité régionaux structurent des filières entières autour des sciences du vivant, de l'agroalimentaire, de la logistique et de l'aéronautique. À l'est, la Communauté germanophone ajoute une dimension linguistique que peu d'agences prennent au sérieux.\n\nNotre position est donc simple : nous ne publions pas une page « Wallonie » de plus. Cette page existe pour orienter, puis descendre d'un étage. Un artisan de Gaume et un cabinet de conseil installé à Louvain-la-Neuve ne se cherchent ni dans les mêmes mots, ni dans le même rayon géographique.",
+    "highlights": [
+      "Cinq provinces aux profils économiques opposés, jamais une seule stratégie",
+      "Un tissu dominé par les TPE et les PME familiales",
+      "Namur, capitale régionale et siège des institutions wallonnes",
+      "Brabant wallon : le territoire le plus dense, le plus exigeant",
+      "Aides régionales à la transformation numérique (chèques-entreprises)",
+      "Communauté germanophone à l'est : un enjeu de langue réel"
+    ]
+  },
+  "facts": [
+    {
+      "label": "Provinces",
+      "value": "5 — Hainaut, Liège, Luxembourg, Namur, Brabant wallon"
+    },
+    {
+      "label": "Capitale régionale",
+      "value": "Namur, siège du Gouvernement et du Parlement wallons"
+    },
+    {
+      "label": "Province la plus vaste",
+      "value": "Luxembourg, aussi la moins densément peuplée"
+    },
+    {
+      "label": "Province la plus dense économiquement",
+      "value": "Brabant wallon"
+    },
+    {
+      "label": "Langues",
+      "value": "Français, et allemand dans les communes de la Communauté germanophone"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "Services aux entreprises et professions libérales",
+      "description": "Comptables, avocats, bureaux d'études, conseil : une clientèle qui ne vend pas un produit mais une compétence, et dont le site doit d'abord installer une crédibilité avant de générer un contact."
+    },
+    {
+      "name": "Industrie de transformation et sous-traitance",
+      "description": "Héritage des bassins hennuyers et liégeois : des entreprises techniques dont les acheteurs sont eux-mêmes des professionnels, avec un besoin de fiches produits précises et de documentation téléchargeable plutôt que de storytelling."
+    },
+    {
+      "name": "Logistique et transport",
+      "description": "Portée par le port de Liège, les aéroports de Liège et de Charleroi et la position de la région entre Bruxelles, la Ruhr et le nord de la France. Des sites souvent multilingues, orientés recrutement autant que commercial."
+    },
+    {
+      "name": "Agroalimentaire et sciences du vivant",
+      "description": "Des filières structurées par les pôles de compétitivité wallons, du producteur en circuit court jusqu'aux entreprises biopharmaceutiques du Brabant wallon, avec des exigences réglementaires qui débordent sur le contenu du site."
+    },
+    {
+      "name": "Commerce de proximité, horeca et tourisme",
+      "description": "La demande la plus fréquente que nous recevons : des indépendants dont le site doit répondre à trois questions en dix secondes, où, quand, combien, sur un écran de téléphone et souvent en déplacement."
+    }
+  ],
+  "provinces": [
+    {
+      "name": "Province de Luxembourg",
+      "slug": "province-de-luxembourg",
+      "focus": "La plus vaste et la moins peuplée du pays, profondément marquée par le travail frontalier vers le Grand-Duché, la filière bois et le tourisme en Ardenne."
+    },
+    {
+      "name": "Province de Namur",
+      "slug": "province-de-namur",
+      "focus": "Capitale régionale et cœur administratif de la Wallonie, doublée d'un axe touristique le long de la Meuse, de Namur à Dinant."
+    },
+    {
+      "name": "Province de Liège",
+      "slug": "province-de-liege",
+      "focus": "Port intérieur majeur, aéroport de fret, université et spin-offs, plus les communes germanophones de l'est du pays."
+    },
+    {
+      "name": "Province de Hainaut",
+      "slug": "province-de-hainaut",
+      "focus": "La plus peuplée de Wallonie, en reconversion autour de Charleroi, Mons, La Louvière et Tournai, avec une économie de services et de logistique."
+    },
+    {
+      "name": "Brabant wallon",
+      "slug": "brabant-wallon",
+      "focus": "Le territoire économiquement le plus dense de la région, adossé à Bruxelles, à Louvain-la-Neuve et à son pôle biopharmaceutique."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Intervenez-vous partout en Wallonie ou seulement près de votre siège ?",
+      "answer": "Nous travaillons pour des clients situés dans toute la Wallonie. Le premier rendez-vous se fait sur place quand la distance le permet, en visioconférence au-delà. Le reste du projet se pilote de la même manière quelle que soit la province : jalons validés ensemble, maquettes commentées à distance, mise en ligne accompagnée."
+    },
+    {
+      "question": "Pourquoi une page par province et par commune plutôt qu'une seule page Wallonie ?",
+      "answer": "Parce que personne ne cherche « agence web Wallonie ». Les recherches réelles sont locales et nomment une ville. Une page unique pour toute la région ne répond à aucune de ces intentions et se fait dépasser par des concurrents ancrés localement. La pyramide région, province, commune reproduit la manière dont la demande se formule."
+    },
+    {
+      "question": "Existe-t-il des aides pour financer un site web en Wallonie ?",
+      "answer": "La Région wallonne propose des dispositifs d'aide aux entreprises, notamment les chèques-entreprises, dont certains couvrent des démarches de transformation numérique. Les conditions et les montants évoluent : nous vous orientons vers le guichet compétent, mais nous ne nous substituons pas à lui et nous ne conditionnons jamais un devis à l'obtention d'une aide."
+    },
+    {
+      "question": "Travaillez-vous en néerlandais, en anglais ou en allemand ?",
+      "answer": "Oui, et c'est un vrai sujet dans plusieurs zones de la région : tourisme ardennais visé depuis la Flandre et les Pays-Bas, logistique tournée vers l'international, communes germanophones à l'est de la province de Liège. Nous construisons alors une structure multilingue propre, avec des URL distinctes par langue plutôt qu'une traduction automatique."
+    }
+  ],
+  "updatedAt": "2026-08-02"
+}

@@ -1,0 +1,205 @@
+{
+  "slug": "site-e-commerce",
+  "intent": {
+    "primaryKeyword": "création site e-commerce",
+    "secondaryKeywords": [
+      "boutique en ligne",
+      "créer un site de vente en ligne",
+      "e-commerce Belgique",
+      "prix boutique en ligne",
+      "vendre en ligne sans marketplace"
+    ]
+  },
+  "meta": {
+    "title": "Création de site e-commerce | Boutique en ligne",
+    "description": "Création de site e-commerce en Wallonie : catalogue, paiement Bancontact, stocks et expéditions. Devis fixe, dès 4 000 € HTVA, boutique qui vous appartient."
+  },
+  "hero": {
+    "h1": "Création de site e-commerce pour vendre en direct",
+    "subtitle": "Vendre depuis votre propre boutique plutôt que sur une place de marché change l'économie de votre activité : vous gardez la marge, la relation client et les données. Nous construisons des catalogues rapides, des tunnels d'achat courts et des paiements adaptés aux habitudes belges.",
+    "badges": [
+      "Dès 4 000 € HTVA",
+      "Bancontact et paiement sécurisé",
+      "Aucune commission sur vos ventes"
+    ]
+  },
+  "problem": {
+    "heading": "Une boutique en ligne ne se juge pas au nombre de visiteurs",
+    "body": "Le commerce en ligne se mesure au produit de trois chiffres : le nombre de visiteurs, la part qui achète, et le montant moyen du panier. Une boutique qui reçoit beaucoup de monde mais dont deux visiteurs sur mille commandent ne souffre pas d'un problème d'audience. Elle souffre d'un tunnel d'achat trop long, de frais de port découverts à la dernière étape, d'un moyen de paiement absent ou d'une fiche produit qui ne répond pas aux questions que se pose l'acheteur. Travailler sur ces points coûte souvent moins cher qu'acheter davantage de trafic.\n\nLes places de marché posent un autre problème. Elles apportent du volume immédiatement, mais prélèvent une commission sur chaque vente, imposent leurs règles d'affichage, et surtout conservent la relation : vous ne savez pas qui a acheté, vous ne pouvez pas le recontacter, et le jour où l'algorithme change vos ventes s'arrêtent sans préavis. Une boutique en propre demande plus d'efforts au démarrage et devient l'actif le plus rentable ensuite.\n\nEnfin, beaucoup de projets sous-estiment la logistique. Les stocks doivent refléter la réalité pour éviter d'annoncer disponible ce qui ne l'est plus, les frais de port doivent être calculés avant le paiement, les retours doivent être prévus, et les factures doivent sortir dans un format exploitable par votre comptable. Une boutique mal reliée à l'arrière-boutique fait perdre plus de temps qu'elle n'en fait gagner.",
+    "pains": [
+      {
+        "title": "Un tunnel d'achat qui perd l'acheteur",
+        "description": "Création de compte obligatoire, formulaire en cinq écrans, frais de livraison révélés à la dernière étape : chaque friction supprime une part des commandes. Le panier abandonné n'est presque jamais un problème de prix, c'est un problème de parcours."
+      },
+      {
+        "title": "Les commissions des places de marché",
+        "description": "Entre commission de vente, frais de dossier et publicité interne, une part significative du chiffre part avant même de couvrir vos coûts. Vous financez la visibilité d'une plateforme qui vend aussi vos concurrents à côté de vous."
+      },
+      {
+        "title": "Des fiches produits qui ne rassurent pas",
+        "description": "Une photo unique, deux lignes de description reprises du fournisseur, aucune indication de dimension, de délai ni de politique de retour. L'acheteur hésite, ouvre un autre onglet et commande ailleurs où il a obtenu la réponse."
+      },
+      {
+        "title": "Des stocks et des expéditions désynchronisés",
+        "description": "Vendre un article épuisé oblige à rembourser et à s'excuser, ce qui coûte bien plus que la commande elle-même. Sans lien entre la boutique et votre gestion réelle, l'erreur devient une question de temps."
+      }
+    ]
+  },
+  "included": {
+    "heading": "Ce que comprend votre boutique en ligne",
+    "intro": "Une boutique livrée prête à vendre : catalogue en place, paiements actifs, transporteurs paramétrés et équipe formée à traiter une commande de bout en bout.",
+    "items": [
+      {
+        "title": "Catalogue et fiches produits",
+        "description": "Structure de catégories, filtres utiles, gestion des variantes de taille et de couleur, et un gabarit de fiche produit qui traite les objections : dimensions, matières, délai d'expédition et conditions de retour."
+      },
+      {
+        "title": "Paiement adapté au marché belge",
+        "description": "Bancontact en premier, puis carte bancaire, virement et paiement échelonné si votre panier moyen le justifie. Le choix des moyens proposés se fait selon votre clientèle, pas selon ce qui est le plus simple à installer."
+      },
+      {
+        "title": "Livraison et retours",
+        "description": "Tarifs de port par poids ou par zone, retrait en magasin, points relais et suivi d'expédition. La procédure de retour est écrite noir sur blanc, parce que la loi belge l'impose et parce qu'elle rassure avant l'achat."
+      },
+      {
+        "title": "Gestion des commandes",
+        "description": "Un tableau de bord où vos commandes s'enchaînent par statut, avec impression des bons de préparation et des étiquettes. Vos e-mails de confirmation et d'expédition sont rédigés et personnalisés, pas laissés en version par défaut."
+      },
+      {
+        "title": "Suivi du chiffre d'affaires",
+        "description": "Mesure du taux de transformation, du panier moyen et des étapes où les acheteurs abandonnent. Ces trois indicateurs suffisent à décider quoi corriger en priorité, sans se noyer dans un outil d'analyse surdimensionné."
+      },
+      {
+        "title": "Référencement des pages produit",
+        "description": "Catégories et fiches sont construites pour être trouvées directement depuis les moteurs, avec les données structurées de prix et de disponibilité qui font apparaître ces informations dans les résultats de recherche."
+      }
+    ]
+  },
+  "method": {
+    "heading": "Du catalogue papier à la première commande",
+    "intro": "Un projet de vente en ligne mobilise plus votre équipe qu'un site vitrine : il faut des données produits propres. Nous organisons ce travail au lieu de vous le laisser sur les bras.",
+    "steps": [
+      {
+        "title": "Cadrage commercial et logistique",
+        "duration": "1 à 2 semaines",
+        "description": "Nous passons en revue votre catalogue, vos marges, vos zones de livraison et la façon dont vous préparez une commande aujourd'hui. Cette étape détermine le périmètre : ce qui sera vendu en ligne dès l'ouverture et ce qui viendra plus tard."
+      },
+      {
+        "title": "Devis fixe et préparation des données",
+        "duration": "sous 48 h pour le devis",
+        "description": "Vous recevez le forfait détaillé et un modèle de fichier à compléter pour vos produits. Nous reprenons les descriptions, harmonisons les photos et signalons les fiches trop pauvres pour convaincre un acheteur."
+      },
+      {
+        "title": "Construction et tests de commande",
+        "duration": "6 à 10 semaines",
+        "description": "La boutique se construit sur une adresse privée. Avant l'ouverture, nous passons de vraies commandes de test avec paiement réel et remboursement, jusqu'à ce que le parcours fonctionne sur mobile comme sur ordinateur."
+      },
+      {
+        "title": "Ouverture et premières semaines",
+        "duration": "1 journée, puis 1 mois",
+        "description": "Nous ouvrons la boutique, formons votre équipe au traitement des commandes et restons disponibles pendant le premier mois. Nous regardons ensemble où les acheteurs s'arrêtent et corrigeons les frictions constatées sur des ventes réelles."
+      }
+    ]
+  },
+  "proof": {
+    "heading": "Des boutiques jugées sur leur taux de transformation",
+    "intro": "Le seul indicateur qui compte pour une boutique est la part de visiteurs qui commande, et son évolution. Nous n'afficherons ici que des chiffres communiqués et validés par les commerçants concernés.",
+    "cases": []
+  },
+  "pricing": {
+    "heading": "Combien coûte une boutique en ligne",
+    "label": "Boutique en ligne",
+    "from": 4000,
+    "currency": "EUR",
+    "pitch": "Le tarif de départ correspond à une boutique complète avec un catalogue de taille raisonnable, les moyens de paiement belges, la livraison paramétrée et la formation de votre équipe au traitement des commandes.",
+    "includes": [
+      "Catalogue, catégories, filtres et variantes",
+      "Paiement Bancontact et carte bancaire sécurisé",
+      "Frais de port, points relais et retrait en magasin",
+      "Tableau de bord des commandes et e-mails personnalisés",
+      "Suivi du taux de transformation et du panier moyen",
+      "Formation de votre équipe et documentation écrite"
+    ],
+    "note": "Prix hors TVA, au forfait, hors frais de transaction prélevés par votre prestataire de paiement. Un catalogue de plusieurs milliers de références, une connexion à votre logiciel de gestion ou une boutique multilingue relèvent du projet sur mesure, à partir de 7 000 € hors TVA. Nous ne prenons aucun pourcentage sur vos ventes."
+  },
+  "faq": [
+    {
+      "question": "Quel budget prévoir pour la création d'un site e-commerce ?",
+      "answer": "Une boutique en ligne démarre à 4 000 € hors TVA chez nous, formation comprise. Le budget dépend surtout du nombre de références, du besoin de variantes et de la complexité des règles de livraison. Un catalogue important ou une connexion à votre logiciel de gestion font passer le projet en développement sur mesure, à partir de 7 000 € hors TVA. Prévoyez également les frais de transaction du prestataire de paiement, qui vous sont facturés directement."
+    },
+    {
+      "question": "Sur quelle plateforme construisez-vous la boutique ?",
+      "answer": "Le choix se fait au cadrage, selon votre volume, votre logistique et la manière dont vous voulez gérer vos stocks. Nous privilégions des solutions dont vous restez propriétaire et que vous pouvez confier à un autre prestataire, plutôt que des systèmes fermés facturés au pourcentage des ventes. Nous vous expliquons les conséquences de chaque option, y compris les coûts récurrents, avant de trancher ensemble."
+    },
+    {
+      "question": "Faut-il abandonner les places de marché pour ouvrir sa boutique ?",
+      "answer": "Non, et c'est rarement souhaitable au départ. Les places de marché apportent du volume pendant que votre boutique se construit une audience. L'objectif est de faire basculer progressivement les clients fidèles vers votre site, où la marge est entière et la relation vous appartient. Beaucoup de commerçants gardent les deux canaux, en réservant certaines références ou certains avantages à leur propre boutique."
+    },
+    {
+      "question": "Combien de temps prend la création d'un site e-commerce ?",
+      "answer": "Six à dix semaines selon la taille du catalogue. Le développement n'est pas l'étape la plus longue : c'est la préparation des données produits qui décide du calendrier. Photos, descriptions, poids, dimensions et références doivent être propres avant l'intégration. Nous fournissons un modèle de fichier et prenons en charge la reprise des textes, mais votre disponibilité sur ce point reste le principal facteur de délai."
+    },
+    {
+      "question": "Que dit la loi belge pour une boutique en ligne ?",
+      "answer": "Vous devez afficher vos mentions légales et votre numéro d'entreprise, indiquer les prix toutes taxes comprises pour les particuliers, détailler les frais de livraison avant la validation du paiement, et informer du droit de rétractation de quatorze jours avec un formulaire type. Ces éléments sont intégrés à la boutique dès la construction. Nous ne fournissons pas de conseil juridique : pour un cas particulier, faites relire vos conditions générales par un juriste."
+    },
+    {
+      "question": "Puis-je gérer moi-même mes produits et mes prix ?",
+      "answer": "Oui, c'est le principe. Vous ajoutez des articles, modifiez des prix, lancez une promotion et suivez vos stocks depuis un espace d'administration, sans nous solliciter. La formation à ces opérations est comprise et accompagnée d'une documentation écrite adaptée à votre boutique. Nous intervenons ensuite uniquement sur les évolutions de structure ou l'ajout de nouvelles fonctionnalités."
+    }
+  ],
+  "cta": {
+    "title": "Chiffrons votre projet de vente en ligne",
+    "subtitle": "Nous regardons ensemble votre catalogue, vos marges et votre logistique actuelle. Vous saurez ce que la boutique coûte, ce qu'elle demande à votre équipe et à partir de quel volume elle devient rentable."
+  },
+  "links": {
+    "heading": "Avant ou après votre boutique",
+    "intro": "Un projet de vente en ligne s'accompagne souvent d'un autre chantier, en amont pour le site principal ou en aval pour la visibilité des fiches produits.",
+    "services": [
+      {
+        "href": "/creation-site-internet",
+        "label": "Création de site internet",
+        "description": "Votre priorité est d'abord de présenter votre activité et de récolter des demandes, sans vendre directement en ligne."
+      },
+      {
+        "href": "/refonte-site-internet",
+        "label": "Refonte de site internet",
+        "description": "Vous avez déjà une boutique qui vieillit mal : la reprise doit préserver vos fiches produits déjà positionnées."
+      },
+      {
+        "href": "/referencement-seo",
+        "label": "Référencement naturel",
+        "description": "Faire connaître vos catégories et vos fiches produits auprès des moteurs demande un travail de contenu spécifique."
+      },
+      {
+        "href": "/application-web",
+        "label": "Application web",
+        "description": "Structurer tout un processus métier dans un outil accessible par navigateur."
+      },
+      {
+        "href": "/outils-internes",
+        "label": "Outils internes",
+        "description": "Supprimer une tâche répétitive précise, sans toucher au reste de votre organisation."
+      }
+    ],
+    "pages": [
+      {
+        "href": "/tarifs",
+        "label": "Nos tarifs"
+      },
+      {
+        "href": "/realisations",
+        "label": "Nos réalisations"
+      },
+      {
+        "href": "/methode",
+        "label": "Notre méthode"
+      },
+      {
+        "href": "/contact",
+        "label": "Nous contacter"
+      }
+    ]
+  },
+  "updatedAt": "2026-08-02"
+}

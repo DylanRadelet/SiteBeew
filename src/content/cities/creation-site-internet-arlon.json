@@ -1,0 +1,93 @@
+{
+  "slug": "creation-site-internet-arlon",
+  "status": "published",
+  "city": "Arlon",
+  "province": "Luxembourg",
+  "region": "Wallonie",
+  "postalCodes": [
+    "6700",
+    "6704",
+    "6706"
+  ],
+  "geo": {
+    "lat": 49.6833,
+    "lng": 5.8167
+  },
+  "intent": {
+    "service": "creation-site-web",
+    "primaryKeyword": "création site internet Arlon",
+    "secondaryKeywords": [
+      "agence web Arlon",
+      "créateur site internet Arlon",
+      "site vitrine Arlon",
+      "webdesign Arlon",
+      "refonte site internet Arlon"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet à Arlon | Agence BEEW",
+    "description": "Agence web à Arlon : sites vitrines et e-commerce pensés pour convertir une clientèle transfrontalière. Devis en 48 h, livraison en 4 semaines."
+  },
+  "hero": {
+    "h1": "Création de site internet à Arlon",
+    "subtitle": "Nous concevons des sites qui tiennent la comparaison avec ceux de vos concurrents luxembourgeois, sans en payer le prix. Stratégie, design et développement depuis le Luxembourg belge.",
+    "badges": [
+      "Livraison en 4 semaines",
+      "100/100 PageSpeed",
+      "Devis sous 48 h"
+    ]
+  },
+  "localContext": {
+    "heading": "Pourquoi un site web à Arlon ne se conçoit pas comme ailleurs",
+    "body": "Arlon occupe une position commerciale unique en Belgique. Chef-lieu de la province de Luxembourg, la ville vit au rythme du Grand-Duché : une part considérable de la population active franchit quotidiennement la frontière pour travailler à Luxembourg-Ville. Cette réalité change tout pour une entreprise arlonaise qui veut se rendre visible en ligne. Votre visiteur type dispose d'un pouvoir d'achat supérieur à la moyenne wallonne, il compare spontanément votre offre à celle des prestataires luxembourgeois, et il consulte votre site majoritairement depuis son smartphone, entre deux trajets. Un site qui charge lentement ou qui affiche une identité approximative perd cette audience en quelques secondes. La concurrence, elle, ne se limite pas au périmètre communal. Les agences et commerces du Grand-Duché investissent des budgets de communication sans commune mesure avec ceux pratiqués côté belge, et leurs sites servent de référence implicite à vos futurs clients. Notre parti pris pour nos clients arlonais consiste donc à viser ce niveau d'exigence sur la forme, tout en gardant une structure de coûts belge. Concrètement : une identité soignée, des temps de chargement irréprochables, et un discours qui assume le positionnement transfrontalier plutôt que de le subir. Le référencement local suit la même logique. Les recherches autour d'Arlon se font en français, mais une partie non négligeable du trafic arrive avec des intentions bilingues ou depuis des adresses luxembourgeoises. Nous structurons vos pages pour capter ces deux flux, avec une fiche Google Business Profile optimisée sur la zone Arlon-Messancy-Aubange et un maillage vers les communes limitrophes. Les secteurs que nous accompagnons le plus dans la région : professions libérales, immobilier, santé, artisanat haut de gamme et commerces de centre-ville confrontés à l'évasion commerciale vers le Grand-Duché.",
+    "highlights": [
+      "Audience à fort pouvoir d'achat, habituée aux standards luxembourgeois",
+      "Trafic très majoritairement mobile, souvent en déplacement",
+      "Concurrence indirecte des prestataires du Grand-Duché",
+      "Zone de chalandise transfrontalière Arlon–Messancy–Aubange",
+      "Forte demande sur les professions libérales et l'immobilier"
+    ]
+  },
+  "cases": [],
+  "testimonials": [],
+  "pricing": {
+    "from": 2400,
+    "currency": "EUR",
+    "note": "Site vitrine complet, design sur mesure, rédaction SEO et mise en ligne incluses. Paiement en trois fois sans frais."
+  },
+  "faq": [
+    {
+      "question": "Combien coûte la création d'un site web à Arlon ?",
+      "answer": "Un site vitrine professionnel démarre à 2 400 € HTVA chez BEEW, rédaction et référencement local inclus. Pour un projet e-commerce ou une plateforme métier, comptez à partir de 4 000 € HTVA. Nous établissons toujours un devis fixe après un premier échange : pas de facturation à l'heure ni de dépassement surprise en cours de projet."
+    },
+    {
+      "question": "Travaillez-vous avec des entreprises arlonaises qui visent aussi le marché luxembourgeois ?",
+      "answer": "C'est le cas de la majorité de nos clients à Arlon. Nous structurons alors le site pour couvrir les deux zones : contenus adaptés aux deux publics, mentions légales conformes des deux côtés de la frontière, et référencement travaillé aussi bien sur les recherches belges que sur celles émises depuis le Grand-Duché. Une version bilingue français-anglais est souvent pertinente."
+    },
+    {
+      "question": "Vous déplacez-vous à Arlon pour un premier rendez-vous ?",
+      "answer": "Oui, sans frais et sans engagement. Nous sommes basés dans la province de Luxembourg et nous nous déplaçons à Arlon et dans toutes les communes environnantes. Ce premier rendez-vous sert à cadrer vos objectifs, votre positionnement et votre budget avant toute proposition chiffrée. Il dure environ une heure."
+    },
+    {
+      "question": "Quel délai pour mettre en ligne un site à Arlon ?",
+      "answer": "Quatre semaines en moyenne pour un site vitrine, à partir de la validation du devis et de la réception de vos contenus. Un projet e-commerce demande six à dix semaines selon le catalogue. Nous travaillons par jalons validés ensemble, vous voyez le site avancer semaine après semaine plutôt que de découvrir le résultat à la fin."
+    }
+  ],
+  "nearby": [
+    "creation-site-internet-bastogne",
+    "creation-site-internet-libramont-chevigny",
+    "creation-site-internet-neufchateau",
+    "creation-site-internet-virton"
+  ],
+  "coverage": [
+    "Arlon",
+    "Messancy",
+    "Aubange",
+    "Attert",
+    "Étalle",
+    "Habay",
+    "Saint-Léger",
+    "Musson"
+  ],
+  "updatedAt": "2026-08-02"
+}

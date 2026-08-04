@@ -1,0 +1,92 @@
+{
+  "slug": "creation-site-internet-mons",
+  "status": "published",
+  "city": "Mons",
+  "province": "Hainaut",
+  "region": "Wallonie",
+  "postalCodes": [
+    "7000",
+    "7011",
+    "7020",
+    "7030"
+  ],
+  "geo": {
+    "lat": 50.4542,
+    "lng": 3.9563
+  },
+  "intent": {
+    "service": "creation-site-web",
+    "primaryKeyword": "création site internet Mons",
+    "secondaryKeywords": [
+      "agence web Mons",
+      "création site web Mons",
+      "agence digitale Hainaut",
+      "site internet PME Mons",
+      "refonte site internet Mons"
+    ]
+  },
+  "meta": {
+    "title": "Création de site internet à Mons | Agence BEEW",
+    "description": "Agence web à Mons : sites vitrines, plateformes et refontes pour PME, acteurs culturels et entreprises technologiques montoises. Devis fixe sous 48 h."
+  },
+  "hero": {
+    "h1": "Création de site internet à Mons",
+    "subtitle": "Entre pôle numérique, université et patrimoine classé, Mons a des attentes plus élevées que la moyenne wallonne. Nous concevons à ce niveau-là.",
+    "badges": [
+      "Devis fixe sous 48 h",
+      "Standards élevés",
+      "Agence indépendante"
+    ]
+  },
+  "localContext": {
+    "heading": "Mons : une ville où l'exigence numérique est plus haute que la moyenne wallonne",
+    "body": "Mons occupe une position singulière en Wallonie. Ancienne capitale européenne de la culture, la ville a vu son centre historique, sa Grand-Place et son patrimoine classé profondément revalorisés, avec un secteur culturel et touristique structuré autour du Doudou, des musées et d'une programmation dense. Parallèlement, le développement du pôle numérique implanté aux abords de la ville, avec des centres de données, des acteurs technologiques internationaux et un écosystème de start-ups adossé à l'université, a fait émerger une population professionnelle familière du digital. À cela s'ajoutent la présence militaire internationale liée aux installations de l'OTAN et une communauté d'expatriés qui constitue un public spécifique, souvent anglophone. Cette combinaison a une conséquence concrète pour un site web montois : le niveau d'attente est plus élevé que dans le reste du Hainaut, et une part significative de vos interlocuteurs sait juger un site sur autre chose que son apparence. Les questions sur la performance, l'accessibilité, la protection des données ou le suivi analytique arrivent plus tôt dans la conversation qu'ailleurs. Nous adaptons le dispositif à ces publics distincts. Pour les acteurs culturels, la priorité va à la mise en valeur de la programmation et à la billetterie. Pour les entreprises technologiques, à la démonstration d'expertise et au recrutement, souvent en anglais. Pour les commerces du centre et les professions libérales, au référencement local classique, où la concurrence reste bien plus abordable qu'à Liège ou à Charleroi. Une version anglaise se justifie plus souvent à Mons qu'ailleurs en Wallonie, du fait de la communauté internationale présente.",
+    "highlights": [
+      "Pôle numérique et écosystème universitaire : interlocuteurs avertis",
+      "Secteur culturel et touristique structuré, avec besoins de billetterie",
+      "Communauté internationale : une version anglaise se justifie souvent",
+      "Concurrence locale plus abordable qu'à Liège ou Charleroi",
+      "Questions sur performance, accessibilité et données posées très tôt"
+    ]
+  },
+  "cases": [],
+  "testimonials": [],
+  "pricing": {
+    "from": 2800,
+    "currency": "EUR",
+    "note": "Site vitrine ou plateforme selon le profil. Version anglaise et billetterie chiffrées séparément selon vos besoins."
+  },
+  "faq": [
+    {
+      "question": "Une version anglaise est-elle utile pour un site à Mons ?",
+      "answer": "Plus souvent qu'ailleurs en Wallonie. La présence internationale liée aux installations militaires et au pôle technologique crée une communauté anglophone significative, avec un pouvoir d'achat réel. Pour un commerce du centre, un service à la personne ou une profession de santé, une version anglaise bien référencée ouvre un segment de clientèle que la plupart de vos concurrents ignorent totalement."
+    },
+    {
+      "question": "La concurrence web est-elle forte à Mons ?",
+      "answer": "Moins qu'à Liège ou à Charleroi, ce qui en fait un marché intéressant. Les requêtes locales y sont accessibles dans un délai raisonnable pour un site bien construit et soutenu par une fiche Google Business Profile active. En revanche, le niveau d'exigence des clients montois sur la qualité du site est plus élevé, ce qui compense largement l'avantage concurrentiel."
+    },
+    {
+      "question": "Travaillez-vous avec les acteurs culturels montois ?",
+      "answer": "Oui, et ces projets ont leurs contraintes propres : programmation qui change en permanence, billetterie à intégrer, obligations d'accessibilité renforcées pour les structures subventionnées, et souvent une gouvernance à plusieurs voix. Nous construisons ces sites autour d'une gestion de contenu autonome, pour que votre équipe puisse mettre à jour la programmation sans nous solliciter."
+    },
+    {
+      "question": "Êtes-vous basés à Mons ?",
+      "answer": "Non, notre agence est installée en province de Luxembourg et nous intervenons dans tout le Hainaut. Le premier rendez-vous se fait sur place, sans frais ni engagement, puis le projet se pilote à distance avec des points d'avancement hebdomadaires et des environnements de test que vous pouvez consulter à tout moment."
+    }
+  ],
+  "nearby": [
+    "creation-site-internet-charleroi",
+    "creation-site-internet-wavre"
+  ],
+  "coverage": [
+    "Mons",
+    "Jemappes",
+    "Cuesmes",
+    "Ghlin",
+    "Saint-Ghislain",
+    "Quaregnon",
+    "Frameries",
+    "La Louvière"
+  ],
+  "updatedAt": "2026-08-02"
+}

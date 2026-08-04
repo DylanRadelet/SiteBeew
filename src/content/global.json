@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "title": "BEEW — Agence web en Luxembourg belge & Wallonie",
+    "description": "Agence web indépendante en province de Luxembourg. Création de sites vitrines, e-commerce et référencement local. Devis fixe sous 48 h, livraison en 4 semaines."
+  },
+  "hero": {
+    "h1": "Agence web située en Wallonie",
+    "subtitle": "Nous concevons des sites rapides et bien référencés, pensés pour générer des demandes concrètes plutôt que des visites. Stratégie, design, développement et référencement local sous le même toit, sans sous-traitance. Devis fixe après un premier rendez-vous, et un site qui vous appartient.",
+    "badges": [
+      "Devis fixe sous 48 h",
+      "100/100 PageSpeed",
+      "Agence indépendante"
+    ],
+    "citySelectorLabel": "Où êtes-vous situé ? Découvrez notre offre près de chez vous."
+  },
+  "about": {
+    "heading": "Une agence ancrée dans son territoire, pas un catalogue en ligne",
+    "body": "BEEW est une agence web indépendante installée en province de Luxembourg. Nous travaillons avec des indépendants, des PME et des commerces qui ont besoin d'un site qui rapporte, pas d'un objet décoratif. Notre approche tient en trois principes simples. D'abord, un devis fixe : vous savez ce que vous payez avant de commencer, et le prix ne bouge pas en cours de route. Ensuite, la performance technique comme point de départ et non comme option : un site lent perd la moitié de ses visiteurs avant même d'avoir affiché son premier titre, et Google le sait aussi bien que vos clients. Enfin, le référencement local traité dès la conception, parce qu'un beau site que personne ne trouve ne sert à rien. Nous ne sous-traitons rien. La stratégie, le design, le développement et la rédaction sont réalisés en interne, ce qui nous permet de tenir des délais courts et de rester joignables après la mise en ligne. Chaque projet démarre par un rendez-vous sur place, sans frais et sans engagement, pour comprendre votre activité, votre clientèle et votre concurrence réelle avant de proposer quoi que ce soit. Nous intervenons dans toute la province de Luxembourg et plus largement en Wallonie, avec une connaissance fine des différences entre les bassins économiques : ce qui fonctionne pour un commerce arlonais tourné vers le Grand-Duché n'a rien à voir avec ce dont a besoin un hôtelier bastognard ou un industriel du plateau ardennais."
+  },
+  "trust": {
+    "label": "Les projets que nous avons livrés",
+    "logos": [
+      {
+        "name": "Creaphike",
+        "projet": "Site vitrine — agence créative"
+      },
+      {
+        "name": "FaceAnime",
+        "projet": "Réseau social animés et mangas"
+      },
+      {
+        "name": "Green Work Project",
+        "projet": "Site vitrine — peintures minérales"
+      },
+      {
+        "name": "HappyLink",
+        "projet": "Application web de mise en relation"
+      },
+      {
+        "name": "Moki",
+        "projet": "Landing page de préinscription"
+      },
+      {
+        "name": "Racoon Graphics",
+        "projet": "Portfolio d'artiste graphiste"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": "4 semaines",
+      "label": "Délai moyen de mise en ligne"
+    },
+    {
+      "value": "100/100",
+      "label": "Score PageSpeed sur nos livraisons"
+    },
+    {
+      "value": "48 h",
+      "label": "Pour recevoir un devis fixe"
+    },
+    {
+      "value": "0",
+      "label": "Sous-traitance : tout est fait en interne"
+    }
+  ],
+  "method": {
+    "heading": "Quatre étapes, aucune zone d'ombre",
+    "intro": "Vous savez à chaque instant où en est votre projet, ce qui est attendu de vous et ce qui arrive ensuite. Pas de trou noir de trois semaines entre la signature et la livraison.",
+    "steps": [
+      {
+        "title": "Rendez-vous et cadrage",
+        "duration": "1 h, sur place",
+        "description": "Nous venons chez vous comprendre votre activité, votre clientèle réelle et vos concurrents. Sans frais et sans engagement, avant toute proposition chiffrée.",
+        "image": "/images/method/etape-1.jpg"
+      },
+      {
+        "title": "Devis fixe et stratégie",
+        "duration": "sous 48 h",
+        "description": "Vous recevez un devis forfaitaire détaillé poste par poste, accompagné du positionnement retenu et des mots-clés visés. Le prix ne bougera plus.",
+        "image": "/images/method/etape-2.jpg"
+      },
+      {
+        "title": "Design et développement",
+        "duration": "3 à 4 semaines",
+        "description": "Vous validez des jalons chaque semaine sur un environnement de test privé. Vous voyez le site se construire au lieu d'en découvrir le résultat à la fin.",
+        "image": "/images/method/etape-3.jpg"
+      },
+      {
+        "title": "Mise en ligne et suivi",
+        "duration": "en continu",
+        "description": "Nous livrons le site, le référencement local et vos accès. Vous restez propriétaire de tout et libre de confier la suite à qui vous voulez.",
+        "image": "/images/method/etape-4.jpg"
+      }
+    ]
+  },
+  "why": {
+    "heading": "Ce qui change concrètement en travaillant avec nous",
+    "points": [
+      {
+        "title": "Devis fixe, jamais de dépassement",
+        "description": "Le montant est arrêté avant de commencer et détaillé poste par poste. Aucune facturation à l'heure, aucune rallonge en cours de route."
+      },
+      {
+        "title": "Le site vous appartient entièrement",
+        "description": "Code, contenus, nom de domaine et hébergement sont à votre nom. Vous pouvez confier la maintenance à n'importe qui, sans rien renégocier."
+      },
+      {
+        "title": "Aucune sous-traitance",
+        "description": "Stratégie, design, développement et rédaction sont réalisés en interne. C'est ce qui nous permet de tenir des délais courts et de rester joignables."
+      },
+      {
+        "title": "La performance comme point de départ",
+        "description": "Un site lent perd la moitié de ses visiteurs avant d'avoir affiché son premier titre. Nous partons de là, pas l'inverse."
+      },
+      {
+        "title": "Le référencement local dès la conception",
+        "description": "Structure, contenus et fiche Google Business Profile sont pensés ensemble. Un beau site que personne ne trouve ne sert à rien."
+      },
+      {
+        "title": "Un interlocuteur unique",
+        "description": "La personne qui vient au premier rendez-vous est celle qui construit votre site et celle que vous appelez après la mise en ligne."
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Ce que ça coûte, dit avant que vous demandiez",
+    "note": "Prix hors TVA, en forfait. Le devis définitif est établi après le premier rendez-vous et n'évolue plus ensuite. Paiement en trois fois sans frais.",
+    "tiers": [
+      {
+        "name": "Site vitrine",
+        "from": 2400,
+        "currency": "EUR",
+        "pitch": "Pour un indépendant ou un commerce qui a besoin d'être trouvé et de convaincre.",
+        "includes": [
+          "Design sur mesure, jamais de gabarit",
+          "Rédaction des contenus incluse",
+          "Référencement local et fiche Google Business Profile",
+          "Formation à la prise en main",
+          "Mise en ligne en 4 semaines"
+        ],
+        "highlight": true
+      },
+      {
+        "name": "Boutique en ligne",
+        "from": 4000,
+        "currency": "EUR",
+        "pitch": "Pour vendre en direct sans dépendre des places de marché et de leurs commissions.",
+        "includes": [
+          "Catalogue, paiement sécurisé et expédition",
+          "Gestion des stocks et des commandes",
+          "Tunnel d'achat optimisé pour la conversion",
+          "Suivi analytique du chiffre d'affaires"
+        ],
+        "highlight": false
+      },
+      {
+        "name": "Projet sur mesure",
+        "from": 7000,
+        "currency": "EUR",
+        "pitch": "Pour un catalogue technique B2B, un espace client ou une intégration à votre logiciel métier.",
+        "includes": [
+          "Analyse fonctionnelle préalable",
+          "Connexion à votre ERP ou CRM",
+          "Espaces protégés et rôles utilisateurs",
+          "Accompagnement au déploiement"
+        ],
+        "highlight": false
+      }
+    ]
+  },
+  "manifesto": {
+    "eyebrow": "[ CE QUE NOUS FAISONS ]",
+    "line1": "Un site qui travaille pour vous, pas une vitrine de plus.",
+    "line2": "Une agence indépendante, ancrée en Wallonie.",
+    "ctaLabel": "Voir toutes nos réalisations",
+    "ctaHref": "/realisations"
+  },
+  "services": [
+    {
+      "title": "Création de site vitrine",
+      "description": "Un site sur mesure qui présente clairement votre activité et transforme les visiteurs en demandes de contact qualifiées.",
+      "slug": "creation-site-internet"
+    },
+    {
+      "title": "Boutique en ligne",
+      "description": "E-commerce complet avec paiement sécurisé, gestion des stocks et expédition, conçu pour vendre sans dépendre des places de marché.",
+      "slug": "site-e-commerce"
+    },
+    {
+      "title": "Référencement local",
+      "description": "Positionnement sur les recherches de votre zone, optimisation de votre fiche Google Business Profile et suivi mensuel des résultats.",
+      "slug": "referencement-seo"
+    },
+    {
+      "title": "Refonte de site existant",
+      "description": "Reprise complète d'un site vieillissant sans perdre le référencement acquis, avec redirections et migration de contenu maîtrisées.",
+      "slug": "refonte-site-internet"
+    },
+    {
+      "title": "Application web",
+      "description": "Un outil métier accessible depuis un navigateur, construit autour de votre processus réel plutôt que de vous imposer celui d'un logiciel du commerce.",
+      "slug": "application-web"
+    },
+    {
+      "title": "Outils internes",
+      "description": "Automatiser la tâche répétitive qui vous coûte des heures chaque semaine, sans rien changer au reste de votre organisation ni de vos habitudes.",
+      "slug": "outils-internes"
+    }
+  ],
+  "cases": [],
+  "testimonials": [],
+  "faq": [
+    {
+      "question": "Combien coûte un site web chez BEEW ?",
+      "answer": "Un site vitrine professionnel démarre à 2 400 € HTVA, rédaction et référencement local inclus. Un projet e-commerce ou B2B avec catalogue démarre à 4 000 € HTVA. Nous travaillons exclusivement au forfait, avec un devis fixe établi après un premier rendez-vous : aucune facturation à l'heure, aucun dépassement en cours de projet."
+    },
+    {
+      "question": "Dans quelles régions intervenez-vous ?",
+      "answer": "Nous couvrons l'ensemble de la province de Luxembourg et plus largement la Wallonie. Le premier rendez-vous se fait sur place, sans frais ni engagement, puis le projet se pilote à distance avec des points d'avancement hebdomadaires. Nos pages par ville détaillent notre approche pour chaque bassin économique."
+    },
+    {
+      "question": "Combien de temps prend la création d'un site ?",
+      "answer": "Quatre semaines en moyenne pour un site vitrine, à partir de la validation du devis et de la réception de vos contenus. Six à dix semaines pour un e-commerce ou un site multilingue. Nous avançons par jalons validés ensemble, vous voyez le site se construire plutôt que de découvrir le résultat à la fin."
+    },
+    {
+      "question": "Que se passe-t-il après la mise en ligne ?",
+      "answer": "Le site vous appartient entièrement, code et hébergement compris, sans dépendance à notre agence. Nous proposons ensuite un accompagnement mensuel optionnel qui couvre les mises à jour techniques, la sécurité, le suivi du référencement et les évolutions de contenu. Vous restez libre de l'arrêter à tout moment."
+    }
+  ],
+  "updatedAt": "2026-08-02"
+}

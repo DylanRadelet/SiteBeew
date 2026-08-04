@@ -1,0 +1,89 @@
+{
+  "slug": "brabant-wallon",
+  "level": "province",
+  "name": "Brabant wallon",
+  "shortName": "Brabant wallon",
+  "aliases": ["Brabant-Wallon"],
+  "parent": { "slug": "wallonie", "name": "Wallonie" },
+
+  "meta": {
+    "title": "Création de site internet en Brabant wallon | BEEW",
+    "description": "Agence web en Brabant wallon : sites B2B, sites de services et marque employeur pour les PME de Wavre, Nivelles, Louvain-la-Neuve et Braine-l'Alleud."
+  },
+
+  "hero": {
+    "h1": "Création de site internet en Brabant wallon",
+    "subtitle": "Vos prospects comparent votre site à ceux de groupes internationaux installés à deux kilomètres. C'est ce niveau de référence, et non la moyenne wallonne, qui décide de votre crédibilité.",
+    "badges": ["Standards B2B exigeants", "Marque employeur", "Devis fixe sous 48 h"]
+  },
+
+  "economy": {
+    "heading": "Le territoire le plus dense de Wallonie, et le plus difficile à convaincre",
+    "body": "Aucune autre province wallonne ne concentre autant d'activité sur aussi peu de kilomètres. Le Brabant wallon vit d'abord de sa position : coincé entre Bruxelles au nord et le sillon Sambre-et-Meuse au sud, traversé par les axes autoroutiers les plus fréquentés du pays, il attire depuis trente ans des sièges belges de groupes internationaux, des centres de décision et des entreprises de services qui voulaient la proximité de la capitale sans son coût. Le résultat est un chapelet de parcs d'activités — Wavre Nord, Nivelles Sud, l'axe de Braine-l'Alleud, les zonings d'Ottignies et de Perwez — où se côtoient logistique de valeur, informatique, conseil et industrie légère.\n\nLe deuxième moteur est pharmaceutique et biotechnologique. Le corridor qui relie Wavre à Braine-l'Alleud et Rixensart héberge des sites de production et de recherche de dimension mondiale, avec autour d'eux un écosystème considérable de sous-traitants : laboratoires d'analyse, fabricants d'équipements, sociétés de validation, prestataires de conformité, bureaux de recrutement spécialisés. Ces entreprises travaillent dans un cadre où chaque document engage une responsabilité réglementaire. Leur site web hérite de cette culture : circuits de validation internes, prudence sur les affirmations, exigences de confidentialité avant mise en ligne. Un projet mené comme on mène celui d'un commerçant s'y enlise immédiatement.\n\nLouvain-la-Neuve constitue le troisième pôle, avec l'université, son parc scientifique et une population étudiante qui a fait naître un tissu de jeunes sociétés de services et de technologies. La ville fonctionne comme un marché distinct de Wavre ou de Nivelles, avec ses propres codes.\n\nCe contexte change ce qu'on attend d'un site. En Brabant wallon, la majorité de nos interlocuteurs ne vendent pas à des particuliers qui les trouvent par une recherche géographique : ils vendent à des acheteurs professionnels arrivés par recommandation, par salon ou par prospection, et qui consultent le site pour vérifier à qui ils ont affaire avant un rendez-vous. Le site joue un rôle de validation bien plus que d'acquisition, ce qui déplace l'investissement de l'optimisation locale vers la démonstration d'expertise, les études de cas argumentées et une exécution technique irréprochable. Un dernier facteur pèse lourd et surprend souvent : le recrutement. Beaucoup d'entreprises de la zone peinent à attirer des profils qualifiés face aux salaires bruxellois et pharmaceutiques, et leur site devient un outil de marque employeur autant qu'un outil commercial. C'est un usage que nous rencontrons rarement ailleurs en région wallonne, et il modifie sensiblement l'arborescence du projet. Il reste enfin une clientèle de proximité que la densité de population et le pouvoir d'achat rendent particulièrement intéressante : commerces spécialisés, professions de santé, écoles privées, services à domicile haut de gamme. Pour ceux-là, le référencement local classique fonctionne parfaitement, avec une nuance importante — la qualité perçue du site conditionne directement le tarif que le client acceptera de payer. Un site négligé pousse mécaniquement vers le bas de la fourchette.",
+    "highlights": [
+      "Densité économique la plus forte de la région, adossée à Bruxelles",
+      "Corridor pharmaceutique et biotech de Wavre à Braine-l'Alleud et Rixensart",
+      "Le site valide une crédibilité B2B plus qu'il ne capte du trafic local",
+      "Louvain-la-Neuve : université, parc scientifique et jeunes sociétés",
+      "Marque employeur : le recrutement pèse autant que la prospection"
+    ]
+  },
+
+  "facts": [
+    { "label": "Chef-lieu", "value": "Wavre" },
+    { "label": "Arrondissement", "value": "1 seul — Nivelles" },
+    { "label": "Communes", "value": "27" },
+    { "label": "Superficie", "value": "La plus petite province de Belgique" },
+    { "label": "Pôle universitaire", "value": "UCLouvain et le parc scientifique de Louvain-la-Neuve" }
+  ],
+
+  "sectors": [
+    {
+      "name": "Pharmaceutique, biotech et prestataires associés",
+      "description": "Laboratoires, fabricants d'équipements et sociétés de conformité gravitant autour des sites de production du corridor, avec des circuits de validation internes et des exigences de confidentialité qui imposent un processus projet formalisé."
+    },
+    {
+      "name": "Conseil, finance et services aux entreprises",
+      "description": "Cabinets, bureaux d'études et sociétés de consultance dont le site doit installer une autorité argumentée par des cas concrets, parce que la décision d'achat se prend après recommandation et vérification, pas après une recherche."
+    },
+    {
+      "name": "Informatique et éditeurs de logiciels",
+      "description": "Sociétés issues du parc scientifique et des zonings de Wavre et Nivelles, souvent en vente B2B internationale, dont le site sert à la fois de démonstration produit et de vitrine de recrutement en anglais."
+    },
+    {
+      "name": "Industrie légère et logistique de valeur",
+      "description": "Entreprises installées dans les parcs d'activités le long des axes autoroutiers, dont les acheteurs professionnels attendent des capacités documentées, des certifications visibles et un contact commercial simple à obtenir."
+    },
+    {
+      "name": "Commerce haut de gamme et services à la personne",
+      "description": "Un segment porté par un pouvoir d'achat nettement supérieur à la moyenne régionale, où la qualité perçue du site conditionne directement le positionnement tarifaire que le client acceptera de payer."
+    }
+  ],
+
+  "cityProvince": "Brabant wallon",
+
+  "faq": [
+    {
+      "question": "Le référencement local sert-il vraiment en Brabant wallon ?",
+      "answer": "Pour un commerce, un restaurant ou un service de proximité, oui, comme partout. Pour une entreprise B2B, non : vos acheteurs vous trouvent par recommandation ou par prospection et consultent votre site pour vérifier votre sérieux. Nous investissons alors le budget dans la preuve d'expertise plutôt que dans l'optimisation géographique, qui ne rapporterait presque rien."
+    },
+    {
+      "question": "Pourquoi les projets coûtent-ils plus cher en Brabant wallon ?",
+      "answer": "Pas par principe, mais parce que le point de comparaison de vos prospects est objectivement plus haut : ils consultent chaque jour des sites conçus avec des budgets de grands groupes voisins. Atteindre ce standard demande plus de travail sur le contenu, les visuels et l'exécution. Un site vitrine simple reste possible si votre activité ne le justifie pas."
+    },
+    {
+      "question": "Travaillez-vous avec des sous-traitants du secteur pharmaceutique ?",
+      "answer": "Oui, ils sont nombreux entre Wavre, Rixensart et Braine-l'Alleud. Ces projets impliquent des validations internes multiples, des contraintes de confidentialité et une prudence particulière sur les affirmations publiées. Nous adaptons le processus avec des jalons formalisés et un environnement de test privé, accessible uniquement à vos équipes avant toute mise en ligne."
+    },
+    {
+      "question": "Un site peut-il vraiment m'aider à recruter ?",
+      "answer": "C'est l'un des usages les plus rentables que nous observons dans cette province. Face à la concurrence salariale bruxelloise, une page carrières honnête, une présentation réelle des équipes et une description franche de la culture interne réduisent nettement le coût d'acquisition d'un candidat comparé aux agences de recrutement spécialisées."
+    },
+    {
+      "question": "Vos tarifs sont-ils compétitifs face aux agences bruxelloises ?",
+      "answer": "Nettement, et c'est notre principal argument sur cette zone. Notre agence est installée en province de Luxembourg, avec une structure de coûts sans commune mesure avec celle d'un prestataire du centre de Bruxelles, pour un niveau d'exécution équivalent. Le premier rendez-vous se fait sur place, sans frais ni engagement."
+    }
+  ],
+
+  "updatedAt": "2026-08-04"
+}
