@@ -33,17 +33,33 @@ export function VideoHero({
 
   return (
     <section className="relative h-svh w-full overflow-hidden bg-beew-noir">
+      {/*
+        Trois sources, dans l'ordre de préférence du navigateur.
+
+        Le fichier d'origine était un `.mov` de 50 Mo servi en
+        `video/quicktime` : Chrome et Firefox ne lisent pas ce conteneur de
+        façon fiable, et 50 Mo se téléchargeaient à chaque visite de l'accueil.
+        Le même plan réencodé pèse 0,20 Mo en WebM et 0,57 Mo en MP4 — soit
+        250 fois moins — sans différence visible, la vidéo étant un fond
+        assombri et partiellement pixelisé.
+
+        `poster` évite le rectangle noir avant la première image décodée, et
+        `preload="metadata"` laisse le navigateur décider du moment de charger.
+      */}
       <video
         ref={videoRef}
-        src="/videos/hero-video.mov"
         autoPlay
         muted
         loop
         playsInline
-        preload="auto"
+        preload="metadata"
+        poster="/images/heros/agence.jpg"
         aria-hidden
         className="absolute inset-0 h-full w-full object-cover"
-      />
+      >
+        <source src="/videos/hero-video.webm" type="video/webm" />
+        <source src="/videos/hero-video.mp4" type="video/mp4" />
+      </video>
 
       {/* Voile sombre : sans lui, le texte blanc devient illisible sur les
           passages clairs de la vidéo. Le dégradé garde le haut plus lisible. */}
