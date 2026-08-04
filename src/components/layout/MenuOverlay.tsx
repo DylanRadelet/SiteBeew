@@ -86,12 +86,16 @@ export function MenuOverlay({
       // départ rapide, arrivée amortie. Pas de fondu — le mouvement suffit.
       // `grain` : le grésillement du site couvre aussi le menu, sinon l'overlay
       // apparaît comme une surface lisse posée sur une page texturée.
-      className={`grain fixed inset-0 z-50 overflow-y-auto bg-beew-noir text-beew-creme transition-transform duration-[650ms] ease-[cubic-bezier(0.76,0,0.24,1)] ${
+      className={`fixed inset-0 z-50 overflow-y-auto bg-beew-noir text-beew-creme transition-transform duration-[650ms] ease-[cubic-bezier(0.76,0,0.24,1)] ${
         open ? "translate-y-0" : "pointer-events-none -translate-y-full"
       }`}
     >
-      {/* Mêmes marges que le header et le hero : tout reste sur la même grille. */}
-      <div className="flex min-h-full flex-col px-6 py-5 sm:px-10 lg:px-14">
+      {/* Mêmes marges que le header et le hero : tout reste sur la même grille.
+          Le grain est porté ICI et non sur le conteneur défilant : ce dernier a
+          la hauteur de l'écran, alors que ce bloc grandit avec son contenu.
+          Sur mobile, où le menu défile, c'est la seule façon que la texture
+          couvre aussi la partie qu'on atteint en défilant. */}
+      <div className="grain grain-defilant relative flex min-h-full flex-col px-6 py-3 sm:px-10 lg:px-14">
         <div className="flex items-center justify-end">
           <button
             type="button"
@@ -107,7 +111,7 @@ export function MenuOverlay({
           </button>
         </div>
 
-        <div className="grid flex-1 content-center gap-14 py-12 lg:grid-cols-[1.1fr_1fr] lg:items-center lg:gap-20">
+        <div className="grid flex-1 content-center gap-8 py-4 lg:grid-cols-[1.05fr_1fr] lg:items-center lg:gap-16">
           <nav aria-label="Navigation principale">
             <ul>
               {NAV.map((item, i) => (
@@ -123,7 +127,7 @@ export function MenuOverlay({
                   <Link
                     href={item.href}
                     onClick={onClose}
-                    className="group flex items-baseline gap-4 py-1 font-[family-name:var(--font-display)] text-[clamp(1.75rem,4.2vw,3.25rem)] leading-[1.1] font-semibold tracking-tight uppercase transition-colors hover:text-beew-saumon"
+                    className="group flex items-baseline gap-4 py-0.5 font-[family-name:var(--font-display)] text-[clamp(1.3rem,min(3.9vw,4.7vh),3.25rem)] leading-[1.1] font-semibold tracking-tight uppercase transition-colors hover:text-beew-saumon"
                   >
                     <span className="text-[10px] font-normal tracking-[0.2em] text-beew-creme/30 tabular-nums">
                       {String(i + 1).padStart(2, "0")}
@@ -135,10 +139,10 @@ export function MenuOverlay({
             </ul>
           </nav>
 
-          <div className="grid gap-10 text-sm sm:grid-cols-2 lg:gap-12">
+          <div className="grid gap-6 text-sm sm:grid-cols-2 lg:gap-8">
             <section {...cascade(5)}>
               <h2 className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">Services</h2>
-              <ul className="mt-5 space-y-2.5">
+              <ul className="mt-4 space-y-2">
                 {SERVICES.map((s) => (
                   <li key={s.href}>
                     <Link
@@ -155,7 +159,7 @@ export function MenuOverlay({
 
             <section {...cascade(6)}>
               <h2 className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">Zones</h2>
-              <ul className="mt-5 space-y-2.5">
+              <ul className="mt-4 space-y-2">
                 {ZONES.map((z) => (
                   <li key={z.href}>
                     <Link
@@ -183,11 +187,14 @@ export function MenuOverlay({
               </ul>
             </section>
 
-            <section {...cascade(7)}>
+            {/* Sur toute la largeur : 15 communes tiennent en 3 colonnes courtes
+                plutôt qu'en 2 colonnes de 8 rangées, qui faisaient déborder le
+                panneau et forçaient un défilement dans un menu de navigation. */}
+            <section {...cascade(7)} className={`${cascade(7).className} sm:col-span-2`}>
               <h2 className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">Villes</h2>
               {/* Villes publiées uniquement : un brouillon ne reçoit jamais de
                   lien depuis une page indexée, et le menu est sur toutes. */}
-              <ul className="mt-5 grid gap-x-8 gap-y-2.5 sm:grid-cols-2">
+              <ul className="mt-5 grid gap-x-6 gap-y-2 sm:grid-cols-2 lg:grid-cols-3">
                 {cities.map((c) => (
                   <li key={c.slug}>
                     <Link
@@ -206,8 +213,10 @@ export function MenuOverlay({
               <h2 className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">
                 Informations pratiques
               </h2>
-              {/* TODO — remplacer par les vraies coordonnées de l'agence. */}
-              <dl className="mt-5 grid gap-3 text-beew-creme/70 sm:grid-cols-2">
+              {/* Coordonnées réelles, reprises des mentions légales. Disposées sur
+                  une seule rangée : empilées, elles faisaient déborder le
+                  panneau sur les écrans de 700 px de haut. */}
+              <dl className="mt-4 grid gap-x-8 gap-y-2 text-beew-creme/70 sm:grid-cols-2 lg:grid-cols-4">
                 <div>
                   <dt className="sr-only">E-mail</dt>
                   <dd>
@@ -217,8 +226,16 @@ export function MenuOverlay({
                   </dd>
                 </div>
                 <div>
-                  <dt className="sr-only">Zone</dt>
-                  <dd>Province de Luxembourg — toute la Wallonie</dd>
+                  <dt className="sr-only">Téléphone</dt>
+                  <dd>
+                    <a href="tel:+32472467309" className="hover:text-beew-creme">
+                      +32 472 46 73 09
+                    </a>
+                  </dd>
+                </div>
+                <div>
+                  <dt className="sr-only">Siège</dt>
+                  <dd>Chemin des Roches 13/3, 6600 Bastogne</dd>
                 </div>
                 <div>
                   <dt className="sr-only">Disponibilité</dt>
@@ -229,7 +246,7 @@ export function MenuOverlay({
               <Link
                 href="/devis"
                 onClick={onClose}
-                className="group mt-8 inline-flex items-center gap-3 rounded-full bg-beew-blanc px-6 py-3 text-[11px] tracking-[0.2em] text-beew-noir uppercase transition-opacity hover:opacity-85"
+                className="group mt-6 inline-flex items-center gap-3 rounded-full bg-beew-blanc px-6 py-3 text-[11px] tracking-[0.2em] text-beew-noir uppercase transition-opacity hover:opacity-85"
               >
                 Demander un devis
                 <svg

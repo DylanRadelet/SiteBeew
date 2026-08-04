@@ -98,6 +98,18 @@ h4 {
   animation: grain-shift 0.7s steps(1) infinite;
 }
 
+/**
+ * Variante pour un conteneur qui DÉFILE et porte une transformation — le menu
+ * overlay. Dans ce cas, `position: fixed` ne se cale pas sur l'écran mais sur
+ * l'ancêtre transformé : la couche s'arrête à sa hauteur visible et laisse la
+ * zone débordante sans texture, comme une bande nue en bas du panneau.
+ * `absolute` sur un conteneur `min-h-full` couvre au contraire tout le contenu.
+ */
+.grain-defilant::after {
+  position: absolute;
+}
+
+
 @media (prefers-reduced-motion: reduce) {
   .grain::after {
     animation: none;
