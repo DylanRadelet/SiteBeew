@@ -4,8 +4,17 @@
   "city": "Bertrix",
   "province": "Luxembourg",
   "region": "Wallonie",
-  "postalCodes": ["6880"],
-  "geo": { "lat": 49.8536, "lng": 5.2564 },
+  "postalCodes": [
+    "6880"
+  ],
+  "geo": {
+    "lat": 49.8536,
+    "lng": 5.2564
+  },
+  "heroImage": {
+    "src": "/images/villes/bertrix.webp",
+    "alt": "Vue de Bertrix depuis la clairière, entre prairies et habitations"
+  },
   "intent": {
     "service": "creation-site-web",
     "primaryKeyword": "création site internet Bertrix",
@@ -24,7 +33,11 @@
   "hero": {
     "h1": "Création de site internet à Bertrix",
     "subtitle": "Ici, un site ne sert presque jamais à vendre au grand public : il sert à convaincre un donneur d'ordre et à recruter. Nous le construisons pour ces deux usages-là.",
-    "badges": ["Devis fixe sous 48 h", "Sites B2B et recrutement", "Rendez-vous sur place"]
+    "badges": [
+      "Devis fixe sous 48 h",
+      "Sites B2B et recrutement",
+      "Rendez-vous sur place"
+    ]
   },
   "localContext": {
     "heading": "Une commune industrielle où le site parle à des acheteurs, pas à des passants",
@@ -67,6 +80,14 @@
     "creation-site-internet-neufchateau",
     "creation-site-internet-virton"
   ],
-  "coverage": ["Bertrix", "Herbeumont", "Bouillon", "Paliseul", "Auby-sur-Semois", "Jehonville", "Orgeo"],
+  "coverage": [
+    "Bertrix",
+    "Herbeumont",
+    "Bouillon",
+    "Paliseul",
+    "Auby-sur-Semois",
+    "Jehonville",
+    "Orgeo"
+  ],
   "updatedAt": "2026-08-04"
 }

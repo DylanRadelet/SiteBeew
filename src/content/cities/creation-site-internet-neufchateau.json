@@ -2,11 +2,27 @@
   "slug": "creation-site-internet-neufchateau",
   "status": "published",
   "city": "Neufchâteau",
-  "aliases": ["Neufchateau"],
+  "aliases": [
+    "Neufchateau"
+  ],
   "province": "Luxembourg",
   "region": "Wallonie",
-  "postalCodes": ["6840"],
-  "geo": { "lat": 49.8397, "lng": 5.4353 },
+  "postalCodes": [
+    "6840"
+  ],
+  "geo": {
+    "lat": 49.8397,
+    "lng": 5.4353
+  },
+  "heroImage": {
+    "src": "/images/villes/neufchateau.webp",
+    "alt": "Un édifice public néoclassique au centre de Neufchâteau",
+    "credit": {
+      "auteur": "Jean-Pol GRANDMONT",
+      "licence": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Neufch%C3%A2teau_JPG02.jpg"
+    }
+  },
   "intent": {
     "service": "creation-site-web",
     "primaryKeyword": "création site internet Neufchâteau",
@@ -25,7 +41,11 @@
   "hero": {
     "h1": "Création de site internet à Neufchâteau",
     "subtitle": "Chef-lieu judiciaire, professions libérales, frontaliers et tourisme vert : quatre clientèles qui attendent d'un site des choses très différentes.",
-    "badges": ["Devis fixe sous 48 h", "Respect des règles déontologiques", "Rendez-vous sur place"]
+    "badges": [
+      "Devis fixe sous 48 h",
+      "Respect des règles déontologiques",
+      "Rendez-vous sur place"
+    ]
   },
   "localContext": {
     "heading": "Le chef-lieu judiciaire du Centre-Ardenne, et ce que cela change pour un site",
@@ -68,6 +88,14 @@
     "creation-site-internet-bertrix",
     "creation-site-internet-arlon"
   ],
-  "coverage": ["Neufchâteau", "Léglise", "Longlier", "Assenois", "Tintigny", "Habay", "Vaux-sur-Sûre"],
+  "coverage": [
+    "Neufchâteau",
+    "Léglise",
+    "Longlier",
+    "Assenois",
+    "Tintigny",
+    "Habay",
+    "Vaux-sur-Sûre"
+  ],
   "updatedAt": "2026-08-04"
 }

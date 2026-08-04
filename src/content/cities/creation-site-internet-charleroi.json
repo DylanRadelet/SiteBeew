@@ -14,6 +14,15 @@
     "lat": 50.4108,
     "lng": 4.4446
   },
+  "heroImage": {
+    "src": "/images/villes/charleroi.webp",
+    "alt": "La place Vauban et l'hôtel de ville de Charleroi, avec son beffroi",
+    "credit": {
+      "auteur": "Jmh2o",
+      "licence": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Charleroi_-_Place_Vauban_et_H%C3%B4tel_de_ville_-_2024-08-11_-_01.jpg"
+    }
+  },
   "intent": {
     "service": "creation-site-web",
     "primaryKeyword": "création site internet Charleroi",

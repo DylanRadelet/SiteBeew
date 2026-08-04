@@ -17,6 +17,15 @@
     "lat": 50.6326,
     "lng": 5.5797
   },
+  "heroImage": {
+    "src": "/images/villes/liege.webp",
+    "alt": "Vue aérienne de Liège et des quais de la Meuse",
+    "credit": {
+      "auteur": "A.Savin",
+      "licence": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Liege_View_01.jpg"
+    }
+  },
   "intent": {
     "service": "creation-site-web",
     "primaryKeyword": "création site internet Liège",

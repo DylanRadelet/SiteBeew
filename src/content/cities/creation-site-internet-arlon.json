@@ -13,6 +13,15 @@
     "lat": 49.6833,
     "lng": 5.8167
   },
+  "heroImage": {
+    "src": "/images/villes/arlon.webp",
+    "alt": "Vue aérienne du centre historique d'Arlon et de l'église Saint-Martin",
+    "credit": {
+      "auteur": "Les Meloures",
+      "licence": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Arlon_%C3%A9glise_Saint-Martin.jpg"
+    }
+  },
   "intent": {
     "service": "creation-site-web",
     "primaryKeyword": "création site internet Arlon",

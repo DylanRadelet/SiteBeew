@@ -12,6 +12,15 @@
     "lat": 50.7167,
     "lng": 4.6083
   },
+  "heroImage": {
+    "src": "/images/villes/wavre.webp",
+    "alt": "La tour de l'église Saint-Jean-Baptiste de Wavre et les maisons du centre",
+    "credit": {
+      "auteur": "EmDee",
+      "licence": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wavre_-_Saint-Jean-Baptiste_-_vue_d%27ensemble.JPG"
+    }
+  },
   "intent": {
     "service": "creation-site-web",
     "primaryKeyword": "création site internet Wavre",

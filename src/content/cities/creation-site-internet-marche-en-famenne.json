@@ -14,6 +14,15 @@
     "lat": 50.2276,
     "lng": 5.3441
   },
+  "heroImage": {
+    "src": "/images/villes/marche-en-famenne.webp",
+    "alt": "Un bâtiment public néoclassique au centre de Marche-en-Famenne",
+    "credit": {
+      "auteur": "Jean-Pol GRANDMONT",
+      "licence": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Marche-en-Famenne_JPG010.jpg"
+    }
+  },
   "intent": {
     "service": "creation-site-web",
     "primaryKeyword": "création site internet Marche-en-Famenne",

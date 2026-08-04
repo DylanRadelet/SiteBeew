@@ -14,6 +14,15 @@
     "lat": 50.4542,
     "lng": 3.9563
   },
+  "heroImage": {
+    "src": "/images/villes/mons.webp",
+    "alt": "L'hôtel de ville de Mons sur la Grand-Place",
+    "credit": {
+      "auteur": "Jean-Pol GRANDMONT",
+      "licence": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:0_Mons_-_H%C3%B4tel_de_ville_%281%29.jpg"
+    }
+  },
   "intent": {
     "service": "creation-site-web",
     "primaryKeyword": "création site internet Mons",

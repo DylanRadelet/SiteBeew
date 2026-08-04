@@ -4,8 +4,22 @@
   "city": "Rochefort",
   "province": "Namur",
   "region": "Wallonie",
-  "postalCodes": ["5580"],
-  "geo": { "lat": 50.1631, "lng": 5.2214 },
+  "postalCodes": [
+    "5580"
+  ],
+  "geo": {
+    "lat": 50.1631,
+    "lng": 5.2214
+  },
+  "heroImage": {
+    "src": "/images/villes/rochefort.webp",
+    "alt": "Le pont sur la Lomme à Rochefort, pavoisé de drapeaux",
+    "credit": {
+      "auteur": "Krzysztof Golik",
+      "licence": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bridge_in_Rochefort_%283%29.jpg"
+    }
+  },
   "intent": {
     "service": "creation-site-web",
     "primaryKeyword": "création site internet Rochefort",
@@ -24,7 +38,11 @@
   "hero": {
     "h1": "Création de site internet à Rochefort",
     "subtitle": "Ici, la notoriété du territoire dépasse celle de ses entreprises. Le premier travail consiste à exister dans une recherche que trois grands noms saturent déjà.",
-    "badges": ["Devis fixe sous 48 h", "Vente en ligne du terroir", "Rendez-vous sur place"]
+    "badges": [
+      "Devis fixe sous 48 h",
+      "Vente en ligne du terroir",
+      "Rendez-vous sur place"
+    ]
   },
   "localContext": {
     "heading": "Quand le nom de la commune est plus connu que les entreprises qui l'habitent",
@@ -67,6 +85,15 @@
     "creation-site-internet-dinant",
     "creation-site-internet-durbuy"
   ],
-  "coverage": ["Rochefort", "Han-sur-Lesse", "Jemelle", "Ave-et-Auffe", "Wellin", "Nassogne", "Beauraing", "Tellin"],
+  "coverage": [
+    "Rochefort",
+    "Han-sur-Lesse",
+    "Jemelle",
+    "Ave-et-Auffe",
+    "Wellin",
+    "Nassogne",
+    "Beauraing",
+    "Tellin"
+  ],
   "updatedAt": "2026-08-04"
 }

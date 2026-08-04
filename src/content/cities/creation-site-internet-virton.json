@@ -11,6 +11,15 @@
     "lat": 49.5686,
     "lng": 5.5322
   },
+  "heroImage": {
+    "src": "/images/villes/virton.webp",
+    "alt": "L'hôtel de ville de Virton, daté de 1888",
+    "credit": {
+      "auteur": "Jean-Pol GRANDMONT",
+      "licence": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Virton_JPG02.jpg"
+    }
+  },
   "intent": {
     "service": "creation-site-web",
     "primaryKeyword": "création site internet Virton",

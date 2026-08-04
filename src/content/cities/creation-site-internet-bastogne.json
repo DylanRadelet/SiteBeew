@@ -13,6 +13,15 @@
     "lat": 50,
     "lng": 5.7167
   },
+  "heroImage": {
+    "src": "/images/villes/bastogne.webp",
+    "alt": "La Porte de Trèves et une maison ancienne au centre de Bastogne",
+    "credit": {
+      "auteur": "Tournasol7",
+      "licence": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rue_Gustave-Delperdange_1_in_Bastogne_%281%29.jpg"
+    }
+  },
   "intent": {
     "service": "creation-site-web",
     "primaryKeyword": "création site internet Bastogne",
