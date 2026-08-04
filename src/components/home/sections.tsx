@@ -45,29 +45,44 @@ export function TrustBar({ trust }: { trust: Home["trust"] }) {
         La grille en `gap-px` sur fond sombre dessine des filets d'un pixel :
         un seul trait partagé au lieu de bordures qui se doublent.
       */}
+      {/*
+        La capture du projet, pas un logo. Nous n'avons pas les logos de ces
+        clients, et un logo fabriqué serait une fausse référence ; la capture
+        du travail livré est vérifiable, et elle montre enfin quelque chose.
+        Elle se révèle au survol : au repos la grille reste sobre, ce qui évite
+        six visuels criards en haut de page.
+      */}
       <ul className="mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-2xl bg-beew-noir/12 sm:grid-cols-2 lg:grid-cols-3">
         {trust.logos.map((l, i) => (
           <li
             key={l.name}
             data-reveal
             data-reveal-delay={i * 60}
-            className="group flex min-h-[8.5rem] flex-col justify-center gap-2 bg-beew-blanc p-8 transition-colors duration-500 hover:bg-beew-noir hover:text-beew-creme"
+            className="group relative isolate flex min-h-[9.5rem] flex-col justify-end overflow-hidden bg-beew-blanc p-8 transition-colors duration-500 hover:text-beew-creme"
           >
-            {l.file ? (
-              /* eslint-disable-next-line @next/next/no-img-element */
-              <img
-                src={l.file}
-                alt={l.name}
-                loading="lazy"
-                className="h-7 w-auto max-w-full text-beew-noir/40 transition-all duration-500 group-hover:scale-105 group-hover:text-beew-creme"
-              />
-            ) : (
-              <span className="text-[clamp(1.15rem,1.8vw,1.5rem)] leading-tight font-semibold tracking-tight transition-transform duration-500 group-hover:translate-x-1">
-                {l.name}
-              </span>
+            {l.file && (
+              <>
+                <Image
+                  src={l.file}
+                  alt={`${l.name} — ${l.projet ?? "projet réalisé par BEEW"}`}
+                  fill
+                  sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw"
+                  className="-z-10 object-cover opacity-0 transition-all duration-700 ease-out group-hover:scale-[1.04] group-hover:opacity-100"
+                />
+                {/* Voile sombre : sans lui le texte crème devient illisible sur
+                    les zones claires de la capture. */}
+                <span
+                  aria-hidden
+                  className="absolute inset-0 -z-10 bg-beew-noir/70 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
+                />
+              </>
             )}
+
+            <span className="text-[clamp(1.15rem,1.8vw,1.5rem)] leading-tight font-semibold tracking-tight transition-transform duration-500 group-hover:translate-x-1">
+              {l.name}
+            </span>
             {l.projet && (
-              <span className="text-[11px] leading-relaxed tracking-[0.08em] text-beew-noir/45 uppercase transition-colors duration-500 group-hover:text-beew-creme/60">
+              <span className="mt-2 text-[11px] leading-relaxed tracking-[0.08em] text-beew-noir/45 uppercase transition-colors duration-700 group-hover:text-beew-creme/70">
                 {l.projet}
               </span>
             )}
@@ -195,8 +210,25 @@ export function ServicesBento({ services }: { services: Home["services"] }) {
           <article key={s.slug} data-reveal data-reveal-delay={i * 80}>
             <Link
               href={`/${s.slug}`}
-              className="group relative flex h-full flex-col bg-beew-noir p-8 transition-colors duration-500 hover:bg-beew-blanc hover:text-beew-noir sm:p-12"
+              className="group relative isolate flex h-full flex-col overflow-hidden bg-beew-noir p-8 transition-colors duration-500 sm:p-12"
             >
+              {/* L'image du service se révèle au survol, derrière le texte.
+                  Au repos la grille reste sobre : six visuels affichés en
+                  permanence transformeraient la section en catalogue. */}
+              <Image
+                src={`/images/services/${s.slug}.webp`}
+                alt=""
+                aria-hidden
+                fill
+                sizes="(min-width:640px) 50vw, 100vw"
+                className="-z-10 object-cover opacity-0 transition-all duration-[900ms] ease-out group-hover:scale-105 group-hover:opacity-100"
+              />
+              {/* Voile : le texte crème doit rester lisible sur n'importe
+                  quelle zone de la photo, y compris les plus claires. */}
+              <span
+                aria-hidden
+                className="absolute inset-0 -z-10 bg-beew-noir/72 opacity-0 transition-opacity duration-[900ms] group-hover:opacity-100"
+              />
               <span className="text-[11px] tracking-[0.25em] text-beew-vert">
                 {String(i + 1).padStart(2, "0")}
               </span>

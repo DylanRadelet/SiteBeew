@@ -22,27 +22,33 @@
     "logos": [
       {
         "name": "Creaphike",
-        "projet": "Site vitrine — agence créative"
+        "projet": "Site vitrine — agence créative",
+        "file": "/images/cases/creaphike.webp"
       },
       {
         "name": "FaceAnime",
-        "projet": "Réseau social animés et mangas"
+        "projet": "Réseau social animés et mangas",
+        "file": "/images/cases/faceanime.webp"
       },
       {
         "name": "Green Work Project",
-        "projet": "Site vitrine — peintures minérales"
+        "projet": "Site vitrine — peintures minérales",
+        "file": "/images/cases/greenworkproject.webp"
       },
       {
         "name": "HappyLink",
-        "projet": "Application web de mise en relation"
+        "projet": "Application web de mise en relation",
+        "file": "/images/cases/happylink.webp"
       },
       {
         "name": "Moki",
-        "projet": "Landing page de préinscription"
+        "projet": "Landing page de préinscription",
+        "file": "/images/cases/moki.webp"
       },
       {
         "name": "Racoon Graphics",
-        "projet": "Portfolio d'artiste graphiste"
+        "projet": "Portfolio d'artiste graphiste",
+        "file": "/images/cases/racoon.webp"
       }
     ]
   },
