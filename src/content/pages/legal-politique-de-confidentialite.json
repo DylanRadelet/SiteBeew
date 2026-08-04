@@ -111,7 +111,7 @@
           "type": "liste",
           "ordonnee": false,
           "items": [
-            "Demande de contact restée sans suite : [À COMPLÉTER : durée retenue, usuellement 12 à 24 mois] à compter du dernier échange.",
+            "Demande de contact restée sans suite : 12 mois à compter du dernier échange.",
             "Dossier client : pendant toute la durée de la relation contractuelle, puis pendant la durée de prescription applicable.",
             "Pièces comptables et factures : dix ans, conformément à la législation comptable et fiscale belge.",
             "Journaux techniques du serveur : les journaux techniques de l'hébergeur sont conservés au maximum 30 jours.",
