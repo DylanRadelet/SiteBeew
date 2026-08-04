@@ -21,11 +21,11 @@
           "type": "liste",
           "ordonnee": false,
           "items": [
-            "Responsable du traitement : [À COMPLÉTER : dénomination sociale exacte du responsable du traitement]",
-            "Siège social : [À COMPLÉTER : adresse complète du siège social]",
-            "Numéro d'entreprise (BCE) : [À COMPLÉTER : numéro BCE]",
+            "Responsable du traitement : Beew Agency (Dylan Radelet)",
+            "Siège social : Chemin des Roches 13/3, 6600 Bastogne, Belgique",
+            "Numéro d'entreprise (BCE) : BE 0666.456.316",
             "Contact pour toute question relative aux données : hello@beew.agency",
-            "Délégué à la protection des données (DPO) : [À COMPLÉTER : nom et contact du DPO, ou mention « non désigné » si l'entreprise n'y est pas tenue]"
+            "Délégué à la protection des données (DPO) : non désigné — l'entreprise n'entre pas dans les cas de désignation obligatoire prévus par l'article 37 du RGPD. Toute question relative aux données peut être adressée à hello@beew.agency"
           ]
         },
         {
@@ -69,7 +69,7 @@
           "items": [
             "Données techniques de connexion enregistrées par l'hébergeur : adresse IP, date et heure de la requête, page demandée, type de navigateur.",
             "Préférence d'affichage stockée localement dans votre navigateur : le cookie « beew_city » retient la dernière zone géographique consultée afin de vous proposer un raccourci vers celle-ci.",
-            "Statistiques de fréquentation, si un outil de mesure d'audience est activé : [À COMPLÉTER : nom de l'outil de mesure d'audience utilisé, ou mention « aucun outil de mesure d'audience n'est utilisé »]"
+            "Statistiques de fréquentation, si un outil de mesure d'audience est activé : aucun outil de mesure d'audience n'est utilisé"
           ]
         }
       ]
@@ -114,7 +114,7 @@
             "Demande de contact restée sans suite : [À COMPLÉTER : durée retenue, usuellement 12 à 24 mois] à compter du dernier échange.",
             "Dossier client : pendant toute la durée de la relation contractuelle, puis pendant la durée de prescription applicable.",
             "Pièces comptables et factures : dix ans, conformément à la législation comptable et fiscale belge.",
-            "Journaux techniques du serveur : [À COMPLÉTER : durée de conservation appliquée par l'hébergeur].",
+            "Journaux techniques du serveur : les journaux techniques de l'hébergeur sont conservés au maximum 30 jours.",
             "Cookies : durée précisée dans la section consacrée aux cookies, et au maximum treize mois pour les cookies de mesure d'audience."
           ]
         }
@@ -132,8 +132,8 @@
           "type": "liste",
           "ordonnee": false,
           "items": [
-            "Hébergeur du site et de la messagerie : [À COMPLÉTER : nom du ou des hébergeurs et prestataires de messagerie]",
-            "Outil de mesure d'audience, le cas échéant : [À COMPLÉTER : nom de l'outil et pays d'établissement]",
+            "Hébergeur du site et de la messagerie : Vercel Inc. (hébergement du site) et Resend (acheminement des e-mails du formulaire de contact)",
+            "Outil de mesure d'audience, le cas échéant : Resend, établi aux États-Unis",
             "Prestataire comptable et administrations, dans le cadre des obligations légales de l'entreprise."
           ]
         },
@@ -145,7 +145,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "Nous privilégions des prestataires établis dans l'Espace économique européen. Lorsqu'un transfert hors EEE est inévitable, il est encadré par une décision d'adéquation de la Commission européenne ou par les clauses contractuelles types. Situation actuelle : [À COMPLÉTER : liste des transferts hors EEE et garanties appliquées, ou mention « aucun transfert hors EEE »]."
+          "texte": "Nous privilégions des prestataires établis dans l'Espace économique européen. Lorsqu'un transfert hors EEE est inévitable, il est encadré par une décision d'adéquation de la Commission européenne ou par les clauses contractuelles types. Situation actuelle : les données transitent par Vercel Inc. et Resend, sociétés établies aux États-Unis. Ces transferts sont encadrés par les clauses contractuelles types de la Commission européenne. Les pages du site sont servies depuis la région européenne de Vercel (Francfort, Allemagne)."
         }
       ]
     },
@@ -214,7 +214,7 @@
           "ordonnee": false,
           "items": [
             "beew_city — cookie fonctionnel, conservé douze mois, qui retient la dernière zone géographique consultée pour vous proposer un raccourci vers celle-ci. Il ne permet pas de vous identifier et n'est partagé avec personne.",
-            "Cookies de mesure d'audience : [À COMPLÉTER : liste des cookies analytiques, leur émetteur et leur durée de vie, ou mention « aucun cookie de mesure d'audience n'est déposé »]",
+            "Cookies de mesure d'audience : aucun cookie de mesure d'audience n'est déposé. Le site utilise un unique cookie fonctionnel, « beew_city », déposé uniquement si vous consultez une page communale ou choisissez une ville, d'une durée d'un an, servant à vous reproposer cette ville lors d'une visite ultérieure",
             "Cookies publicitaires : aucun cookie publicitaire ni traceur de réseau social n'est déposé sur ce site."
           ]
         },

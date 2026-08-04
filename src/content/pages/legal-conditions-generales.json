@@ -15,7 +15,7 @@
       "blocs": [
         {
           "type": "paragraphe",
-          "texte": "Les présentes conditions s'appliquent aux prestations réalisées par [À COMPLÉTER : dénomination sociale du prestataire], ci-après « le prestataire », au bénéfice de toute personne physique ou morale qui lui confie une mission, ci-après « le client »."
+          "texte": "Les présentes conditions s'appliquent aux prestations réalisées par Beew Agency, ci-après « le prestataire », au bénéfice de toute personne physique ou morale qui lui confie une mission, ci-après « le client »."
         },
         {
           "type": "paragraphe",
@@ -33,7 +33,7 @@
       "blocs": [
         {
           "type": "paragraphe",
-          "texte": "Chaque mission fait l'objet d'un devis écrit détaillant le périmètre, les livrables, le calendrier prévisionnel et le prix. Le devis est valable [À COMPLÉTER : durée de validité du devis, par exemple 30 jours] à compter de son émission."
+          "texte": "Chaque mission fait l'objet d'un devis écrit détaillant le périmètre, les livrables, le calendrier prévisionnel et le prix. Le devis est valable 30 jours à compter de son émission."
         },
         {
           "type": "paragraphe",
@@ -58,16 +58,16 @@
           "type": "liste",
           "ordonnee": false,
           "items": [
-            "Acompte à la commande : [À COMPLÉTER : pourcentage d'acompte demandé] du montant total.",
+            "Acompte à la commande : un tiers du montant à la commande, un tiers à la validation des maquettes, le solde à la mise en ligne du montant total.",
             "Solde : facturé à la mise en ligne ou à la livraison des éléments finaux.",
-            "Délai de paiement : [À COMPLÉTER : délai de paiement des factures, par exemple 30 jours de date à date].",
+            "Délai de paiement : 30 jours de date à date.",
             "Prestations récurrentes (hébergement, maintenance, accompagnement) : facturées d'avance selon la périodicité convenue au devis.",
             "Frais tiers avancés pour le compte du client (nom de domaine, licences, banque d'images) : refacturés à l'euro près, sur justificatif."
           ]
         },
         {
           "type": "paragraphe",
-          "texte": "En cas de retard de paiement, un intérêt de retard et une indemnité forfaitaire de recouvrement sont dus de plein droit après mise en demeure : [À COMPLÉTER : taux d'intérêt de retard et montant de l'indemnité forfaitaire]. Entre entreprises, ces montants sont encadrés par la loi du 2 août 2002 concernant la lutte contre le retard de paiement dans les transactions commerciales. À l'égard d'un consommateur, les conditions et plafonds du livre XIX du Code de droit économique s'appliquent, en ce compris le rappel gratuit préalable."
+          "texte": "En cas de retard de paiement, un intérêt de retard et une indemnité forfaitaire de recouvrement sont dus de plein droit après mise en demeure : les intérêts de retard et l'indemnité forfaitaire de recouvrement prévus par la loi du 2 août 2002 concernant la lutte contre le retard de paiement dans les transactions commerciales. Pour les clients consommateurs, seules les règles impératives du Code de droit économique s'appliquent. Entre entreprises, ces montants sont encadrés par la loi du 2 août 2002 concernant la lutte contre le retard de paiement dans les transactions commerciales. À l'égard d'un consommateur, les conditions et plafonds du livre XIX du Code de droit économique s'appliquent, en ce compris le rappel gratuit préalable."
         },
         {
           "type": "paragraphe",
@@ -96,7 +96,7 @@
             "Les contenus dont il conserve la charge (textes, images, logotypes, documents) dans un format exploitable et dans les délais convenus.",
             "Les accès techniques nécessaires : nom de domaine, hébergement existant, comptes analytiques et outils tiers.",
             "Un interlocuteur unique disposant du pouvoir de valider les étapes du projet.",
-            "Ses retours et validations dans le délai indiqué au planning ; passé [À COMPLÉTER : délai au-delà duquel une validation est réputée acquise], l'étape est réputée validée afin de ne pas bloquer la suite du projet."
+            "Ses retours et validations dans le délai indiqué au planning ; passé 7 jours ouvrables, l'étape est réputée validée afin de ne pas bloquer la suite du projet."
           ]
         },
         {
@@ -111,7 +111,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "Le client dispose d'un délai de [À COMPLÉTER : durée de la période de recette, par exemple 10 jours ouvrables] à compter de la mise à disposition pour signaler par écrit les non-conformités au périmètre convenu. Passé ce délai, ou en cas d'exploitation commerciale du livrable, la réception est réputée acquise. Les corrections d'anomalies signalées pendant la recette sont prises en charge sans supplément ; les demandes d'évolution donnent lieu à un avenant."
+          "texte": "Le client dispose d'un délai de 7 jours ouvrables à compter de la mise à disposition pour signaler par écrit les non-conformités au périmètre convenu. Passé ce délai, ou en cas d'exploitation commerciale du livrable, la réception est réputée acquise. Les corrections d'anomalies signalées pendant la recette sont prises en charge sans supplément ; les demandes d'évolution donnent lieu à un avenant."
         }
       ]
     },
