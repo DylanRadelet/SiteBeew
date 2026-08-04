@@ -48,6 +48,42 @@ redimensionnées à 1400 px de large, 1,1 Mo au total.
 
 ---
 
+## `villes/` — Wikimedia Commons
+
+Photographies des communes, affichées dans le hero de leur page.
+
+| Fichier | Sujet | Licence | Auteur |
+|---|---|---|---|
+| `dinant.webp` | Citadelle et collégiale, depuis la rive gauche | CC BY-SA 4.0 | Manjiro5 |
+| `durbuy.webp` | Rue pavée du vieux Durbuy | **Domaine public** | Alf van Beem |
+| `namur.webp` | Vue aérienne des toits et du beffroi | CC BY-SA 4.0 | Giles Laurent |
+
+Les deux photos sous CC BY-SA affichent leur crédit sous l'image, avec un lien
+vers la page Commons : le schéma rend ce crédit **obligatoire** dès qu'une
+licence l'exige, et le build échoue s'il manque.
+
+### Les douze autres communes n'ont pas de photo
+
+Elles retombent sur le visuel générique `heros/zones.jpg`. C'est délibéré.
+
+Le fonds libre disponible pour les petites communes wallonnes est très pauvre,
+et surtout trompeur : une recherche sur « Virton » ne renvoie que des tableaux
+de musée, « Neufchâteau » une carte de Ferraris du XVIIIᵉ siècle, « Liège » des
+destructions de 1914. Mettre une forêt ardennaise générique en la présentant
+comme la photo de Bertrix serait une image fausse sur une page qui vend
+justement l'ancrage local.
+
+Options, par ordre de qualité :
+
+1. **Photographier soi-même** — c'est l'agence qui vend la proximité, et une
+   photo prise sur place vaut mieux que n'importe quelle banque d'images.
+   Une matinée par commune couvre plusieurs villes.
+2. Acheter sur une banque payante (Adobe Stock, Getty) — couverture correcte
+   pour Liège, Mons, Charleroi, moins pour l'Ardenne.
+3. Laisser le visuel générique, ce qui reste honnête.
+
+---
+
 ## `heros/`, `method/`, `misc/`, `blog/`
 
 Images en place avant la constitution de ce fichier, dont la provenance n'a

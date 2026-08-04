@@ -14,6 +14,15 @@
     "lat": 50.4674,
     "lng": 4.8718
   },
+  "heroImage": {
+    "src": "/images/villes/namur.webp",
+    "alt": "Vue aérienne des toits de Namur, du beffroi et des clochers du centre historique",
+    "credit": {
+      "auteur": "Giles Laurent",
+      "licence": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1002_%C3%89glise_Saint-Jean-Baptiste_de_Namur,_%C3%89glise_Saint-Loup_de_Namur_and_Cath%C3%A9drale_Saint-Aubain_Photo_by_Giles_Laurent.jpg"
+    }
+  },
   "intent": {
     "service": "creation-site-web",
     "primaryKeyword": "création site internet Namur",

@@ -32,7 +32,16 @@ export function PageHero({
   badges?: string[];
   cta?: { href: string; label: string } | null;
   /** Visuel de droite. Sans lui le hero paraît vide — c'est le défaut corrigé ici. */
-  image?: { src: string; alt?: string };
+  image?: {
+    src: string;
+    alt?: string;
+    /**
+     * Attribution, obligatoire pour les licences qui l'exigent (CC BY, CC BY-SA).
+     * Affichée sous l'image, discrètement mais lisiblement : une photo libre mal
+     * créditée est une violation de licence, pas un détail de mise en page.
+     */
+    credit?: { auteur: string; licence: string; source: string };
+  };
 }) {
   return (
     // `pt-32` dégage le header fixe : sans cette réserve, le fil d'Ariane passe
@@ -110,6 +119,21 @@ export function PageHero({
           />
           {/* Voile léger : le visuel doit rester un fond, pas capter l'attention. */}
           <div aria-hidden className="absolute inset-0 bg-beew-noir/15" />
+
+          {image.credit && (
+            <p className="absolute right-3 bottom-3 rounded-full bg-beew-noir/55 px-3 py-1 text-[10px] tracking-wide text-beew-creme/70 backdrop-blur-sm">
+              Photo{" "}
+              <a
+                href={image.credit.source}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="underline underline-offset-2 transition-colors hover:text-beew-creme"
+              >
+                {image.credit.auteur}
+              </a>{" "}
+              · {image.credit.licence}
+            </p>
+          )}
         </div>
       )}
     </section>

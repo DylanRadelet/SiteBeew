@@ -103,6 +103,29 @@ export const CitySchema = z
     postalCodes: z.array(z.string().regex(/^\d{4}$/)).min(1),
     geo: z.object({ lat: z.number(), lng: z.number() }),
 
+    /**
+     * Photo de la commune pour le hero. Absente, la page retombe sur le visuel
+     * générique des zones : mieux vaut une image neutre qu'une photo d'ailleurs
+     * présentée comme celle de la ville.
+     *
+     * `credit` est OBLIGATOIRE dès que la licence l'exige (CC BY, CC BY-SA) et
+     * s'affiche sous l'image. Une photo sous licence libre mal créditée est une
+     * violation de licence, pas un détail de mise en page.
+     */
+    heroImage: z
+      .object({
+        src: z.string().startsWith("/images/villes/"),
+        alt: z.string().min(15),
+        credit: z
+          .object({
+            auteur: z.string().min(2),
+            licence: z.string().min(2),
+            source: z.string().url(),
+          })
+          .optional(),
+      })
+      .optional(),
+
     /** Intention de recherche ciblée. Un seul mot-clé principal par page. */
     intent: z.object({
       service: z.enum(["creation-site-web", "refonte", "seo", "ecommerce"]),

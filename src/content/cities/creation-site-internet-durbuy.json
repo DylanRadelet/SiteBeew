@@ -4,8 +4,17 @@
   "city": "Durbuy",
   "province": "Luxembourg",
   "region": "Wallonie",
-  "postalCodes": ["6940"],
-  "geo": { "lat": 50.3531, "lng": 5.4564 },
+  "postalCodes": [
+    "6940"
+  ],
+  "geo": {
+    "lat": 50.3531,
+    "lng": 5.4564
+  },
+  "heroImage": {
+    "src": "/images/villes/durbuy.webp",
+    "alt": "Une rue pavée du vieux Durbuy, bordée de maisons en pierre et de commerces"
+  },
   "intent": {
     "service": "creation-site-web",
     "primaryKeyword": "création site internet Durbuy",
@@ -24,7 +33,11 @@
   "hero": {
     "h1": "Création de site internet à Durbuy",
     "subtitle": "Une densité d'hébergements exceptionnelle, une clientèle majoritairement néerlandophone, et des commissions de plateformes qui dépassent souvent le coût annuel d'un site.",
-    "badges": ["Réservation directe", "Sites multilingues NL et EN", "Devis fixe sous 48 h"]
+    "badges": [
+      "Réservation directe",
+      "Sites multilingues NL et EN",
+      "Devis fixe sous 48 h"
+    ]
   },
   "localContext": {
     "heading": "Le vrai adversaire d'un établissement de Durbuy n'est pas son voisin, c'est sa commission",
@@ -67,6 +80,14 @@
     "creation-site-internet-rochefort",
     "creation-site-internet-bastogne"
   ],
-  "coverage": ["Durbuy", "Barvaux-sur-Ourthe", "Bomal", "Hotton", "Erezée", "Manhay", "Somme-Leuze"],
+  "coverage": [
+    "Durbuy",
+    "Barvaux-sur-Ourthe",
+    "Bomal",
+    "Hotton",
+    "Erezée",
+    "Manhay",
+    "Somme-Leuze"
+  ],
   "updatedAt": "2026-08-04"
 }

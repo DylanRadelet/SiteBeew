@@ -86,7 +86,9 @@ export default async function ZoneOuVillePage({ params }: { params: Promise<{ sl
         h1={city.hero.h1}
         intro={city.hero.subtitle}
         badges={city.hero.badges}
-        image={{ src: "/images/heros/zones.jpg" }}
+        // Photo de la commune quand nous en avons une sous licence claire ;
+        // sinon le visuel générique des zones. Jamais la photo d'ailleurs.
+        image={city.heroImage ?? { src: "/images/heros/zones.jpg" }}
       />
       <LocalContext
         heading={city.localContext.heading}
