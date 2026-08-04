@@ -30,21 +30,22 @@
   },
   "hero": {
     "h1": "Création de site internet à Bastogne",
-    "subtitle": "Un site pensé pour une clientèle qui arrive de Bruxelles, des Pays-Bas ou du Kansas, et qui réserve depuis son téléphone. Multilingue, rapide, orienté réservation.",
+    "subtitle": "Notre siège est à Bastogne, Chemin des Roches. Nous ne sommes pas une agence qui « couvre » la ville depuis Bruxelles : nous y travaillons, et nous connaissons la saison, les langues et la clientèle qui arrive de Bruxelles, des Pays-Bas ou du Kansas.",
     "badges": [
+      "Notre siège est ici",
       "Sites multilingues FR/EN/NL",
-      "Réservation intégrée",
-      "Devis sous 48 h"
+      "Devis fixe sous 48 h"
     ]
   },
   "localContext": {
-    "heading": "Bastogne : une audience internationale et une saisonnalité brutale",
-    "body": "Peu de villes belges de cette taille reçoivent autant de visiteurs venus de l'étranger. Le Bastogne War Museum, le Mardasson et l'ensemble du parcours mémoriel attirent chaque année des centaines de milliers de personnes, dont une proportion importante d'Américains, de Néerlandais, de Britanniques et d'Allemands. Pour un hôtel, un restaurant, un gîte ou un commerce bastognard, cela signifie qu'un site uniquement francophone laisse une part majeure de sa clientèle potentielle sur le bord du chemin. La question du multilingue n'est pas ici un raffinement mais la base du dispositif. La deuxième réalité de Bastogne est la saisonnalité. L'activité se concentre sur la belle saison et sur les commémorations de décembre, avec des creux marqués le reste de l'année. Un site conçu pour cette économie doit permettre de remplir les périodes basses : mise en avant dynamique des disponibilités, offres hors saison, capture d'adresses e-mail pour relancer au bon moment. Nous intégrons systématiquement un moteur de réservation ou un formulaire de demande directe, afin de réduire la dépendance aux plateformes qui prélèvent quinze à vingt pour cent sur chaque nuitée. La recherche locale a elle aussi ses particularités. Une part significative des requêtes est formulée en anglais ou en néerlandais, souvent depuis un mobile déjà sur place, avec une intention immédiate : trouver où manger, où dormir, quoi visiter dans l'heure qui vient. Nous optimisons donc en priorité la vitesse mobile, les données structurées d'établissement et la fiche Google Business Profile, qui reste le premier point de contact réel. Au-delà du tourisme, nous accompagnons à Bastogne les acteurs de l'agroalimentaire, de la construction et les indépendants qui rayonnent sur tout le nord de la province.",
+    "heading": "Bastogne : notre ville, une audience internationale et une saisonnalité brutale",
+    "body": "Bastogne n'est pas pour nous une zone d'intervention parmi d'autres : c'est l'adresse de notre siège, Chemin des Roches. Cela change des choses très concrètes. Nous connaissons le rythme réel de la ville — les creux de février, la pression de décembre, les week-ends où le centre est saturé — parce que nous le vivons. Nous pouvons passer voir un établissement le matin même, photographier une salle à la bonne heure, ou régler un problème de réservation avant le service du soir. Aucune agence installée à Bruxelles ou à Namur ne peut proposer cela, quels que soient les mots employés sur sa page. Peu de villes belges de cette taille reçoivent autant de visiteurs venus de l'étranger. Le Bastogne War Museum, le Mardasson et l'ensemble du parcours mémoriel attirent chaque année des centaines de milliers de personnes, dont une proportion importante d'Américains, de Néerlandais, de Britanniques et d'Allemands. Pour un hôtel, un restaurant, un gîte ou un commerce bastognard, cela signifie qu'un site uniquement francophone laisse une part majeure de sa clientèle potentielle sur le bord du chemin. La question du multilingue n'est pas ici un raffinement mais la base du dispositif. La deuxième réalité de Bastogne est la saisonnalité. L'activité se concentre sur la belle saison et sur les commémorations de décembre, avec des creux marqués le reste de l'année. Un site conçu pour cette économie doit permettre de remplir les périodes basses : mise en avant dynamique des disponibilités, offres hors saison, capture d'adresses e-mail pour relancer au bon moment. Nous intégrons systématiquement un moteur de réservation ou un formulaire de demande directe, afin de réduire la dépendance aux plateformes qui prélèvent quinze à vingt pour cent sur chaque nuitée. La recherche locale a elle aussi ses particularités. Une part significative des requêtes est formulée en anglais ou en néerlandais, souvent depuis un mobile déjà sur place, avec une intention immédiate : trouver où manger, où dormir, quoi visiter dans l'heure qui vient. Nous optimisons donc en priorité la vitesse mobile, les données structurées d'établissement et la fiche Google Business Profile, qui reste le premier point de contact réel. Au-delà du tourisme, nous accompagnons à Bastogne les acteurs de l'agroalimentaire, de la construction et les indépendants qui rayonnent sur tout le nord de la province.",
     "highlights": [
+      "Notre siège social est à Bastogne, Chemin des Roches",
       "Clientèle internationale : le multilingue FR/EN/NL est structurant",
       "Saisonnalité marquée — le site doit remplir les creux",
       "Réservation en direct pour réduire les commissions des plateformes",
-      "Requêtes mobiles à intention immédiate, souvent sur place",
+      "Requêtes mobiles à intention immédiate, souvent formulées sur place",
       "Tissu local : horeca, tourisme mémoriel, agroalimentaire, construction"
     ]
   },
@@ -56,6 +57,10 @@
     "note": "Site vitrine complet. Version trilingue et module de réservation en option, chiffrés séparément selon vos besoins."
   },
   "faq": [
+    {
+      "question": "Êtes-vous vraiment installés à Bastogne ?",
+      "answer": "Oui. Le siège social de Beew Agency est établi Chemin des Roches 13/3 à 6600 Bastogne, et c'est l'adresse inscrite à la Banque-Carrefour des Entreprises sous le numéro BE 0666.456.316. Vous pouvez le vérifier. Concrètement, cela signifie qu'un rendez-vous se cale dans la journée, que nous passons voir votre établissement plutôt que de travailler sur des photos que vous nous envoyez, et qu'en cas d'urgence en pleine saison nous sommes à quelques minutes plutôt qu'à deux heures de route."
+    },
     {
       "question": "Faut-il vraiment un site multilingue à Bastogne ?",
       "answer": "Pour tout ce qui touche au tourisme, à l'hébergement et à la restauration, oui sans hésiter. Le public du parcours mémoriel est massivement anglophone et néerlandophone. Nous constatons chez nos clients bastognards qu'une version anglaise correctement référencée génère à elle seule entre vingt et trente-cinq pour cent des demandes. Pour une activité purement locale, le français seul reste pertinent."
@@ -87,5 +92,5 @@
     "Fauvillers",
     "Martelange"
   ],
-  "updatedAt": "2026-08-02"
+  "updatedAt": "2026-08-04"
 }

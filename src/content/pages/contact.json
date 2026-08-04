@@ -138,8 +138,18 @@
         "href": "mailto:hello@beew.agency"
       },
       {
+        "label": "Téléphone",
+        "valeur": "+32 472 46 73 09",
+        "href": "tel:+32472467309"
+      },
+      {
+        "label": "Siège",
+        "valeur": "Chemin des Roches 13/3, 6600 Bastogne",
+        "href": "https://maps.google.com/?q=Chemin+des+Roches+13,+6600+Bastogne"
+      },
+      {
         "label": "Zone d'intervention",
-        "valeur": "Province de Luxembourg, Belgique"
+        "valeur": "Toute la Wallonie, depuis Bastogne"
       },
       {
         "label": "Horaires",

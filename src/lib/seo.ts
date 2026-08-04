@@ -24,6 +24,23 @@ export const SITE_URL = "https://www.beew.agency";
 export const AGENCY_NAME = "BEEW";
 export const AGENCY_LEGAL_NAME = "BEEW Agency";
 export const AGENCY_EMAIL = "hello@beew.agency";
+export const AGENCY_PHONE = "+32472467309";
+
+/**
+ * Siège réel de l'agence, tel que publié dans les mentions légales.
+ * Ces valeurs DOIVENT rester identiques à celles de la fiche Google Business
+ * Profile, au caractère près : une divergence entre le site et la fiche est
+ * l'erreur qui coûte le plus cher en référencement local.
+ */
+export const AGENCY_ADDRESS = {
+  street: "Chemin des Roches 13/3",
+  postalCode: "6600",
+  city: "Bastogne",
+  region: "Province de Luxembourg",
+  country: "BE",
+  lat: 50.0,
+  lng: 5.7167,
+} as const;
 
 /** Identifiants stables du graphe. Ne jamais les modifier après indexation. */
 export const ORG_ID = `${SITE_URL}/#organization`;
@@ -140,11 +157,14 @@ export function buildGraph(...nodes: (Node | null | undefined)[]) {
 /**
  * L'ENTITÉ. Une seule pour tout le site, référencée par `@id` partout ailleurs.
  *
- * Volontairement SANS `address` ni `telephone` : l'agence n'a pas encore publié
- * ces informations. Déclarer une adresse inventée — a fortiori une adresse
- * différente par page ville — est exactement le signal qui fait requalifier un
- * réseau de pages locales en pages satellites. Le jour où les coordonnées
- * réelles existent, elles s'ajoutent ICI, à un seul endroit.
+ * UNE seule adresse, celle du siège réel à Bastogne, déclarée une seule fois.
+ * C'est la différence entre un ancrage local vérifiable et un réseau de pages
+ * satellites : le JSON-LD déclarait auparavant un établissement fictif par
+ * ville, ce qui est précisément le signal qui fait requalifier un site local
+ * en spam. Une adresse vraie vaut infiniment mieux que quinze fausses.
+ *
+ * Ces valeurs doivent correspondre exactement à la fiche Google Business
+ * Profile — c'est l'appariement des deux qui produit le signal.
  */
 export function organizationNode(): Node {
   return {
@@ -154,6 +174,21 @@ export function organizationNode(): Node {
     legalName: AGENCY_LEGAL_NAME,
     url: `${SITE_URL}/`,
     email: AGENCY_EMAIL,
+    telephone: AGENCY_PHONE,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: AGENCY_ADDRESS.street,
+      postalCode: AGENCY_ADDRESS.postalCode,
+      addressLocality: AGENCY_ADDRESS.city,
+      addressRegion: AGENCY_ADDRESS.region,
+      addressCountry: AGENCY_ADDRESS.country,
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: AGENCY_ADDRESS.lat,
+      longitude: AGENCY_ADDRESS.lng,
+    },
+    vatID: "BE 0666.456.316",
     description:
       "Agence web indépendante établie en province de Luxembourg. Création de sites internet, " +
       "e-commerce, référencement local et outils métier pour les PME et indépendants de Wallonie.",
@@ -179,6 +214,7 @@ export function organizationNode(): Node {
       "@type": "ContactPoint",
       contactType: "sales",
       email: AGENCY_EMAIL,
+      telephone: AGENCY_PHONE,
       areaServed: "BE",
       availableLanguage: ["fr", "en", "nl"],
     },
