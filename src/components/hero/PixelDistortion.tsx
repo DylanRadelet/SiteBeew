@@ -3,9 +3,12 @@
 import { useEffect, useRef } from "react";
 
 /**
- * Déformation en gros pixels suivant la souris, par-dessus la vidéo du hero.
+ * Déformation en gros pixels par-dessus le visuel d'un hero.
  *
- * Principe : le <video> reste visible et fournit l'image de fond. Le canvas est
+ * La source peut être la vidéo de l'accueil ou l'image fixe d'une page
+ * interne : le composant lit ses dimensions naturelles dans les deux cas.
+ *
+ * Principe : le visuel reste visible et fournit l'image de fond. Le canvas est
  * transparent et ne peint QUE les blocs déformés autour du curseur. Deux
  * bénéfices : aucun coût de rendu hors de la zone survolée, et si le canvas
  * échoue (JS coupé, contexte perdu), la vidéo reste affichée intacte.
@@ -49,20 +52,45 @@ const TRAIL_DECAY = 0.94;
 /** Rayon du point lumineux bleuté. */
 const DOT_RADIUS = 11;
 
+/* --- Mode vague : la version automatique, pour le tactile --------------- */
+
+/** Intervalle entre deux vagues. */
+const VAGUE_PERIODE = 5000;
+/** Durée de la traversée. */
+const VAGUE_DUREE = 1700;
+/** Demi-largeur de la bande déformée. */
+const VAGUE_LARGEUR = 190;
+/** Amplitude du déplacement dans la vague. */
+const VAGUE_FORCE = 34;
+
 type TrailPoint = { x: number; y: number; life: number };
 
-export function PixelDistortion({ videoRef }: { videoRef: React.RefObject<HTMLVideoElement | null> }) {
+/** La source d'image : la vidéo du hero d'accueil, ou l'image d'un hero interne. */
+type Source = HTMLVideoElement | HTMLImageElement | null;
+
+export function PixelDistortion({ sourceRef }: { sourceRef: React.RefObject<Source> }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
     const canvas = canvasRef.current;
-    const video = videoRef.current;
-    if (!canvas || !video) return;
+    const source = sourceRef.current;
+    if (!canvas || !source) return;
 
-    // Pas d'effet au clavier/tactile ni en mode « animations réduites ».
+    /**
+     * Deux modes, selon le pointeur.
+     *
+     *  · pointeur fin (souris) : la traînée suit le curseur ;
+     *  · pointeur grossier (tactile) : une vague traverse l'image toutes les
+     *    cinq secondes. Sans elle, l'effet n'existait tout simplement pas sur
+     *    téléphone, où se trouve pourtant la majorité des visiteurs.
+     *
+     * « Animations réduites » coupe les deux : c'est une préférence système
+     * explicite, elle prime.
+     */
     const fine = window.matchMedia("(pointer: fine)").matches;
     const calm = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (!fine || calm) return;
+    if (calm) return;
+    const vagueAuto = !fine;
 
     const ctx = canvas.getContext("2d", { alpha: true });
     if (!ctx) return;
@@ -117,6 +145,7 @@ export function PixelDistortion({ videoRef }: { videoRef: React.RefObject<HTMLVi
      */
     let dernierTemps = -1;
 
+    const depart = performance.now();
     const trail: TrailPoint[] = [];
     let pointer: { x: number; y: number } | null = null;
     let raf = 0;
@@ -180,23 +209,37 @@ export function PixelDistortion({ videoRef }: { videoRef: React.RefObject<HTMLVi
       for (const p of trail) p.life *= TRAIL_DECAY;
       while (trail.length && trail[0].life < 0.02) trail.shift();
 
-      const vw = video.videoWidth;
-      const vh = video.videoHeight;
-      const videoPrete = Boolean(vw && vh && video.readyState >= 2);
+      // Une vidéo expose `videoWidth`, une image `naturalWidth`.
+      const estVideo = source instanceof HTMLVideoElement;
+      const vw = estVideo ? source.videoWidth : source.naturalWidth;
+      const vh = estVideo ? source.videoHeight : source.naturalHeight;
+      const sourcePrete = Boolean(
+        vw && vh && (estVideo ? source.readyState >= 2 : source.complete),
+      );
 
       // Les pixels s'estompent quand la souris s'arrête, mais le point lumineux
       // reste tant que le curseur est dans le hero : c'est lui qui matérialise
       // la position, il ne doit jamais disparaître sous le curseur immobile.
-      if (!trail.length || !videoPrete) {
+      // Vague automatique : une bande verticale qui traverse l'image.
+      let vague: number | null = null;
+      if (vagueAuto) {
+        const cycle = (performance.now() - depart) % VAGUE_PERIODE;
+        if (cycle < VAGUE_DUREE) vague = cycle / VAGUE_DUREE;
+      }
+
+      if ((!trail.length && vague === null) || !sourcePrete) {
         drawDot();
         return;
       }
 
       // UNE recopie et UNE lecture par image VIDÉO, quel que soit le nombre de
       // blocs — et rien du tout si la vidéo n'a pas changé d'image depuis.
-      if (video.currentTime !== dernierTemps) {
-        dernierTemps = video.currentTime;
-        bufCtx.drawImage(video, 0, 0, BUF_W, BUF_H);
+      // Une image fixe n'a qu'une seule image à lire : `dernierTemps` reste à
+      // sa valeur initiale et la recopie n'a lieu qu'une fois.
+      const temps = estVideo ? source.currentTime : 0;
+      if (temps !== dernierTemps || !pixels) {
+        dernierTemps = temps;
+        bufCtx.drawImage(source, 0, 0, BUF_W, BUF_H);
         pixels = bufCtx.getImageData(0, 0, BUF_W, BUF_H).data;
       }
       if (!pixels) {
@@ -218,6 +261,16 @@ export function PixelDistortion({ videoRef }: { videoRef: React.RefObject<HTMLVi
       let minY = Infinity;
       let maxX = -Infinity;
       let maxY = -Infinity;
+
+      if (vague !== null) {
+        // La vague balaie toute la hauteur, sur une bande qui se déplace.
+        const cx = -VAGUE_LARGEUR + vague * (width + 2 * VAGUE_LARGEUR);
+        minX = Math.min(minX, cx - VAGUE_LARGEUR);
+        maxX = Math.max(maxX, cx + VAGUE_LARGEUR);
+        minY = 0;
+        maxY = height;
+      }
+
       for (const p of trail) {
         const r = RADIUS * p.life;
         minX = Math.min(minX, p.x - r);
@@ -261,6 +314,19 @@ export function PixelDistortion({ videoRef }: { videoRef: React.RefObject<HTMLVi
             intensity = Math.max(intensity, f);
           }
 
+          if (vague !== null) {
+            const cxVague = -VAGUE_LARGEUR + vague * (width + 2 * VAGUE_LARGEUR);
+            const ecart = Math.abs(cx - cxVague);
+            if (ecart < VAGUE_LARGEUR) {
+              // Sinus sur la largeur de bande : nul aux bords, maximal au centre.
+              const f = Math.cos((ecart / VAGUE_LARGEUR) * (Math.PI / 2)) ** 2;
+              // Déplacement horizontal, dans le sens de la traversée.
+              dx += (cx < cxVague ? -1 : 1) * f * (VAGUE_FORCE / STRENGTH);
+              dy += Math.sin((cy / height) * Math.PI * 3) * f * 0.35;
+              intensity = Math.max(intensity, f * 0.9);
+            }
+          }
+
           if (intensity < 0.02) continue;
 
           // On échantillonne à la position D'OÙ vient la matière : la texture est
@@ -299,7 +365,7 @@ export function PixelDistortion({ videoRef }: { videoRef: React.RefObject<HTMLVi
       document.removeEventListener("pointerleave", onLeave);
       window.removeEventListener("blur", onLeave);
     };
-  }, [videoRef]);
+  }, [sourceRef]);
 
   return <canvas ref={canvasRef} aria-hidden className="pointer-events-none absolute inset-0 z-10" />;
 }

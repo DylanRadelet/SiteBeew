@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { VisuelPixelise } from "@/components/ui/VisuelPixelise";
 import { Bouton, EnTete, Fleche, GUTTER } from "@/components/ui/section";
 
 /**
@@ -109,14 +109,10 @@ export function PageHero({
           data-reveal-delay={200}
           className="relative mt-14 aspect-[21/9] overflow-hidden rounded-2xl bg-beew-noir/5 sm:mt-16"
         >
-          <Image
-            src={image.src}
-            alt={image.alt ?? ""}
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover"
-          />
+          {/* Même effet de pixels que le hero d'accueil : à la souris il suit
+              le curseur, au tactile une vague traverse l'image toutes les cinq
+              secondes. */}
+          <VisuelPixelise src={image.src} alt={image.alt ?? ""} className="object-cover" />
           {/* Voile léger : le visuel doit rester un fond, pas capter l'attention. */}
           <div aria-hidden className="absolute inset-0 bg-beew-noir/15" />
 

@@ -68,7 +68,7 @@ export function VideoHero({
         className="absolute inset-0 z-20 bg-gradient-to-t from-beew-noir/85 via-beew-noir/35 to-beew-noir/55"
       />
 
-      <PixelDistortion videoRef={videoRef} />
+      <PixelDistortion sourceRef={videoRef} />
 
       <ScrollCue targetId="suite" />
 
