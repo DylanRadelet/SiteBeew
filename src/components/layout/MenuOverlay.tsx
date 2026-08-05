@@ -246,7 +246,7 @@ export function MenuOverlay({
                 </div>
                 <div>
                   <dt className="sr-only">Siège</dt>
-                  <dd>Chemin des Roches 13/3, 6600 Bastogne</dd>
+                  <dd>Chemin des Roches, 6600 Bastogne</dd>
                 </div>
                 <div>
                   <dt className="sr-only">Disponibilité</dt>

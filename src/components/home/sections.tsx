@@ -641,7 +641,7 @@ export function FooterColonnes({ provinces }: FooterProps) {
                 +32 472 46 73 09
               </a>
             </li>
-            <li>Chemin des Roches 13/3, 6600 Bastogne</li>
+            <li>Chemin des Roches, 6600 Bastogne</li>
             <li>Du lundi au vendredi, 9h — 18h</li>
           </ul>
 

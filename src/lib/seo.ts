@@ -45,7 +45,7 @@ export const AGENCY_SOCIAL = [
  * l'erreur qui coûte le plus cher en référencement local.
  */
 export const AGENCY_ADDRESS = {
-  street: "Chemin des Roches 13/3",
+  street: "Chemin des Roches",
   postalCode: "6600",
   city: "Bastogne",
   region: "Province de Luxembourg",

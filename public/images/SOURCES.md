@@ -48,6 +48,30 @@ redimensionnées à 1400 px de large, 1,1 Mo au total.
 
 ---
 
+## `blog/` et `heros/journal.jpg` — Openverse, toutes en CC0
+
+Les visuels précédents étaient des photos génériques recyclées à la hâte —
+un atelier, une équipe, des paysages — sans rapport avec le sujet traité.
+Remplacés par des images qui montrent réellement ce dont l'article parle.
+
+| Fichier | Sujet | Licence |
+|---|---|---|
+| `facturation-electronique-peppol.jpg` | Tableur et calculatrice — comptabilité | CC0 |
+| `accessibilite-obligation-europeenne.jpg` | Mains sur un clavier — navigation clavier | CC0 |
+| `ia-recherche-generative.jpg` | Page de résultats sur tablette | CC0 |
+| `aides-wallonnes-numerique.jpg` | Calculatrice, stylo, notes — budget | CC0 |
+| `fiche-google-business-profile.jpg` | Carte sur téléphone, en extérieur | CC0 |
+| `heros/journal.jpg` | Lecture d'actualité sur téléphone | CC0 |
+
+**Toutes en CC0, donc sans obligation d'attribution.** Le choix est
+délibéré : le champ `imageCredit` du schéma d'article n'est affiché nulle
+part dans le rendu. Une image sous CC BY ou CC BY-SA serait donc publiée
+sans attribution visible, ce qui ne respecte pas sa licence. Tant que ce
+champ n'est pas rendu à l'écran, n'utiliser ici que des images CC0 ou du
+domaine public.
+
+---
+
 ## `villes/` — Wikimedia Commons
 
 Une photographie par commune, affichée dans le hero de sa page. **Chaque image
