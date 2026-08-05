@@ -307,6 +307,56 @@ export function faqNode(path: string, faq: FaqItem[]): Node | null {
   };
 }
 
+/**
+ * Liste ordonnée des pages filles d'un index.
+ *
+ * C'est ce qui distingue, pour un moteur, une page qui EST un index d'une page
+ * qui contient des liens. Sans ce nœud, `/wallonie` et les pages provinces ne
+ * déclaraient rien de leur descendance : le fil d'Ariane dit d'où l'on vient,
+ * pas où l'on peut aller.
+ */
+export function itemListNode(
+  path: string,
+  items: { href: string; label: string }[],
+  nom?: string,
+): Node | null {
+  if (!items.length) return null;
+  return {
+    "@type": "ItemList",
+    "@id": `${absolute(path)}#liste`,
+    ...(nom && { name: nom }),
+    numberOfItems: items.length,
+    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    itemListElement: items.map((it, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: it.label,
+      url: absolute(it.href),
+    })),
+  };
+}
+
+/**
+ * Navigation principale du site, déclarée sur l'accueil.
+ *
+ * `SiteNavigationElement` décrit explicitement les sections de tête. C'est le
+ * signal que Google utilise pour composer des liens de site sous le résultat
+ * principal — un plan du site lisible par une machine, en somme.
+ */
+export function navigationNode(items: { href: string; label: string }[]): Node {
+  return {
+    "@type": "ItemList",
+    "@id": `${SITE_URL}/#navigation`,
+    name: "Navigation principale",
+    itemListElement: items.map((it, i) => ({
+      "@type": "SiteNavigationElement",
+      position: i + 1,
+      name: it.label,
+      url: absolute(it.href),
+    })),
+  };
+}
+
 export function serviceNode(o: {
   path: string;
   name: string;
@@ -411,10 +461,28 @@ export function cityJsonLd(city: City, trail: { href: string; label: string }[])
   );
 }
 
+/** Sections de tête du site, telles qu'elles figurent dans le menu. */
+const NAVIGATION = [
+  { href: "/creation-site-internet", label: "Création de site internet" },
+  { href: "/refonte-site-internet", label: "Refonte de site internet" },
+  { href: "/referencement-seo", label: "Référencement SEO" },
+  { href: "/site-e-commerce", label: "Site e-commerce" },
+  { href: "/application-web", label: "Application web" },
+  { href: "/outils-internes", label: "Outils internes" },
+  { href: "/realisations", label: "Réalisations" },
+  { href: "/methode", label: "Notre méthode" },
+  { href: "/tarifs", label: "Tarifs" },
+  { href: "/a-propos", label: "L'agence" },
+  { href: "/zones-d-intervention", label: "Zones d'intervention" },
+  { href: "/blog", label: "Journal" },
+  { href: "/contact", label: "Contact" },
+];
+
 export function homeJsonLd(home: Home) {
   return buildGraph(
     organizationNode(),
     websiteNode(),
+    navigationNode(NAVIGATION),
     webPageNode({
       path: "/",
       name: home.meta.title,

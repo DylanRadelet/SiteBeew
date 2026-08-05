@@ -18,6 +18,11 @@ import { SITE_URL } from "@/lib/seo";
  *
  * Les priorités reflètent la pyramide réelle du site : home et piliers de
  * service en tête, puis les zones, puis le reste.
+ *
+ * Les pages qui portent une image propre la déclarent (`images`). Next l'expose
+ * en `image:image` dans le XML, ce qui permet à Google Images d'indexer les
+ * quinze photos de communes : sans cette déclaration, elles ne sont découvertes
+ * qu'au rendu de la page, et souvent pas du tout.
  */
 
 type Entree = MetadataRoute.Sitemap[number];
@@ -57,6 +62,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: c.updatedAt,
     changeFrequency: "monthly",
     priority: 0.8,
+    ...(c.heroImage && { images: [`${SITE_URL}${c.heroImage.src}`] }),
   }));
 
   const confiance: Entree[] = [
@@ -90,6 +96,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: c.updatedAt ?? aujourdhui,
             changeFrequency: "yearly" as const,
             priority: 0.6,
+            ...(c.hero?.image && { images: [`${SITE_URL}${c.hero.image}`] }),
           })),
         ]
       : [];
@@ -109,6 +116,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: a.updatedAt ?? a.publishedAt ?? aujourdhui,
             changeFrequency: "yearly" as const,
             priority: 0.5,
+            ...(a.image && { images: [`${SITE_URL}${a.image}`] }),
           })),
         ]
       : [];

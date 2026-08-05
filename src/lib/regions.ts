@@ -6,6 +6,7 @@ import {
   breadcrumbNode,
   buildGraph,
   faqNode,
+  itemListNode,
   organizationNode,
   pageMetadata,
   serviceNode,
@@ -174,6 +175,21 @@ export function zoneMetadata(zone: Zone): Metadata {
 export function zoneJsonLd(zone: Zone, areaServed: string[]) {
   const path = `/${zone.slug}`;
 
+  /**
+   * Les pages filles réellement liées : les provinces qui ont une page pour la
+   * région, les communes publiées pour une province. Une entrée sans page n'y
+   * figure pas — le balisage ne doit décrire que des liens qui existent.
+   */
+  const enfants =
+    zone.level === "region"
+      ? zone.provinces
+          .filter((p) => p.slug)
+          .map((p) => ({ href: `/${p.slug}`, label: p.name }))
+      : getPublishedCitiesOfZone(zone).map((c) => ({
+          href: `/${c.slug}`,
+          label: `Création de site internet à ${c.city}`,
+        }));
+
   return buildGraph(
     organizationNode(),
     websiteNode(),
@@ -191,6 +207,11 @@ export function zoneJsonLd(zone: Zone, areaServed: string[]) {
       description: zone.meta.description,
       areaServed: [zone.name, ...areaServed],
     }),
+    itemListNode(
+      path,
+      enfants,
+      zone.level === "region" ? "Provinces couvertes" : `Communes couvertes en ${zone.shortName}`,
+    ),
     faqNode(path, zone.faq),
     breadcrumbNode(path, getZoneTrail(zone)),
   );
