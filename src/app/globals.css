@@ -66,9 +66,10 @@ h4 {
 */
 .grain {
   /* Seul réglage à toucher pour doser le grésillement : 0.10 = à peine
-     perceptible, 0.40 = vraie vieille télé. Ramené de 0.30 à 0.16 — le grain
-     doit se sentir sans se voir, et à 0.30 il mangeait les aplats clairs. */
-  --grain-opacity: 0.16;
+     perceptible, 0.40 = vraie vieille télé. Descendu par paliers, 0.30 puis
+     0.16, jusqu'à 0.08 : le grain est large (`baseFrequency` basse), et un
+     grain large se voit beaucoup plus qu'un grain fin à opacité égale. */
+  --grain-opacity: 0.08;
 }
 
 .grain::after {

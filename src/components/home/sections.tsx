@@ -496,7 +496,7 @@ function Bandeau() {
                 className="flex items-center gap-10 pr-10 text-[clamp(4rem,13vw,11rem)] leading-none font-bold tracking-tighter whitespace-nowrap text-beew-creme/[0.06] uppercase"
               >
                 {mot}
-                <span className="h-3 w-3 shrink-0 rounded-full bg-beew-orange/15" />
+                <span className="h-3 w-3 shrink-0 rounded-full bg-beew-vert/25" />
               </li>
             ))}
           </ul>

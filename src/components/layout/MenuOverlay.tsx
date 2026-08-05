@@ -138,6 +138,16 @@ export function MenuOverlay({
                 </li>
               ))}
             </ul>
+
+            {/* Sous la navigation principale, dans la colonne de gauche. */}
+            <div
+              className={`mt-8 transition-all duration-500 ease-out ${
+                open ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"
+              }`}
+              style={{ transitionDelay: open ? "660ms" : "0ms" }}
+            >
+              <Reseaux />
+            </div>
           </nav>
 
           <div className="grid gap-6 text-sm sm:grid-cols-2 lg:gap-8">
@@ -243,11 +253,6 @@ export function MenuOverlay({
                   <dd>Du lundi au vendredi, 9h — 18h</dd>
                 </div>
               </dl>
-
-              {/* Sous les informations pratiques, en bas de la colonne droite. */}
-              <div className="mt-6">
-                <Reseaux />
-              </div>
 
               <Link
                 href="/devis"
