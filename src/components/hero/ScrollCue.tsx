@@ -39,7 +39,9 @@ export function ScrollCue({ targetId }: { targetId: string }) {
       // Mêmes marges latérales que le hero et le header : l'indicateur rentre
       // dans la grille au lieu de déborder sur le bord de l'écran.
       className={`absolute top-1/2 right-6 z-30 hidden -translate-y-1/2 flex-col items-center gap-5 transition-opacity duration-500 sm:right-10 sm:flex lg:right-14 ${
-        scrolled ? "pointer-events-none opacity-0" : "opacity-100"
+        // `pointer-events-auto` : la couche du hero est non interactive en dur,
+        // chaque élément cliquable rétablit les événements pour lui-même.
+        scrolled ? "pointer-events-none opacity-0" : "pointer-events-auto opacity-100"
       }`}
     >
       <span

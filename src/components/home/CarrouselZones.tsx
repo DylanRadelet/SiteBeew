@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BandeGlissante } from "@/components/home/BandeGlissante";
 import { EnTete, Fleche, GUTTER, Section } from "@/components/ui/section";
 
 /**
@@ -63,7 +64,7 @@ export function CarrouselZones({
         d'être coupée, alors qu'un débord dit qu'elle continue.
         `-mx` annule la gouttière, `px` la restitue en marge intérieure.
       */}
-      <div
+      <BandeGlissante
         className={`mt-10 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden -mx-6 sm:-mx-10 lg:-mx-14 ${GUTTER}`}
       >
         {villes.map((v, i) => (
@@ -72,7 +73,8 @@ export function CarrouselZones({
             href={v.href}
             data-reveal
             data-reveal-delay={Math.min(i, 6) * 60}
-            className="group relative isolate flex h-56 w-52 shrink-0 snap-start flex-col justify-end overflow-hidden rounded-xl bg-beew-noir p-5 text-beew-creme sm:w-56"
+            draggable={false}
+            className="group relative isolate flex h-56 w-52 shrink-0 snap-start flex-col justify-end overflow-hidden rounded-xl bg-beew-noir p-5 text-beew-creme select-none sm:w-56"
           >
             {v.image && (
               <Image
@@ -81,14 +83,15 @@ export function CarrouselZones({
                 aria-hidden
                 fill
                 sizes="224px"
-                className="-z-10 object-cover opacity-45 transition-all duration-700 ease-out group-hover:scale-105 group-hover:opacity-70"
+                draggable={false}
+                className="pointer-events-none -z-10 object-cover opacity-45 transition-all duration-700 ease-out select-none group-hover:scale-105 group-hover:opacity-70"
               />
             )}
             {/* Dégradé permanent : le nom doit rester lisible sur n'importe
                 quelle photo, y compris les plus claires. */}
             <span
               aria-hidden
-              className="absolute inset-0 -z-10 bg-gradient-to-t from-beew-noir via-beew-noir/45 to-transparent"
+              className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-t from-beew-noir via-beew-noir/45 to-transparent"
             />
 
             <span className="text-base font-semibold tracking-tight transition-transform duration-500 group-hover:translate-x-1">
@@ -105,10 +108,10 @@ export function CarrouselZones({
             </span>
           </Link>
         ))}
-      </div>
+      </BandeGlissante>
 
       <p className="mt-2 text-[11px] tracking-[0.15em] text-beew-noir/35 uppercase">
-        Faites défiler →
+        Glissez pour parcourir →
       </p>
     </Section>
   );

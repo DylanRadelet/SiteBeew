@@ -210,3 +210,13 @@ h4 {
 summary::-webkit-details-marker {
   display: none;
 }
+
+/**
+ * Bandeau défilant du pied de page de l'accueil.
+ * La liste est rendue deux fois : s'arrêter à -50 % remet la seconde copie
+ * exactement à la place de la première, donc la boucle ne saute pas.
+ */
+@keyframes bandeau {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
+}

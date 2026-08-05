@@ -209,13 +209,13 @@ export function ZoneEnfants({
                         aria-hidden
                         fill
                         sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw"
-                        className="-z-10 object-cover opacity-0 transition-all duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
+                        className="pointer-events-none -z-10 object-cover opacity-0 transition-all duration-700 ease-out group-hover:scale-105 group-hover:opacity-100"
                       />
                       {/* Voile : le libellé doit rester lisible sur n'importe
                           quelle zone de la photo. */}
                       <span
                         aria-hidden
-                        className="absolute inset-0 -z-10 bg-beew-noir/70 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
+              className="pointer-events-none absolute inset-0 -z-10 bg-beew-noir/70 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
                       />
                     </>
                   )}

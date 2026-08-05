@@ -88,8 +88,6 @@ export function HeroSequence({
       const sortie = lissage((p - SORTIE_DEBUT) / (SORTIE_FIN - SORTIE_DEBUT));
       hero.style.opacity = String(1 - sortie);
       hero.style.transform = `translateY(${-sortie * 40}px)`;
-      // Une fois effacé, il ne doit plus intercepter les clics du manifeste.
-      hero.style.pointerEvents = sortie > 0.5 ? "none" : "auto";
 
       // Manifeste : apparaît en montant, une fois la place libérée.
       const entree = lissage((p - ENTREE_DEBUT) / (ENTREE_FIN - ENTREE_DEBUT));
@@ -102,6 +100,7 @@ export function HeroSequence({
       const zoom = lissage((p - ZOOM_DEBUT) / (ZOOM_FIN - ZOOM_DEBUT));
       vue.style.transform = `scale(${1 + zoom * ZOOM_AMPLEUR})`;
       vue.style.opacity = String(1 - zoom);
+
     };
 
     const onScroll = () => {
@@ -132,7 +131,22 @@ export function HeroSequence({
         Le `z-10` place cette couche au-dessus de la section « à propos », qui
         remonte derrière elle.
       */}
-      <div className="sticky top-0 z-10 h-svh overflow-hidden">
+      {/*
+        `pointer-events-none` sur TOUTE la couche, en dur.
+
+        Elle occupe un écran entier et reste posée au-dessus de la section
+        suivante, que `-mt-[100svh]` fait remonter sous elle. Son opacité tombe
+        à zéro en fin de scène, mais un élément transparent continue de recevoir
+        les événements : la première section de la page — les références —
+        devenait impossible à survoler et à sélectionner.
+
+        Le réglage est déclaratif et non piloté par la boucle de défilement :
+        si le script ne s'exécutait pas, une page entière deviendrait
+        inutilisable. Les seuls éléments interactifs de la scène — l'indicateur
+        de défilement et le lien du manifeste — rétablissent les événements
+        pour eux-mêmes.
+      */}
+      <div className="pointer-events-none sticky top-0 z-10 h-svh overflow-hidden">
         <div ref={ecran} className="relative h-full w-full origin-center will-change-transform">
           <VideoHero h1={h1} intro={intro} contentRef={contenuHero} />
 

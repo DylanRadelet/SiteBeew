@@ -82,12 +82,12 @@ function CarteProjet({
           alt={`${projet.name} — ${projet.projet ?? "projet réalisé par BEEW"}`}
           fill
           sizes={large ? "(min-width:1024px) 50vw, 100vw" : "(min-width:1024px) 25vw, 50vw"}
-          className="-z-10 object-cover grayscale transition-all duration-700 ease-out group-hover:scale-[1.04] group-hover:grayscale-0"
+          className="pointer-events-none -z-10 object-cover grayscale transition-all duration-700 ease-out group-hover:scale-[1.04] group-hover:grayscale-0"
         />
       )}
       <span
         aria-hidden
-        className="absolute inset-0 -z-10 bg-gradient-to-t from-beew-noir via-beew-noir/55 to-beew-noir/20 transition-opacity duration-700 group-hover:opacity-80"
+              className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-t from-beew-noir via-beew-noir/55 to-beew-noir/20 transition-opacity duration-700 group-hover:opacity-80"
       />
 
       <h3
@@ -238,13 +238,13 @@ export function ServicesBento({ services }: { services: Home["services"] }) {
                 aria-hidden
                 fill
                 sizes="(min-width:640px) 50vw, 100vw"
-                className="-z-10 object-cover opacity-0 transition-all duration-[900ms] ease-out group-hover:scale-105 group-hover:opacity-100"
+                className="pointer-events-none -z-10 object-cover opacity-0 transition-all duration-[900ms] ease-out group-hover:scale-105 group-hover:opacity-100"
               />
               {/* Voile : le texte crème doit rester lisible sur n'importe
                   quelle zone de la photo, y compris les plus claires. */}
               <span
                 aria-hidden
-                className="absolute inset-0 -z-10 bg-beew-noir/72 opacity-0 transition-opacity duration-[900ms] group-hover:opacity-100"
+              className="pointer-events-none absolute inset-0 -z-10 bg-beew-noir/72 opacity-0 transition-opacity duration-[900ms] group-hover:opacity-100"
               />
               <span className="text-[11px] tracking-[0.25em] text-beew-vert">
                 {String(i + 1).padStart(2, "0")}
@@ -416,17 +416,20 @@ export function Pricing({ pricing }: { pricing: Home["pricing"] }) {
 
 export function FinalCta() {
   return (
-    <section className={`bg-beew-noir pt-24 text-beew-creme sm:pt-32 lg:pt-40 ${GUTTER}`}>
+    <section className={`bg-beew-noir pt-16 text-beew-creme sm:pt-24 lg:pt-28 ${GUTTER}`}>
       <div className="mx-auto max-w-4xl text-center">
         <Surtitre ton="sombre">Parlons-en</Surtitre>
-        <h2 className="mt-8 text-[clamp(2rem,5.4vw,4.5rem)] leading-[0.95] font-semibold tracking-tight uppercase">
+        {/* La borne haute descend de 4.5 à 3.6rem : au-delà, le bloc de
+            conclusion dépassait la hauteur d'un écran de portable et le pied de
+            page de l'accueil ne tenait plus sur une seule vue. */}
+        <h2 className="mt-7 text-[clamp(1.9rem,4.6vw,3.6rem)] leading-[0.98] font-semibold tracking-tight uppercase">
           Votre projet mérite mieux qu&apos;un devis à l&apos;aveugle
         </h2>
-        <p className="mx-auto mt-8 max-w-xl text-base leading-relaxed text-beew-creme/60">
+        <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-beew-creme/60">
           Premier rendez-vous sur place, sans frais ni engagement. Vous repartez avec un devis fixe
           sous 48 h, que vous nous confiiez le projet ou non.
         </p>
-        <div className="mt-12">
+        <div className="mt-9">
           <Bouton href="/contact" ton="sombre" taille="grand">
             Réserver un appel
           </Bouton>
@@ -434,18 +437,15 @@ export function FinalCta() {
       </div>
 
       {/*
-        Signature géante, rognée par le bas : la marque sert de socle à la page.
-        `overflow-hidden` sur le conteneur : à cette taille, le moindre
-        dépassement créerait une barre de défilement horizontale.
+        Bandeau défilant en socle de page.
+
+        Il remplace la signature « BEEW AGENCY » composée en 10,5 vw : à cette
+        taille, elle mangeait à elle seule un tiers de la hauteur de l'écran et
+        empêchait le pied de page de la home de tenir sur une seule vue. Le
+        bandeau occupe une bande fixe et fait passer davantage d'information —
+        les six métiers, plutôt qu'un nom déjà présent partout sur la page.
       */}
-      <div className="mt-24 overflow-hidden">
-        <p
-          aria-hidden
-          className="-mb-[0.18em] w-full text-center text-[10.5vw] leading-[0.78] font-bold tracking-tighter whitespace-nowrap text-beew-creme/10 select-none"
-        >
-          BEEW AGENCY
-        </p>
-      </div>
+      <Bandeau />
     </section>
   );
 }
@@ -453,6 +453,50 @@ export function FinalCta() {
 /* -------------------------------------------------------------------------- */
 /*  Pied de page                                                              */
 /* -------------------------------------------------------------------------- */
+
+/** Termes du bandeau. Ce sont les six services, pas des mots-clés décoratifs. */
+const BANDEAU = [
+  "BEEW AGENCY",
+  "Création de site internet",
+  "Site e-commerce",
+  "Référencement local",
+  "Refonte de site",
+  "Application web",
+  "Outils internes",
+];
+
+/**
+ * Bande défilante horizontale, purement décorative.
+ *
+ * L'animation est en CSS et ne dépend d'aucun script. La liste est rendue DEUX
+ * fois et la translation s'arrête à -50 % : au moment où la première copie sort
+ * de l'écran, la seconde occupe exactement sa place de départ, ce qui rend la
+ * boucle invisible. Une seule copie produirait un saut à chaque cycle.
+ *
+ * `aria-hidden` : ces mots figurent déjà dans la navigation et les titres de la
+ * page. Les faire relire par une synthèse vocale n'ajouterait que du bruit.
+ */
+function Bandeau() {
+  return (
+    <div aria-hidden className="mt-14 overflow-hidden border-t border-beew-creme/10 py-6 select-none">
+      <div className="flex w-max animate-[bandeau_38s_linear_infinite] motion-reduce:animate-none">
+        {[0, 1].map((copie) => (
+          <ul key={copie} className="flex shrink-0 items-center">
+            {BANDEAU.map((mot) => (
+              <li
+                key={mot}
+                className="flex items-center gap-8 pr-8 text-[clamp(1.1rem,2.4vw,2rem)] font-semibold tracking-tight whitespace-nowrap text-beew-creme/25 uppercase"
+              >
+                {mot}
+                <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-beew-orange/60" />
+              </li>
+            ))}
+          </ul>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 /**
  * Conclusion compacte des pages internes.

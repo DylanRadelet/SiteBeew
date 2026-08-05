@@ -33,6 +33,7 @@ export const AGENCY_PHONE = "+32472467309";
  * N'ajouter ici qu'un profil réellement tenu : un compte mort dessert.
  */
 export const AGENCY_SOCIAL = [
+  { nom: "Facebook", href: "https://www.facebook.com/beewagency/" },
   { nom: "Instagram", href: "https://www.instagram.com/beew.agency/" },
   { nom: "LinkedIn", href: "https://www.linkedin.com/company/beew-agency-be" },
 ] as const;

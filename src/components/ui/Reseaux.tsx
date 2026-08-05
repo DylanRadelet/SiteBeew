@@ -14,6 +14,9 @@ import { AGENCY_SOCIAL } from "@/lib/seo";
  */
 
 const TRACES: Record<string, React.ReactNode> = {
+  Facebook: (
+    <path d="M14.5 8.5h2V5.8h-2.2c-2 0-3.3 1.3-3.3 3.4v1.6H9v2.7h2v6.7h2.8v-6.7h2.1l.4-2.7h-2.5V9.6c0-.7.3-1.1.7-1.1Z" />
+  ),
   Instagram: (
     <>
       <rect x="3" y="3" width="18" height="18" rx="5" />
