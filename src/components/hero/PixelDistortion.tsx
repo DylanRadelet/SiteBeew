@@ -58,10 +58,18 @@ const DOT_RADIUS = 11;
 const VAGUE_PERIODE = 5000;
 /** Durée de la traversée. */
 const VAGUE_DUREE = 1700;
-/** Demi-largeur de la bande déformée. */
+/** Demi-largeur de la bande déformée, mesurée perpendiculairement à celle-ci. */
 const VAGUE_LARGEUR = 190;
 /** Amplitude du déplacement dans la vague. */
 const VAGUE_FORCE = 34;
+/**
+ * Inclinaison de la bande, en degrés depuis l'horizontale.
+ * La vague descend perpendiculairement à cette bande : à 0° elle tomberait à
+ * plat de haut en bas, à 33° elle balaie en diagonale.
+ */
+const VAGUE_ANGLE = 33;
+const VAGUE_COS = Math.cos((VAGUE_ANGLE * Math.PI) / 180);
+const VAGUE_SIN = Math.sin((VAGUE_ANGLE * Math.PI) / 180);
 
 type TrailPoint = { x: number; y: number; life: number };
 
@@ -220,8 +228,9 @@ export function PixelDistortion({ sourceRef }: { sourceRef: React.RefObject<Sour
       // Les pixels s'estompent quand la souris s'arrête, mais le point lumineux
       // reste tant que le curseur est dans le hero : c'est lui qui matérialise
       // la position, il ne doit jamais disparaître sous le curseur immobile.
-      // Vague automatique : une bande verticale qui traverse l'image.
+      // Vague automatique : une bande inclinée qui descend en travers du cadre.
       let vague: number | null = null;
+      let projVague = 0;
       if (vagueAuto) {
         const cycle = (performance.now() - depart) % VAGUE_PERIODE;
         if (cycle < VAGUE_DUREE) vague = cycle / VAGUE_DUREE;
@@ -247,6 +256,23 @@ export function PixelDistortion({ sourceRef }: { sourceRef: React.RefObject<Sour
         return;
       }
 
+      if (vague !== null) {
+        /**
+         * Bornes de la projection sur la normale, prises aux quatre coins : la
+         * vague doit entrer complètement hors cadre et en ressortir de même,
+         * sinon elle apparaît ou disparaît au milieu de l'image.
+         */
+        const coins = [
+          [0, 0],
+          [width, 0],
+          [0, height],
+          [width, height],
+        ].map(([x, y]) => x * -VAGUE_SIN + y * VAGUE_COS);
+        const bas = Math.min(...coins) - VAGUE_LARGEUR;
+        const haut = Math.max(...coins) + VAGUE_LARGEUR;
+        projVague = bas + vague * (haut - bas);
+      }
+
       // Transformation object-fit: cover, pour convertir canvas -> pixels vidéo.
       const scale = Math.max(width / vw, height / vh);
       const drawW = vw * scale;
@@ -262,11 +288,16 @@ export function PixelDistortion({ sourceRef }: { sourceRef: React.RefObject<Sour
       let maxX = -Infinity;
       let maxY = -Infinity;
 
+      /**
+       * La bande est inclinée, donc sa boîte englobante ne l'est pas : on
+       * balaie tout le cadre pendant la traversée. C'est plus large que
+       * strictement nécessaire, mais le test par cellule écarte de toute façon
+       * ce qui est hors de la bande, et le coût réel reste celui des blocs
+       * effectivement peints.
+       */
       if (vague !== null) {
-        // La vague balaie toute la hauteur, sur une bande qui se déplace.
-        const cx = -VAGUE_LARGEUR + vague * (width + 2 * VAGUE_LARGEUR);
-        minX = Math.min(minX, cx - VAGUE_LARGEUR);
-        maxX = Math.max(maxX, cx + VAGUE_LARGEUR);
+        minX = 0;
+        maxX = width;
         minY = 0;
         maxY = height;
       }
@@ -315,14 +346,22 @@ export function PixelDistortion({ sourceRef }: { sourceRef: React.RefObject<Sour
           }
 
           if (vague !== null) {
-            const cxVague = -VAGUE_LARGEUR + vague * (width + 2 * VAGUE_LARGEUR);
-            const ecart = Math.abs(cx - cxVague);
+            /**
+             * Projection du point sur la NORMALE à la bande. Comparer cette
+             * projection à celle de la vague donne la distance perpendiculaire,
+             * quelle que soit l'inclinaison — c'est ce qui permet une bande
+             * penchée sans changer le reste du calcul.
+             */
+            const proj = cx * -VAGUE_SIN + cy * VAGUE_COS;
+            const ecart = Math.abs(proj - projVague);
             if (ecart < VAGUE_LARGEUR) {
-              // Sinus sur la largeur de bande : nul aux bords, maximal au centre.
+              // Cosinus sur la largeur de bande : nul aux bords, maximal au centre.
               const f = Math.cos((ecart / VAGUE_LARGEUR) * (Math.PI / 2)) ** 2;
-              // Déplacement horizontal, dans le sens de la traversée.
-              dx += (cx < cxVague ? -1 : 1) * f * (VAGUE_FORCE / STRENGTH);
-              dy += Math.sin((cy / height) * Math.PI * 3) * f * 0.35;
+              // Déplacement le long de la normale, donc dans le sens de la descente.
+              const sens = proj < projVague ? -1 : 1;
+              const force = (f * VAGUE_FORCE) / STRENGTH;
+              dx += sens * -VAGUE_SIN * force;
+              dy += sens * VAGUE_COS * force;
               intensity = Math.max(intensity, f * 0.9);
             }
           }

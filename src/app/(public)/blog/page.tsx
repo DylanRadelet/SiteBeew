@@ -58,7 +58,7 @@ const LISTE = {
     "refonte site internet",
     "blog agence web",
   ],
-  image: "/images/heros/journal.jpg",
+  image: "/images/heros/journal-actualite.jpg",
   items: [] as { href: string; label: string }[],
   faq: FAQ,
 } satisfies ListeOptions;
@@ -87,7 +87,7 @@ export default function BlogIndexPage() {
         h1="Ce qu'on apprend en construisant des sites"
         intro="Des articles écrits par ceux qui font le travail : budgets réels, référencement local, refontes qui tournent mal. Aucune statistique inventée, aucune promesse de position. Ce que nous constatons sur nos propres dossiers, dit tel quel."
         cta={{ href: "/contact", label: "Parler de votre projet" }}
-        image={{ src: "/images/heros/journal.jpg" }}
+        image={{ src: "/images/heros/journal-actualite.jpg" }}
       />
 
       <Section>

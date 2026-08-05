@@ -416,33 +416,30 @@ export function Pricing({ pricing }: { pricing: Home["pricing"] }) {
 
 export function FinalCta() {
   return (
-    <section
-      className={`relative isolate flex min-h-svh flex-col justify-center overflow-hidden bg-beew-noir py-20 text-beew-creme ${GUTTER}`}
-    >
+    <div className="relative isolate flex flex-1 flex-col justify-center overflow-hidden py-6">
       {/* Le bandeau passe DERRIÈRE la conclusion : c'est une texture de fond,
           pas un bloc de contenu. Il n'ajoute donc plus de hauteur à la page. */}
       <Bandeau />
 
       <div className="relative mx-auto max-w-4xl text-center">
         <Surtitre ton="sombre">Parlons-en</Surtitre>
-        {/* La borne haute descend de 4.5 à 3.6rem : au-delà, le bloc de
-            conclusion dépassait la hauteur d'un écran de portable et le pied de
-            page de l'accueil ne tenait plus sur une seule vue. */}
-        <h2 className="mt-7 text-[clamp(1.9rem,4.6vw,3.6rem)] leading-[0.98] font-semibold tracking-tight uppercase">
+        {/* Titre volontairement contenu : conclusion et colonnes partagent un
+            seul écran, et les colonnes en occupent déjà 438 px. Chaque rem
+            gagné ici est un rem qui ne pousse pas le pied de page dehors. */}
+        <h2 className="mt-4 text-[clamp(1.5rem,3.2vw,2.4rem)] leading-[1] font-semibold tracking-tight uppercase">
           Votre projet mérite mieux qu&apos;un devis à l&apos;aveugle
         </h2>
-        <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-beew-creme/60">
+        <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-beew-creme/60">
           Premier rendez-vous sur place, sans frais ni engagement. Vous repartez avec un devis fixe
           sous 48 h, que vous nous confiiez le projet ou non.
         </p>
-        <div className="mt-9">
+        <div className="mt-6">
           <Bouton href="/contact" ton="sombre" taille="grand">
             Réserver un appel
           </Bouton>
         </div>
       </div>
-
-    </section>
+    </div>
   );
 }
 
@@ -512,18 +509,24 @@ function Bandeau() {
  * Même promesse que `FinalCta` mais sans la signature géante : celle-ci est
  * réservée à la home, sinon elle perd sa valeur de signature.
  */
+/**
+ * Conclusion des pages internes. Même contrainte que celle de l'accueil : elle
+ * partage un écran avec les colonnes du pied de page, qui en occupent déjà
+ * 437 px. Les mesures sont calées sur un écran de 720 px, la hauteur utile la
+ * plus courante sur un portable.
+ */
 export function ConclusionCompacte() {
   return (
-    <div className="flex flex-1 flex-col items-center justify-center py-16 text-center">
+    <div className="flex flex-1 flex-col items-center justify-center py-6 text-center">
       <Surtitre ton="sombre">Parlons-en</Surtitre>
-      <h2 className="mt-6 max-w-3xl text-[clamp(1.75rem,4vw,3.25rem)] leading-[0.98] font-semibold tracking-tight uppercase">
+      <h2 className="mt-4 max-w-3xl text-[clamp(1.5rem,3.2vw,2.4rem)] leading-[1] font-semibold tracking-tight uppercase">
         Un devis fixe sous 48 h, sans engagement
       </h2>
-      <p className="mt-6 max-w-xl text-sm leading-relaxed text-beew-creme/60">
+      <p className="mt-3 max-w-xl text-sm leading-relaxed text-beew-creme/60">
         Une heure sur place pour comprendre votre projet, puis un chiffrage détaillé poste par
         poste. Le document vous appartient, que vous nous confiiez le projet ou non.
       </p>
-      <div className="mt-10">
+      <div className="mt-6">
         <Bouton href="/contact" ton="sombre" taille="grand">
           Réserver un appel
         </Bouton>
@@ -532,9 +535,18 @@ export function ConclusionCompacte() {
   );
 }
 
+/**
+ * Pied de page de l'accueil : conclusion ET colonnes dans UN SEUL bloc calé sur
+ * la hauteur de l'écran, exactement comme `PiedDePageInterne`.
+ *
+ * Les deux étaient auparavant séparés — la conclusion rendue par la page, les
+ * colonnes par le layout — et s'additionnaient : 720 px pour l'une, 438 pour
+ * les autres, soit 1 157 px là où les pages internes tiennent en 720.
+ */
 export function Footer({ provinces }: FooterProps) {
   return (
-    <footer className={`bg-beew-noir pb-12 text-beew-creme ${GUTTER}`}>
+    <footer className={`flex min-h-svh flex-col bg-beew-noir pb-12 text-beew-creme ${GUTTER}`}>
+      <FinalCta />
       <FooterColonnes provinces={provinces} />
     </footer>
   );

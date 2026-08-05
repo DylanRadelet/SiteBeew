@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Faq, LocalContext } from "@/components/home";
 import {
   CasesFeatured,
-  FinalCta,
   Method,
   Pricing,
   ServicesBento,
@@ -87,9 +86,6 @@ export default function HomePage() {
 
         {/* 11 — Les objections restantes */}
         <Faq faq={home.faq} />
-
-        {/* 13 — Dernier appel */}
-        <FinalCta />
       </div>
     </>
   );
