@@ -37,8 +37,15 @@ import { useEffect, useRef } from "react";
 const BUF_W = 320;
 const BUF_H = 180;
 
-/** Côté d'un bloc, en pixels CSS. */
+/**
+ * Côté d'un bloc, en pixels CSS.
+ *
+ * `CELL_TACTILE` est nettement plus petit : à 22 px sur un écran de 360 px de
+ * large, l'image ne compte que seize blocs et l'effet devient un pavage grossier
+ * qui écrase le visuel au lieu de l'effleurer.
+ */
 const CELL = 22;
+const CELL_TACTILE = 10;
 /** Rayon d'influence d'un point de la traînée — large, l'effet couvre du terrain. */
 const RADIUS = 300;
 /** Amplitude du déplacement. C'est le réglage qui rend l'effet plus ou moins franc. */
@@ -58,10 +65,21 @@ const DOT_RADIUS = 11;
 const VAGUE_PERIODE = 5000;
 /** Durée de la traversée. */
 const VAGUE_DUREE = 1700;
-/** Demi-largeur de la bande déformée, mesurée perpendiculairement à celle-ci. */
+/**
+ * Demi-largeur de la bande, perpendiculairement à celle-ci. Plafonnée à une
+ * fraction de la largeur réelle : 190 px fixes couvraient la moitié d'un écran
+ * de téléphone, ce qui ne se lit plus comme une vague mais comme un voile.
+ */
 const VAGUE_LARGEUR = 190;
+const VAGUE_LARGEUR_MIN = 60;
 /** Amplitude du déplacement dans la vague. */
-const VAGUE_FORCE = 34;
+const VAGUE_FORCE = 16;
+/**
+ * Opacité maximale de la vague — bien en deçà de celle de la traînée à la
+ * souris. La vague se déclenche seule et se répète : elle doit passer comme un
+ * reflet, pas s'imposer.
+ */
+const VAGUE_ALPHA = 0.3;
 /**
  * Inclinaison de la bande, en degrés depuis l'horizontale.
  * La vague descend perpendiculairement à cette bande : à 0° elle tomberait à
@@ -99,6 +117,7 @@ export function PixelDistortion({ sourceRef }: { sourceRef: React.RefObject<Sour
     const calm = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (calm) return;
     const vagueAuto = !fine;
+    const cellule = vagueAuto ? CELL_TACTILE : CELL;
 
     const ctx = canvas.getContext("2d", { alpha: true });
     if (!ctx) return;
@@ -231,6 +250,8 @@ export function PixelDistortion({ sourceRef }: { sourceRef: React.RefObject<Sour
       // Vague automatique : une bande inclinée qui descend en travers du cadre.
       let vague: number | null = null;
       let projVague = 0;
+      // Bande proportionnelle au cadre, jamais plus large qu'un tiers de celui-ci.
+      const bande = Math.max(VAGUE_LARGEUR_MIN, Math.min(VAGUE_LARGEUR, width * 0.22));
       if (vagueAuto) {
         const cycle = (performance.now() - depart) % VAGUE_PERIODE;
         if (cycle < VAGUE_DUREE) vague = cycle / VAGUE_DUREE;
@@ -268,8 +289,8 @@ export function PixelDistortion({ sourceRef }: { sourceRef: React.RefObject<Sour
           [0, height],
           [width, height],
         ].map(([x, y]) => x * -VAGUE_SIN + y * VAGUE_COS);
-        const bas = Math.min(...coins) - VAGUE_LARGEUR;
-        const haut = Math.max(...coins) + VAGUE_LARGEUR;
+        const bas = Math.min(...coins) - bande;
+        const haut = Math.max(...coins) + bande;
         projVague = bas + vague * (haut - bas);
       }
 
@@ -309,20 +330,23 @@ export function PixelDistortion({ sourceRef }: { sourceRef: React.RefObject<Sour
         maxX = Math.max(maxX, p.x + r);
         maxY = Math.max(maxY, p.y + r);
       }
-      minX = Math.max(0, Math.floor(minX / CELL) * CELL);
-      minY = Math.max(0, Math.floor(minY / CELL) * CELL);
-      maxX = Math.min(width, Math.ceil(maxX / CELL) * CELL);
-      maxY = Math.min(height, Math.ceil(maxY / CELL) * CELL);
+      minX = Math.max(0, Math.floor(minX / cellule) * cellule);
+      minY = Math.max(0, Math.floor(minY / cellule) * cellule);
+      maxX = Math.min(width, Math.ceil(maxX / cellule) * cellule);
+      maxY = Math.min(height, Math.ceil(maxY / cellule) * cellule);
 
-      for (let y = minY; y < maxY; y += CELL) {
-        for (let x = minX; x < maxX; x += CELL) {
-          const cx = x + CELL / 2;
-          const cy = y + CELL / 2;
+      for (let y = minY; y < maxY; y += cellule) {
+        for (let x = minX; x < maxX; x += cellule) {
+          const cx = x + cellule / 2;
+          const cy = y + cellule / 2;
 
           // Somme des poussées de chaque point de la traînée.
           let dx = 0;
           let dy = 0;
           let intensity = 0;
+          // Plafond d'opacité : celui de la traînée par défaut, celui de la
+          // vague dès qu'elle contribue.
+          let plafond = MAX_ALPHA;
 
           for (const p of trail) {
             const r = RADIUS * p.life;
@@ -354,15 +378,16 @@ export function PixelDistortion({ sourceRef }: { sourceRef: React.RefObject<Sour
              */
             const proj = cx * -VAGUE_SIN + cy * VAGUE_COS;
             const ecart = Math.abs(proj - projVague);
-            if (ecart < VAGUE_LARGEUR) {
+            if (ecart < bande) {
               // Cosinus sur la largeur de bande : nul aux bords, maximal au centre.
-              const f = Math.cos((ecart / VAGUE_LARGEUR) * (Math.PI / 2)) ** 2;
+              const f = Math.cos((ecart / bande) * (Math.PI / 2)) ** 2;
               // Déplacement le long de la normale, donc dans le sens de la descente.
               const sens = proj < projVague ? -1 : 1;
               const force = (f * VAGUE_FORCE) / STRENGTH;
               dx += sens * -VAGUE_SIN * force;
               dy += sens * VAGUE_COS * force;
-              intensity = Math.max(intensity, f * 0.9);
+              intensity = Math.max(intensity, f);
+              plafond = VAGUE_ALPHA;
             }
           }
 
@@ -381,12 +406,12 @@ export function PixelDistortion({ sourceRef }: { sourceRef: React.RefObject<Sour
           const by = (sy * BUF_H / vh) | 0;
           const i = (by * BUF_W + bx) * 4;
 
-          ctx.globalAlpha = Math.min(MAX_ALPHA, intensity * 1.9);
+          ctx.globalAlpha = Math.min(plafond, intensity * 1.9);
           // Un pixel source étiré en bloc plein EST un aplat uni : le `fillRect`
           // donne exactement le même résultat que l'ancien `drawImage`, sans
           // repasser par la texture vidéo.
           ctx.fillStyle = `rgb(${pixels[i]},${pixels[i + 1]},${pixels[i + 2]})`;
-          ctx.fillRect(x, y, CELL, CELL);
+          ctx.fillRect(x, y, cellule, cellule);
         }
       }
 

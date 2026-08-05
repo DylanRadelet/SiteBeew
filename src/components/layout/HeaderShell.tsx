@@ -79,9 +79,17 @@ export function HeaderShell({ cities, provinces }: { cities: Option[]; provinces
             {/* Bordure et texte en blanc : le blend du header s'occupe du reste. */}
             <Link
               href="/contact"
-              className="group inline-flex min-h-11 items-center gap-2.5 rounded-full border border-white/50 px-5 py-2.5 text-xs tracking-[0.15em] uppercase transition-colors hover:border-white"
+              aria-label="Réserver un appel"
+              className="group inline-flex min-h-11 items-center gap-2.5 rounded-full border border-white/50 px-4 py-2.5 text-xs tracking-[0.15em] whitespace-nowrap uppercase transition-colors hover:border-white sm:px-5"
             >
-              Réserver un appel
+              {/*
+                Libellé court sur petit écran : « Réserver un appel » passait sur
+                deux lignes et le bouton occupait presque toute la largeur, au
+                détriment du logo et du menu. Le contenu accessible reste complet
+                grâce au `aria-label` du lien.
+              */}
+              <span className="sm:hidden">Appeler</span>
+              <span className="hidden sm:inline">Réserver un appel</span>
               {/* Flèche à 45° vers le haut, qui file en diagonale au survol. */}
               <svg
                 viewBox="0 0 12 12"
