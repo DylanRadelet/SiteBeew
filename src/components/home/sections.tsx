@@ -59,7 +59,7 @@ export function TrustBar({ trust }: { trust: Home["trust"] }) {
 }
 
 /** Une réalisation. `large` occupe deux colonnes et deux rangées. */
-function CarteProjet({
+export function CarteProjet({
   projet,
   large = false,
   retard = 0,

@@ -79,27 +79,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // L'index des réalisations n'est soumis que s'il a quelque chose à montrer :
-  // tant que toutes les études sont en brouillon, il se met lui-même en noindex.
+  /**
+   * L'index des réalisations est toujours soumis : il présente six projets
+   * réellement livrés. Seules les ÉTUDES de cas restent conditionnées à leur
+   * publication — une étude en brouillon est en noindex et n'a rien à faire ici.
+   */
   const casPublies = getPublishedCases();
-  const realisations: Entree[] =
-    casPublies.length > 0
-      ? [
-          {
-            url: `${SITE_URL}/realisations`,
-            lastModified: aujourdhui,
-            changeFrequency: "monthly",
-            priority: 0.7,
-          },
-          ...casPublies.map((c) => ({
-            url: `${SITE_URL}/realisations/${c.slug}`,
-            lastModified: c.updatedAt ?? aujourdhui,
-            changeFrequency: "yearly" as const,
-            priority: 0.6,
-            ...(c.hero?.image && { images: [`${SITE_URL}${c.hero.image}`] }),
-          })),
-        ]
-      : [];
+  const realisations: Entree[] = [
+    {
+      url: `${SITE_URL}/realisations`,
+      lastModified: aujourdhui,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    ...casPublies.map((c) => ({
+      url: `${SITE_URL}/realisations/${c.slug}`,
+      lastModified: c.updatedAt ?? aujourdhui,
+      changeFrequency: "yearly" as const,
+      priority: 0.6,
+      ...(c.hero?.image && { images: [`${SITE_URL}${c.hero.image}`] }),
+    })),
+  ];
 
   const articles = getAllArticles();
   const blog: Entree[] =

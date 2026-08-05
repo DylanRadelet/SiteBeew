@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { GrilleRealisations, type CarteRealisation } from "@/components/cases/GrilleRealisations";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { PageHero } from "@/components/ui/PageHero";
-import { Section } from "@/components/ui/section";
+import { CarteProjet } from "@/components/home/sections";
+import { EnTete, Section } from "@/components/ui/section";
 import type { Case } from "@/content/schemas/case";
 import { getAllCases, getPublishedCases } from "@/lib/cases";
+import { getHome } from "@/lib/cities";
 import { listeJsonLd, listeMetadata, type ListeOptions } from "@/lib/seo-pages";
 
 /**
@@ -33,21 +35,22 @@ const LISTE = {
 } satisfies ListeOptions;
 
 /**
- * Tant qu'aucune étude n'est publiée, la page reste consultable pour relecture
- * mais sort de l'index : on ne soumet pas à Google un index de preuves qui n'en
- * sont pas encore.
+ * La page est indexable : elle présente six projets réellement livrés, avec
+ * leur capture. Elle était en `noindex` tant qu'elle ne montrait que des études
+ * de démonstration ; ces études ont été retirées et remplacées par du réel.
  */
 export function generateMetadata(): Metadata {
-  const vide = getPublishedCases().length === 0;
-  return listeMetadata({ ...LISTE, noindex: vide, nofollow: vide });
+  return listeMetadata(LISTE);
 }
 
 export default function RealisationsPage() {
   const publiees = getPublishedCases();
-  const indexable = publiees.length > 0;
-  const affichees = indexable ? publiees : getAllCases();
-
+  const affichees = publiees.length ? publiees : getAllCases();
   const cartes = affichees.map(enCarte);
+
+  // Les six projets réellement livrés, avec leur capture. Même source que le
+  // bandeau de l'accueil : une seule liste, donc aucune divergence possible.
+  const projets = getHome().trust.logos;
 
   return (
     <>
@@ -60,28 +63,49 @@ export default function RealisationsPage() {
         ]}
         surtitre="Preuves"
         h1="Réalisations : ce que nos clients ont obtenu"
-        intro="Chaque étude raconte le point de départ, ce qui bloquait, ce que nous avons construit et le résultat mesuré. Pas de galerie de captures d'écran."
-        badges={["Résultat chiffré", "Contexte réel", "Province de Luxembourg"]}
+        intro="Les projets que nous avons livrés, et le détail de ce qu'ils ont changé quand le client nous autorise à le publier. Aucun chiffre que nous ne puissions justifier."
+        badges={["Projets réels", "Aucun chiffre inventé", "Wallonie"]}
         image={{ src: "/images/heros/realisations.jpg" }}
       />
 
-      {!indexable && (
-        <Section className="!py-6">
-          <p className="border-l-2 border-beew-orange py-2 pl-5 text-sm leading-relaxed text-beew-noir/60">
-            <strong className="font-semibold text-beew-noir">Contenu de démonstration.</strong> Les
-            études ci-dessous reprennent des clients et des chiffres inventés pendant le
-            développement du site. Elles sont toutes en brouillon, exclues de l&apos;index des
-            moteurs de recherche, et le resteront tant qu&apos;elles ne reposeront pas sur des
-            résultats réels et vérifiables.
-          </p>
+      {/*
+        Les projets livrés, avec leur capture. La page n'avait aucun visuel :
+        les six clients réels n'apparaissaient que sur l'accueil, et les études
+        détaillées ayant été retirées faute de résultats vérifiables, il ne
+        restait ici qu'une grille vide sous un titre qui promettait des preuves.
+      */}
+      <Section>
+        <EnTete
+          surtitre="Projets livrés"
+          titre="Six projets, du site vitrine à l'application web"
+          intro="Ce que nous avons construit et mis en ligne. Les études détaillées — contexte, blocage, solution, résultat mesuré — sont publiées au fur et à mesure des accords clients."
+        />
+        <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {projets.map((p, i) =>
+            i === 0 ? (
+              <CarteProjet key={p.name} projet={p} large />
+            ) : (
+              <CarteProjet key={p.name} projet={p} retard={i * 60} />
+            ),
+          )}
+        </div>
+      </Section>
+
+      {/* Études détaillées, quand il y en a. Pas de filtres : à ce nombre,
+          ils prendraient plus de place qu'ils n'en font gagner. */}
+      {cartes.length > 0 && (
+        <Section ton="sombre">
+          <EnTete
+            ton="sombre"
+            surtitre="Études de cas"
+            titre="Le détail de ce qui a changé"
+            intro="Point de départ, ce qui bloquait, ce que nous avons construit, et le résultat mesuré."
+          />
+          <div className="mt-12">
+            <GrilleRealisations cartes={cartes} />
+          </div>
         </Section>
       )}
-
-      {/* Pas de filtres : à ce nombre d'études, ils prendraient plus de place
-          qu'ils n'en font gagner. La grille va droit au but. */}
-      <Section>
-        <GrilleRealisations cartes={cartes} />
-      </Section>
     </>
   );
 }
