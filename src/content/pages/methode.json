@@ -26,7 +26,7 @@
         "titre": "Rendez-vous et cadrage",
         "duree": "1 h, sur place",
         "resume": "Nous venons chez vous comprendre votre activité, votre clientèle réelle et vos concurrents. Sans frais et sans engagement, avant toute proposition chiffrée.",
-        "image": "/images/method/etape-1.jpg",
+        "image": "/images/method/cadrage.jpg",
         "details": [
           "Nous nous déplaçons dans votre entreprise, votre commerce ou votre atelier. Voir le lieu, les produits et la façon dont vous parlez de votre métier vaut davantage qu'un questionnaire envoyé par courriel.",
           "Nous cherchons à comprendre trois choses : d'où viennent vos clients aujourd'hui, ce qui déclenche concrètement un appel ou une commande, et qui sont vos vrais concurrents sur la recherche Google locale — souvent pas ceux que vous citez spontanément.",
@@ -43,7 +43,7 @@
         "titre": "Devis fixe et stratégie",
         "duree": "sous 48 h",
         "resume": "Vous recevez un devis forfaitaire détaillé poste par poste, accompagné du positionnement retenu et des mots-clés visés. Le prix ne bougera plus.",
-        "image": "/images/method/etape-2.jpg",
+        "image": "/images/method/devis.jpg",
         "details": [
           "Le devis est forfaitaire et détaillé ligne par ligne : arborescence, nombre de pages, rédaction, référencement local, hébergement, formation. Vous voyez ce que chaque poste représente et vous pouvez en retirer ou en ajouter avant de signer.",
           "Il est accompagné d'une note de positionnement : le message principal du site, les mots-clés visés en priorité et les recherches sur lesquelles nous estimons réaliste de vous faire apparaître à court terme. Nous ne promettons jamais une position précise dans Google — personne ne peut honnêtement le faire.",
@@ -60,7 +60,7 @@
         "titre": "Design et développement",
         "duree": "3 à 4 semaines",
         "resume": "Vous validez des jalons chaque semaine sur un environnement de test privé. Vous voyez le site se construire au lieu d'en découvrir le résultat à la fin.",
-        "image": "/images/method/etape-3.jpg",
+        "image": "/images/method/developpement.jpg",
         "details": [
           "La première semaine est consacrée à la maquette de la page d'accueil et d'un gabarit intérieur. C'est là que se prennent les décisions graphiques structurantes : une fois ces deux écrans validés, le reste du site en découle.",
           "Les semaines suivantes, le site se construit sur une adresse de test privée, protégée par mot de passe et non indexable. Vous y accédez quand vous voulez, depuis votre téléphone comme depuis votre bureau, et vous nous adressez vos retours au fil de l'eau.",
@@ -78,7 +78,7 @@
         "titre": "Mise en ligne et suivi",
         "duree": "en continu",
         "resume": "Nous livrons le site, le référencement local et vos accès. Vous restez propriétaire de tout et libre de confier la suite à qui vous voulez.",
-        "image": "/images/method/etape-4.jpg",
+        "image": "/images/method/mise-en-ligne.jpg",
         "details": [
           "La mise en ligne est planifiée avec vous. Elle comprend la configuration du nom de domaine, le certificat de sécurité, les redirections depuis l'ancien site s'il y en avait un, l'envoi du plan de site à Google et la mise à jour de votre fiche Google Business Profile.",
           "Nous vous transmettons ensuite l'intégralité des accès : hébergement, nom de domaine, interface d'administration, statistiques et console de recherche. Tout est à votre nom. C'est la partie de la méthode qui étonne le plus les clients ayant déjà travaillé avec une agence.",

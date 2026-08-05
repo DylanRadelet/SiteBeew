@@ -416,8 +416,14 @@ export function Pricing({ pricing }: { pricing: Home["pricing"] }) {
 
 export function FinalCta() {
   return (
-    <section className={`bg-beew-noir pt-16 text-beew-creme sm:pt-24 lg:pt-28 ${GUTTER}`}>
-      <div className="mx-auto max-w-4xl text-center">
+    <section
+      className={`relative isolate flex min-h-svh flex-col justify-center overflow-hidden bg-beew-noir py-20 text-beew-creme ${GUTTER}`}
+    >
+      {/* Le bandeau passe DERRIÈRE la conclusion : c'est une texture de fond,
+          pas un bloc de contenu. Il n'ajoute donc plus de hauteur à la page. */}
+      <Bandeau />
+
+      <div className="relative mx-auto max-w-4xl text-center">
         <Surtitre ton="sombre">Parlons-en</Surtitre>
         {/* La borne haute descend de 4.5 à 3.6rem : au-delà, le bloc de
             conclusion dépassait la hauteur d'un écran de portable et le pied de
@@ -436,16 +442,6 @@ export function FinalCta() {
         </div>
       </div>
 
-      {/*
-        Bandeau défilant en socle de page.
-
-        Il remplace la signature « BEEW AGENCY » composée en 10,5 vw : à cette
-        taille, elle mangeait à elle seule un tiers de la hauteur de l'écran et
-        empêchait le pied de page de la home de tenir sur une seule vue. Le
-        bandeau occupe une bande fixe et fait passer davantage d'information —
-        les six métiers, plutôt qu'un nom déjà présent partout sur la page.
-      */}
-      <Bandeau />
     </section>
   );
 }
@@ -466,7 +462,16 @@ const BANDEAU = [
 ];
 
 /**
- * Bande défilante horizontale, purement décorative.
+ * Bande défilante en FOND de la conclusion.
+ *
+ * Elle remplace la signature « BEEW AGENCY » composée en 10,5 vw, qui mangeait
+ * un tiers de la hauteur d'écran pour répéter un nom déjà présent partout.
+ * Posée derrière le texte, elle ne coûte plus aucune hauteur : le pied de page
+ * de l'accueil tient de nouveau sur une seule vue.
+ *
+ * Très grande et très pâle — `text-beew-creme/[0.06]` : elle doit se deviner,
+ * pas se lire. Au-delà, elle entrerait en concurrence avec le titre qu'elle est
+ * censée porter.
  *
  * L'animation est en CSS et ne dépend d'aucun script. La liste est rendue DEUX
  * fois et la translation s'arrête à -50 % : au moment où la première copie sort
@@ -478,17 +483,20 @@ const BANDEAU = [
  */
 function Bandeau() {
   return (
-    <div aria-hidden className="mt-14 overflow-hidden border-t border-beew-creme/10 py-6 select-none">
-      <div className="flex w-max animate-[bandeau_38s_linear_infinite] motion-reduce:animate-none">
+    <div
+      aria-hidden
+      className="pointer-events-none absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 overflow-hidden select-none"
+    >
+      <div className="flex w-max animate-[bandeau_60s_linear_infinite] motion-reduce:animate-none">
         {[0, 1].map((copie) => (
           <ul key={copie} className="flex shrink-0 items-center">
             {BANDEAU.map((mot) => (
               <li
                 key={mot}
-                className="flex items-center gap-8 pr-8 text-[clamp(1.1rem,2.4vw,2rem)] font-semibold tracking-tight whitespace-nowrap text-beew-creme/25 uppercase"
+                className="flex items-center gap-10 pr-10 text-[clamp(4rem,13vw,11rem)] leading-none font-bold tracking-tighter whitespace-nowrap text-beew-creme/[0.06] uppercase"
               >
                 {mot}
-                <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-beew-orange/60" />
+                <span className="h-3 w-3 shrink-0 rounded-full bg-beew-orange/15" />
               </li>
             ))}
           </ul>

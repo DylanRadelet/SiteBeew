@@ -63,9 +63,15 @@ export function CarrouselZones({
         l'écran : une rangée qui s'arrête net à la marge donne l'impression
         d'être coupée, alors qu'un débord dit qu'elle continue.
         `-mx` annule la gouttière, `px` la restitue en marge intérieure.
+
+        `scroll-pl` est indispensable et facile à oublier : l'accrochage
+        (`snap-start`) se cale sur la boîte de remplissage du conteneur et
+        IGNORE sa marge intérieure. Sans lui, la première vignette revenait
+        systématiquement coller au bord gauche de l'écran au lieu de s'aligner
+        sur le titre, alors que le `px` était bien présent.
       */}
       <BandeGlissante
-        className={`mt-10 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden -mx-6 sm:-mx-10 lg:-mx-14 ${GUTTER}`}
+        className={`mt-10 flex snap-x snap-mandatory scroll-pl-6 gap-4 overflow-x-auto pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden -mx-6 sm:-mx-10 sm:scroll-pl-10 lg:-mx-14 lg:scroll-pl-14 ${GUTTER}`}
       >
         {villes.map((v, i) => (
           <Link

@@ -78,25 +78,25 @@
         "title": "Rendez-vous et cadrage",
         "duration": "1 h, sur place",
         "description": "Nous venons chez vous comprendre votre activité, votre clientèle réelle et vos concurrents. Sans frais et sans engagement, avant toute proposition chiffrée.",
-        "image": "/images/method/etape-1.jpg"
+        "image": "/images/method/cadrage.jpg"
       },
       {
         "title": "Devis fixe et stratégie",
         "duration": "sous 48 h",
         "description": "Vous recevez un devis forfaitaire détaillé poste par poste, accompagné du positionnement retenu et des mots-clés visés. Le prix ne bougera plus.",
-        "image": "/images/method/etape-2.jpg"
+        "image": "/images/method/devis.jpg"
       },
       {
         "title": "Design et développement",
         "duration": "3 à 4 semaines",
         "description": "Vous validez des jalons chaque semaine sur un environnement de test privé. Vous voyez le site se construire au lieu d'en découvrir le résultat à la fin.",
-        "image": "/images/method/etape-3.jpg"
+        "image": "/images/method/developpement.jpg"
       },
       {
         "title": "Mise en ligne et suivi",
         "duration": "en continu",
         "description": "Nous livrons le site, le référencement local et vos accès. Vous restez propriétaire de tout et libre de confier la suite à qui vous voulez.",
-        "image": "/images/method/etape-4.jpg"
+        "image": "/images/method/mise-en-ligne.jpg"
       }
     ]
   },
