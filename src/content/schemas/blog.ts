@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { SERVICE_SLUGS } from "@/content/service-slugs";
 import { MetaSchema, SlugSchema } from "@/content/schema";
 
 /**
@@ -98,13 +99,15 @@ export type BlocTitre = z.infer<typeof TitreSchema>;
 /*                                   ARTICLE                                   */
 /* -------------------------------------------------------------------------- */
 
-/** Préfixes des pages services : un article doit en lier au moins une. */
-const PREFIXES_SERVICE = [
-  "/creation-site-internet",
-  "/refonte-site-internet",
-  "/referencement-seo",
-  "/site-e-commerce",
-];
+/**
+ * Préfixes des pages services : un article doit en lier au moins une.
+ *
+ * Dérivé de `SERVICE_SLUGS` et non recopié : la liste écrite à la main était
+ * restée à quatre entrées lors de l'ouverture des piliers « application web »
+ * et « outils internes ». Un article qui liait vers l'un des deux était rejeté
+ * alors qu'il faisait exactement ce qu'on lui demandait.
+ */
+const PREFIXES_SERVICE = SERVICE_SLUGS.map((s) => `/${s}`);
 
 const DATE = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Format attendu : AAAA-MM-JJ.");
 

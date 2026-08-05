@@ -66,8 +66,9 @@ h4 {
 */
 .grain {
   /* Seul réglage à toucher pour doser le grésillement : 0.10 = à peine
-     perceptible, 0.40 = vraie vieille télé. */
-  --grain-opacity: 0.3;
+     perceptible, 0.40 = vraie vieille télé. Ramené de 0.30 à 0.16 — le grain
+     doit se sentir sans se voir, et à 0.30 il mangeait les aplats clairs. */
+  --grain-opacity: 0.16;
 }
 
 .grain::after {
@@ -131,7 +132,18 @@ h4 {
     transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.js-reveal [data-reveal].est-visible {
+/*
+  L'état « apparu » passe par un ATTRIBUT, pas par une classe.
+
+  Il passait par `.est-visible`, posée en DOM par l'observateur. Or un composant
+  client qui se re-rend réécrit entièrement son `className` : React effaçait la
+  classe au premier survol, et la section entière retombait à `opacity: 0`.
+  C'est ce qui faisait disparaître « Quatre étapes, aucune zone d'ombre ».
+
+  React ne gère que les attributs présents dans le JSX : `data-revealed`, posé
+  uniquement en DOM, survit à tous les rendus.
+*/
+.js-reveal [data-reveal][data-revealed] {
   opacity: 1;
   transform: none;
 }

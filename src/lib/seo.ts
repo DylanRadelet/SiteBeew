@@ -27,6 +27,17 @@ export const AGENCY_EMAIL = "hello@beew.agency";
 export const AGENCY_PHONE = "+32472467309";
 
 /**
+ * Profils sociaux officiels. Repris tels quels dans `sameAs` du JSON-LD :
+ * c'est la propriété qui permet à Google — et aux moteurs de réponse — de
+ * relier ces comptes à l'entreprise du site plutôt qu'à un homonyme.
+ * N'ajouter ici qu'un profil réellement tenu : un compte mort dessert.
+ */
+export const AGENCY_SOCIAL = [
+  { nom: "Instagram", href: "https://www.instagram.com/beew.agency/" },
+  { nom: "LinkedIn", href: "https://www.linkedin.com/company/beew-agency-be" },
+] as const;
+
+/**
  * Siège réel de l'agence, tel que publié dans les mentions légales.
  * Ces valeurs DOIVENT rester identiques à celles de la fiche Google Business
  * Profile, au caractère près : une divergence entre le site et la fiche est
@@ -201,6 +212,7 @@ export function organizationNode(): Node {
     },
     image: { "@id": `${SITE_URL}/#logo` },
     knowsLanguage: ["fr-BE", "en", "nl"],
+    sameAs: AGENCY_SOCIAL.map((r) => r.href),
     /**
      * `areaServed` remplace l'adresse : c'est la propriété prévue pour une
      * entreprise qui se déplace au lieu de recevoir. Elle rattache toutes les

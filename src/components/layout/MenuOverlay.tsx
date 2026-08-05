@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Reseaux } from "@/components/ui/Reseaux";
 import { useEffect } from "react";
 
 type Option = { slug: string; city: string };
@@ -242,6 +243,11 @@ export function MenuOverlay({
                   <dd>Du lundi au vendredi, 9h — 18h</dd>
                 </div>
               </dl>
+
+              {/* Sous les informations pratiques, en bas de la colonne droite. */}
+              <div className="mt-6">
+                <Reseaux />
+              </div>
 
               <Link
                 href="/devis"

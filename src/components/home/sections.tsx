@@ -2,6 +2,7 @@ import { Bouton, EnTete, Fleche, GUTTER, Section, Surtitre } from "@/components/
 import Image from "next/image";
 import Link from "next/link";
 import { MethodList } from "@/components/home/MethodList";
+import { Reseaux } from "@/components/ui/Reseaux";
 import type { CaseStudy, Home, Testimonial } from "@/content/schema";
 
 /**
@@ -21,75 +22,91 @@ import type { CaseStudy, Home, Testimonial } from "@/content/schema";
 /* -------------------------------------------------------------------------- */
 
 export function TrustBar({ trust }: { trust: Home["trust"] }) {
+  const [premier, ...suivants] = trust.logos;
+
   return (
     <Section className="!pt-20 !pb-16 sm:!pt-28 sm:!pb-20" anime={false}>
       <EnTete
         surtitre="Références"
         titre={trust.label}
         droite={
-          trust.rating ? (
-            <p className="text-sm text-beew-noir/60">
-              <strong className="font-semibold text-beew-noir">
-                {trust.rating.value.toFixed(1)}/5
-              </strong>{" "}
-              sur {trust.rating.count} avis {trust.rating.source}
-            </p>
-          ) : undefined
+          <p className="max-w-sm text-sm leading-relaxed text-beew-noir/55">
+            Six projets livrés, du site vitrine à l'application web. Les études
+            de cas détaillées arrivent au fur et à mesure des accords clients.
+          </p>
         }
       />
 
       {/*
-        Le nom du client en toutes lettres plutôt qu'un logo : nous n'avons pas
-        les logos de ces clients, et un logo fabriqué serait une fausse
-        référence. Le nom et le projet livré sont vérifiables, donc opposables.
-        La grille en `gap-px` sur fond sombre dessine des filets d'un pixel :
-        un seul trait partagé au lieu de bordures qui se doublent.
-      */}
-      {/*
-        La capture du projet, pas un logo. Nous n'avons pas les logos de ces
-        clients, et un logo fabriqué serait une fausse référence ; la capture
-        du travail livré est vérifiable, et elle montre enfin quelque chose.
-        Elle se révèle au survol : au repos la grille reste sobre, ce qui évite
-        six visuels criards en haut de page.
-      */}
-      <ul className="mt-10 grid grid-cols-1 gap-px overflow-hidden rounded-2xl bg-beew-noir/12 sm:grid-cols-2 lg:grid-cols-3">
-        {trust.logos.map((l, i) => (
-          <li
-            key={l.name}
-            data-reveal
-            data-reveal-delay={i * 60}
-            className="group relative isolate flex min-h-[9.5rem] flex-col justify-end overflow-hidden bg-beew-blanc p-8 transition-colors duration-500 hover:text-beew-creme"
-          >
-            {l.file && (
-              <>
-                <Image
-                  src={l.file}
-                  alt={`${l.name} — ${l.projet ?? "projet réalisé par BEEW"}`}
-                  fill
-                  sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw"
-                  className="-z-10 object-cover opacity-0 transition-all duration-700 ease-out group-hover:scale-[1.04] group-hover:opacity-100"
-                />
-                {/* Voile sombre : sans lui le texte crème devient illisible sur
-                    les zones claires de la capture. */}
-                <span
-                  aria-hidden
-                  className="absolute inset-0 -z-10 bg-beew-noir/70 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
-                />
-              </>
-            )}
+        Mosaïque asymétrique plutôt qu'une grille de six cases identiques : la
+        première réalisation occupe deux colonnes et une hauteur double, les
+        autres se rangent autour. Un damier régulier n'accroche pas le regard,
+        et six cartes de même taille se lisent comme un tableau, pas comme un
+        portfolio.
 
-            <span className="text-[clamp(1.15rem,1.8vw,1.5rem)] leading-tight font-semibold tracking-tight transition-transform duration-500 group-hover:translate-x-1">
-              {l.name}
-            </span>
-            {l.projet && (
-              <span className="mt-2 text-[11px] leading-relaxed tracking-[0.08em] text-beew-noir/45 uppercase transition-colors duration-700 group-hover:text-beew-creme/70">
-                {l.projet}
-              </span>
-            )}
-          </li>
+        Les captures sont visibles EN PERMANENCE, en noir et blanc, et
+        reviennent en couleur au survol : cachées jusqu'au survol, elles ne
+        servaient à rien sur mobile, où il n'y a pas de survol.
+      */}
+      <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        {premier && <CarteProjet projet={premier} large />}
+        {suivants.map((p, i) => (
+          <CarteProjet key={p.name} projet={p} retard={(i + 1) * 60} />
         ))}
-      </ul>
+      </div>
     </Section>
+  );
+}
+
+/** Une réalisation. `large` occupe deux colonnes et deux rangées. */
+function CarteProjet({
+  projet,
+  large = false,
+  retard = 0,
+}: {
+  projet: Home["trust"]["logos"][number];
+  large?: boolean;
+  retard?: number;
+}) {
+  return (
+    <article
+      data-reveal
+      data-reveal-delay={retard}
+      className={`group relative isolate flex flex-col justify-end overflow-hidden rounded-xl bg-beew-noir p-6 text-beew-creme ${
+        large ? "min-h-[19rem] sm:col-span-2 sm:row-span-2 lg:min-h-[26rem]" : "min-h-[12.5rem]"
+      }`}
+    >
+      {projet.file && (
+        <Image
+          src={projet.file}
+          alt={`${projet.name} — ${projet.projet ?? "projet réalisé par BEEW"}`}
+          fill
+          sizes={large ? "(min-width:1024px) 50vw, 100vw" : "(min-width:1024px) 25vw, 50vw"}
+          className="-z-10 object-cover grayscale transition-all duration-700 ease-out group-hover:scale-[1.04] group-hover:grayscale-0"
+        />
+      )}
+      <span
+        aria-hidden
+        className="absolute inset-0 -z-10 bg-gradient-to-t from-beew-noir via-beew-noir/55 to-beew-noir/20 transition-opacity duration-700 group-hover:opacity-80"
+      />
+
+      <h3
+        className={`font-semibold tracking-tight transition-transform duration-500 group-hover:translate-x-1 ${
+          large ? "text-[clamp(1.5rem,2.8vw,2.25rem)]" : "text-lg"
+        }`}
+      >
+        {projet.name}
+      </h3>
+      {projet.projet && (
+        <p
+          className={`mt-2 leading-relaxed text-beew-creme/60 ${
+            large ? "max-w-sm text-sm" : "text-[11px] tracking-[0.12em] uppercase"
+          }`}
+        >
+          {projet.projet}
+        </p>
+      )}
+    </article>
   );
 }
 
@@ -567,9 +584,19 @@ export function FooterColonnes({ provinces }: FooterProps) {
                 hello@beew.agency
               </a>
             </li>
-            <li>Province de Luxembourg, Belgique</li>
+            <li>
+              <a href="tel:+32472467309" className="transition-colors hover:text-beew-creme">
+                +32 472 46 73 09
+              </a>
+            </li>
+            <li>Chemin des Roches 13/3, 6600 Bastogne</li>
             <li>Du lundi au vendredi, 9h — 18h</li>
           </ul>
+
+          {/* Les mêmes profils que ceux déclarés en `sameAs` dans le JSON-LD. */}
+          <div className="mt-6">
+            <Reseaux />
+          </div>
         </div>
       </div>
 

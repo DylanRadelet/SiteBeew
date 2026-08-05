@@ -11,7 +11,7 @@ import {
   WhyUs,
 } from "@/components/home/sections";
 import { HeroSequence } from "@/components/hero/HeroSequence";
-import { ZoneEnfants, type LienZone } from "@/components/region/sections";
+import { CarrouselZones, type ZoneCarte } from "@/components/home/CarrouselZones";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { getHome, getPublishedCities } from "@/lib/cities";
 import { getProvinceZones } from "@/lib/regions";
@@ -34,19 +34,19 @@ export default function HomePage() {
   // Les deux étages sous la région : provinces d'abord, communes ensuite.
   // La home ne lie pas vers `/wallonie` ici — le pied de page et le menu s'en
   // chargent, et l'intérêt de ce bloc est de descendre, pas de tourner en rond.
-  const zones: LienZone[] = [
-    ...getProvinceZones().map((z) => ({
-      href: `/${z.slug}`,
-      label: z.name,
-      note: z.hero.subtitle,
-    })),
-    ...getPublishedCities().map((c) => ({
-      href: `/${c.slug}`,
-      label: c.city,
-      note: `Province de ${c.province}`,
-      image: c.heroImage,
-    })),
-  ];
+  // Deux niveaux, deux traitements : les provinces en texte, les communes en
+  // vignettes défilantes. La grille de vingt cartes prenait presque un écran.
+  const provinces: ZoneCarte[] = getProvinceZones().map((z) => ({
+    href: `/${z.slug}`,
+    nom: z.name,
+  }));
+
+  const villes: ZoneCarte[] = getPublishedCities().map((c) => ({
+    href: `/${c.slug}`,
+    nom: c.city,
+    note: `Province de ${c.province}`,
+    image: c.heroImage,
+  }));
 
   return (
     <>
@@ -78,16 +78,9 @@ export default function HomePage() {
         {/* 9 — Qui nous sommes et où nous intervenons */}
         <LocalContext heading={home.about.heading} body={home.about.body} />
 
-        {/* 9b — La descente vers la pyramide locale. C'est le maillage principal
-            home → provinces → communes : de vrais liens dans le HTML statique,
-            jamais un sélecteur en JavaScript. */}
-        <ZoneEnfants
-          surtitre="Où nous intervenons"
-          titre="Choisissez votre zone"
-          intro="Chaque page décrit le marché réel de sa zone : concurrence locale, filières dominantes, ce que vos clients tapent réellement."
-          lien={{ href: "/zones-d-intervention", label: "Toutes nos zones" }}
-          items={zones}
-        />
+        {/* 9b — La descente vers la pyramide locale. Les quinze liens restent
+            dans le HTML statique : le défilement est natif, pas scripté. */}
+        <CarrouselZones provinces={provinces} villes={villes} />
 
         {/* 10 — Combien ça coûte */}
         <Pricing pricing={home.pricing} />

@@ -1,0 +1,129 @@
+{
+  "slug": "fiche-google-business-profile-pme-wallonne",
+  "theme": "referencement",
+  "meta": {
+    "title": "Fiche Google Business Profile : le guide PME wallonne",
+    "description": "La fiche d'établissement pèse plus lourd qu'un site pour une entreprise locale. Les réglages qui comptent, et les deux erreurs qui font suspendre une fiche."
+  },
+  "title": "La fiche Google, le levier le plus rentable d'une PME wallonne",
+  "excerpt": "Elle est gratuite, elle se remplit en une heure, et elle occupe le tiers supérieur de l'écran sur toute recherche locale. Deux erreurs de réglage suffisent pourtant à la faire suspendre.",
+  "publishedAt": "2026-08-05",
+  "updatedAt": "2026-08-05",
+  "image": "/images/blog/fiche-google-business-profile.jpg",
+  "imageCredit": "Photographie d'illustration libre de droit",
+  "author": "L'équipe BEEW",
+  "body": [
+    {
+      "type": "paragraphe",
+      "texte": "Si nous ne devions donner qu'un conseil à une entreprise wallonne qui veut être trouvée dans sa région, ce ne serait pas de refaire son site. Ce serait de soigner sa fiche d'établissement Google. C'est gratuit, ça se remplit en une heure, et sur une recherche locale ça occupe le tiers supérieur de l'écran, au-dessus des résultats classiques."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Nous écrivons cet article après avoir vu trop de fiches abandonnées, mal catégorisées ou carrément suspendues pour une erreur évitable. Voici ce qui compte réellement, dans l'ordre."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "La catégorie principale, avant tout le reste",
+      "id": "categorie-principale"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "C'est le champ le plus déterminant de toute la fiche, davantage que la description que tout le monde peaufine pendant une heure. La catégorie principale dit à Google sur quelles requêtes vous êtes candidat. Une erreur ici plafonne tout le reste, et aucun contenu ne la rattrape."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Choisissez la catégorie qui correspond exactement à ce que vos clients tapent, pas celle qui décrit le mieux votre identité. Un artisan qui pose des cuisines choisira la catégorie de son métier, pas « entreprise de construction ». Les catégories secondaires servent à élargir, mais chacune dilue un peu la principale : trois au maximum, et seulement si elles décrivent une activité réelle."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Les deux erreurs qui font suspendre une fiche",
+      "id": "erreurs-suspension"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La suspension est brutale : la fiche disparaît des résultats et de la carte, et le rétablissement prend des semaines. Deux causes reviennent constamment, et toutes deux sont parfaitement évitables."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La première est le nom d'entreprise enrichi de mots-clés. « Dupont Toiture — Couvreur Arlon Bastogne » n'est pas votre nom : c'est une tentative d'optimisation, elle est explicitement interdite, et elle est facilement signalée par un concurrent. Le nom de la fiche doit être celui de votre enseigne, tel qu'il figure sur votre devanture, vos factures et votre inscription à la Banque-Carrefour des Entreprises."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La seconde concerne l'adresse. Si vous ne recevez pas de clients à votre adresse — cas de la plupart des artisans, consultants et prestataires qui se déplacent — vous devez la masquer et déclarer des zones desservies à la place. Ce n'est pas une option de confidentialité, c'est une règle. Afficher une adresse où personne ne peut se présenter est l'un des motifs de suspension les plus courants."
+    },
+    {
+      "type": "encadre",
+      "titre": "Masquer l'adresse ne vous fait pas disparaître",
+      "texte": "Google conserve l'adresse en interne pour la vérification : elle reste utilisée pour évaluer votre proximité avec la personne qui cherche. Elle n'est simplement plus affichée. Attendez-vous à une re-vérification par courrier après ce changement."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Les avis : le seul levier qui bouge vraiment les positions",
+      "id": "avis-clients"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Une fiche parfaitement remplie sans un seul avis reste derrière une fiche moyenne qui en affiche trente. C'est le facteur sur lequel l'écart se creuse le plus vite entre une entreprise établie et une nouvelle, et c'est aussi le premier critère de clic une fois les résultats affichés."
+    },
+    {
+      "type": "liste",
+      "items": [
+        "Demandez l'avis au moment où le client est content, pas trois mois après : le taux de réponse s'effondre avec le temps.",
+        "Envoyez le lien direct de dépôt d'avis plutôt que de demander de chercher votre fiche — chaque étape supplémentaire divise le nombre de retours.",
+        "Répondez à tous les avis, y compris les mauvais : la réponse est lue par les suivants, et un désaccord traité posément rassure davantage qu'une note parfaite.",
+        "N'achetez jamais d'avis et n'en écrivez pas vous-même : c'est une pratique commerciale déloyale au sens du droit belge, indépendamment du risque de suspension."
+      ]
+    },
+    {
+      "type": "citation",
+      "texte": "Cinq avis réels valent mieux que cinquante inventés, et pas seulement pour des raisons morales : les faux avis se repèrent, et leur détection emporte toute la fiche."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "La cohérence avec le site, le détail qui coûte cher",
+      "id": "coherence-nap"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Le nom, l'adresse et le numéro de téléphone doivent être identiques au caractère près entre la fiche, votre site, et les annuaires où vous êtes référencé. Une rue écrite « Chemin des Roches 13/3 » ici et « Ch. des Roches 13 bte 3 » là suffit à affaiblir l'appariement que Google fait entre ces sources."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "C'est une correction qui ne coûte rien et que presque personne ne fait. Prenez trente minutes pour lister tous les endroits où vos coordonnées apparaissent, et alignez-les sur une seule et unique écriture de référence — celle de votre fiche."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Enfin, publiez. Une photo par mois, un message court quand vous livrez un chantier ou changez vos horaires : ces signaux disent à Google que la fiche est tenue par quelqu'un de vivant. Ce n'est pas un facteur de classement majeur, mais c'est ce qui distingue une fiche entretenue d'une fiche fantôme, et le visiteur le sent aussi."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Un dernier réglage que beaucoup laissent vide alors qu'il est directement utile : les services proposés. Cette liste alimente les recherches formulées par prestation plutôt que par métier, et elle vous positionne sur des expressions que vos concurrents laissent libres. Détaillez-la avec les mots de vos clients."
+    },
+    {
+      "type": "encadre",
+      "titre": "Faire le point sur votre visibilité locale",
+      "texte": "Fiche, site et annuaires forment un ensemble : corriger l'un sans les autres produit rarement un effet. Nous regardons les trois avant de recommander quoi que ce soit.",
+      "lien": {
+        "href": "/referencement-seo",
+        "label": "Notre approche du référencement local"
+      }
+    },
+    {
+      "type": "encadre",
+      "titre": "Une question sur votre situation ?",
+      "texte": "Nous répondons aux questions concrètes sans facturer le premier échange, même quand la réponse est qu'il n'y a rien à faire. Décrivez-nous votre cas, nous vous dirons franchement ce que nous en pensons.",
+      "lien": {
+        "href": "/contact",
+        "label": "Nous écrire"
+      }
+    }
+  ],
+  "conclusion": {
+    "titre": "Ce qu'il faut retenir",
+    "texte": "La fiche d'établissement est le levier le plus rentable dont dispose une entreprise locale : gratuite, rapide à remplir, et prioritaire à l'écran. La catégorie principale détermine sur quelles requêtes vous êtes candidat et prime sur tout le reste. Deux erreurs suffisent à faire suspendre une fiche : un nom enrichi de mots-clés, et une adresse affichée alors que vous ne recevez personne. Enfin, aucun réglage ne remplace les avis clients réels, ni la cohérence stricte entre votre fiche, votre site et les annuaires."
+  }
+}

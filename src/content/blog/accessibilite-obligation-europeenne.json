@@ -1,0 +1,130 @@
+{
+  "slug": "accessibilite-obligation-europeenne",
+  "theme": "refonte",
+  "meta": {
+    "title": "Accessibilité web : la nouvelle obligation européenne",
+    "description": "L'European Accessibility Act s'applique depuis juin 2025. En Belgique, les micro-entreprises qui vendent en ligne ont un sursis jusqu'en 2030."
+  },
+  "title": "Accessibilité : votre site marchand est-il encore dans les clous ?",
+  "excerpt": "Depuis juin 2025, vendre en ligne dans l'Union impose un site accessible. La Belgique a fait un choix particulier pour les micro-entreprises : pas d'exemption, mais un sursis jusqu'en 2030.",
+  "publishedAt": "2026-08-05",
+  "updatedAt": "2026-08-05",
+  "image": "/images/blog/accessibilite-obligation-europeenne.jpg",
+  "imageCredit": "Photographie d'illustration libre de droit",
+  "author": "L'équipe BEEW",
+  "body": [
+    {
+      "type": "paragraphe",
+      "texte": "L'European Accessibility Act est entré en application le 28 juin 2025. C'est une directive européenne qui impose des exigences d'accessibilité à une série de produits et de services, dont le commerce en ligne. En clair : si un visiteur peut commander, acheter ou réserver quelque chose sur votre site, celui-ci doit être utilisable par une personne malvoyante, malentendante, ou qui navigue au clavier plutôt qu'à la souris."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Le sujet est passé largement sous les radars des petites structures wallonnes, et nous comprenons pourquoi : il a été présenté comme une affaire de grandes entreprises. Ce n'est pas exact, et la situation belge mérite d'être expliquée précisément."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "La particularité belge : un sursis, pas une exemption",
+      "id": "particularite-belge"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Dans la plupart des États membres, les micro-entreprises qui fournissent des services sont purement et simplement hors du champ d'application. La Belgique a transposé autrement. Chez nous, une micro-entreprise qui pratique le commerce en ligne n'est pas exemptée : elle bénéficie d'une période transitoire, qui court jusqu'au 28 juin 2030."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La différence est de taille. Une exemption vous sort du dispositif ; une période transitoire vous y fait entrer avec un délai. Si vous employez moins de dix personnes et réalisez moins de deux millions d'euros de chiffre d'affaires, vous avez donc jusqu'en 2030 — mais vous êtes concerné."
+    },
+    {
+      "type": "encadre",
+      "titre": "Qui doit s'y mettre tout de suite",
+      "texte": "Si vous dépassez dix salariés ou deux millions de chiffre d'affaires et que votre site permet d'acheter ou de réserver, l'obligation vous est applicable depuis juin 2025. La période transitoire ne concerne que les micro-entreprises."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Ce que « accessible » veut dire concrètement",
+      "id": "ce-que-accessible-veut-dire"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Le mot fait peur parce qu'il évoque un chantier technique obscur. Dans les faits, la majorité des exigences relèvent du bon sens de conception, et beaucoup sont déjà satisfaites par un site correctement construit. Voici les points sur lesquels nous voyons échouer la quasi-totalité des sites que nous auditons."
+    },
+    {
+      "type": "liste",
+      "items": [
+        "Le contraste des textes : un gris clair sur fond blanc, très à la mode, échoue presque systématiquement au ratio minimal exigé.",
+        "La navigation au clavier : pouvoir parcourir tout le tunnel de commande à la touche de tabulation, en voyant toujours où l'on se trouve.",
+        "Les images : un texte alternatif réel sur les visuels porteurs d'information, à commencer par les photos de produits.",
+        "Les formulaires : des libellés reliés à leurs champs, et des messages d'erreur qui disent ce qui ne va pas plutôt que « champ invalide ».",
+        "Les vidéos : des sous-titres dès qu'une information n'est disponible que par le son."
+      ]
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Aucun de ces points ne demande une technologie particulière. Ils demandent d'y avoir pensé au moment de dessiner la maquette. C'est précisément pour cette raison que l'accessibilité coûte cher en rattrapage et presque rien en conception : reprendre les contrastes d'une charte graphique déjà déployée oblige à toucher chaque page, alors que choisir des couleurs conformes au départ ne coûte rien du tout."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Le bénéfice commercial dont personne ne parle",
+      "id": "benefice-commercial"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Présenter l'accessibilité comme une contrainte réglementaire est le meilleur moyen de la faire détester. Regardons-la autrement. Une part importante de la population belge a plus de soixante-cinq ans, et la presbytie ne demande aucun diagnostic médical pour rendre un texte gris clair illisible sur un téléphone, en terrasse, au soleil."
+    },
+    {
+      "type": "citation",
+      "texte": "Un site accessible n'est pas un site pour les personnes handicapées. C'est un site qui reste utilisable quand la lumière est mauvaise, la connexion faible et l'utilisateur pressé."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "S'ajoute un effet secondaire que les moteurs de recherche apprécient : la structure de titres cohérente, les textes alternatifs et les libellés de formulaires explicites sont exactement ce qu'un robot d'indexation lit pour comprendre une page. L'accessibilité et le référencement technique reposent en grande partie sur les mêmes gestes."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Par où commencer sans y passer un budget",
+      "id": "par-ou-commencer"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Commencez par mesurer plutôt que par corriger. Un audit sur les cinq pages qui comptent — accueil, catégorie, fiche produit, panier, paiement — donne en une journée la liste des écarts réels et leur gravité. Vous saurez alors si votre site demande trois corrections ou une refonte, et vous pourrez arbitrer en connaissance de cause."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Méfiez-vous en revanche des modules qui promettent la conformité en une ligne de code. Ces surcouches ajoutent un menu d'options par-dessus un site qui reste inaccessible en dessous. Elles ne corrigent pas les causes, elles les masquent, et plusieurs juridictions européennes ont déjà considéré qu'elles ne suffisaient pas à démontrer la conformité."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Une dernière remarque sur le calendrier, parce qu'elle change l'arbitrage. Une période transitoire qui court jusqu'en 2030 paraît lointaine, et c'est exactement ce qui pousse à ne rien faire. Mais un site vit rarement plus de cinq ans : celui que vous mettez en ligne aujourd'hui sera encore là à l'échéance. Le concevoir accessible maintenant ne coûte rien de plus ; le remettre aux normes en 2029 se paiera au prix d'une refonte partielle, avec l'urgence en supplément."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "C'est la raison pour laquelle nous ne facturons pas l'accessibilité comme une option sur nos projets. Les contrastes conformes, la navigation clavier et les libellés de formulaires font partie de la construction, au même titre que le fait qu'un site s'affiche correctement sur téléphone. Personne ne facture le responsive en supplément aujourd'hui ; dans cinq ans, personne ne facturera l'accessibilité."
+    },
+    {
+      "type": "encadre",
+      "titre": "Un site à reprendre ?",
+      "texte": "Nous intégrons les exigences d'accessibilité dès la maquette plutôt qu'en rattrapage, et nous auditons l'existant avant de proposer quoi que ce soit. Il arrive que la conclusion soit qu'une refonte ne se justifie pas.",
+      "lien": {
+        "href": "/refonte-site-internet",
+        "label": "Notre approche de la refonte"
+      }
+    },
+    {
+      "type": "encadre",
+      "titre": "Une question sur votre situation ?",
+      "texte": "Nous répondons aux questions concrètes sans facturer le premier échange, même quand la réponse est qu'il n'y a rien à faire. Décrivez-nous votre cas, nous vous dirons franchement ce que nous en pensons.",
+      "lien": {
+        "href": "/contact",
+        "label": "Nous écrire"
+      }
+    }
+  ],
+  "conclusion": {
+    "titre": "Ce qu'il faut retenir",
+    "texte": "L'European Accessibility Act s'applique depuis le 28 juin 2025 aux services de commerce en ligne. La Belgique n'exempte pas les micro-entreprises : elle leur accorde un délai jusqu'au 28 juin 2030, ce qui est très différent. Les écarts les plus fréquents sont banals — contrastes insuffisants, navigation clavier impossible, textes alternatifs absents — et coûtent bien moins cher à traiter en conception qu'en rattrapage. Commencez par un audit des cinq pages du tunnel d'achat avant d'engager le moindre budget."
+  }
+}

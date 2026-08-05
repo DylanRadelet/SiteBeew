@@ -45,7 +45,7 @@ export function Reveal() {
           const el = e.target as HTMLElement;
           const retard = Number(el.dataset.revealDelay ?? 0);
           el.style.transitionDelay = `${retard}ms`;
-          el.classList.add("est-visible");
+          el.dataset.revealed = "";
           // Une fois apparu, l'élément n'a plus rien à observer.
           observateur.unobserve(el);
         }
@@ -57,11 +57,14 @@ export function Reveal() {
 
     /**
      * Prend en charge tout élément marqué et pas encore apparu. Idempotent :
-     * le filtre `:not(.est-visible)` garantit qu'un même bloc n'est traité
+     * le filtre `:not([data-revealed])` garantit qu'un même bloc n'est traité
      * qu'une fois, quel que soit le nombre d'appels.
+     *
+     * L'état est un ATTRIBUT et non une classe : un composant client qui se
+     * re-rend réécrit son `className` et effacerait une classe posée en DOM.
      */
     const enregistrer = () => {
-      for (const el of document.querySelectorAll<HTMLElement>("[data-reveal]:not(.est-visible)")) {
+      for (const el of document.querySelectorAll<HTMLElement>("[data-reveal]:not([data-revealed])")) {
         /**
          * Deux animations imbriquées se superposent et font clignoter le
          * contenu. Quand une section contient des blocs déjà marqués, ce sont
@@ -79,7 +82,7 @@ export function Reveal() {
         // seconde, ce qui se voit et dégrade le ressenti de vitesse.
         const r = el.getBoundingClientRect();
         if (r.top < window.innerHeight && r.bottom > 0) {
-          el.classList.add("est-visible");
+          el.dataset.revealed = "";
           continue;
         }
 
@@ -105,9 +108,9 @@ export function Reveal() {
      * page. Mieux vaut perdre l'animation qu'afficher une section vide.
      */
     const secours = window.setInterval(() => {
-      for (const el of document.querySelectorAll<HTMLElement>("[data-reveal]:not(.est-visible)")) {
+      for (const el of document.querySelectorAll<HTMLElement>("[data-reveal]:not([data-revealed])")) {
         const r = el.getBoundingClientRect();
-        if (r.top < window.innerHeight && r.bottom > 0) el.classList.add("est-visible");
+        if (r.top < window.innerHeight && r.bottom > 0) el.dataset.revealed = "";
       }
     }, 1200);
 

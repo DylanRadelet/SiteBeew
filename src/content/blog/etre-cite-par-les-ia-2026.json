@@ -1,0 +1,134 @@
+{
+  "slug": "etre-cite-par-les-ia-2026",
+  "theme": "referencement",
+  "meta": {
+    "title": "Être cité par ChatGPT et les IA : le guide 2026",
+    "description": "Les réponses générées par IA captent une part croissante des recherches. Ce qui fait citer un site, et pourquoi les services locaux restent les moins exposés."
+  },
+  "title": "Votre site cité par ChatGPT : ce qui marche vraiment en 2026",
+  "excerpt": "Les moteurs de réponse ne classent pas des pages, ils citent des sources. Le trafic qu'ils envoient reste faible pour une activité locale, mais il convertit remarquablement bien.",
+  "publishedAt": "2026-08-05",
+  "updatedAt": "2026-08-05",
+  "image": "/images/blog/ia-recherche-generative.jpg",
+  "imageCredit": "Photographie d'illustration libre de droit",
+  "author": "L'équipe BEEW",
+  "body": [
+    {
+      "type": "paragraphe",
+      "texte": "La question revient à chaque rendez-vous depuis un an : « avec l'intelligence artificielle, le référencement, ça sert encore à quelque chose ? » La réponse honnête tient en deux temps. Oui, ça sert encore. Et non, ce n'est plus tout à fait le même métier."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Voici ce que les données disponibles montrent réellement en 2026, sans catastrophisme ni promesse magique — et surtout, ce que ça change pour une entreprise wallonne qui vend dans un rayon de quarante kilomètres."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "L'ampleur réelle du phénomène",
+      "id": "ampleur-reelle"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Les résumés générés par intelligence artificielle apparaissent désormais sur une part importante des recherches, et la proportion de recherches qui ne débouchent sur aucun clic a nettement progressé. Le trafic issu des moteurs de réponse, lui, a été multiplié par plus de dix en deux ans. Ces chiffres impressionnent, mais ils demandent à être lus avec précaution."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Ce qui recule fortement, ce sont les recherches purement informatives : les définitions, les questions générales, les articles qui répondent à une curiosité. Ce qui bouge beaucoup moins, ce sont les recherches à intention commerciale et locale. Quand quelqu'un cherche un couvreur près de chez lui, il ne se contente pas d'un paragraphe de synthèse : il veut un nom, un numéro et des avis."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Les secteurs les plus exposés au trafic généré par IA sont la technologie, le logiciel et la finance. Les services locaux figurent tout en bas du classement, avec une part très faible. C'est une bonne nouvelle pour un commerce ou un artisan wallon, et une raison de ne pas paniquer."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Le paradoxe : moins de visiteurs, meilleurs visiteurs",
+      "id": "moins-mais-mieux"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Le point le plus intéressant est ailleurs. Les pages citées dans un résumé généré obtiennent davantage de clics que leurs concurrentes non citées présentes sur la même page de résultats. Et les visiteurs arrivés depuis un moteur de réponse se transforment en demandes dans des proportions sans commune mesure avec le trafic de recherche classique."
+    },
+    {
+      "type": "citation",
+      "texte": "Un visiteur venu d'un moteur de réponse a déjà lu une synthèse, comparé des options et choisi de cliquer sur votre nom. Il arrive plus loin dans sa décision qu'un visiteur ordinaire."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La conclusion pratique n'est donc pas de courir après le volume, mais de s'assurer d'être cité quand la question porte sur votre métier et votre zone. Une poignée de citations bien placées vaut mieux que des centaines de visites qui rebondissent."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Ce qui fait réellement citer un site",
+      "id": "ce-qui-fait-citer"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Les mécanismes diffèrent d'un système à l'autre, mais les constantes se dégagent assez nettement. Aucune ne relève de l'astuce : ce sont des principes d'écriture et de structure."
+    },
+    {
+      "type": "liste",
+      "items": [
+        "Les données originales sont ce qui se fait citer le plus : un chiffre, un relevé, une observation que vous êtes seul à publier.",
+        "La structure explicite aide énormément : titres clairs, questions posées telles qu'on les pose, réponses immédiatement sous la question.",
+        "L'attribution compte : une page qui dit qui parle, depuis où et sur quelle base est jugée plus fiable qu'un texte anonyme.",
+        "La fraîcheur pèse sur certains systèmes qui indexent en temps réel : un contenu publié aujourd'hui peut être cité demain.",
+        "Les mentions ailleurs que chez vous — presse locale, annuaires sérieux, partenaires — consolident l'identification de votre entreprise."
+      ]
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Vous aurez remarqué que rien de tout cela ne contredit le référencement classique. C'est le point important : il n'y a pas deux stratégies à mener de front. Une page bien structurée, honnête sur ses sources et réellement informative sert les deux à la fois."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "La FAQ, l'outil le plus sous-estimé",
+      "id": "faq-sous-estimee"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "S'il fallait ne retenir qu'un geste, ce serait celui-là. Une foire aux questions rédigée avec les mots exacts de vos clients, et où chaque réponse est complète sans renvoyer ailleurs, constitue le format le plus facilement repris par un moteur de réponse. La question sert de point d'ancrage, la réponse se cite telle quelle."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Encore faut-il que ces questions soient visibles à l'écran. Les baliser sans les afficher relève des règles anti-spam des moteurs de recherche et expose à une sanction sur l'ensemble du domaine. C'est une tentation fréquente, et une très mauvaise idée."
+    },
+    {
+      "type": "encadre",
+      "titre": "Une règle simple",
+      "texte": "Écrivez la réponse que vous donneriez au téléphone, en entier, sans renvoyer le lecteur vers une autre page. Si elle se suffit à elle-même pour un humain, elle se suffit pour une machine."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Notre position sur le sujet est mesurée. Pour une PME wallonne en 2026, la fiche d'établissement, les avis clients et les pages locales restent de loin les leviers les plus rentables. L'optimisation pour les moteurs de réponse n'est pas un chantier séparé à financer : c'est une manière d'écrire, et elle ne coûte rien de plus."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Une précision utile pour finir : les systèmes ne se valent pas et n'ont pas le même poids. L'essentiel du trafic généré provient aujourd'hui d'un seul acteur, très loin devant les autres. Optimiser séparément pour chacun n'a donc aucun sens à l'échelle d'une PME — le travail utile est le même partout, et il consiste à écrire des pages qu'une machine peut résumer sans se tromper."
+    },
+    {
+      "type": "encadre",
+      "titre": "Faire le point sur votre visibilité",
+      "texte": "Nous regardons ce que votre site produit réellement aujourd'hui, dans la recherche classique comme dans les réponses générées, et nous vous disons franchement où mettre l'effort.",
+      "lien": {
+        "href": "/referencement-seo",
+        "label": "Notre approche du référencement"
+      }
+    },
+    {
+      "type": "encadre",
+      "titre": "Une question sur votre situation ?",
+      "texte": "Nous répondons aux questions concrètes sans facturer le premier échange, même quand la réponse est qu'il n'y a rien à faire. Décrivez-nous votre cas, nous vous dirons franchement ce que nous en pensons.",
+      "lien": {
+        "href": "/contact",
+        "label": "Nous écrire"
+      }
+    }
+  ],
+  "conclusion": {
+    "titre": "Ce qu'il faut retenir",
+    "texte": "Les moteurs de réponse captent surtout les recherches informatives ; les recherches locales et commerciales restent nettement moins touchées, et les services de proximité figurent parmi les secteurs les moins exposés. Le trafic qu'ils envoient est faible en volume mais se transforme remarquablement bien. Ce qui fait citer une page — données originales, structure claire, attribution, réponses complètes — recoupe très largement ce qui fait un bon référencement classique. Il n'y a donc pas deux budgets à prévoir, mais une manière d'écrire à adopter."
+  }
+}

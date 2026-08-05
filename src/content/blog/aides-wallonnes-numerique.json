@@ -1,0 +1,141 @@
+{
+  "slug": "aides-wallonnes-numerique",
+  "theme": "budget-et-projet",
+  "meta": {
+    "title": "Aides wallonnes au numérique : financer son site",
+    "description": "Chèques-entreprises, déductions fiscales, prestataires labellisés : ce qui finance réellement un projet numérique en Wallonie, et ce qui n'existe pas."
+  },
+  "title": "Financer son site avec les aides wallonnes : ce qui existe vraiment",
+  "excerpt": "Il n'existe pas de subside qui paie votre site internet. Il existe en revanche des dispositifs qui financent le conseil, l'accompagnement et le logiciel — à condition de passer par un prestataire labellisé.",
+  "publishedAt": "2026-08-05",
+  "updatedAt": "2026-08-05",
+  "image": "/images/blog/aides-wallonnes-numerique.jpg",
+  "imageCredit": "Photographie d'illustration libre de droit",
+  "author": "L'équipe BEEW",
+  "body": [
+    {
+      "type": "paragraphe",
+      "texte": "« Il paraît qu'il y a des subsides pour les sites internet. » Nous entendons cette phrase à presque chaque premier rendez-vous, et la réponse mérite d'être donnée sans détour, parce qu'elle évite des déceptions et parfois des mauvaises décisions."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La réponse courte : non, il n'existe pas en Wallonie de dispositif qui prend en charge une partie de la facture d'un site vitrine. La réponse longue est plus intéressante, parce que plusieurs mécanismes financent bel et bien des choses qui entourent un projet numérique."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Le dispositif des chèques-entreprises",
+      "id": "cheques-entreprises"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "C'est le cadre principal. La Région wallonne finance une partie des honoraires de prestataires sur des missions bien définies : diagnostic, conseil stratégique, accompagnement, formation. La logique du dispositif est de payer de la matière grise, pas de la production. Un audit de maturité numérique entre dans le cadre ; la réalisation des pages qui en découle, non."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Le principe est celui d'une intervention sur les honoraires hors TVA, avec un plafond par bénéficiaire calculé sur plusieurs années. Les montants et les taux évoluent régulièrement — une réforme est en cours pour regrouper les chèques autour d'un nombre réduit d'axes et renforcer la labellisation des prestataires. C'est précisément pour cette raison que nous ne publions pas de chiffres ici : ils seraient faux dans six mois."
+    },
+    {
+      "type": "encadre",
+      "titre": "Le seul endroit qui fasse foi",
+      "texte": "Les conditions, les montants et la liste des prestataires labellisés sont publiés sur la plateforme officielle des chèques-entreprises. Toute agence qui vous annonce un pourcentage sans vous y renvoyer prend un raccourci."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "La condition que tout le monde oublie",
+      "id": "prestataire-labellise"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Pour mobiliser un chèque, deux conditions sont cumulatives. Vous devez être inscrit sur la plateforme régionale, et vous devez faire appel à un prestataire labellisé pour le type de chèque concerné. Ce second point est celui qui bloque la plupart des dossiers."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La labellisation est une démarche que le prestataire effectue de son côté, et toutes les agences ne l'ont pas. Nous préférons le dire clairement plutôt que de laisser espérer : demandez systématiquement à votre prestataire s'il est labellisé pour le chèque visé, avant de construire votre budget autour. Une réponse évasive est une réponse."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Autre point d'attention : les critères d'éligibilité portent sur votre entreprise. Siège d'exploitation en Wallonie, effectif sous un certain seuil, chiffre d'affaires ou total de bilan sous un plafond. Un indépendant en personne physique y a droit au même titre qu'une société, ce que beaucoup ignorent."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Les déductions fiscales, souvent plus simples",
+      "id": "deductions-fiscales"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "C'est la piste que nous recommandons d'examiner en premier, parce qu'elle ne demande ni dossier, ni plateforme, ni prestataire labellisé. Plusieurs mécanismes fiscaux belges portent sur les investissements numériques et sur les abonnements logiciels, avec des taux de déduction majorés pour les petites structures."
+    },
+    {
+      "type": "liste",
+      "items": [
+        "La déduction pour investissement s'applique à des dépenses numériques amortissables, ce qui peut inclure une partie d'un développement sur mesure.",
+        "Les abonnements à des logiciels de facturation bénéficient d'un traitement fiscal spécifique dans le cadre du passage à la facturation électronique.",
+        "L'amortissement d'un site internet lui-même relève de règles comptables précises, que votre comptable applique sans démarche particulière."
+      ]
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Un quart d'heure avec votre comptable avant de signer un devis vaut souvent mieux qu'un dossier de subside monté en trois semaines. C'est une phrase que peu d'agences écrivent, parce qu'un client qui parle à son comptable est un client qui négocie mieux. Nous préférons ce client-là."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "L'erreur à ne pas commettre",
+      "id": "erreur-a-eviter"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Conditionner un projet à l'obtention d'une aide est le meilleur moyen de le rater. Nous voyons régulièrement des entreprises attendre huit mois une réponse, redimensionner leur projet pour entrer dans une case, ou choisir un prestataire parce qu'il est labellisé plutôt que parce qu'il est bon."
+    },
+    {
+      "type": "citation",
+      "texte": "Un site qui ne se justifie que grâce à un subside ne se justifie pas. Le calcul doit tenir sans l'aide ; l'aide améliore un projet déjà rentable."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Notre règle est simple et nous l'appliquons à chaque devis : le chiffrage est établi indépendamment de toute aide, et nous ne conditionnons jamais un démarrage à l'obtention d'un chèque. Si une aide tombe, tant mieux, elle allège la facture. Si elle ne tombe pas, le projet reste défendable — sinon il ne fallait pas le lancer."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Un mot enfin sur les délais, parce qu'ils sont le facteur le plus sous-estimé du dispositif. Entre l'inscription sur la plateforme, la constitution du dossier, la validation par l'administration et le versement effectif, plusieurs mois s'écoulent. Ce calendrier est parfaitement gérable quand il est anticipé, et parfaitement bloquant quand il est découvert en cours de projet."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Si une aide vous intéresse réellement, la bonne séquence est donc de commencer par elle : inscription, vérification de l'éligibilité, identification d'un prestataire labellisé, puis seulement définition du projet. L'inverse — définir le projet puis chercher à le faire entrer dans une case — produit des dossiers refusés et des périmètres tordus pour de mauvaises raisons."
+    },
+    {
+      "type": "encadre",
+      "titre": "Un diagnostic avant de dépenser",
+      "texte": "Un audit de l'existant coûte moins cher qu'une refonte et conclut parfois qu'elle ne se justifie pas. C'est aussi le type de mission qui entre dans le cadre des chèques-entreprises, contrairement à la réalisation elle-même.",
+      "lien": {
+        "href": "/referencement-seo",
+        "label": "Notre approche du référencement"
+      }
+    },
+    {
+      "type": "encadre",
+      "titre": "Un budget à cadrer ?",
+      "texte": "Nos tarifs sont publics et le devis est fixe, arrêté avant de commencer. Vous savez donc exactement ce que vous engagez, avec ou sans aide.",
+      "lien": {
+        "href": "/tarifs",
+        "label": "Voir nos tarifs"
+      }
+    },
+    {
+      "type": "encadre",
+      "titre": "Une question sur votre situation ?",
+      "texte": "Nous répondons aux questions concrètes sans facturer le premier échange, même quand la réponse est qu'il n'y a rien à faire. Décrivez-nous votre cas, nous vous dirons franchement ce que nous en pensons.",
+      "lien": {
+        "href": "/contact",
+        "label": "Nous écrire"
+      }
+    }
+  ],
+  "conclusion": {
+    "titre": "Ce qu'il faut retenir",
+    "texte": "Aucun dispositif wallon ne paie la réalisation d'un site vitrine. Les chèques-entreprises financent le diagnostic, le conseil et l'accompagnement, à deux conditions cumulatives : être inscrit sur la plateforme régionale et passer par un prestataire labellisé pour le chèque visé. Les déductions fiscales sur les investissements numériques et les abonnements logiciels sont souvent plus simples à mobiliser et ne demandent aucun dossier. Dans tous les cas, construisez un budget qui tient sans l'aide : celle-ci doit améliorer un projet déjà rentable, pas le rendre possible."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "slug": "facturation-electronique-peppol-2026",
+  "theme": "budget-et-projet",
+  "meta": {
+    "title": "Facturation électronique Peppol : obligatoire en 2026",
+    "description": "Depuis le 1er janvier 2026, toute entreprise belge assujettie à la TVA doit émettre et recevoir ses factures B2B via Peppol. Ce que ça implique concrètement."
+  },
+  "title": "Facturation électronique obligatoire : ce qui change vraiment pour une PME belge",
+  "excerpt": "Depuis le 1er janvier 2026, la facture PDF envoyée par e-mail n'a plus de valeur légale entre entreprises belges. L'obligation porte autant sur l'envoi que sur la réception — et c'est ce second point que la plupart découvrent trop tard.",
+  "publishedAt": "2026-08-05",
+  "updatedAt": "2026-08-05",
+  "image": "/images/blog/facturation-electronique-peppol.jpg",
+  "imageCredit": "Photographie d'illustration libre de droit",
+  "author": "L'équipe BEEW",
+  "body": [
+    {
+      "type": "paragraphe",
+      "texte": "Le 1er janvier 2026, la Belgique est passée à la facturation électronique obligatoire pour toutes les transactions entre entreprises assujetties à la TVA. Ce n'est pas une recommandation ni une bonne pratique : c'est une obligation légale, qui s'applique quels que soient votre secteur, votre taille et le nombre de factures que vous émettez. Un indépendant qui facture douze fois par an est concerné exactement comme un groupe qui en émet dix mille."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Nous en parlons ici parce que la question nous arrive presque chaque semaine, souvent formulée de travers : « j'envoie déjà mes factures en PDF par e-mail, je suis en règle ? » La réponse est non, et la nuance mérite d'être comprise avant de choisir un outil."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Un PDF n'est pas une facture électronique",
+      "id": "pdf-nest-pas-electronique"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "C'est le malentendu le plus répandu. Une facture électronique au sens de la loi n'est pas un document lisible par un humain que l'on transmet par voie numérique. C'est un fichier structuré, respectant la norme européenne EN 16931, que le logiciel comptable de votre client peut lire et intégrer automatiquement, sans que personne ne recopie quoi que ce soit."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Un PDF, même généré proprement, même signé, reste une image de facture. Votre client doit en ressaisir les données à la main ou les faire extraire par un outil de reconnaissance, avec les erreurs que cela suppose. C'est précisément ce que la réforme vise à supprimer, et c'est aussi pour cela que le simple envoi par e-mail ne suffit plus."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La transmission passe par Peppol, un réseau européen conçu pour l'échange sécurisé de documents commerciaux. Chaque entreprise y dispose d'une adresse, généralement dérivée de son numéro d'entreprise. Le principe est proche de celui d'un réseau téléphonique : peu importe l'opérateur de chacun, les documents circulent entre les points d'accès."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Le piège : l'obligation porte aussi sur la réception",
+      "id": "obligation-de-reception"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Voilà le point que presque personne n'anticipe. Vous pouvez très bien décider de continuer à facturer comme avant en acceptant le risque. Mais vos fournisseurs, eux, vont vous envoyer leurs factures via Peppol — et vous devez être techniquement capable de les recevoir et de les intégrer correctement dans votre comptabilité."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "L'absence de moyen technique de réception constitue en elle-même une infraction. Autrement dit, même une entreprise qui n'émettrait aucune facture doit être raccordée. C'est ce point qui transforme un sujet de facturation en sujet d'infrastructure, et c'est pour cette raison qu'il ne faut pas le traiter en dernière minute."
+    },
+    {
+      "type": "encadre",
+      "titre": "Sanctions prévues",
+      "texte": "Les amendes prévues pour non-conformité peuvent atteindre 5 000 €. Elles ne visent pas seulement l'émission de factures non conformes, mais aussi l'incapacité à en recevoir. Vérifiez d'abord votre raccordement, l'émission vient ensuite."
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Ce que ça coûte, et ce que l'État vous rend",
+      "id": "cout-et-deductions"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La bonne nouvelle est que le raccordement à Peppol coûte beaucoup moins cher que ce que la plupart imaginent. La majorité des logiciels de facturation belges l'ont intégré à leur offre courante, souvent pour quelques euros par mois. Pour un indépendant qui utilise déjà un outil de facturation à jour, l'opération se limite parfois à activer une option et à valider son adresse Peppol."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Deux mesures fiscales accompagnent la transition, et elles sont nettement plus généreuses qu'on ne le croit. Les abonnements aux logiciels de facturation bénéficient d'une déduction fiscale majorée, et les investissements numériques ouvrent droit à une déduction pour investissement. Concrètement, une partie du coût vous revient. Parlez-en à votre comptable avant de choisir un outil : le calcul peut changer votre arbitrage."
+    },
+    {
+      "type": "liste",
+      "items": [
+        "Vérifiez d'abord si votre logiciel actuel est déjà raccordé à Peppol — c'est le cas de la plupart des outils belges à jour.",
+        "Testez la réception avant l'émission : c'est l'obligation la plus facile à oublier et la plus simple à contrôler.",
+        "Demandez à votre comptable quelles déductions s'appliquent à votre situation avant de souscrire un abonnement.",
+        "Prévenez vos clients récurrents de votre adresse Peppol : cela évite des factures perdues pendant les premières semaines."
+      ]
+    },
+    {
+      "type": "titre",
+      "niveau": 2,
+      "texte": "Faut-il un développement sur mesure ?",
+      "id": "developpement-sur-mesure"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Dans la très grande majorité des cas, non. Un logiciel du marché suffit, et c'est ce que nous conseillons par défaut. Payer un développement pour émettre trente factures par mois n'a aucun sens, et nous refusons régulièrement ce type de demande."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La question se pose autrement quand la facturation est adossée à un processus qui vous est propre : décomptes de chantier, facturation à l'usage, abonnements avec prorata, refacturation entre entités, ou tout simplement un volume qui rend la double saisie coûteuse. Là, l'intérêt n'est pas la conformité — elle est acquise avec n'importe quel outil — mais le temps que vous cessez de perdre."
+    },
+    {
+      "type": "citation",
+      "texte": "La conformité s'achète pour quelques euros par mois. Ce qui se conçoit sur mesure, ce n'est jamais la facture : c'est ce qui se passe avant elle."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "C'est le raisonnement que nous appliquons à chaque demande. Si votre problème est légal, un abonnement le règle. Si votre problème est une heure perdue chaque semaine à recopier des données d'un outil vers un autre, alors le sujet n'est plus la facturation mais l'automatisation de ce qui l'entoure — et là, un outil interne se rentabilise vite."
+    },
+    {
+      "type": "encadre",
+      "titre": "Votre facturation vous coûte du temps ?",
+      "texte": "Nous construisons des outils qui suppriment la double saisie entre vos devis, vos chantiers et votre comptabilité. Le premier rendez-vous sert à vérifier si le jeu en vaut la chandelle — il arrive que nous répondions non.",
+      "lien": {
+        "href": "/outils-internes",
+        "label": "Voir notre approche des outils internes"
+      }
+    },
+    {
+      "type": "encadre",
+      "titre": "Une question sur votre situation ?",
+      "texte": "Nous répondons aux questions concrètes sans facturer le premier échange, même quand la réponse est qu'il n'y a rien à faire. Décrivez-nous votre cas, nous vous dirons franchement ce que nous en pensons.",
+      "lien": {
+        "href": "/contact",
+        "label": "Nous écrire"
+      }
+    }
+  ],
+  "conclusion": {
+    "titre": "Ce qu'il faut retenir",
+    "texte": "Depuis le 1er janvier 2026, la facture PDF envoyée par e-mail n'a plus de valeur légale entre entreprises belges assujetties à la TVA. L'obligation porte autant sur la réception que sur l'émission, et l'absence de moyen technique est en soi sanctionnable. Pour la plupart des indépendants, un logiciel de facturation à jour suffit et coûte quelques euros par mois, en partie récupérables fiscalement. Le développement sur mesure ne se justifie que si la facturation s'appuie sur un processus qui vous est propre."
+  }
+}
