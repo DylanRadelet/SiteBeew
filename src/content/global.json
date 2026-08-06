@@ -1,21 +1,21 @@
 {
   "meta": {
-    "title": "BEEW — Agence web en Luxembourg belge & Wallonie",
-    "description": "Agence web indépendante en province de Luxembourg. Création de sites vitrines, e-commerce et référencement local. Devis fixe sous 48 h, livraison en 4 semaines."
+    "title": "Agence web à Bastogne et en Wallonie | BEEW",
+    "description": "Agence web établie à Bastogne : création de site internet, e-commerce et référencement local pour les indépendants et PME de Wallonie. Devis fixe sous 48 h."
   },
   "hero": {
-    "h1": "Agence web située en Wallonie",
-    "subtitle": "Nous concevons des sites rapides et bien référencés, pensés pour générer des demandes concrètes plutôt que des visites. Stratégie, design, développement et référencement local sous le même toit, sans sous-traitance. Devis fixe après un premier rendez-vous, et un site qui vous appartient.",
+    "h1": "Agence web à Bastogne, active dans toute la Wallonie",
+    "subtitle": "Nous créons des sites internet, des boutiques en ligne et des outils métier pour les indépendants et les PME wallonnes. Rendez-vous sur place, devis fixe arrêté avant de commencer, référencement local intégré dès la première maquette — et un site qui vous appartient entièrement.",
     "badges": [
+      "Basés à Bastogne",
       "Devis fixe sous 48 h",
-      "100/100 PageSpeed",
-      "Agence indépendante"
+      "Toute la Wallonie"
     ],
     "citySelectorLabel": "Où êtes-vous situé ? Découvrez notre offre près de chez vous."
   },
   "about": {
-    "heading": "Une agence ancrée dans son territoire, pas un catalogue en ligne",
-    "body": "BEEW est une agence web indépendante installée en province de Luxembourg. Nous travaillons avec des indépendants, des PME et des commerces qui ont besoin d'un site qui rapporte, pas d'un objet décoratif. Notre approche tient en trois principes simples. D'abord, un devis fixe : vous savez ce que vous payez avant de commencer, et le prix ne bouge pas en cours de route. Ensuite, la performance technique comme point de départ et non comme option : un site lent perd la moitié de ses visiteurs avant même d'avoir affiché son premier titre, et Google le sait aussi bien que vos clients. Enfin, le référencement local traité dès la conception, parce qu'un beau site que personne ne trouve ne sert à rien. Nous ne sous-traitons rien. La stratégie, le design, le développement et la rédaction sont réalisés en interne, ce qui nous permet de tenir des délais courts et de rester joignables après la mise en ligne. Chaque projet démarre par un rendez-vous sur place, sans frais et sans engagement, pour comprendre votre activité, votre clientèle et votre concurrence réelle avant de proposer quoi que ce soit. Nous intervenons dans toute la province de Luxembourg et plus largement en Wallonie, avec une connaissance fine des différences entre les bassins économiques : ce qui fonctionne pour un commerce arlonais tourné vers le Grand-Duché n'a rien à voir avec ce dont a besoin un hôtelier bastognard ou un industriel du plateau ardennais."
+    "heading": "Une agence web établie à Bastogne, pas un catalogue en ligne",
+    "body": "BEEW est une agence web indépendante établie à Bastogne, en province de Luxembourg, et active dans toute la Wallonie. Nous faisons de la création de site internet pour des indépendants, des PME et des commerces qui ont besoin d'un outil qui rapporte, pas d'un objet décoratif.\n\nConcrètement, nous couvrons quatre besoins. La création d'un site vitrine, quand il n'y a rien ou presque et qu'il faut exister sérieusement. La refonte d'un site existant, quand le vôtre vieillit mal — et dans ce cas, la question n'est pas le design mais le référencement déjà acquis, qu'une reprise mal menée efface en quelques semaines. La boutique en ligne, pour vendre sans reverser une commission à une place de marché. Et le référencement local, celui qui décide si un client de votre commune vous trouve ou trouve votre concurrent.\n\nNotre approche tient en trois principes. Un devis fixe : vous savez ce que vous payez avant de commencer, et le prix ne bouge pas en cours de route. La performance technique comme point de départ et non comme option : un site lent perd une part importante de ses visiteurs avant même d'avoir affiché son premier titre, et Google le mesure aussi bien que vos clients le ressentent. Le référencement local traité dès la conception, parce qu'un beau site que personne ne trouve ne sert à rien.\n\nNous nous déplaçons sans frais pour le premier rendez-vous, à Bastogne comme à Arlon, Marche-en-Famenne, Libramont, Neufchâteau, Namur, Liège ou Charleroi. Voir votre activité sur place change ce que nous pouvons écrire ensuite : c'est ce qui distingue un site spécifique d'un gabarit rempli à distance."
   },
   "trust": {
     "label": "Les projets que nous avons livrés",
@@ -101,7 +101,7 @@
     ]
   },
   "why": {
-    "heading": "Ce qui change concrètement en travaillant avec nous",
+    "heading": "Ce qui change concrètement avec une agence web locale",
     "points": [
       {
         "title": "Devis fixe, jamais de dépassement",
@@ -177,8 +177,8 @@
   },
   "manifesto": {
     "eyebrow": "[ CE QUE NOUS FAISONS ]",
-    "line1": "Un site qui travaille pour vous, pas une vitrine de plus.",
-    "line2": "Une agence indépendante, ancrée en Wallonie.",
+    "line1": "Créer un site internet qui travaille, pas une vitrine de plus.",
+    "line2": "Une agence web indépendante, établie à Bastogne.",
     "ctaLabel": "Voir toutes nos réalisations",
     "ctaHref": "/realisations"
   },
