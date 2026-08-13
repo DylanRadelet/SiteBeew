@@ -99,8 +99,8 @@ export function PageLegale({ page }: { page: LegalPage }) {
         <div className={`${COLONNE_LECTURE} mt-20 border-t border-beew-noir/15 pt-8`}>
           <p className="text-xs leading-relaxed text-beew-noir/45">
             Une question sur ce document ? Écrivez-nous à{" "}
-            <a href="mailto:hello@beew.agency" className="underline underline-offset-4">
-              hello@beew.agency
+            <a href="mailto:info@beew.agency" className="underline underline-offset-4">
+              info@beew.agency
             </a>
             .
           </p>

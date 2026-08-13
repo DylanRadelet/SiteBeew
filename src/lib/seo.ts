@@ -23,7 +23,7 @@ import type { City, FaqItem, Home } from "@/content/schema";
 export const SITE_URL = "https://www.beew.agency";
 export const AGENCY_NAME = "BEEW";
 export const AGENCY_LEGAL_NAME = "BEEW Agency";
-export const AGENCY_EMAIL = "hello@beew.agency";
+export const AGENCY_EMAIL = "info@beew.agency";
 export const AGENCY_PHONE = "+32472467309";
 
 /**

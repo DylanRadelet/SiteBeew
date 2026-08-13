@@ -23,7 +23,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "Toute demande peut être adressée par email à dra@beew.agency."
+          "texte": "Toute demande peut être adressée par email à info@beew.agency."
         }
       ]
     },
@@ -427,7 +427,7 @@
       "blocs": [
         {
           "type": "paragraphe",
-          "texte": "Toute réclamation doit être adressée à dra@beew.agency avec les éléments permettant de comprendre la demande : facture, projet concerné, description précise, captures d’écran, contexte, navigateur, appareil et étapes de reproduction lorsque la demande concerne une anomalie technique."
+          "texte": "Toute réclamation doit être adressée à info@beew.agency avec les éléments permettant de comprendre la demande : facture, projet concerné, description précise, captures d’écran, contexte, navigateur, appareil et étapes de reproduction lorsque la demande concerne une anomalie technique."
         },
         {
           "type": "paragraphe",

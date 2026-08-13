@@ -105,7 +105,7 @@
       "envoi": "Envoi en cours",
       "succesTitre": "Message reçu",
       "succes": "Votre message est parti. Nous revenons vers vous sous 24 h ouvrées avec une première lecture de votre projet et une proposition de rendez-vous.",
-      "erreur": "L'envoi a échoué. Réessayez dans un instant ou écrivez-nous directement à hello@beew.agency — nous traiterons votre demande de la même façon."
+      "erreur": "L'envoi a échoué. Réessayez dans un instant ou écrivez-nous directement à info@beew.agency — nous traiterons votre demande de la même façon."
     },
     "note": "Réponse sous 24 h ouvrées. Aucune inscription à une liste de diffusion."
   },
@@ -134,8 +134,8 @@
     "items": [
       {
         "label": "E-mail",
-        "valeur": "hello@beew.agency",
-        "href": "mailto:hello@beew.agency"
+        "valeur": "info@beew.agency",
+        "href": "mailto:info@beew.agency"
       },
       {
         "label": "Téléphone",

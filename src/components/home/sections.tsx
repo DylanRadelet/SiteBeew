@@ -644,8 +644,8 @@ export function FooterColonnes({ provinces }: FooterProps) {
           <p className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">Contact</p>
           <ul className="mt-5 space-y-2.5 text-sm text-beew-creme/70">
             <li>
-              <a href="mailto:hello@beew.agency" className="transition-colors hover:text-beew-creme">
-                hello@beew.agency
+              <a href="mailto:info@beew.agency" className="transition-colors hover:text-beew-creme">
+                info@beew.agency
               </a>
             </li>
             <li>

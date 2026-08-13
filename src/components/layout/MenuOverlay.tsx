@@ -231,8 +231,8 @@ export function MenuOverlay({
                 <div>
                   <dt className="sr-only">E-mail</dt>
                   <dd>
-                    <a href="mailto:hello@beew.agency" className="hover:text-beew-creme">
-                      hello@beew.agency
+                    <a href="mailto:info@beew.agency" className="hover:text-beew-creme">
+                      info@beew.agency
                     </a>
                   </dd>
                 </div>

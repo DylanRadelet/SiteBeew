@@ -213,7 +213,7 @@
       "envoi": "Envoi en cours",
       "succesTitre": "Demande reçue",
       "succes": "Votre demande est enregistrée. Nous vous proposons un créneau de rendez-vous sous 24 h ouvrées, puis votre devis fixe vous parvient dans les 48 h qui suivent l'échange.",
-      "erreur": "L'envoi a échoué. Réessayez dans un instant ou écrivez-nous directement à hello@beew.agency — nous traiterons votre demande de la même façon."
+      "erreur": "L'envoi a échoué. Réessayez dans un instant ou écrivez-nous directement à info@beew.agency — nous traiterons votre demande de la même façon."
     },
     "note": "Aucun engagement à ce stade. Vos réponses servent uniquement à préparer le cadrage."
   },
@@ -241,8 +241,8 @@
     "items": [
       {
         "label": "E-mail",
-        "valeur": "hello@beew.agency",
-        "href": "mailto:hello@beew.agency"
+        "valeur": "info@beew.agency",
+        "href": "mailto:info@beew.agency"
       },
       {
         "label": "Zone d'intervention",
