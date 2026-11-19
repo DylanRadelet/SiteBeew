@@ -151,8 +151,8 @@ export function MenuOverlay({
           </nav>
 
           <div className="grid gap-6 text-sm sm:grid-cols-2 lg:gap-8">
-            <section {...cascade(5)}>
-              <h2 className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">Services</h2>
+            <section {...cascade(5)} aria-label="Services">
+              <p className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">Services</p>
               <ul className="mt-4 space-y-2">
                 {SERVICES.map((s) => (
                   <li key={s.href}>
@@ -168,8 +168,8 @@ export function MenuOverlay({
               </ul>
             </section>
 
-            <section {...cascade(6)}>
-              <h2 className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">Zones</h2>
+            <section {...cascade(6)} aria-label="Zones d'intervention">
+              <p className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">Zones</p>
               <ul className="mt-4 space-y-2">
                 {ZONES.map((z) => (
                   <li key={z.href}>
@@ -201,8 +201,8 @@ export function MenuOverlay({
             {/* Sur toute la largeur : 15 communes tiennent en 3 colonnes courtes
                 plutôt qu'en 2 colonnes de 8 rangées, qui faisaient déborder le
                 panneau et forçaient un défilement dans un menu de navigation. */}
-            <section {...cascade(7)} className={`${cascade(7).className} sm:col-span-2`}>
-              <h2 className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">Villes</h2>
+            <section {...cascade(7)} aria-label="Villes" className={`${cascade(7).className} sm:col-span-2`}>
+              <p className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">Villes</p>
               {/* Villes publiées uniquement : un brouillon ne reçoit jamais de
                   lien depuis une page indexée, et le menu est sur toutes. */}
               <ul className="mt-5 grid gap-x-6 gap-y-2 sm:grid-cols-2 lg:grid-cols-3">
@@ -220,10 +220,10 @@ export function MenuOverlay({
               </ul>
             </section>
 
-            <section {...cascade(8)} className={`${cascade(8).className} sm:col-span-2`}>
-              <h2 className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">
+            <section {...cascade(8)} aria-label="Informations pratiques" className={`${cascade(8).className} sm:col-span-2`}>
+              <p className="text-[10px] tracking-[0.25em] text-beew-creme/40 uppercase">
                 Informations pratiques
-              </h2>
+              </p>
               {/* Coordonnées réelles, reprises des mentions légales. Disposées sur
                   une seule rangée : empilées, elles faisaient déborder le
                   panneau sur les écrans de 700 px de haut. */}

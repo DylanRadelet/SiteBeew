@@ -14,6 +14,36 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       /**
+       * UNIFICATION DE L'HÔTE — `beew.agency` → `www.beew.agency`.
+       *
+       * Les deux noms servaient le site en 200. Search Console comptait donc
+       * deux pages distinctes pour une même URL : `beew.agency/a-propos`
+       * cumulait à lui seul 742 impressions et 10 clics, soit la deuxième
+       * page la plus cliquée du site, sur l'hôte qui n'est pas le canonique.
+       *
+       * Le canonical pointait déjà vers `www`, ce qui limitait la casse, mais
+       * un canonical est une indication : seule une redirection transfère
+       * réellement l'autorité et supprime la duplication de crawl.
+       *
+       * ANCRAGE OBLIGATOIRE. Next n'ancre PAS la valeur d'un `has` de type
+       * host : écrite `beew\.agency`, l'expression est satisfaite aussi par
+       * `www.beew.agency`, qui se redirigerait alors vers lui-même — boucle
+       * infinie, site entièrement hors ligne. Les `^` et `$` sont donc ce qui
+       * sépare cette règle d'une panne totale. Ne jamais les retirer.
+       *
+       * Vérification après chaque build :
+       *   node -e "const m=require('./.next/routes-manifest.json');
+       *   const h=m.redirects.find(r=>r.has?.[0]?.type==='host').has[0].value;
+       *   console.log(new RegExp(h).test('www.beew.agency') ? 'BOUCLE' : 'ok')"
+       */
+      {
+        source: "/:chemin*",
+        has: [{ type: "host", value: "^beew\\.agency$" }],
+        destination: "https://www.beew.agency/:chemin*",
+        permanent: true,
+      },
+
+      /**
        * PLAN DE REDIRECTIONS DE L'ANCIEN SITE.
        *
        * La refonte a changé toute l'arborescence sans que ces règles soient
