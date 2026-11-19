@@ -6,3 +6,6 @@ next-env.d.ts
 .env*.local
 .DS_Store
 public/videos/hero-video.mov
+
+# Clés de service (API Search Console) — ne JAMAIS commiter
+secrets/
