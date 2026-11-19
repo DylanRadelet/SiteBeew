@@ -135,7 +135,7 @@
     "tiers": [
       {
         "name": "Site vitrine",
-        "from": 2400,
+        "from": 1250,
         "currency": "EUR",
         "pitch": "Pour un indépendant ou un commerce qui a besoin d'être trouvé et de convaincre.",
         "includes": [
@@ -219,7 +219,7 @@
   "faq": [
     {
       "question": "Combien coûte un site web chez BEEW ?",
-      "answer": "Un site vitrine professionnel démarre à 2 400 € HTVA, rédaction et référencement local inclus. Un projet e-commerce ou B2B avec catalogue démarre à 4 000 € HTVA. Nous travaillons exclusivement au forfait, avec un devis fixe établi après un premier rendez-vous : aucune facturation à l'heure, aucun dépassement en cours de projet."
+      "answer": "Un site vitrine professionnel démarre à 1 250 € HTVA, rédaction et référencement local inclus. Un projet e-commerce ou B2B avec catalogue démarre à 4 000 € HTVA. Nous travaillons exclusivement au forfait, avec un devis fixe établi après un premier rendez-vous : aucune facturation à l'heure, aucun dépassement en cours de projet."
     },
     {
       "question": "Dans quelles régions intervenez-vous ?",

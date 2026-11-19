@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tarifs — site internet à partir de 2 400 € HTVA",
-    "description": "Site vitrine dès 2 400 € HTVA, boutique en ligne dès 4 000 €, projet sur mesure dès 7 000 €. Forfait, devis fixe et paiement en trois fois sans frais."
+    "title": "Tarifs — site internet à partir de 1 250 € HTVA",
+    "description": "Site vitrine dès 1 250 € HTVA, boutique en ligne dès 4 000 €, projet sur mesure dès 7 000 €. Forfait, devis fixe et paiement en trois fois sans frais."
   },
   "note": "Prix hors TVA, en forfait. Le devis définitif est établi après le premier rendez-vous et n'évolue plus ensuite. Paiement en trois fois sans frais.",
   "hero": {
@@ -14,7 +14,7 @@
     "titre": "Pourquoi nos prix sont écrits sur le site",
     "paragraphes": [
       "Peu d'agences affichent leurs tarifs. L'argument avancé est toujours le même : chaque projet est différent. C'est vrai, et c'est précisément pour cela qu'un prix de départ est utile. Il ne remplace pas un devis, mais il vous évite trois rendez-vous pour découvrir qu'on n'était pas dans le même ordre de grandeur.",
-      "Les montants ci-dessous sont des points de départ réels, hors TVA, correspondant à un projet complet et non à une version amputée destinée à faire baisser l'affichage. Un site vitrine à 2 400 € comprend le design sur mesure, la rédaction des textes, le référencement local et la formation : ce sont des postes que beaucoup facturent en supplément.",
+      "Les montants ci-dessous sont des points de départ réels, hors TVA, correspondant à un projet complet et non à une version amputée destinée à faire baisser l'affichage. Un site vitrine à 1 250 € comprend le design sur mesure, la rédaction des textes, le référencement local et la formation : ce sont des postes que beaucoup facturent en supplément.",
       "Le devis définitif est établi après le premier rendez-vous, une fois le périmètre connu. À partir de là, le prix est fixe. S'il s'avère que nous avons sous-estimé une tâche, c'est notre problème, pas le vôtre. Le seul cas d'avenant est une demande nouvelle de votre part, chiffrée et validée par écrit avant d'être réalisée.",
       "Enfin, le paiement s'échelonne en trois fois sans frais : un tiers à la commande, un tiers à la validation de la maquette, un tiers à la mise en ligne. Aucun intérêt, aucun organisme de crédit, aucune condition cachée. Pour une jeune structure, cet étalement change souvent la faisabilité d'un projet plus que la remise que nous pourrions consentir sur le montant total."
     ]
@@ -26,7 +26,7 @@
     "items": [
       {
         "nom": "Site vitrine",
-        "from": 2400,
+        "from": 1250,
         "devise": "EUR",
         "pour": "Indépendants, commerces, professions libérales, artisans.",
         "pitch": "Pour être trouvé sur les recherches locales et convaincre les visiteurs de vous appeler.",
@@ -154,7 +154,7 @@
       "reponse": "Parce qu'un tarif horaire fait porter au client le risque d'une mauvaise estimation, et qu'il rend impossible toute comparaison sérieuse entre deux propositions. Avec un forfait, vous savez ce que vous payez avant de commencer, et nous avons intérêt à travailler efficacement. Si une tâche prend deux fois plus de temps que prévu, cela ne change rien pour vous."
     },
     {
-      "question": "Que couvre exactement le prix de départ de 2 400 € ?",
+      "question": "Que couvre exactement le prix de départ de 1 250 € ?",
       "reponse": "Un site vitrine complet de cinq à dix pages : design sur mesure, rédaction des textes, référencement local, fiche Google Business Profile, version mobile, optimisation des performances, formulaire de contact, mise en ligne et formation à la prise en main. Ce n'est pas une base à compléter, mais un site réellement livrable et prêt à recevoir des visiteurs."
     },
     {
@@ -183,7 +183,7 @@
     "titre": "Situer votre projet",
     "intro": "Le détail de chaque prestation, et la façon dont nous la menons.",
     "liens": [
-      { "href": "/creation-site-internet", "label": "Création de site internet", "texte": "Ce que contient un site vitrine à partir de 2 400 € HTVA." },
+      { "href": "/creation-site-internet", "label": "Création de site internet", "texte": "Ce que contient un site vitrine à partir de 1 250 € HTVA." },
       { "href": "/refonte-site-internet", "label": "Refonte de site internet", "texte": "Le budget d'une refonte dépend surtout de l'existant." },
       { "href": "/referencement-seo", "label": "Référencement naturel", "texte": "Inclus dès la conception, jamais vendu comme un supplément." },
       { "href": "/site-e-commerce", "label": "Site e-commerce", "texte": "Ce qui explique l'écart de prix avec un site vitrine." },

@@ -22,7 +22,7 @@ const FAQ = [
   {
     question: "Combien coûte un site internet en Belgique en 2026 ?",
     answer:
-      "Un site vitrine professionnel se situe entre 2 400 et 5 000 € hors TVA selon le nombre de pages et le travail de rédaction, une boutique en ligne démarre autour de 4 000 €, et un projet sur mesure dépasse généralement 7 000 €. En dessous de 1 500 €, il s'agit presque toujours d'un gabarit acheté et rempli, ce qui peut convenir mais ne doit pas être vendu comme du sur-mesure. L'article détaillé décompose chaque poste.",
+      "Un site vitrine professionnel se situe entre 1 250 et 5 000 € hors TVA selon le nombre de pages et le travail de rédaction, une boutique en ligne démarre autour de 4 000 €, et un projet sur mesure dépasse généralement 7 000 €. Ce qui creuse l'écart n'est pas le prix d'affichage mais ce qu'il couvre : à quelques centaines d'euros, il s'agit presque toujours d'un gabarit dupliqué, livré sans rédaction, sans référencement local et sans transmission des accès. L'article détaillé décompose chaque poste.",
   },
   {
     question: "Au bout de combien de temps un site commence-t-il à ranker ?",
