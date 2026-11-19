@@ -245,7 +245,30 @@ export const HomeSchema = z.object({
     /** Libellé du sélecteur de ville — rendu en HTML statique, crawlable. */
     citySelectorLabel: z.string().min(10),
   }),
-  about: z.object({ heading: z.string().min(15), body: minWords(200, "about.body") }),
+  about: z.object({
+    heading: z.string().min(15),
+    body: minWords(200, "about.body"),
+    /**
+     * Liens contextuels sous le texte de l'agence.
+     *
+     * Ils existent pour une raison précise et mesurée : le seul lien interne
+     * vers une page ville avait pour ancre le nom de la commune seul, répété
+     * depuis le menu sur les 41 pages. Sur « création site internet
+     * bastogne », Google hésitait donc entre l'accueil (position 10,7) et la
+     * page ville (position 3,6) et montrait l'un ou l'autre au hasard.
+     *
+     * Une ancre qui reprend la requête visée est le signal le plus direct
+     * pour désigner la page qui doit répondre. D'où le `min(25)` : une ancre
+     * courte comme « Bastogne » ne remplit pas cet office et il ne sert à
+     * rien d'en ajouter une de plus.
+     *
+     * Trois au maximum : au-delà, le signal se dilue entre les destinations.
+     */
+    liens: z
+      .array(z.object({ href: z.string().startsWith("/"), label: z.string().min(25).max(70) }))
+      .max(3)
+      .default([]),
+  }),
 
   /**
    * Bandeau de confiance, juste sous le hero.

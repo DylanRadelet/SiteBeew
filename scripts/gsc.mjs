@@ -75,7 +75,20 @@ if (process.argv[1] && process.argv[1].includes("gsc.mjs")) {
 
   const filtres = [];
   if (opt("pays")) filtres.push({ dimension: "country", expression: opt("pays") });
-  if (opt("page")) filtres.push({ dimension: "page", expression: `https://www.beew.agency${opt("page")}` });
+  // Git Bash (MSYS) réécrit tout argument commençant par « / » en chemin
+  // Windows : `--page=/contact` arrive sous la forme
+  // `--page=C:/Program Files/Git/contact`. On ne garde donc que le dernier
+  // segment, et la barre de tête est optionnelle.
+  const chemin = opt("page")
+    .replace(/^[A-Za-z]:[\\/].*[\\/]/, "")
+    .replace(/^\/+/, "");
+  if (opt("page")) {
+    filtres.push({
+      dimension: "page",
+      operator: "equals",
+      expression: `https://www.beew.agency/${chemin}`,
+    });
+  }
 
   const limite = Number(opt("limit")) || 25;
   // L'API renvoie au plus 1000 lignes triées par clics, puis par ordre

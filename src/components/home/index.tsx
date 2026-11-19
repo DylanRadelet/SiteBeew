@@ -19,14 +19,42 @@ export function LocalContext({
   heading,
   body,
   highlights,
+  liens,
 }: {
   heading: string;
   body: string;
   highlights?: string[];
+  liens?: { href: string; label: string }[];
 }) {
   return (
     <Section>
       <EnTete surtitre="L'agence" titre={heading} intro={body.split(/\n{2,}/)} />
+
+      {/* Liens contextuels. Ce sont de vrais <a> dans le HTML statique : ils
+          portent une ancre qui reprend la requête visée, ce que les listes de
+          communes du menu — ancrées sur le seul nom de la ville — ne font pas.
+          Volontairement discrets : ils servent autant le visiteur qui cherche
+          sa commune que le signal envoyé au moteur. */}
+      {liens && liens.length > 0 && (
+        <ul data-reveal className="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm">
+          {liens.map((l) => (
+            <li key={l.href}>
+              <Link
+                href={l.href}
+                className="group inline-flex items-center gap-2 text-beew-noir/70 underline decoration-beew-noir/20 underline-offset-4 transition-colors hover:text-beew-noir hover:decoration-beew-vert"
+              >
+                {l.label}
+                <span
+                  aria-hidden
+                  className="transition-transform duration-300 group-hover:translate-x-0.5"
+                >
+                  →
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
 
       {highlights && (
         <ul className="mt-14 grid gap-px overflow-hidden rounded-2xl bg-beew-noir/12 sm:grid-cols-2 lg:grid-cols-3">

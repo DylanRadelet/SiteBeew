@@ -75,7 +75,11 @@ export default function HomePage() {
         {home.testimonials.length > 0 && <TestimonialsDark testimonials={home.testimonials} />}
 
         {/* 9 — Qui nous sommes et où nous intervenons */}
-        <LocalContext heading={home.about.heading} body={home.about.body} />
+        <LocalContext
+          heading={home.about.heading}
+          body={home.about.body}
+          liens={home.about.liens}
+        />
 
         {/* 9b — La descente vers la pyramide locale. Les quinze liens restent
             dans le HTML statique : le défilement est natif, pas scripté. */}
